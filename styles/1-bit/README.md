@@ -7,7 +7,7 @@
 > Two colours and a dither pattern stand in for every tone.<br>
 > 只有两种颜色，所有明暗都靠抖动图案表现。
 
-▶ **[Live demo](https://s1ntoneli.github.io/awesome-game-art-styles/demos/1-bit.html)** · runs in the browser, [source](../../demos/1-bit.html) is one HTML file with commented shaders
+▶ **[Live demo](https://homkathon.github.io/awesome-game-art-styles/demos/1-bit.html)** · runs in the browser, [source](../../demos/1-bit.html) is one HTML file with commented shaders
 
 ## Gallery
 

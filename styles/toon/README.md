@@ -7,7 +7,7 @@
 > Two or three hard light bands, ink outlines, saturated colour.<br>
 > 两三层硬边明暗、墨线描边、高饱和色彩。
 
-▶ **[Live demo](https://s1ntoneli.github.io/awesome-game-art-styles/demos/toon.html)** · runs in the browser, [source](../../demos/toon.html) is one HTML file with commented shaders
+▶ **[Live demo](https://homkathon.github.io/awesome-game-art-styles/demos/toon.html)** · runs in the browser, [source](../../demos/toon.html) is one HTML file with commented shaders
 
 ## Gallery
 

@@ -7,7 +7,7 @@
 > Wobbly vertices, warped textures, tiny resolution, dithered colour.<br>
 > 顶点抖动、贴图扭曲、极低分辨率、抖动色彩。
 
-▶ **[Live demo](https://s1ntoneli.github.io/awesome-game-art-styles/demos/ps1.html)** · runs in the browser, [source](../../demos/ps1.html) is one HTML file with commented shaders
+▶ **[Live demo](https://homkathon.github.io/awesome-game-art-styles/demos/ps1.html)** · runs in the browser, [source](../../demos/ps1.html) is one HTML file with commented shaders
 
 ## Gallery
 

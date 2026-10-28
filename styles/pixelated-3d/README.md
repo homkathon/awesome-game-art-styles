@@ -7,7 +7,7 @@
 > A 3D world rendered at low resolution so it reads as pixel art.<br>
 > 用低分辨率渲染 3D 世界，让它读起来像像素画。
 
-▶ **[Live demo](https://s1ntoneli.github.io/awesome-game-art-styles/demos/pixelated-3d.html)** · runs in the browser, [source](../../demos/pixelated-3d.html) is one HTML file with commented shaders
+▶ **[Live demo](https://homkathon.github.io/awesome-game-art-styles/demos/pixelated-3d.html)** · runs in the browser, [source](../../demos/pixelated-3d.html) is one HTML file with commented shaders
 
 ## Gallery
 

@@ -60,7 +60,7 @@ const resize = () => {
   camera.aspect = w / HEIGHT; camera.updateProjectionMatrix();
 };
 addEventListener('resize', resize); resize();
-label('1-bit', 'https://github.com/s1ntoneli/awesome-game-art-styles/tree/main/styles/1-bit');
+label('1-bit', 'https://github.com/homkathon/awesome-game-art-styles/tree/main/styles/1-bit');
 renderer.setAnimationLoop(ms => {
   animate(camera, hero, ms / 1000);
   renderer.setRenderTarget(target); renderer.render(scene, camera);

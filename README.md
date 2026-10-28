@@ -2,13 +2,13 @@
 
 # Awesome Game Art Styles [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-[![Styles](https://img.shields.io/badge/styles-38-f2b134)](#3d-shading--form) [![Licence: CC0](https://img.shields.io/badge/licence-CC0-lightgrey)](LICENSE) [![check](https://github.com/s1ntoneli/awesome-game-art-styles/actions/workflows/check.yml/badge.svg)](https://github.com/s1ntoneli/awesome-game-art-styles/actions/workflows/check.yml)
+[![Styles](https://img.shields.io/badge/styles-38-f2b134)](#3d-shading--form) [![Licence: CC0](https://img.shields.io/badge/licence-CC0-lightgrey)](LICENSE) [![check](https://github.com/homkathon/awesome-game-art-styles/actions/workflows/check.yml/badge.svg)](https://github.com/homkathon/awesome-game-art-styles/actions/workflows/check.yml)
 
 **English** · [简体中文](README.zh-CN.md)
 
 > 38 game visual styles, organised by **look**. Click a style for screenshots, how to recognise it, techniques, tutorials, free assets and notes for coding agents.
 
-Screenshots are loaded from Steam and link to each game's store page; nothing is rehosted here. Use the [Claude Code skill](skills/game-art-style/SKILL.md) to get a style recommendation for your own game, or try the [live shader demos](https://s1ntoneli.github.io/awesome-game-art-styles/demos/) for toon, PS1, 1-bit and pixelated 3D.
+Screenshots are loaded from Steam and link to each game's store page; nothing is rehosted here. Use the [Claude Code skill](skills/game-art-style/SKILL.md) to get a style recommendation for your own game, or try the [live shader demos](https://homkathon.github.io/awesome-game-art-styles/demos/) for toon, PS1, 1-bit and pixelated 3D.
 
 ## Contents
 

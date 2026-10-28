@@ -43,7 +43,7 @@ document.body.appendChild(renderer.domElement);
 const camera = makeCamera(1);
 const resize = () => { renderer.setSize(innerWidth, innerHeight); camera.aspect = innerWidth / innerHeight; camera.updateProjectionMatrix(); };
 addEventListener('resize', resize); resize();
-label('Toon', 'https://github.com/s1ntoneli/awesome-game-art-styles/tree/main/styles/toon');
+label('Toon', 'https://github.com/homkathon/awesome-game-art-styles/tree/main/styles/toon');
 renderer.setAnimationLoop(ms => { animate(camera, hero, ms / 1000); renderer.render(scene, camera); });
 </script>
 </body>

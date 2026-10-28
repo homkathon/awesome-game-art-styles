@@ -2,13 +2,13 @@
 
 # Awesome Game Art Styles [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-[![Styles](https://img.shields.io/badge/styles-38-f2b134)](#3d明暗与造型) [![Licence: CC0](https://img.shields.io/badge/licence-CC0-lightgrey)](LICENSE) [![check](https://github.com/s1ntoneli/awesome-game-art-styles/actions/workflows/check.yml/badge.svg)](https://github.com/s1ntoneli/awesome-game-art-styles/actions/workflows/check.yml)
+[![Styles](https://img.shields.io/badge/styles-38-f2b134)](#3d明暗与造型) [![Licence: CC0](https://img.shields.io/badge/licence-CC0-lightgrey)](LICENSE) [![check](https://github.com/homkathon/awesome-game-art-styles/actions/workflows/check.yml/badge.svg)](https://github.com/homkathon/awesome-game-art-styles/actions/workflows/check.yml)
 
 [English](README.md) · **简体中文**
 
 > 38 种游戏视觉风格，按**观感**分类。点进每种风格可以看截图、识别要点、实现技术、教程、免费素材，以及给编程智能体的实现步骤。
 
-截图直接从 Steam 加载并链接到游戏商店页，本仓库不转存任何截图。用 [Claude Code 技能](skills/game-art-style/SKILL.md)可以为你的游戏推荐风格，也可以打开[在线着色器演示](https://s1ntoneli.github.io/awesome-game-art-styles/demos/)看卡通、PS1、1-bit 和像素化 3D 的实时效果。风格详情页目前为英文。
+截图直接从 Steam 加载并链接到游戏商店页，本仓库不转存任何截图。用 [Claude Code 技能](skills/game-art-style/SKILL.md)可以为你的游戏推荐风格，也可以打开[在线着色器演示](https://homkathon.github.io/awesome-game-art-styles/demos/)看卡通、PS1、1-bit 和像素化 3D 的实时效果。风格详情页目前为英文。
 
 ## 目录
 

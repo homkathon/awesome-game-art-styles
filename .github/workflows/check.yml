@@ -26,5 +26,5 @@ jobs:
       - uses: lycheeverse/lychee-action@v2
         with:
           # tigsource and poly.pizza block automated requests; the demos on Pages deploy after this check runs
-          args: --no-progress --max-retries 3 --exclude 'forums\.tigsource\.com' --exclude 'poly\.pizza' --exclude 's1ntoneli\.github\.io' README.md README.zh-CN.md CONTRIBUTING.md 'styles/**/README.md'
+          args: --no-progress --max-retries 3 --exclude 'forums\.tigsource\.com' --exclude 'poly\.pizza' --exclude 'homkathon\.github\.io' README.md README.zh-CN.md CONTRIBUTING.md 'styles/**/README.md'
           fail: true

@@ -14,7 +14,7 @@ ROOT = HERE.parent
 SHOTS = json.loads((HERE / "screenshots.json").read_text())
 BY_ID = {s["id"]: s for s in data.STYLES}
 COLS = 4
-PAGES = "https://s1ntoneli.github.io/awesome-game-art-styles"
+PAGES = "https://homkathon.github.io/awesome-game-art-styles"
 
 
 def store(gid):
@@ -92,8 +92,8 @@ def home(lang):
         "",
         f"[![Styles](https://img.shields.io/badge/styles-{len(data.STYLES)}-f2b134)](#{slug(t['sections'][0])}) "
         "[![Licence: CC0](https://img.shields.io/badge/licence-CC0-lightgrey)](LICENSE) "
-        "[![check](https://github.com/s1ntoneli/awesome-game-art-styles/actions/workflows/check.yml/badge.svg)]"
-        "(https://github.com/s1ntoneli/awesome-game-art-styles/actions/workflows/check.yml)",
+        "[![check](https://github.com/homkathon/awesome-game-art-styles/actions/workflows/check.yml/badge.svg)]"
+        "(https://github.com/homkathon/awesome-game-art-styles/actions/workflows/check.yml)",
         "",
         t["switch"],
         "",
