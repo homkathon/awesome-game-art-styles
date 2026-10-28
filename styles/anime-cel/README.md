@@ -38,6 +38,7 @@
 ## Learn
 
 - [GuiltyGearXrd's Art Style: The X Factor Between 2D and 3D](https://www.youtube.com/watch?v=yhGjCzxJV3E) · GDC
+- [Magic sword slash VFX](https://x.com/Cyanilux/status/1467533351091376136) · Cyanilux (X technique post)
 
 ## Similar styles
 

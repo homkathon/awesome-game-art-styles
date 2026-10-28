@@ -43,6 +43,7 @@
 
 - [Toon shader tutorial](https://roystan.net/articles/toon-shader/) · Roystan
 - [5 ways to draw an outline](https://ameye.dev/notes/rendering-outlines/) · Alexander Ameye
+- [Dungeons of Hinterberg: stylized rendering](https://x.com/PhilippSeifried/status/1354827696707002384) · PhilippSeifried (X technique post)
 
 ## Free assets to start with
 

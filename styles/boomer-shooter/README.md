@@ -43,6 +43,7 @@
 ## Learn
 
 - [Godot Shaders](https://godotshaders.com) · community shader library
+- [Render-texture-driven fracture](https://x.com/Cyanilux/status/1638623920235356172) · Cyanilux (X technique post)
 
 ## Free assets to start with
 

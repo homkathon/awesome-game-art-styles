@@ -32,6 +32,10 @@
 - [Mosaic Chronicles](https://store.steampowered.com/app/1034150/)
 - [Glass Masquerade](https://store.steampowered.com/app/511470/)
 
+## Learn
+
+- [Stained glass and volumetric rays](https://x.com/Cyanilux/status/1407727586986311687) · Cyanilux (X technique post)
+
 ## Similar styles
 
 - [Flat vector minimal](../flat-vector/) · 扁平极简矢量

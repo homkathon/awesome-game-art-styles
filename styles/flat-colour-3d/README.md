@@ -37,6 +37,10 @@
 - [Firewatch](https://store.steampowered.com/app/383870/)
 - [Kentucky Route Zero](https://store.steampowered.com/app/231200/)
 
+## Learn
+
+- [Gerstner-wave ocean](https://x.com/Cyanilux/status/1581210772352290818) · Cyanilux (X technique post)
+
 ## Similar styles
 
 - [Ligne claire / Moebius](../ligne-claire/) · 清线 / 墨比斯

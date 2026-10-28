@@ -37,6 +37,11 @@
 - [TUNIC](https://store.steampowered.com/app/553420/)
 - [DREDGE](https://store.steampowered.com/app/1562430/)
 
+## Learn
+
+- [GPU-instanced grass with Shader Graph](https://x.com/Cyanilux/status/1396848736022802435) · Cyanilux (X technique post)
+- [Procedural ivy on curves](https://x.com/Cyanilux/status/1618030887412862977) · Cyanilux (X technique post)
+
 ## Free assets to start with
 
 - [KayKit](https://kaylousberg.itch.io/furniture-bits) · CC0

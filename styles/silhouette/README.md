@@ -39,7 +39,9 @@
 
 ## Learn
 
-- [Fake volumetric smoke: billboard mesh + normal-map lighting](https://x.com/Tuatara_Games/status/2019471084375130140) · TUATARA (X technique post)
+- [Fake volumetric smoke](https://x.com/Tuatara_Games/status/2019471084375130140) · Tuatara_Games (X technique post)
+- [Billboarded light shafts](https://x.com/Cyanilux/status/1783442615939297380) · Cyanilux (X technique post)
+- [Tornado made from noise layers](https://x.com/Cyanilux/status/1483094258076856320) · Cyanilux (X technique post)
 
 ## Similar styles
 

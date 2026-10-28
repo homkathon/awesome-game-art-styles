@@ -36,7 +36,8 @@
 
 ## Learn
 
-- [Animal Crossing-style shoreline shader breakdown](https://x.com/Cyanilux/status/1252298028607774721) · Cyanilux (X technique thread)
+- [Shoreline shader mini-breakdown](https://x.com/Cyanilux/status/1252298028607774721) · Cyanilux (X technique post)
+- [Shoreline shader redux](https://x.com/Cyanilux/status/1864638156588400707) · Cyanilux (X technique post)
 
 ## Free assets to start with
 

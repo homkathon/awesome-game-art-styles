@@ -38,6 +38,10 @@
 - [Hylics](https://store.steampowered.com/app/397740/)
 - [Yume Nikki](https://store.steampowered.com/app/650700/)
 
+## Learn
+
+- [Tentacle via vertex displacement](https://x.com/Cyanilux/status/1524697139812573185) · Cyanilux (X technique post)
+
 ## Similar styles
 
 - [Mixed media](../mixed-media/) · 混合媒介

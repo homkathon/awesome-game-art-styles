@@ -40,6 +40,7 @@
 ## Learn
 
 - [5 ways to draw an outline](https://ameye.dev/notes/rendering-outlines/) · Alexander Ameye
+- [Dungeons of Hinterberg: outlines](https://x.com/PhilippSeifried/status/1362466015976783872) · PhilippSeifried (X technique post)
 
 ## Similar styles
 
