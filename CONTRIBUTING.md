@@ -1,6 +1,6 @@
 # Contributing
 
-Additions and corrections are welcome.
+Additions and corrections are welcome. AI agents: follow [AGENTS.md](AGENTS.md).
 
 `README.md`, `README.zh-CN.md` and `styles/*/README.md` are generated. Edit `tools/styles.py` (styles) or `tools/resources.md` / `tools/resources.zh-CN.md` (asset libraries, learning resources, related lists, wanted), then run:
 
