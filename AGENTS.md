@@ -4,7 +4,8 @@ Instructions for any AI agent (Codex, ChatGPT, Claude Code …) that updates thi
 
 ## How the repo works
 
-- `tools/styles.py` is the source of truth: `GAMES`, `LEARN`, `ASSETS`, `SECTIONS`, `STYLES`, `SECTIONS_ZH`, `SUMMARY_ZH`, `NEEDS`, `NEEDS_ZH`, `SPOT_ZH`, `TECHNIQUES_ZH`, `AGENT_ZH`.
+- `tools/styles.py` is the source of truth: `GAMES`, `LEARN`, `ASSETS`, `SECTIONS`, `STYLES`, `SECTIONS_ZH`, `SUMMARY_ZH`, `NEEDS`, `NEEDS_ZH`, `SPOT_ZH`, `TECHNIQUES_ZH`, `AGENT_ZH`, `ILLUSTRATED_INSPIRATION`, `ILLUSTRATORS`.
+- The illustrated-inspiration gallery is generated from `tools/styles.py` by `tools/build.py`; keep each game card on a verified Steam screenshot URL and never store commercial screenshots in the repository.
 - `tools/resources.md` and `tools/resources.zh-CN.md` hold the tables at the end of the READMEs.
 - `README.md`, `README.zh-CN.md` and `styles/*/README.md` are generated. Never edit them by hand.
 - After any change run `python3 tools/build.py`. It validates references and regenerates everything. Commit the generated files.

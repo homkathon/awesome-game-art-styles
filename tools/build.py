@@ -68,6 +68,19 @@ def validate():
         for field, zh in (("spot", data.SPOT_ZH), ("techniques", data.TECHNIQUES_ZH), ("agent", data.AGENT_ZH)):
             if len(zh.get(s["id"], [])) != len(s[field]):
                 errors.append(f"{s['id']}: {field.upper()}_ZH must have one item per {field} item")
+    seen_games = set()
+    for item in data.ILLUSTRATED_INSPIRATION:
+        gid = item["game"]
+        if gid in seen_games:
+            errors.append(f"duplicate inspiration game {gid}")
+        seen_games.add(gid)
+        if gid not in data.GAMES:
+            errors.append(f"unknown inspiration game {gid}")
+        if item["style"] not in BY_ID:
+            errors.append(f"unknown inspiration style {item['style']}")
+        ref_gid, idx = item["image"].split(":")
+        if int(ref_gid) != gid or ref_gid not in SHOTS or int(idx) >= len(SHOTS[ref_gid]):
+            errors.append(f"unknown inspiration screenshot {item['image']}")
     return errors
 
 
@@ -106,6 +119,41 @@ TEXT = {
 }
 
 
+def illustrated_inspiration(lang):
+    """A first-class, two-column visual gallery of all curated game examples."""
+    zh = lang == "zh"
+    title = "插画游戏灵感 · 16 款作品" if zh else "Illustrated game inspiration · 16 games"
+    sub = ("以下都是独立的视觉案例，不是 16 种人为拆分出来的美术流派。点击图片查看 Steam 原始截图和游戏，点击风格进入实现说明。"
+           if zh else "Each game has its own visual card. These are individual inspirations, not artificially renamed genres. Images open Steam; style names open implementation notes.")
+    out = ['<a id="illustrated-inspiration"></a>', f"## {title}", "", sub, "", "<table>"]
+    cells = []
+    for item in data.ILLUSTRATED_INSPIRATION:
+        gid, url = shot(item["image"])
+        game = data.GAMES[item["game"]]
+        sty = BY_ID[item["style"]]
+        style_name = sty["zh"] if zh else sty["title"]
+        note = item["note_zh"] if zh else item["note_en"]
+        cells.append(
+            f'<td width="50%" valign="top"><a href="{store(gid)}">'
+            f'<img src="{url}" width="100%" alt="{game}: {style_name}"></a>'
+            f'<br><b><a href="{store(gid)}">{game}</a></b>'
+            f'<br><sub><a href="styles/{sty["id"]}/">{style_name}</a></sub>'
+            f'<br><sub>{note}</sub></td>'
+        )
+    for i in range(0, len(cells), 2):
+        out += ["<tr>", *cells[i : i + 2], "</tr>"]
+    out += ["</table>", ""]
+    out.append("### 插画创作者参考" if zh else "### Illustrator references")
+    out.append("")
+    out.append("作者作品仅供研究参考，不代表可自由复用的素材。" if zh else "For visual study only; the artists' work is not a reusable asset library.")
+    out.append("")
+    for artist in data.ILLUSTRATORS:
+        desc = artist["zh"] if zh else artist["en"]
+        out.append(f'- [{artist["name"]}]({artist["url"]}) — {desc}')
+    out += ["", "---", ""]
+    return out
+
+
 def home(lang):
     t = TEXT[lang]
     out = [
@@ -132,6 +180,8 @@ def home(lang):
         *t["extra"],
         "",
     ]
+    out += ["- [" + ("插画游戏灵感" if lang == "zh" else "Illustrated game inspiration") + "](#illustrated-inspiration)", ""]
+    out += illustrated_inspiration(lang)
     for si, sec in enumerate(t["sections"]):
         group = [s for s in data.STYLES if s["section"] == si]
         out += [f"## {sec}", "", "<table>"]

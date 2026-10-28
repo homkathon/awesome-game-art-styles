@@ -2,11 +2,11 @@
 
 # Awesome Game Art Styles [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-[![Styles](https://img.shields.io/badge/styles-55-f2b134)](#3d明暗与造型) [![Licence: CC0](https://img.shields.io/badge/licence-CC0-lightgrey)](LICENSE) [![check](https://github.com/homkathon/awesome-game-art-styles/actions/workflows/check.yml/badge.svg)](https://github.com/homkathon/awesome-game-art-styles/actions/workflows/check.yml)
+[![Styles](https://img.shields.io/badge/styles-64-f2b134)](#3d明暗与造型) [![Licence: CC0](https://img.shields.io/badge/licence-CC0-lightgrey)](LICENSE) [![check](https://github.com/homkathon/awesome-game-art-styles/actions/workflows/check.yml/badge.svg)](https://github.com/homkathon/awesome-game-art-styles/actions/workflows/check.yml)
 
 [English](README.md) · **简体中文**
 
-> 55 种游戏视觉风格，按**观感**分类。点进每种风格可以看截图、识别要点、实现技术、教程、免费素材，以及给编程智能体的实现步骤。
+> 64 种游戏视觉风格，按**观感**分类。点进每种风格可以看截图、识别要点、实现技术、教程、免费素材，以及给编程智能体的实现步骤。
 
 🌐 **中文网页版：[homkathon.gokoding.com/styles](https://homkathon.gokoding.com/styles)**。可以搜索、按分类筛选，在每种风格的页面里翻截图、直接玩在线演示。
 
@@ -23,6 +23,61 @@
 - [2D：平面与印刷](#2d平面与印刷)
 - [素材库](#素材库)
 - [学习资源](#学习资源)
+
+- [插画游戏灵感](#illustrated-inspiration)
+
+<a id="illustrated-inspiration"></a>
+## 插画游戏灵感 · 16 款作品
+
+以下都是独立的视觉案例，不是 16 种人为拆分出来的美术流派。点击图片查看 Steam 原始截图和游戏，点击风格进入实现说明。
+
+<table>
+<tr>
+<td width="50%" valign="top"><a href="https://store.steampowered.com/app/1172450/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172450/ss_5e9fb66710e5b0b8912c43f56299830893435379.600x338.jpg" width="100%" alt="Carto: 水粉质感绘本"></a><br><b><a href="https://store.steampowered.com/app/1172450/">Carto</a></b><br><sub><a href="styles/gouache-picture-book/">水粉质感绘本</a></sub><br><sub>手绘地图图块与讨喜小人物</sub></td>
+<td width="50%" valign="top"><a href="https://store.steampowered.com/app/3256150/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3256150/f17685012ab6062858ed94e2f5338e08256d7e61/ss_f17685012ab6062858ed94e2f5338e08256d7e61.600x338.jpg" width="100%" alt="Moomintroll: Winter's Warmth: 北欧水彩森林"></a><br><b><a href="https://store.steampowered.com/app/3256150/">Moomintroll: Winter's Warmth</a></b><br><sub><a href="styles/nordic-watercolour-woodland/">北欧水彩森林</a></sub><br><sub>雪景纸纹与北欧森林</sub></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><a href="https://store.steampowered.com/app/1808680/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1808680/ss_7b8df4e8746ed3461fc9aaba4af0e158c94dcd5f.600x338.jpg" width="100%" alt="Snufkin: Melody of Moominvalley: 北欧水彩森林"></a><br><b><a href="https://store.steampowered.com/app/1808680/">Snufkin: Melody of Moominvalley</a></b><br><sub><a href="styles/nordic-watercolour-woodland/">北欧水彩森林</a></sub><br><sub>宁静的水彩林地探索</sub></td>
+<td width="50%" valign="top"><a href="https://store.steampowered.com/app/1307580/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1307580/ss_3c5c560a2627d6d35f69a138ec3159517c662e44.600x338.jpg" width="100%" alt="TOEM: A Photo Adventure: 俏皮黑白手绘"></a><br><b><a href="https://store.steampowered.com/app/1307580/">TOEM: A Photo Adventure</a></b><br><sub><a href="styles/whimsical-ink/">俏皮黑白手绘</a></sub><br><sub>黑白墨线剪纸与柔和 3D 景深</sub></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><a href="https://store.steampowered.com/app/1419860/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1419860/ss_bf1fddecefb8c7e720ffafccce35f50937f11103.600x338.jpg" width="100%" alt="Tukoni: Prologue: 森林民间传说插画"></a><br><b><a href="https://store.steampowered.com/app/1419860/">Tukoni: Prologue</a></b><br><sub><a href="styles/woodland-folklore-illustration/">森林民间传说插画</a></sub><br><sub>手绘森林生灵与植物</sub></td>
+<td width="50%" valign="top"><a href="https://store.steampowered.com/app/1444300/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1444300/ss_93c9da1b8b189e06cf3c3c8f7f549546895b8cda.600x338.jpg" width="100%" alt="Teacup: 柔色小生灵插画"></a><br><b><a href="https://store.steampowered.com/app/1444300/">Teacup</a></b><br><sub><a href="styles/pastel-creature-vignettes/">柔色小生灵插画</a></sub><br><sub>柔色动物绘本场景</sub></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><a href="https://store.steampowered.com/app/1055540/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1055540/ss_0e864bf975bb71f238de6861fc8fd3d6ed6e4ce8.600x338.jpg" width="100%" alt="A Short Hike: 低分辨率自然微缩景"></a><br><b><a href="https://store.steampowered.com/app/1055540/">A Short Hike</a></b><br><sub><a href="styles/cozy-lowres-nature-3d/">低分辨率自然微缩景</a></sub><br><sub>像素柔化的户外探索</sub></td>
+<td width="50%" valign="top"><a href="https://store.steampowered.com/app/1594940/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1594940/623dea3c94ca66719a29abd1919e7547a5cbec3d/ss_623dea3c94ca66719a29abd1919e7547a5cbec3d.600x338.jpg" width="100%" alt="Little Witch in the Woods: 温暖绘本像素"></a><br><b><a href="https://store.steampowered.com/app/1594940/">Little Witch in the Woods</a></b><br><sub><a href="styles/cozy-pixel-storybook/">温暖绘本像素</a></sub><br><sub>温暖而细致的森林像素</sub></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><a href="https://store.steampowered.com/app/1123450/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1123450/ss_1f16a64698124ab065ed1fdd7cc0ea23511f3791.600x338.jpg" width="100%" alt="Chicory: A Colorful Tale: 松弛线稿卡通"></a><br><b><a href="https://store.steampowered.com/app/1123450/">Chicory: A Colorful Tale</a></b><br><sub><a href="styles/loose-line-cartoons/">松弛线稿卡通</a></sub><br><sub>松弛墨线与趣味填色</sub></td>
+<td width="50%" valign="top"><a href="https://store.steampowered.com/app/977880/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/977880/ss_b3512f7576dbdd1e35dd3fb27a04f29174efb00d.600x338.jpg" width="100%" alt="Eastward: 电影感像素绘景"></a><br><b><a href="https://store.steampowered.com/app/977880/">Eastward</a></b><br><sub><a href="styles/cinematic-pixel-painting/">电影感像素绘景</a></sub><br><sub>细致的电影感像素绘景</sub></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><a href="https://store.steampowered.com/app/1062140/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1062140/ss_ee75af73d8bad015cfcf86530fceb627d9e6b298.600x338.jpg" width="100%" alt="Garden Story: 温暖绘本像素"></a><br><b><a href="https://store.steampowered.com/app/1062140/">Garden Story</a></b><br><sub><a href="styles/cozy-pixel-storybook/">温暖绘本像素</a></sub><br><sub>圆润的像素小生灵</sub></td>
+<td width="50%" valign="top"><a href="https://store.steampowered.com/app/729000/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/729000/ss_b5c706abacf932c95851ab3c74ef5555f2151215.600x338.jpg" width="100%" alt="Wytchwood: 森林民间传说插画"></a><br><b><a href="https://store.steampowered.com/app/729000/">Wytchwood</a></b><br><sub><a href="styles/woodland-folklore-illustration/">森林民间传说插画</a></sub><br><sub>装饰性的民俗森林</sub></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><a href="https://store.steampowered.com/app/581270/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/581270/ss_b0e4a7017f9fa3f64bb7fb953583e323389194a2.600x338.jpg" width="100%" alt="Old Man's Journey: 分层纸片风景"></a><br><b><a href="https://store.steampowered.com/app/581270/">Old Man's Journey</a></b><br><sub><a href="styles/layered-paper-landscapes/">分层纸片风景</a></sub><br><sub>层叠的手绘纸片风景</sub></td>
+<td width="50%" valign="top"><a href="https://store.steampowered.com/app/2322180/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2322180/ss_bb56c95322d9fbbd7ec6f6fa0354dcb34c70255b.600x338.jpg" width="100%" alt="A Tiny Sticker Tale: 贴纸绘本拼贴"></a><br><b><a href="https://store.steampowered.com/app/2322180/">A Tiny Sticker Tale</a></b><br><sub><a href="styles/stickerbook-cutouts/">贴纸绘本拼贴</a></sub><br><sub>可摆弄的贴纸式绘本道具</sub></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><a href="https://store.steampowered.com/app/1889740/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1889740/ss_a1a611020f74862495fa0777a6d5da84a0c061a2.600x338.jpg" width="100%" alt="Paper Trail: 纸面插画解谜"></a><br><b><a href="https://store.steampowered.com/app/1889740/">Paper Trail</a></b><br><sub><a href="styles/illustrated-paper-puzzles/">纸面插画解谜</a></sub><br><sub>可折叠的插画纸面世界</sub></td>
+<td width="50%" valign="top"><a href="https://store.steampowered.com/app/435400/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/435400/ss_5cda037d48f0603bfc1268b1090d8a0f0f1780b3.600x338.jpg" width="100%" alt="Hidden Folks: 俏皮黑白手绘"></a><br><b><a href="https://store.steampowered.com/app/435400/">Hidden Folks</a></b><br><sub><a href="styles/whimsical-ink/">俏皮黑白手绘</a></sub><br><sub>微型黑白涂鸦场景</sub></td>
+</tr>
+</table>
+
+### 插画创作者参考
+
+作者作品仅供研究参考，不代表可自由复用的素材。
+
+- [Oksana Bula](https://www.tukoni.com.ua/en) — Tukoni 绘本创作者
+- [Tove Jansson](https://tovejansson.com/gallery/the-moomins/) — 姆明原作及插画创作者
+- [Kuan-Hung Chen](https://sunheadgames.com/en/press/carto/) — Carto 美术参考
+- [Sylvain Tegroeg](https://tegroeg.com/) — Hidden Folks 黑白墨线画
+- [Carson Ellis](https://www.carsonellis.com/work-gallery/) — 奇趣的绘本风景
+- [Rebecca Green](https://www.myblankpaper.com/work/) — 粉彩、铅笔与水粉插画
+
+---
 
 ## 3D：明暗与造型
 
@@ -63,6 +118,7 @@
 <td align="center" valign="top" width="25%"><a href="styles/pre-rendered/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/291650/ss_fbc3b33088a2ec5e718271a122c370afee8eb4cf.600x338.jpg" width="220" alt="Pre-rendered backgrounds"></a><br><a href="styles/pre-rendered/"><b>预渲染背景</b></a><br><sub>Pre-rendered backgrounds</sub></td>
 <td align="center" valign="top" width="25%"><a href="styles/boomer-shooter/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1229490/ss_bc7a00fadbcde4a6c6dcb95d8e464ad5ffc06e3c.600x338.jpg" width="220" alt="Retro FPS / boomer shooter"></a><br><a href="styles/boomer-shooter/"><b>复古 FPS</b></a><br><sub>Retro FPS / boomer shooter</sub></td>
 <td align="center" valign="top" width="25%"><a href="styles/lo-fi-surreal/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1388770/ss_5234b051b742a8cf758fc35895ca563880de1001.600x338.jpg" width="220" alt="Lo-fi surreal / ugly"></a><br><a href="styles/lo-fi-surreal/"><b>低保真超现实 / 丑美学</b></a><br><sub>Lo-fi surreal / ugly</sub></td>
+<td align="center" valign="top" width="25%"><a href="styles/cozy-lowres-nature-3d/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1055540/ss_0e864bf975bb71f238de6861fc8fd3d6ed6e4ce8.600x338.jpg" width="220" alt="Cozy low-resolution 3D nature"></a><br><a href="styles/cozy-lowres-nature-3d/"><b>低分辨率自然微缩景</b></a><br><sub>Cozy low-resolution 3D nature</sub></td>
 </tr>
 </table>
 
@@ -104,6 +160,7 @@
 <td align="center" valign="top" width="25%"><a href="styles/cozy/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1135690/ss_b32bfdd3f68e1f9e264bd37e10a464629ca034f8.600x338.jpg" width="220" alt="Cozy interiors"></a><br><a href="styles/cozy/"><b>温馨室内像素</b></a><br><sub>Cozy interiors</sub></td>
 <td align="center" valign="top" width="25%"><a href="styles/nes-8bit/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/764790/ss_875fe259c26f29d959efba0eca47e1b63d844c75.600x338.jpg" width="220" alt="8-bit / NES"></a><br><a href="styles/nes-8bit/"><b>8-bit / FC</b></a><br><sub>8-bit / NES</sub></td>
 <td align="center" valign="top" width="25%"><a href="styles/cozy-pixel-storybook/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1062140/ss_9d643d5db7b194146bbe2d6f233e039900e74106.600x338.jpg" width="220" alt="Cozy storybook pixel art"></a><br><a href="styles/cozy-pixel-storybook/"><b>温暖绘本像素</b></a><br><sub>Cozy storybook pixel art</sub></td>
+<td align="center" valign="top" width="25%"><a href="styles/cinematic-pixel-painting/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/977880/ss_b3512f7576dbdd1e35dd3fb27a04f29174efb00d.600x338.jpg" width="220" alt="Cinematic pixel painting"></a><br><a href="styles/cinematic-pixel-painting/"><b>电影感像素绘景</b></a><br><sub>Cinematic pixel painting</sub></td>
 </tr>
 </table>
 
@@ -128,6 +185,16 @@
 <td align="center" valign="top" width="25%"><a href="styles/gouache-picture-book/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172450/ss_5e9fb66710e5b0b8912c43f56299830893435379.600x338.jpg" width="220" alt="Gouache picture book"></a><br><a href="styles/gouache-picture-book/"><b>水粉质感绘本</b></a><br><sub>Gouache picture book</sub></td>
 <td align="center" valign="top" width="25%"><a href="styles/whimsical-ink/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1307580/ss_452053e6976add5d6690c6f5dc227d3fd4bda26d.600x338.jpg" width="220" alt="Whimsical monochrome ink"></a><br><a href="styles/whimsical-ink/"><b>俏皮黑白手绘</b></a><br><sub>Whimsical monochrome ink</sub></td>
 </tr>
+<tr>
+<td align="center" valign="top" width="25%"><a href="styles/nordic-watercolour-woodland/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3256150/f17685012ab6062858ed94e2f5338e08256d7e61/ss_f17685012ab6062858ed94e2f5338e08256d7e61.600x338.jpg" width="220" alt="Nordic watercolour woodland"></a><br><a href="styles/nordic-watercolour-woodland/"><b>北欧水彩森林</b></a><br><sub>Nordic watercolour woodland</sub></td>
+<td align="center" valign="top" width="25%"><a href="styles/layered-paper-landscapes/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/581270/ss_b0e4a7017f9fa3f64bb7fb953583e323389194a2.600x338.jpg" width="220" alt="Layered paper landscapes"></a><br><a href="styles/layered-paper-landscapes/"><b>分层纸片风景</b></a><br><sub>Layered paper landscapes</sub></td>
+<td align="center" valign="top" width="25%"><a href="styles/stickerbook-cutouts/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2322180/ss_bb56c95322d9fbbd7ec6f6fa0354dcb34c70255b.600x338.jpg" width="220" alt="Stickerbook cutouts"></a><br><a href="styles/stickerbook-cutouts/"><b>贴纸绘本拼贴</b></a><br><sub>Stickerbook cutouts</sub></td>
+<td align="center" valign="top" width="25%"><a href="styles/woodland-folklore-illustration/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1419860/ss_bf1fddecefb8c7e720ffafccce35f50937f11103.600x338.jpg" width="220" alt="Woodland folklore illustration"></a><br><a href="styles/woodland-folklore-illustration/"><b>森林民间传说插画</b></a><br><sub>Woodland folklore illustration</sub></td>
+</tr>
+<tr>
+<td align="center" valign="top" width="25%"><a href="styles/loose-line-cartoons/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1444300/ss_93c9da1b8b189e06cf3c3c8f7f549546895b8cda.600x338.jpg" width="220" alt="Loose-line storybook cartoons"></a><br><a href="styles/loose-line-cartoons/"><b>松弛线稿卡通</b></a><br><sub>Loose-line storybook cartoons</sub></td>
+<td align="center" valign="top" width="25%"><a href="styles/pastel-creature-vignettes/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1444300/ss_34ef91065a1e9be3d8fc9f28437be9e6bfe164dc.600x338.jpg" width="220" alt="Pastel creature vignettes"></a><br><a href="styles/pastel-creature-vignettes/"><b>柔色小生灵插画</b></a><br><sub>Pastel creature vignettes</sub></td>
+</tr>
 </table>
 
 ## 2D：平面与印刷
@@ -143,6 +210,7 @@
 <td align="center" valign="top" width="25%"><a href="styles/ascii/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/603390/ss_98312257e7a8b1ee3c8964d6dede01cf69c002f0.600x338.jpg" width="220" alt="ASCII / text"></a><br><a href="styles/ascii/"><b>ASCII / 字符画</b></a><br><sub>ASCII / text</sub></td>
 <td align="center" valign="top" width="25%"><a href="styles/desktop-ui/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/844590/ss_801ae3d54dc30f1cfbbc9cd397d87d69def94356.600x338.jpg" width="220" alt="Desktop / OS interface"></a><br><a href="styles/desktop-ui/"><b>桌面 / 操作系统界面</b></a><br><sub>Desktop / OS interface</sub></td>
 <td align="center" valign="top" width="25%"><a href="styles/stained-glass/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1034150/ss_bf7d6fdf910f95c39d3fda401ba0c57840849586.600x338.jpg" width="220" alt="Stained glass"></a><br><a href="styles/stained-glass/"><b>彩色玻璃</b></a><br><sub>Stained glass</sub></td>
+<td align="center" valign="top" width="25%"><a href="styles/illustrated-paper-puzzles/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172450/ss_85d60c053d7f16b03d3378e4466be3bdbdcea692.600x338.jpg" width="220" alt="Illustrated paper puzzles"></a><br><a href="styles/illustrated-paper-puzzles/"><b>纸面插画解谜</b></a><br><sub>Illustrated paper puzzles</sub></td>
 </tr>
 </table>
 
