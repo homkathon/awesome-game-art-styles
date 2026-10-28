@@ -9,10 +9,10 @@ Help the user choose a visual style for their game and leave them with a concret
 
 ## Where the data is
 
-`README.md` at the repository root. Each `###` heading under a `##` section is one style, with:
+`README.md` at the repository root. Each row of the `<table>` under a `##` section is one style, with:
 
 - a one-line summary (Chinese name first),
-- **Games**: reference games with Steam links (the images above the list are their Steam header images),
+- **Games**: reference games with Steam links (the image in each row is an in-game screenshot),
 - **Techniques**: what produces the look,
 - **Learn**: tutorials and talks, when there are any,
 - **Assets**: free or cheap packs that fit.
