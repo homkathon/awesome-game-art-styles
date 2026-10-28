@@ -73,7 +73,7 @@
 - [Oksana Bula](https://www.tukoni.com.ua/en) — Tukoni 绘本创作者
 - [Tove Jansson](https://tovejansson.com/gallery/the-moomins/) — 姆明原作及插画创作者
 - [Kuan-Hung Chen](https://sunheadgames.com/en/press/carto/) — Carto 美术参考
-- [Sylvain Tegroeg](https://vgagallery.org/collection/sylvain-tegroeg-factory) — Hidden Folks 黑白墨线画
+- [Sylvain Tegroeg](https://tegroeg.com/) — Hidden Folks 黑白墨线画
 - [Carson Ellis](https://www.carsonellis.com/work-gallery/) — 奇趣的绘本风景
 - [Rebecca Green](https://www.myblankpaper.com/work/) — 粉彩、铅笔与水粉插画
 

@@ -75,7 +75,7 @@ For visual study only; the artists' work is not a reusable asset library.
 - [Oksana Bula](https://www.tukoni.com.ua/en) — Tukoni picture-book artist
 - [Tove Jansson](https://tovejansson.com/gallery/the-moomins/) — Moomins author and illustrator
 - [Kuan-Hung Chen](https://sunheadgames.com/en/press/carto/) — Carto visual art reference
-- [Sylvain Tegroeg](https://vgagallery.org/collection/sylvain-tegroeg-factory) — Hidden Folks hand-inked art
+- [Sylvain Tegroeg](https://tegroeg.com/) — Hidden Folks hand-inked art
 - [Carson Ellis](https://www.carsonellis.com/work-gallery/) — Whimsical illustrated landscapes
 - [Rebecca Green](https://www.myblankpaper.com/work/) — Pastel, pencil and gouache illustrations
 

@@ -1322,7 +1322,7 @@ ILLUSTRATORS = [
     dict(name='Oksana Bula', en='Tukoni picture-book artist', zh='Tukoni 绘本创作者', url='https://www.tukoni.com.ua/en'),
     dict(name='Tove Jansson', en='Moomins author and illustrator', zh='姆明原作及插画创作者', url='https://tovejansson.com/gallery/the-moomins/'),
     dict(name='Kuan-Hung Chen', en='Carto visual art reference', zh='Carto 美术参考', url='https://sunheadgames.com/en/press/carto/'),
-    dict(name='Sylvain Tegroeg', en='Hidden Folks hand-inked art', zh='Hidden Folks 黑白墨线画', url='https://vgagallery.org/collection/sylvain-tegroeg-factory'),
+    dict(name='Sylvain Tegroeg', en='Hidden Folks hand-inked art', zh='Hidden Folks 黑白墨线画', url='https://tegroeg.com/'),
     dict(name='Carson Ellis', en='Whimsical illustrated landscapes', zh='奇趣的绘本风景', url='https://www.carsonellis.com/work-gallery/'),
     dict(name='Rebecca Green', en='Pastel, pencil and gouache illustrations', zh='粉彩、铅笔与水粉插画', url='https://www.myblankpaper.com/work/'),
 ]
