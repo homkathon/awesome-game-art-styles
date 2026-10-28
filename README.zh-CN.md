@@ -8,7 +8,7 @@
 
 > 52 种游戏视觉风格，按**观感**分类。点进每种风格可以看截图、识别要点、实现技术、教程、免费素材，以及给编程智能体的实现步骤。
 
-截图直接从 Steam 加载并链接到游戏商店页，本仓库不转存任何截图。用 [Claude Code 技能](skills/game-art-style/SKILL.md)可以为你的游戏推荐风格，也可以打开[在线着色器演示](https://homkathon.github.io/awesome-game-art-styles/demos/)看卡通、PS1、1-bit 和像素化 3D 的实时效果。在 [X 帖子视频画廊](https://homkathon.github.io/awesome-game-art-styles/x-posts/)直接加载原帖视频（官方嵌入，不复制视频文件）。风格详情页目前为英文。
+截图直接从 Steam 加载并链接到游戏商店页，本仓库不转存任何截图。用 [Claude Code 技能](skills/game-art-style/SKILL.md)可以为你的游戏推荐风格，也可以打开[在线着色器演示](https://homkathon.github.io/awesome-game-art-styles/demos/)看卡通、PS1、1-bit 和像素化 3D 的实时效果。在 [X 视频画廊](https://homkathon.github.io/awesome-game-art-styles/x-posts/)直接播放或下载经授权收录的 MP4（保留作者及原帖链接）。风格详情页目前为英文。
 
 ## 目录
 
@@ -174,7 +174,7 @@
 
 ## X 热门技术帖精选
 
-[在 X 原帖画廊直接观看媒体](https://homkathon.github.io/awesome-game-art-styles/x-posts/)（点击才加载官方嵌入内容，不转存视频文件）。
+[在 X 视频画廊播放和下载经授权的 MP4](https://homkathon.github.io/awesome-game-art-styles/x-posts/)（保留作者、原文与原帖链接；无视频帖使用 X 嵌入）。
 
 共 22 条已核实的创作者原帖，按具体技法分组。优先收录可参考的 Shader、渲染和美术制作方法，不按未经验证的互动数字排序。**人工精选，并非实时热榜**。作者、原帖内容和发布日期于 2026-10-28 通过 X 嵌入元数据核实。
 

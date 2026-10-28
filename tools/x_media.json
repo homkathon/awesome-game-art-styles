@@ -1,0 +1,229 @@
+{
+  "1068933280005844992": {
+    "author_name": "Luno",
+    "bytes": 1568610,
+    "file": "x-posts/media/1068933280005844992.mp4",
+    "handle": "lunoland",
+    "id": "1068933280005844992",
+    "sha256": "d30be55d794e3bcc3fe6551fa839f424335a4acc9c1e30ac2ce474abb6170df4",
+    "source": "https://x.com/lunoland/status/1068933280005844992",
+    "status": "video",
+    "text": "This waterfall is a combination of sprites, shaders, and no less than 13 particle systems! Dare I say it, the most advanced pixel art waterfall...ever?\n\nI spent a crazy amount of time making this, so here's a thread (RTs appreciated).#madewithunity #gamedev #screenshotsaturday pic.twitter.com/eswsdzysBA"
+  },
+  "1251916279205814272": {
+    "author_name": "Cyan ✨",
+    "handle": "Cyanilux",
+    "id": "1251916279205814272",
+    "source": "https://x.com/Cyanilux/status/1251916279205814272",
+    "status": "no_video",
+    "text": "Here's the world bending subgraph. Also quick tip. If you want any effect (e.g world bending) in-game but not in editor/scene view, you can use a Boolean Keyword in shadergraph with the Global scope, and use Shader.EnableKeyword & DisableKeyword in C# OnEnable/OnDisable. pic.twitter.com/QXvvUUamPw"
+  },
+  "1252298028607774721": {
+    "author_name": "Cyan ✨",
+    "handle": "Cyanilux",
+    "id": "1252298028607774721",
+    "source": "https://x.com/Cyanilux/status/1252298028607774721",
+    "status": "no_video",
+    "text": "Hey all, wanted to share some info about how the shoreline shader is done. (This is a slightly simplified version).\n\n(note : while it's based visually on the ACNH shoreline, it's probably not exactly the same way they are handling it) 😄\n\nSee thread!! 🌊🏝️ #unity3D #shadergraph pic.twitter.com/DyWNSTKoUc"
+  },
+  "1354827696707002384": {
+    "author_name": "Philipp Seifried",
+    "bytes": 3122979,
+    "file": "x-posts/media/1354827696707002384.mp4",
+    "handle": "PhilippSeifried",
+    "id": "1354827696707002384",
+    "sha256": "9b17d62e0f73a2e1a59362cbb8fe711aa5d6e378425feece2e61b02c3938c510",
+    "source": "https://x.com/PhilippSeifried/status/1354827696707002384",
+    "status": "video",
+    "text": "1/x Over the next weeks, I want to post a few threads about the stylized rendering we’ve implemented for our game “Dungeons of #Hinterberg”. I’ll start with an overview, but I'll get pretty technical. Follow @MicrobirdGames, if you think the game looks rad! :)#gamedev #indiedev pic.twitter.com/bOrQIryUVm"
+  },
+  "1362466015976783872": {
+    "author_name": "Philipp Seifried",
+    "bytes": 1224199,
+    "file": "x-posts/media/1362466015976783872.mp4",
+    "handle": "PhilippSeifried",
+    "id": "1362466015976783872",
+    "sha256": "c26b162561abeaa97ac07c6f4b1ee92d65a87616e9f779051cdfaa6d71175cbc",
+    "source": "https://x.com/PhilippSeifried/status/1362466015976783872",
+    "status": "video",
+    "text": "1/18 Here’s our second tech art thread on the stylized rendering of “Dungeons of #Hinterberg”. This time, I’ll talk about how we do our outlines! \nIf an indie mix of Zelda-like/ARPG and Persona-style social sim is your jam, follow us at @MicrobirdGames. #gamedev #indiedev pic.twitter.com/hewBr7ewh0"
+  },
+  "1376949139838275584": {
+    "author_name": "Cyan ✨",
+    "bytes": 333068,
+    "file": "x-posts/media/1376949139838275584.mp4",
+    "handle": "Cyanilux",
+    "id": "1376949139838275584",
+    "sha256": "6d64e806901d6cd39c7d012864a64b345eb12069d9c830f36d5c1fade6e5c0f0",
+    "source": "https://x.com/Cyanilux/status/1376949139838275584",
+    "status": "video",
+    "text": "Wanted to try making a holographic foil effect 🌈✨~\n\nBasically just using a rainbow texture with parallax (uvs offset with tangent space view dir)#unity3D #shaders #shadergraph pic.twitter.com/DFC2a6pqQC"
+  },
+  "1396848736022802435": {
+    "author_name": "Cyan ✨",
+    "bytes": 1303646,
+    "file": "x-posts/media/1396848736022802435.mp4",
+    "handle": "Cyanilux",
+    "id": "1396848736022802435",
+    "sha256": "400f3ea56cf0334db190f8855035122a1310a4c021a453ab3b447a8b63268772",
+    "source": "https://x.com/Cyanilux/status/1396848736022802435",
+    "status": "video",
+    "text": "Experimenting with GPU instanced grass, 🌱 #unity3d\nDrawn with Graphics.DrawMeshInstancedIndirect, and using #shadergraph (v10). While the roadmap mentions there isn't proper support for it, it wasn't actually that hard to handle it~ pic.twitter.com/tfrpvughxR"
+  },
+  "1407727586986311687": {
+    "author_name": "Cyan ✨",
+    "bytes": 589960,
+    "file": "x-posts/media/1407727586986311687.mp4",
+    "handle": "Cyanilux",
+    "id": "1407727586986311687",
+    "sha256": "8e5f304cf3808829bc6111e26e7d471295dad9c27d5663f1b3d51a2fd0936eda",
+    "source": "https://x.com/Cyanilux/status/1407727586986311687",
+    "status": "video",
+    "text": "Have been playing around a little with Stained Glass shaders, and some volumetric ray-marched light... rays, I guess. ☀️🪟\nMade as part of @HarryAlisavakis' #TechnicallyAChallenge pic.twitter.com/PQoPm0Vb9j"
+  },
+  "1467533351091376136": {
+    "author_name": "Cyan ✨",
+    "bytes": 218649,
+    "file": "x-posts/media/1467533351091376136.mp4",
+    "handle": "Cyanilux",
+    "id": "1467533351091376136",
+    "sha256": "470fe80ab654f8400a1e1b1193e39f50cae180ed561b82f6b9765cfd0cae0b58",
+    "source": "https://x.com/Cyanilux/status/1467533351091376136",
+    "status": "video",
+    "text": "Did a magic sword slash effect as part of @HarryAlisavakis's discord #TechnicallyAChallenge (theme is \"Weapon slashes / attack VFX\")#madewithunity #shaders #vfx pic.twitter.com/ZebeRutRIb"
+  },
+  "1483094258076856320": {
+    "author_name": "Cyan ✨",
+    "bytes": 285298,
+    "file": "x-posts/media/1483094258076856320.mp4",
+    "handle": "Cyanilux",
+    "id": "1483094258076856320",
+    "sha256": "7284f2bf780e1f881ed33a54b211f6fecfada36b943260b15ba22771653ac476",
+    "source": "https://x.com/Cyanilux/status/1483094258076856320",
+    "status": "video",
+    "text": "Made a Tornado as part of @HarryAlisavakis's discord #TechnicallyAChallenge, theme is \"wind\" 🌪️\n(A few layers of alpha-clipped scrolling noise w/ vertex displacement & some particle trails)#unity3D #shaders #vfx pic.twitter.com/Xdd53Pre5x"
+  },
+  "1495405379253116930": {
+    "author_name": "Cyan ✨",
+    "bytes": 1890848,
+    "file": "x-posts/media/1495405379253116930.mp4",
+    "handle": "Cyanilux",
+    "id": "1495405379253116930",
+    "sha256": "5b629a2ddb8741f5367cd57754bc55d46eb66d6a401f9d7422dfd050c912ba4d",
+    "source": "https://x.com/Cyanilux/status/1495405379253116930",
+    "status": "video",
+    "text": "Aurora, made as part of @HarryAlisavakis' discord #TechnicallyAChallenge\nI went for the simpler method of displacing long subdivided quads, w/ gradient, scrolling noise & fading at a distance. Also a bunch of post processing effects 🌌✨#unity3D #shaders pic.twitter.com/l1jDfQiMNw"
+  },
+  "1524697139812573185": {
+    "author_name": "Cyan ✨",
+    "bytes": 1747881,
+    "file": "x-posts/media/1524697139812573185.mp4",
+    "handle": "Cyanilux",
+    "id": "1524697139812573185",
+    "sha256": "c54db7682a1c15c725db39fcb7374c4f800904ba370606155f6df9e658f7ee34",
+    "source": "https://x.com/Cyanilux/status/1524697139812573185",
+    "status": "video",
+    "text": "A tentacle made as part of #TechnicallyAChallenge 🐙\nUsing some vertex displacement shader magic~ 😉✨#unity3D #shaders pic.twitter.com/hnglGhYPdN"
+  },
+  "1581210772352290818": {
+    "author_name": "Cyan ✨",
+    "bytes": 2893627,
+    "file": "x-posts/media/1581210772352290818.mp4",
+    "handle": "Cyanilux",
+    "id": "1581210772352290818",
+    "sha256": "ac6bc6d105c7cb07bd42e00d2b266df6fa7ae99bf5159217619baffe761c1621",
+    "source": "https://x.com/Cyanilux/status/1581210772352290818",
+    "status": "video",
+    "text": "Been experimenting with Gerstner Waves, very happy with the result!✨\nWater shaders are the best~ 🌊🛟#unity3D #madewithunity #shaders #vfx pic.twitter.com/F3NLLzccMO"
+  },
+  "1595484469699526665": {
+    "author_name": "Cyan ✨",
+    "bytes": 159230,
+    "file": "x-posts/media/1595484469699526665.mp4",
+    "handle": "Cyanilux",
+    "id": "1595484469699526665",
+    "sha256": "1c38d947c810e85729fa60cbe607f810aa5f24dc3a224140ac390ce7d8158c19",
+    "source": "https://x.com/Cyanilux/status/1595484469699526665",
+    "status": "video",
+    "text": "An attempt at dithered + pixelated lighting~\nAlso reminder that I'm also on Mastodon, link in bio👀#unity3D #shaders pic.twitter.com/h95IYGqDei"
+  },
+  "1618030887412862977": {
+    "author_name": "Cyan ✨",
+    "handle": "Cyanilux",
+    "id": "1618030887412862977",
+    "source": "https://x.com/Cyanilux/status/1618030887412862977",
+    "status": "no_video",
+    "text": "First time using #geometrynodes, adding ivy leaves to pre-drawn curves🌿#b3d pic.twitter.com/YX9c9wbcTq"
+  },
+  "1638623920235356172": {
+    "author_name": "Cyan ✨",
+    "bytes": 760838,
+    "file": "x-posts/media/1638623920235356172.mp4",
+    "handle": "Cyanilux",
+    "id": "1638623920235356172",
+    "sha256": "d8ca79e233c36b7ebd8424077f8c086556626eaab8123ba98eb26f7eb0ee5305",
+    "source": "https://x.com/Cyanilux/status/1638623920235356172",
+    "status": "video",
+    "text": "#TechnicallyAChallenge - Destruction 💥☄️\nAdapted the recent fractured shader effect to work with a render texture as input rather than a sphere sdf. Am painting on that texture (via Graphics.Blit, passing in raycast pos). Also did some beam vfx#unity3D #madewithunity #shaders pic.twitter.com/5pV837ct0u"
+  },
+  "1770095395848237506": {
+    "author_name": "Cyan ✨",
+    "bytes": 458691,
+    "file": "x-posts/media/1770095395848237506.mp4",
+    "handle": "Cyanilux",
+    "id": "1770095395848237506",
+    "sha256": "bbe2421bbf52898684d98199044deabbca98751351bf2659a28b58e738105f04",
+    "source": "https://x.com/Cyanilux/status/1770095395848237506",
+    "status": "video",
+    "text": "Random 2.5d water shader experiment with sprite reflections 🌊🤔\n(pixel art is from a free asset pack by Cainos)#unity3D #shaders pic.twitter.com/u7PKY8MRil"
+  },
+  "1783442615939297380": {
+    "author_name": "Cyan ✨",
+    "bytes": 765596,
+    "file": "x-posts/media/1783442615939297380.mp4",
+    "handle": "Cyanilux",
+    "id": "1783442615939297380",
+    "sha256": "94860ed27a4b9daf121e57916a0dc1fcd63679b1148e70d0c3824c7eb714341b",
+    "source": "https://x.com/Cyanilux/status/1783442615939297380",
+    "status": "video",
+    "text": "Made some light rays ✨\nBasically billboarded quads stretched in light direction, though lots of masking to get right too (hide in shadow, light cookie, fade at sides/bottom, depth fade)#unity3D #madewithunity #shaders #gamedev pic.twitter.com/Bs5SBuxeWo"
+  },
+  "1847072515572507001": {
+    "author_name": "✝️ hev ヘーヴ 🍉",
+    "handle": "MadeInHevinis",
+    "id": "1847072515572507001",
+    "source": "https://x.com/MadeInHevinis/status/1847072515572507001",
+    "status": "no_video",
+    "text": "new shader\ninstead of the lighting using a palette, now the lighting IS the palette\n\nmakes the light basically act like the shading paint in aseprite. compare the first and the second sprites for better understanding#GodotEngine #shaders #light #shading #gamedev #godot4 pic.twitter.com/N3L0Mo0baj"
+  },
+  "1864638156588400707": {
+    "author_name": "Cyan ✨",
+    "bytes": 1230134,
+    "file": "x-posts/media/1864638156588400707.mp4",
+    "handle": "Cyanilux",
+    "id": "1864638156588400707",
+    "sha256": "3041f5018561782103b42b3b1bca8c1adcd053d975bcf4ca100cf3a9c1524014",
+    "source": "https://x.com/Cyanilux/status/1864638156588400707",
+    "status": "video",
+    "text": "Remade a shoreline shader I made years ago 🌊🏖️\n(tutorial linked in comments)#unity3D #madewithunity #shaders #shadergraph pic.twitter.com/ocw6nwMPa0"
+  },
+  "1975506073319567393": {
+    "author_name": "Florisium",
+    "handle": "florisium",
+    "id": "1975506073319567393",
+    "source": "https://x.com/florisium/status/1975506073319567393",
+    "status": "no_video",
+    "text": "A bit technical thread 🧵\n\nI’ve been improving the in-game ambient occlusion system - and ended up with something I call:\nBlob-based Analytical Ambient Occlusion on Primitives\n\nHere’s what it does to the final image:\n(more examples later in the thread)\n\n(1/16) pic.twitter.com/yL0WV3kUch"
+  },
+  "2019471084375130140": {
+    "author_name": "TUATARA",
+    "bytes": 1242587,
+    "file": "x-posts/media/2019471084375130140.mp4",
+    "handle": "Tuatara_Games",
+    "id": "2019471084375130140",
+    "sha256": "73da1c243999f54a288c8fdc804283becc3c4afc1a0e5a79bd2290ba549d9d3d",
+    "source": "https://x.com/Tuatara_Games/status/2019471084375130140",
+    "status": "video",
+    "text": "Fake volumetric smoke using a camera-facing mesh deformed in world space, with an Unlit shader and no particles or SubUVs. Directional lighting faked with a dot product between a normalized direction and a normal map #gamedev #VFX #realtimeVFX #UnrealEngine pic.twitter.com/cetD5WVrCM"
+  }
+}

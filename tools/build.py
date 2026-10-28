@@ -64,7 +64,7 @@ TEXT = {
         "techniques, tutorials, free assets and notes for coding agents.",
         body="Screenshots are loaded from Steam and link to each game's store page; nothing is rehosted here. "
         "Use the [Claude Code skill](skills/game-art-style/SKILL.md) to get a style recommendation for your own game, "
-        "or try the [live shader demos]({pages}/demos/) for toon, PS1, 1-bit and pixelated 3D. Watch creator media in the [X post gallery]({pages}/x-posts/) (original X embeds; no rehosted videos).",
+        "or try the [live shader demos]({pages}/demos/) for toon, PS1, 1-bit and pixelated 3D. Watch and download permissioned creator MP4s in the [X media gallery]({pages}/x-posts/) (original author credit and post links included).",
         contents="Contents",
         extra=["- [Asset libraries](#asset-libraries)", "- [Learning resources](#learning-resources)",
                "- [Related lists](#related-lists)", "- [Wanted](#wanted)"],
@@ -76,7 +76,7 @@ TEXT = {
         intro="> {n} 种游戏视觉风格，按**观感**分类。点进每种风格可以看截图、识别要点、实现技术、教程、免费素材，以及给编程智能体的实现步骤。",
         body="截图直接从 Steam 加载并链接到游戏商店页，本仓库不转存任何截图。"
         "用 [Claude Code 技能](skills/game-art-style/SKILL.md)可以为你的游戏推荐风格，"
-        "也可以打开[在线着色器演示]({pages}/demos/)看卡通、PS1、1-bit 和像素化 3D 的实时效果。在 [X 帖子视频画廊]({pages}/x-posts/)直接加载原帖视频（官方嵌入，不复制视频文件）。风格详情页目前为英文。",
+        "也可以打开[在线着色器演示]({pages}/demos/)看卡通、PS1、1-bit 和像素化 3D 的实时效果。在 [X 视频画廊]({pages}/x-posts/)直接播放或下载经授权收录的 MP4（保留作者及原帖链接）。风格详情页目前为英文。",
         contents="目录",
         extra=["- [素材库](#素材库)", "- [学习资源](#学习资源)"],
         star="如果这份列表帮你选定了画风，点个 ⭐ 能让更多开发者看到它。",

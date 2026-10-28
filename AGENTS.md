@@ -8,7 +8,7 @@ Instructions for any AI agent (Codex, ChatGPT, Claude Code …) that updates thi
 - `tools/resources.md` and `tools/resources.zh-CN.md` hold the tables at the end of the READMEs.
 - `README.md`, `README.zh-CN.md` and `styles/*/README.md` are generated. Never edit them by hand.
 - After any change run `python3 tools/build.py`. It validates references and regenerates everything. Commit the generated files.
-- `tools/x_gallery.py` builds `x-posts/index.html` from both resource tables and `tools/x-gallery-template.html`. The official X embeds load only when clicked; do not rehost third-party MP4 files without redistribution permission.
+- `tools/x_gallery.py` builds `x-posts/index.html` from both resource tables and `tools/x-gallery-template.html`. The gallery prefers MP4s in `x-posts/media/` with the manifest `tools/x_media.json`; all such videos require author redistribution permission and retain their original authorship. The remaining posts use X embeds. Never label these third-party MP4s as CC0.
 - CI (`.github/workflows/check.yml`) fails if generated files are stale or a link is dead.
 
 ## Routine update (run weekly)

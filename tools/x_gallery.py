@@ -1,8 +1,10 @@
-"""Build a static, consent-to-load X embed gallery from bilingual resource tables.
+"""Build the static bilingual X gallery and serve permissioned local videos.
 
-Official X embeds show media from the original post; this repo does not rehost videos.
+Original post content is preserved; image-only posts use X embeds as a fallback.
 """
 from html import escape
+from hashlib import sha256
+import json
 from pathlib import Path
 import re
 
@@ -52,22 +54,61 @@ def render():
                      f'<span class="en">{escape(en_label)}</span><span class="zh">{escape(zh_label)}</span>'
                      f'<span class="group-count">{sum(p["group"] == en_label for p in en)}</span></button>'
                      for i, (en_label, zh_label) in enumerate(zip(groups_en, groups_zh)))
+    archive_path = ROOT / 'tools/x_media.json'
+    archive = json.loads(archive_path.read_text(encoding='utf-8')) if archive_path.exists() else {}
+    if archive and set(archive) != {p['id'] for p in en}:
+        raise ValueError('X media manifest must contain one record per X post')
+    total_videos = 0
     rows = []
     for a, b in zip(en, zh):
         idx = groups_en.index(a['group'])
+        media = archive.get(a['id'], {})
+        if media and media.get('source') != a['url']:
+            raise ValueError('X media has a mismatched original source URL: ' + a['id'])
+        video = ''
+        download = ''
+        if media.get('status') == 'video':
+            expected = f'x-posts/media/{a["id"]}.mp4'
+            if media.get('file') != expected:
+                raise ValueError('Unsafe local video path: ' + str(media.get('file')))
+            videopath = ROOT / expected
+            if not videopath.is_file() or videopath.stat().st_size != media.get('bytes'):
+                raise ValueError('Missing or changed local X video: ' + expected)
+            if sha256(videopath.read_bytes()).hexdigest() != media.get('sha256'):
+                raise ValueError('Checksum mismatch for video: ' + expected)
+            video = (f'<div class="player ready local"><video controls playsinline preload="metadata" '
+                     f'aria-label="{escape(a["title"], quote=True)}" src="media/{a["id"]}.mp4">'
+                     f'<span class="en">Video unsupported by this browser.</span>'
+                     f'<span class="zh">浏览器不支持视频播放。</span></video></div>')
+            download = (f'<a class="download" href="media/{a["id"]}.mp4" download>'
+                        '<span class="en">Download MP4 ↓</span><span class="zh">下载 MP4 ↓</span></a>')
+            total_videos += 1
+        else:
+            video = (f'<div class="player" id="post-{a["id"]}"><button class="load" type="button" '
+                     f'data-id="{a["id"]}"><span class="play-icon" aria-hidden="true">▶</span>'
+                     '<span class="en">Load original X post</span>'
+                     '<span class="zh">加载 X 图文原帖</span></button></div>')
+        original = media.get('text','')
+        quotation = (f'<details class="post-quote"><summary><span class="en">Original post text</span>'
+                     f'<span class="zh">原帖原文</span></summary>'
+                     f'<blockquote lang="en">{escape(original)}</blockquote></details>') if original else ''
         rows.append(f'''<article class="post" data-group="{idx}">
   <div class="post-top"><span class="category en">{escape(a['group'])}</span><span class="category zh">{escape(b['group'])}</span><span class="date">{a['date']}</span></div>
   <h2 class="en">{escape(a['title'])}</h2><h2 class="zh">{escape(b['title'])}</h2>
   <p class="technique en">{escape(a['technique'])}</p><p class="technique zh">{escape(b['technique'])}</p>
   <p class="attribution"><span>@{escape(a['handle'])}</span><span aria-hidden="true">·</span><a href="{escape(a['style_url'], quote=True)}"><span class="en">{escape(a['style_title'])}</span><span class="zh">{escape(b['style_title'])}</span></a></p>
-  <div class="player" id="post-{a['id']}"><button class="load" type="button" data-id="{a['id']}"><span class="play-icon" aria-hidden="true">▶</span><span class="en">Load original X post</span><span class="zh">加载 X 原帖 / 视频</span></button></div>
+  {video}
+  {quotation}
+  {download}
   <a class="original" href="{escape(a['url'], quote=True)}" target="_blank" rel="noopener noreferrer"><span class="en">Open original on X ↗</span><span class="zh">在 X 查看原帖 ↗</span></a>
 </article>''')
     template = (ROOT / 'tools/x-gallery-template.html').read_text(encoding='utf-8')
     output = (template.replace('<!-- __FILTERS__ -->', groups)
               .replace('<!-- __POSTS__ -->', '\n'.join(rows))
               .replace('__POST_COUNT__', str(len(rows)))
-              .replace('__GROUP_COUNT__', str(len(groups_en))))
+              .replace('__GROUP_COUNT__', str(len(groups_en)))
+              .replace('__VIDEO_COUNT__', str(total_videos)))
+    output = '\n'.join(line.rstrip() for line in output.split('\n'))
     if '<!-- __POSTS__ -->' in output or '<!-- __FILTERS__ -->' in output:
         raise ValueError('X gallery template slots unresolved')
     target = ROOT / 'x-posts' / 'index.html'
@@ -77,4 +118,4 @@ def render():
 
 
 if __name__ == '__main__':
-    print('built: x-posts/index.html (' + str(render()) + ' embeds)')
+    print('built: x-posts/index.html (' + str(render()) + ' posts, local video count verified)')

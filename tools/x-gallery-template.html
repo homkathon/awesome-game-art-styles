@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="color-scheme" content="dark">
-  <meta name="description" content="Curated game-art rendering and VFX posts, with original X embeds and creator credits.">
+  <meta name="description" content="Curated game-art rendering and VFX posts, with locally hosted permitted videos, original posts, and creator credits.">
   <title>Game art in motion · Awesome Game Art Styles</title>
   <style>
     :root { color-scheme:dark; --bg:#111214; --panel:#1c1d20; --line:#37393e; --text:#f4f3ef; --muted:#a6a7ae; --accent:#c3a9f4; }
@@ -46,6 +46,13 @@
     .player { background:#141517; border:1px solid #303238; border-radius:10px; min-height:188px; display:flex; justify-content:center; align-items:center; margin-top:auto; overflow:hidden; padding:10px; }
     .player.ready { display:block; min-height:0; }
     .player iframe { max-width:100%; }
+    .player.local { padding:0; background:#0b0c0d; }
+    .player.local video { width:100%; max-height:330px; display:block; object-fit:contain; border-radius:9px; background:#090a0b; }
+    .post-quote { font-size:12px; color:var(--muted); margin-top:14px; }
+    .post-quote summary { cursor:pointer; color:var(--muted); }
+    .post-quote blockquote { white-space:pre-line; margin:9px 0 0; padding:10px 13px; border-left:2px solid var(--accent); background:#141517; overflow-wrap:anywhere; }
+    .download { color:var(--accent); font-size:12px; margin-top:12px; align-self:flex-start; }
+    .download:hover { text-decoration:underline; }
     .load { display:flex; flex-direction:column; align-items:center; justify-content:center; gap:12px; width:100%; min-height:157px; border:0; background:transparent; color:var(--muted); font-size:13px; }
     .load:hover { color:var(--text); }
     .play-icon { display:grid; place-items:center; width:52px; height:52px; border:1px solid #514663; border-radius:50%; background:#27212f; color:var(--accent); font-size:17px; padding-left:3px; }
@@ -62,14 +69,14 @@
   <main class="container">
     <section class="hero"><div class="eyebrow en">X / Technical showcase</div><div class="eyebrow zh">X / 技术帖精选</div>
       <h1 class="en">Game art,<br><em>in motion.</em></h1><h1 class="zh">游戏美术，<br><em>动起来。</em></h1>
-      <p class="summary en">Explore rendering tricks, shader experiments, and VFX breakdowns from their creators. Play media in the original X embeds, without losing the author or the source.</p>
-      <p class="summary zh">收集创作者分享的渲染技巧、Shader 实验与 VFX 拆解。点击加载 X 官方原帖，在页面内观看，并保留作者与出处。</p>
-      <div class="stats"><span><strong>__POST_COUNT__</strong><span class="en">original posts</span><span class="zh">条原帖</span></span><span><strong>__GROUP_COUNT__</strong><span class="en">collections</span><span class="zh">个专题</span></span></div>
+      <p class="summary en">Explore rendering tricks, shader experiments, and VFX breakdowns. Watch or download locally hosted MP4s shared with permission, with the creator's text and original source alongside. Image-only posts retain their X embed.</p>
+      <p class="summary zh">收集创作者分享的渲染技巧、Shader 实验与 VFX 拆解。已获转载许可的视频可直接播放或下载 MP4，附作者原文和原帖链接；图文帖继续使用 X 嵌入。</p>
+      <div class="stats"><span><strong>__VIDEO_COUNT__</strong><span class="en">local videos</span><span class="zh">条本地视频</span></span><span><strong>__POST_COUNT__</strong><span class="en">original posts</span><span class="zh">条原帖</span></span><span><strong>__GROUP_COUNT__</strong><span class="en">collections</span><span class="zh">个专题</span></span></div>
     </section>
     <nav class="filterbar" aria-label="Collections"><button class="filter" type="button" data-filter="all" aria-pressed="true"><span class="en">All posts</span><span class="zh">全部</span><span class="group-count">__POST_COUNT__</span></button><!-- __FILTERS__ --></nav>
     <div class="grid" id="posts"><!-- __POSTS__ --></div>
   </main>
-  <footer><div class="container"><span class="en">Original X content is embedded on demand. Videos are served by X and remain with the creators. Some posts contain images instead of videos. If an embed is unavailable, use the original post link. Curated — not ranked by likes.</span><span class="zh">按需加载 X 官方原帖；视频仍由 X 提供，版权归原作者。部分原帖只有图片而非视频。无法嵌入时请使用原帖链接。本列表是人工精选，不按点赞量排名。</span></div></footer>
+  <footer><div class="container"><span class="en">Locally hosted videos are included with author permission. Copyright remains with each creator; the repository CC0 licence does not cover these MP4 files. Non-video posts use original X embeds. Curated — not ranked by likes.</span><span class="zh">视频经作者授权收录，版权仍归各位作者，不适用仓库的 CC0 授权。非视频帖继续按需嵌入 X 原帖；无法加载时可点击原帖链接。本列表按技术价值精选，不按点赞量排名。</span></div></footer>
   <script>
     'use strict';
     const filters = [...document.querySelectorAll('[data-filter]')];
