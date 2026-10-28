@@ -7,6 +7,8 @@
 > Two colours and a dither pattern stand in for every tone.<br>
 > 只有两种颜色，所有明暗都靠抖动图案表现。
 
+What it takes: **Code only.** Simple models plus shaders and post-processing get close.
+
 ▶ **[Live demo](https://homkathon.github.io/awesome-game-art-styles/demos/1-bit.html)** · runs in the browser, [source](../../demos/1-bit.html) is one HTML file with commented shaders
 
 ## Gallery
@@ -30,8 +32,10 @@
 
 ## Techniques
 
+- low-res render target
 - ordered / blue-noise dithering
 - stable dither in screen space
+- depth and normal outlines
 
 ## Reference games
 
@@ -50,8 +54,9 @@
 
 ## Agent notes
 
-Steps a coding agent (or you) can follow to reproduce the look. The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section.
+Steps a coding agent (or you) can follow to reproduce the look. The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section. When it runs, put a screenshot of your scene next to the gallery above and compare values first, then palette, then detail.
 
-1. Render in greyscale, then threshold against a Bayer or blue-noise matrix in a post pass.
-1. Anchor the dither pattern to the world or camera rotation so it doesn't crawl when the view moves.
-1. Draw edges first; dithered images need strong outlines to stay readable.
+1. Render at a low resolution (around 640×360) and upscale with nearest filtering; at full resolution the dither is too fine and reads as flat grey.
+1. Push values to the extremes before dithering: one strong key light, mostly light surfaces and a contrast curve, so most pixels end up pure white or black and the dither only shows in transitions.
+1. Convert to greyscale and threshold against a Bayer or blue-noise matrix in a post pass; anchor the pattern to the camera rotation so it doesn't crawl when the view moves.
+1. Draw outlines from both depth and normals so edges inside objects show too; in this style the lines carry most of the form.

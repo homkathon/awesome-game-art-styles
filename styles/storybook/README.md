@@ -7,6 +7,8 @@
 > Each scene looks like a page from an illustrated children's book.<br>
 > 每个场景都像儿童绘本里的一页。
 
+What it takes: **Mostly art.** The look lives in made material; code only supports it. You need: Painted illustration layers and paper or paint textures.
+
 ## Gallery
 
 <table>
@@ -52,7 +54,7 @@ Licences change; check the pack page before you ship.
 
 ## Agent notes
 
-Steps a coding agent (or you) can follow to reproduce the look. The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section.
+Steps a coding agent (or you) can follow to reproduce the look. The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section. When it runs, put a screenshot of your scene next to the gallery above and compare values first, then palette, then detail.
 
 1. Paint backgrounds as illustrations in a few depth layers and move them with parallax.
 1. Overlay a paper or gouache texture on everything, including UI.

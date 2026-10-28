@@ -7,6 +7,8 @@
 > The world as a tabletop model: soft light, shallow depth of field, everything small and touchable.<br>
 > 把世界做成桌面模型：柔光、浅景深，一切小巧得像能摸到。
 
+What it takes: **Code only.** Simple models plus shaders and post-processing get close.
+
 ## Gallery
 
 <table>
@@ -53,7 +55,7 @@ Licences change; check the pack page before you ship.
 
 ## Agent notes
 
-Steps a coding agent (or you) can follow to reproduce the look. The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section.
+Steps a coding agent (or you) can follow to reproduce the look. The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section. When it runs, put a screenshot of your scene next to the gallery above and compare values first, then palette, then detail.
 
 1. Add depth of field with a short focus distance; blur both near and far.
 1. Enable SSAO and bevel every model edge; small rounded edges sell the toy scale.

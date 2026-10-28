@@ -7,6 +7,8 @@
 > Richly detailed painted-or-rendered backdrops with real-time characters walking through them.<br>
 > 精细的预渲染或手绘背景，实时角色在其中走动。
 
+What it takes: **Code plus assets.** The rendering is code, but it needs suitable models, textures or sprites: Offline-rendered or painted backgrounds with matching depth images.
+
 ## Gallery
 
 <table>
@@ -52,7 +54,7 @@ Licences change; check the pack page before you ship.
 
 ## Agent notes
 
-Steps a coding agent (or you) can follow to reproduce the look. The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section.
+Steps a coding agent (or you) can follow to reproduce the look. The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section. When it runs, put a screenshot of your scene next to the gallery above and compare values first, then palette, then detail.
 
 1. Render (or paint over) each background from a fixed camera, and save a matching depth image.
 1. Draw real-time characters with the same camera, testing their depth against the saved depth image so they pass behind objects.

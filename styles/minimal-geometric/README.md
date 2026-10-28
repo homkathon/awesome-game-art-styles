@@ -7,6 +7,8 @@
 > Pastel solids, orthographic or isometric cameras, architecture as puzzle.<br>
 > 粉彩几何体，正交或等距镜头，把建筑当谜题。
 
+What it takes: **Code only.** Simple models plus shaders and post-processing get close.
+
 ## Gallery
 
 <table>
@@ -42,7 +44,7 @@
 
 ## Agent notes
 
-Steps a coding agent (or you) can follow to reproduce the look. The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section.
+Steps a coding agent (or you) can follow to reproduce the look. The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section. When it runs, put a screenshot of your scene next to the gallery above and compare values first, then palette, then detail.
 
 1. Use an orthographic camera at an isometric angle.
 1. Unlit or lightly lit flat colours per face; pick a 4–6 colour pastel palette and use it everywhere.

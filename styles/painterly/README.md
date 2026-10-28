@@ -7,6 +7,8 @@
 > Visible brush strokes, painted textures and skies; light as a painter would place it.<br>
 > 笔触可见，贴图和天空都是画出来的；光照按画家的方式布置。
 
+What it takes: **Mostly art.** The look lives in made material; code only supports it. You need: Hand-painted textures, skies and backdrops.
+
 ## Gallery
 
 <table>
@@ -43,7 +45,7 @@
 
 ## Agent notes
 
-Steps a coding agent (or you) can follow to reproduce the look. The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section.
+Steps a coding agent (or you) can follow to reproduce the look. The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section. When it runs, put a screenshot of your scene next to the gallery above and compare values first, then palette, then detail.
 
 1. Paint lighting into albedo textures; keep real-time lighting simple.
 1. Use a Kuwahara or brush-stroke post filter to break up edges.

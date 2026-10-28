@@ -7,6 +7,8 @@
 > Pixel art that follows (or pretends to follow) the NES's colour and sprite limits.<br>
 > 遵守（或假装遵守）FC 颜色和精灵限制的像素画。
 
+What it takes: **Mostly art.** The look lives in made material; code only supports it. You need: Sprites and tiles drawn within NES limits.
+
 ## Gallery
 
 <table>
@@ -56,7 +58,7 @@ Licences change; check the pack page before you ship.
 
 ## Agent notes
 
-Steps a coding agent (or you) can follow to reproduce the look. The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section.
+Steps a coding agent (or you) can follow to reproduce the look. The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section. When it runs, put a screenshot of your scene next to the gallery above and compare values first, then palette, then detail.
 
 1. Restrict the palette to the NES's colours and each sprite to three colours plus transparency.
 1. Build levels from 8×8 or 16×16 tiles on a strict grid; render at 256×240 and scale by whole numbers.

@@ -7,6 +7,8 @@
 > Rounded, squishy characters in candy colours; everything looks soft to the touch.<br>
 > 圆润、软弹的角色，糖果般的颜色；一切看起来都摸着很软。
 
+What it takes: **Code only.** Simple models plus shaders and post-processing get close.
+
 ## Gallery
 
 <table>
@@ -52,7 +54,7 @@ Licences change; check the pack page before you ship.
 
 ## Agent notes
 
-Steps a coding agent (or you) can follow to reproduce the look. The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section.
+Steps a coding agent (or you) can follow to reproduce the look. The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section. When it runs, put a screenshot of your scene next to the gallery above and compare values first, then palette, then detail.
 
 1. Build characters from capsules and spheres; avoid hard edges.
 1. Use a soft hemisphere light plus a rim light, and a pastel palette with one saturated accent.

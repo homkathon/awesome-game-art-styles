@@ -7,6 +7,8 @@
 > Pixel art drawing on 80s and 90s anime and PC-98 games.<br>
 > 借鉴 80、90 年代动画和 PC-98 游戏的像素画。
 
+What it takes: **Mostly art.** The look lives in made material; code only supports it. You need: Large pixel-art character portraits.
+
 ## Gallery
 
 <table>
@@ -42,7 +44,7 @@
 
 ## Agent notes
 
-Steps a coding agent (or you) can follow to reproduce the look. The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section.
+Steps a coding agent (or you) can follow to reproduce the look. The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section. When it runs, put a screenshot of your scene next to the gallery above and compare values first, then palette, then detail.
 
 1. Make portraits the main visual; keep backgrounds simple.
 1. Use a dark base palette with one or two neon accents.

@@ -7,6 +7,8 @@
 > Uniform black outlines and flat colour fields, like a European comic album.<br>
 > 粗细均匀的黑色轮廓加平涂色块，像欧洲漫画画册。
 
+What it takes: **Code only.** Simple models plus shaders and post-processing get close.
+
 ## Gallery
 
 <table>
@@ -48,7 +50,7 @@
 
 ## Agent notes
 
-Steps a coding agent (or you) can follow to reproduce the look. The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section.
+Steps a coding agent (or you) can follow to reproduce the look. The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section. When it runs, put a screenshot of your scene next to the gallery above and compare values first, then palette, then detail.
 
 1. Use unlit materials with one flat colour each; add at most one shadow band.
 1. Run an edge-detection pass on depth and normals and draw constant-width black lines.

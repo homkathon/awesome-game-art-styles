@@ -7,6 +7,8 @@
 > The future as an earlier decade imagined it: atomic-age optimism, art deco.<br>
 > 过去年代想象中的未来：原子时代的乐观、装饰艺术风。
 
+What it takes: **Code plus assets.** The rendering is code, but it needs suitable models, textures or sprites: Period props, posters and typefaces from the chosen decade.
+
 ## Gallery
 
 <table>
@@ -42,7 +44,7 @@
 
 ## Agent notes
 
-Steps a coding agent (or you) can follow to reproduce the look. The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section.
+Steps a coding agent (or you) can follow to reproduce the look. The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section. When it runs, put a screenshot of your scene next to the gallery above and compare values first, then palette, then detail.
 
 1. Pick one decade and collect its typefaces, colours and product shapes before modelling.
 1. Put most of the style into set dressing: signs, posters, packaging, UI.

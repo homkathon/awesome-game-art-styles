@@ -7,6 +7,8 @@
 > A soft, round, cute surface wrapped around grim themes.<br>
 > 柔软、圆润、可爱的外表，包裹着阴暗的主题。
 
+What it takes: **Mostly art.** The look lives in made material; code only supports it. You need: Character designs with round shapes and big eyes.
+
 ## Gallery
 
 <table>
@@ -48,7 +50,7 @@ Licences change; check the pack page before you ship.
 
 ## Agent notes
 
-Steps a coding agent (or you) can follow to reproduce the look. The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section.
+Steps a coding agent (or you) can follow to reproduce the look. The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section. When it runs, put a screenshot of your scene next to the gallery above and compare values first, then palette, then detail.
 
 1. Design characters with round silhouettes and oversized heads and eyes.
 1. Keep the palette soft; let the darkness come from content, lighting and framing.

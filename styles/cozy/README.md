@@ -7,6 +7,8 @@
 > Small, warm, readable rooms full of objects.<br>
 > 小而温暖、一眼看懂、堆满物件的房间。
 
+What it takes: **Code plus assets.** The rendering is code, but it needs suitable models, textures or sprites: Many small props and furniture in one consistent style (asset packs work).
+
 ## Gallery
 
 <table>
@@ -47,7 +49,7 @@ Licences change; check the pack page before you ship.
 
 ## Agent notes
 
-Steps a coding agent (or you) can follow to reproduce the look. The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section.
+Steps a coding agent (or you) can follow to reproduce the look. The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section. When it runs, put a screenshot of your scene next to the gallery above and compare values first, then palette, then detail.
 
 1. Build rooms on an isometric grid; draw objects at a consistent angle.
 1. Use warm light colours and soft shadows under objects.

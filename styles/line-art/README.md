@@ -7,6 +7,8 @@
 > Black lines on white; colour as something the player adds.<br>
 > 白底黑线；颜色是玩家添上去的东西。
 
+What it takes: **Mostly art.** The look lives in made material; code only supports it. You need: Clean line drawings for every object and scene.
+
 ## Gallery
 
 <table>
@@ -42,7 +44,7 @@
 
 ## Agent notes
 
-Steps a coding agent (or you) can follow to reproduce the look. The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section.
+Steps a coding agent (or you) can follow to reproduce the look. The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section. When it runs, put a screenshot of your scene next to the gallery above and compare values first, then palette, then detail.
 
 1. Draw the world as line art on a separate layer above a colour layer.
 1. Store player-painted colour in a texture and composite it under the lines.

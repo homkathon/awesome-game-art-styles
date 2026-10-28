@@ -7,6 +7,8 @@
 > Animation traced from filmed movement, drawn with flat shapes and few colours.<br>
 > 从实拍动作描下来的动画，用平面色块和少量颜色画成。
 
+What it takes: **Mostly art.** The look lives in made material; code only supports it. You need: Reference footage and traced key frames.
+
 ## Gallery
 
 <table>
@@ -44,7 +46,7 @@
 
 ## Agent notes
 
-Steps a coding agent (or you) can follow to reproduce the look. The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section.
+Steps a coding agent (or you) can follow to reproduce the look. The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section. When it runs, put a screenshot of your scene next to the gallery above and compare values first, then palette, then detail.
 
 1. Film reference movement (yourself is fine) and trace key frames.
 1. Fill shapes with flat colour from a small palette; skip outlines or keep them thin.
