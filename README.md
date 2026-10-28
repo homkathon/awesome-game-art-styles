@@ -174,6 +174,17 @@ Free or cheap packs that work across several styles. Licences were checked on 20
 | [t3ssel8r](https://www.youtube.com/@t3ssel8r) | Video channel | Pixel-art look in real-time 3D. |
 | [Lospec palette list](https://lospec.com/palette-list) | Palette library | Palettes for pixel art and limited-colour styles. |
 
+## Popular X posts (curated)
+
+Creator-authored posts showing *how* a game-art effect works, not just finished screenshots. These are hand-picked technical references, **not a real-time popularity ranking**; engagement counts change and are not consistently accessible. Original posts checked on 2026-10-28.
+
+| Post | Creator · date | Technique | Relevant style |
+|:--|:--|:--|:--|
+| [Fake volumetric smoke](https://x.com/Tuatara_Games/status/2019471084375130140) | TUATARA · 2026-02-05 | Camera-facing, world-deformed mesh with unlit shading and normal-map directional lighting | [Silhouette](styles/silhouette/) |
+| [Analytical ambient occlusion](https://x.com/florisium/status/1975506073319567393) | Florisium · 2025-10-07 | Shape-based AO for dynamic objects without screen-space sampling; performance notes for mobile | [Toy diorama](styles/toy-diorama/) |
+| [Pixel-art waterfall breakdown](https://x.com/lunoland/status/1068933280005844992) | Luno · 2018-12-01 | Sprite layers, texel-snapped UV distortion, lighting and particles | [Pixel art](styles/pixel-art/) |
+| [Shoreline shader mini-breakdown](https://x.com/Cyanilux/status/1252298028607774721) | Cyanilux · 2020-04-20 | Depth-aware shoreline foam and water-edge effects inspired by Animal Crossing | [Cozy](styles/cozy/) |
+
 ## Related lists
 
 - [awesome-cc0](https://github.com/madjin/awesome-cc0) - Public-domain assets.

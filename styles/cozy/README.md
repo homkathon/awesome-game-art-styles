@@ -34,6 +34,10 @@
 
 - [Unpacking](https://store.steampowered.com/app/1135690/)
 
+## Learn
+
+- [Animal Crossing-style shoreline shader breakdown](https://x.com/Cyanilux/status/1252298028607774721) · Cyanilux (X technique thread)
+
 ## Free assets to start with
 
 - [LimeZu Modern Interiors](https://limezu.itch.io/moderninteriors) · paid, credit required

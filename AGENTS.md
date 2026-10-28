@@ -23,6 +23,8 @@ Do these in order. Stop after step 4 if there is nothing to do; an empty week is
    Remove a style from Wanted once it is added.
 4. **Add resources** only if they teach a technique (tutorials, talks, breakdowns, shader libraries) or are asset libraries
    with a clear licence. Add them to `LEARN` / `ASSETS` and reference them from the relevant styles.
+   For the **Popular X posts** table, look for creator-authored technical threads; verify the canonical post via X's public embed metadata, and update both language files. Treat it as a hand-curated selection, not a live ranking.
+   Never invent popularity metrics or add posts that only promote a game without explaining a technique.
 5. Run `python3 tools/build.py`, then open a pull request titled `Weekly update: <date>` listing what changed and why.
    Do not push to `main` directly.
 

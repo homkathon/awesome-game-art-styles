@@ -41,6 +41,7 @@
 ## Learn
 
 - [Lospec palette list](https://lospec.com/palette-list) · Lospec
+- [Pixel-art waterfall: sprites, shaders and particles](https://x.com/lunoland/status/1068933280005844992) · Luno (X technique thread)
 
 ## Free assets to start with
 

@@ -29,4 +29,15 @@
 | [t3ssel8r](https://www.youtube.com/@t3ssel8r) | 视频频道 | 实时 3D 中的像素画观感。 |
 | [Lospec palette list](https://lospec.com/palette-list) | 调色板库 | 像素画和限色风格的调色板。 |
 
+## X 热门技术帖精选
+
+优先收录作者亲自讲解制作方法的游戏美术 / Shader 帖子，而非单纯展示成品的截图。**人工精选，不是按实时点赞量排名**；互动数据不稳定，因此不显示未经核实的热度数字。原帖于 2026-10-28 核实。
+
+| 帖子 | 作者 · 日期 | 值得学习的技术 | 关联画风 |
+|---|---|---|---|
+| [低成本假体积烟雾](https://x.com/Tuatara_Games/status/2019471084375130140) | TUATARA · 2026-02-05 | 面向镜头的网格、空间形变、无光照材质与法线贴图假方向光 | [剪影](styles/silhouette/) |
+| [移动端解析式环境光遮蔽](https://x.com/florisium/status/1975506073319567393) | Florisium · 2025-10-07 | 用几何体遮蔽函数替代屏幕空间采样，并分析移动端性能 | [玩具微缩景](styles/toy-diorama/) |
+| [像素瀑布拆解](https://x.com/lunoland/status/1068933280005844992) | Luno · 2018-12-01 | 精灵图分层、逐像素 UV 扰动、光照与粒子效果 | [像素画](styles/pixel-art/) |
+| [海岸线 Shader 拆解](https://x.com/Cyanilux/status/1252298028607774721) | Cyanilux · 2020-04-20 | 受《动物森友会》启发的岸边浪花与水体边缘效果 | [温馨风格](styles/cozy/) |
+
 更多相关列表、待补充风格和贡献方式见[英文版 README](README.md#related-lists)。

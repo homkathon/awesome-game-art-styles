@@ -39,6 +39,10 @@
 - [Townscaper](https://store.steampowered.com/app/1291340/)
 - [Hitman GO](https://store.steampowered.com/app/427820/)
 
+## Learn
+
+- [Analytical ambient occlusion for mobile scenes](https://x.com/florisium/status/1975506073319567393) · Florisium (X technical thread)
+
 ## Free assets to start with
 
 - [KayKit](https://kaylousberg.itch.io/furniture-bits) · CC0

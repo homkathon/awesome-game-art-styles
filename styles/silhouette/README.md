@@ -37,6 +37,10 @@
 - [LIMBO](https://store.steampowered.com/app/48000/)
 - [INSIDE](https://store.steampowered.com/app/304430/)
 
+## Learn
+
+- [Fake volumetric smoke: billboard mesh + normal-map lighting](https://x.com/Tuatara_Games/status/2019471084375130140) · TUATARA (X technique post)
+
 ## Similar styles
 
 - [1-bit / dithered](../1-bit/) · 1-bit 抖动
