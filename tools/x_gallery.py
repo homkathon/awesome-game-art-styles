@@ -77,14 +77,14 @@ def render():
             if sha256(videopath.read_bytes()).hexdigest() != media.get('sha256'):
                 raise ValueError('Checksum mismatch for video: ' + expected)
             video = (f'<div class="player ready local"><video controls playsinline preload="metadata" '
-                     f'aria-label="{escape(a["title"], quote=True)}" src="media/{a["id"]}.mp4">'
+                     f'aria-label="{escape(a["title"], quote=True)}" poster="previews/{a["id"]}.jpg" src="media/{a["id"]}.mp4">'
                      f'<span class="en">Video unsupported by this browser.</span>'
                      f'<span class="zh">浏览器不支持视频播放。</span></video></div>')
             download = (f'<a class="download" href="media/{a["id"]}.mp4" download>'
                         '<span class="en">Download MP4 ↓</span><span class="zh">下载 MP4 ↓</span></a>')
             total_videos += 1
         else:
-            video = (f'<div class="player" id="post-{a["id"]}"><button class="load" type="button" '
+            video = (f'<div class="player"><button class="load" type="button" '
                      f'data-id="{a["id"]}"><span class="play-icon" aria-hidden="true">▶</span>'
                      '<span class="en">Load original X post</span>'
                      '<span class="zh">加载 X 图文原帖</span></button></div>')
@@ -92,7 +92,7 @@ def render():
         quotation = (f'<details class="post-quote"><summary><span class="en">Original post text</span>'
                      f'<span class="zh">原帖原文</span></summary>'
                      f'<blockquote lang="en">{escape(original)}</blockquote></details>') if original else ''
-        rows.append(f'''<article class="post" data-group="{idx}">
+        rows.append(f'''<article class="post" id="post-{a['id']}" data-group="{idx}">
   <div class="post-top"><span class="category en">{escape(a['group'])}</span><span class="category zh">{escape(b['group'])}</span><span class="date">{a['date']}</span></div>
   <h2 class="en">{escape(a['title'])}</h2><h2 class="zh">{escape(b['title'])}</h2>
   <p class="technique en">{escape(a['technique'])}</p><p class="technique zh">{escape(b['technique'])}</p>

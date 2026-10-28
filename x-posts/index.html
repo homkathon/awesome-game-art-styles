@@ -37,6 +37,7 @@
     .grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:17px; margin:4px 0 86px; }
     .post { display:flex; flex-direction:column; min-width:0; border:1px solid var(--line); border-radius:15px; background:var(--panel); padding:22px; }
     .post[hidden] { display:none; }
+    .post { scroll-margin-top:24px; }
     .post-top { display:flex; align-items:center; justify-content:space-between; gap:12px; color:var(--muted); font-size:11px; }
     .category { color:var(--accent); font-weight:650; letter-spacing:.02em; }
     .post h2 { font-size:21px; line-height:1.3; letter-spacing:-.025em; margin:17px 0 8px; }
@@ -74,23 +75,23 @@
       <div class="stats"><span><strong>17</strong><span class="en">local videos</span><span class="zh">条本地视频</span></span><span><strong>22</strong><span class="en">original posts</span><span class="zh">条原帖</span></span><span><strong>5</strong><span class="en">collections</span><span class="zh">个专题</span></span></div>
     </section>
     <nav class="filterbar" aria-label="Collections"><button class="filter" type="button" data-filter="all" aria-pressed="true"><span class="en">All posts</span><span class="zh">全部</span><span class="group-count">22</span></button><button class="filter" type="button" data-filter="0" aria-pressed="false"><span class="en">Water &amp; atmosphere</span><span class="zh">水体与氛围</span><span class="group-count">5</span></button><button class="filter" type="button" data-filter="1" aria-pressed="false"><span class="en">Lighting &amp; stylized rendering</span><span class="zh">光照与风格化渲染</span><span class="group-count">4</span></button><button class="filter" type="button" data-filter="2" aria-pressed="false"><span class="en">Materials &amp; procedural worlds</span><span class="zh">材质与程序化场景</span><span class="group-count">5</span></button><button class="filter" type="button" data-filter="3" aria-pressed="false"><span class="en">VFX &amp; destruction</span><span class="zh">特效与破碎</span><span class="group-count">5</span></button><button class="filter" type="button" data-filter="4" aria-pressed="false"><span class="en">Pixel art &amp; 2D</span><span class="zh">像素与 2D</span><span class="group-count">3</span></button></nav>
-    <div class="grid" id="posts"><article class="post" data-group="0">
+    <div class="grid" id="posts"><article class="post" id="post-1864638156588400707" data-group="0">
   <div class="post-top"><span class="category en">Water &amp; atmosphere</span><span class="category zh">水体与氛围</span><span class="date">2024-12-05</span></div>
   <h2 class="en">Shoreline shader redux</h2><h2 class="zh">海岸线 Shader 新版</h2>
   <p class="technique en">Coastal wave and wet-sand treatment; follow-up tutorial linked from the post</p><p class="technique zh">海浪、岸边泡沫与湿沙的着色效果，原帖评论附教程</p>
   <p class="attribution"><span>@Cyanilux</span><span aria-hidden="true">·</span><a href="../styles/cozy/"><span class="en">Cozy interiors</span><span class="zh">温馨室内像素</span></a></p>
-  <div class="player ready local"><video controls playsinline preload="metadata" aria-label="Shoreline shader redux" src="media/1864638156588400707.mp4"><span class="en">Video unsupported by this browser.</span><span class="zh">浏览器不支持视频播放。</span></video></div>
+  <div class="player ready local"><video controls playsinline preload="metadata" aria-label="Shoreline shader redux" poster="previews/1864638156588400707.jpg" src="media/1864638156588400707.mp4"><span class="en">Video unsupported by this browser.</span><span class="zh">浏览器不支持视频播放。</span></video></div>
   <details class="post-quote"><summary><span class="en">Original post text</span><span class="zh">原帖原文</span></summary><blockquote lang="en">Remade a shoreline shader I made years ago 🌊🏖️
 (tutorial linked in comments)#unity3D #madewithunity #shaders #shadergraph pic.twitter.com/ocw6nwMPa0</blockquote></details>
   <a class="download" href="media/1864638156588400707.mp4" download><span class="en">Download MP4 ↓</span><span class="zh">下载 MP4 ↓</span></a>
   <a class="original" href="https://x.com/Cyanilux/status/1864638156588400707" target="_blank" rel="noopener noreferrer"><span class="en">Open original on X ↗</span><span class="zh">在 X 查看原帖 ↗</span></a>
 </article>
-<article class="post" data-group="0">
+<article class="post" id="post-1252298028607774721" data-group="0">
   <div class="post-top"><span class="category en">Water &amp; atmosphere</span><span class="category zh">水体与氛围</span><span class="date">2020-04-20</span></div>
   <h2 class="en">Shoreline shader mini-breakdown</h2><h2 class="zh">海岸线 Shader 原理拆解</h2>
   <p class="technique en">Depth-aware shoreline foam and water edges inspired by Animal Crossing</p><p class="technique zh">受《动物森友会》启发的水深感知岸边浪花与水面边缘</p>
   <p class="attribution"><span>@Cyanilux</span><span aria-hidden="true">·</span><a href="../styles/cozy/"><span class="en">Cozy interiors</span><span class="zh">温馨室内像素</span></a></p>
-  <div class="player" id="post-1252298028607774721"><button class="load" type="button" data-id="1252298028607774721"><span class="play-icon" aria-hidden="true">▶</span><span class="en">Load original X post</span><span class="zh">加载 X 图文原帖</span></button></div>
+  <div class="player"><button class="load" type="button" data-id="1252298028607774721"><span class="play-icon" aria-hidden="true">▶</span><span class="en">Load original X post</span><span class="zh">加载 X 图文原帖</span></button></div>
   <details class="post-quote"><summary><span class="en">Original post text</span><span class="zh">原帖原文</span></summary><blockquote lang="en">Hey all, wanted to share some info about how the shoreline shader is done. (This is a slightly simplified version).
 
 (note : while it&#x27;s based visually on the ACNH shoreline, it&#x27;s probably not exactly the same way they are handling it) 😄
@@ -99,45 +100,45 @@ See thread!! 🌊🏝️ #unity3D #shadergraph pic.twitter.com/DyWNSTKoUc</block
 
   <a class="original" href="https://x.com/Cyanilux/status/1252298028607774721" target="_blank" rel="noopener noreferrer"><span class="en">Open original on X ↗</span><span class="zh">在 X 查看原帖 ↗</span></a>
 </article>
-<article class="post" data-group="0">
+<article class="post" id="post-1581210772352290818" data-group="0">
   <div class="post-top"><span class="category en">Water &amp; atmosphere</span><span class="category zh">水体与氛围</span><span class="date">2022-10-15</span></div>
   <h2 class="en">Gerstner-wave ocean</h2><h2 class="zh">Gerstner 波浪海面</h2>
   <p class="technique en">Stylized ocean wave displacement using Gerstner waves</p><p class="technique zh">用 Gerstner 波叠加位移塑造风格化海面</p>
   <p class="attribution"><span>@Cyanilux</span><span aria-hidden="true">·</span><a href="../styles/flat-colour-3d/"><span class="en">Flat-colour graphic 3D</span><span class="zh">平涂图形化 3D</span></a></p>
-  <div class="player ready local"><video controls playsinline preload="metadata" aria-label="Gerstner-wave ocean" src="media/1581210772352290818.mp4"><span class="en">Video unsupported by this browser.</span><span class="zh">浏览器不支持视频播放。</span></video></div>
+  <div class="player ready local"><video controls playsinline preload="metadata" aria-label="Gerstner-wave ocean" poster="previews/1581210772352290818.jpg" src="media/1581210772352290818.mp4"><span class="en">Video unsupported by this browser.</span><span class="zh">浏览器不支持视频播放。</span></video></div>
   <details class="post-quote"><summary><span class="en">Original post text</span><span class="zh">原帖原文</span></summary><blockquote lang="en">Been experimenting with Gerstner Waves, very happy with the result!✨
 Water shaders are the best~ 🌊🛟#unity3D #madewithunity #shaders #vfx pic.twitter.com/F3NLLzccMO</blockquote></details>
   <a class="download" href="media/1581210772352290818.mp4" download><span class="en">Download MP4 ↓</span><span class="zh">下载 MP4 ↓</span></a>
   <a class="original" href="https://x.com/Cyanilux/status/1581210772352290818" target="_blank" rel="noopener noreferrer"><span class="en">Open original on X ↗</span><span class="zh">在 X 查看原帖 ↗</span></a>
 </article>
-<article class="post" data-group="0">
+<article class="post" id="post-1770095395848237506" data-group="0">
   <div class="post-top"><span class="category en">Water &amp; atmosphere</span><span class="category zh">水体与氛围</span><span class="date">2024-03-19</span></div>
   <h2 class="en">2.5D water with sprite reflections</h2><h2 class="zh">2.5D 水面与精灵反射</h2>
   <p class="technique en">Top-down water shader with reflected pixel-art sprites</p><p class="technique zh">俯视水体 Shader 与像素精灵倒影</p>
   <p class="attribution"><span>@Cyanilux</span><span aria-hidden="true">·</span><a href="../styles/hd-2d/"><span class="en">HD-2D</span><span class="zh">HD-2D</span></a></p>
-  <div class="player ready local"><video controls playsinline preload="metadata" aria-label="2.5D water with sprite reflections" src="media/1770095395848237506.mp4"><span class="en">Video unsupported by this browser.</span><span class="zh">浏览器不支持视频播放。</span></video></div>
+  <div class="player ready local"><video controls playsinline preload="metadata" aria-label="2.5D water with sprite reflections" poster="previews/1770095395848237506.jpg" src="media/1770095395848237506.mp4"><span class="en">Video unsupported by this browser.</span><span class="zh">浏览器不支持视频播放。</span></video></div>
   <details class="post-quote"><summary><span class="en">Original post text</span><span class="zh">原帖原文</span></summary><blockquote lang="en">Random 2.5d water shader experiment with sprite reflections 🌊🤔
 (pixel art is from a free asset pack by Cainos)#unity3D #shaders pic.twitter.com/u7PKY8MRil</blockquote></details>
   <a class="download" href="media/1770095395848237506.mp4" download><span class="en">Download MP4 ↓</span><span class="zh">下载 MP4 ↓</span></a>
   <a class="original" href="https://x.com/Cyanilux/status/1770095395848237506" target="_blank" rel="noopener noreferrer"><span class="en">Open original on X ↗</span><span class="zh">在 X 查看原帖 ↗</span></a>
 </article>
-<article class="post" data-group="0">
+<article class="post" id="post-1495405379253116930" data-group="0">
   <div class="post-top"><span class="category en">Water &amp; atmosphere</span><span class="category zh">水体与氛围</span><span class="date">2022-02-20</span></div>
   <h2 class="en">Procedural aurora</h2><h2 class="zh">程序化极光</h2>
   <p class="technique en">Displaced subdivided quads, gradients, scrolling noise and distance fade</p><p class="technique zh">细分面片位移、渐变、滚动噪声与远处淡出</p>
   <p class="attribution"><span>@Cyanilux</span><span aria-hidden="true">·</span><a href="../styles/neon-abstract/"><span class="en">Neon abstract</span><span class="zh">霓虹抽象</span></a></p>
-  <div class="player ready local"><video controls playsinline preload="metadata" aria-label="Procedural aurora" src="media/1495405379253116930.mp4"><span class="en">Video unsupported by this browser.</span><span class="zh">浏览器不支持视频播放。</span></video></div>
+  <div class="player ready local"><video controls playsinline preload="metadata" aria-label="Procedural aurora" poster="previews/1495405379253116930.jpg" src="media/1495405379253116930.mp4"><span class="en">Video unsupported by this browser.</span><span class="zh">浏览器不支持视频播放。</span></video></div>
   <details class="post-quote"><summary><span class="en">Original post text</span><span class="zh">原帖原文</span></summary><blockquote lang="en">Aurora, made as part of @HarryAlisavakis&#x27; discord #TechnicallyAChallenge
 I went for the simpler method of displacing long subdivided quads, w/ gradient, scrolling noise &amp; fading at a distance. Also a bunch of post processing effects 🌌✨#unity3D #shaders pic.twitter.com/l1jDfQiMNw</blockquote></details>
   <a class="download" href="media/1495405379253116930.mp4" download><span class="en">Download MP4 ↓</span><span class="zh">下载 MP4 ↓</span></a>
   <a class="original" href="https://x.com/Cyanilux/status/1495405379253116930" target="_blank" rel="noopener noreferrer"><span class="en">Open original on X ↗</span><span class="zh">在 X 查看原帖 ↗</span></a>
 </article>
-<article class="post" data-group="1">
+<article class="post" id="post-1975506073319567393" data-group="1">
   <div class="post-top"><span class="category en">Lighting &amp; stylized rendering</span><span class="category zh">光照与风格化渲染</span><span class="date">2025-10-07</span></div>
   <h2 class="en">Analytical ambient occlusion</h2><h2 class="zh">解析式环境光遮蔽</h2>
   <p class="technique en">Primitive-based analytical AO technique and scene comparison (technical thread)</p><p class="technique zh">基于几何体的解析式 AO 技术及场景前后对比（技术长帖）</p>
   <p class="attribution"><span>@florisium</span><span aria-hidden="true">·</span><a href="../styles/toy-diorama/"><span class="en">Toy diorama / tilt-shift</span><span class="zh">玩具微缩景</span></a></p>
-  <div class="player" id="post-1975506073319567393"><button class="load" type="button" data-id="1975506073319567393"><span class="play-icon" aria-hidden="true">▶</span><span class="en">Load original X post</span><span class="zh">加载 X 图文原帖</span></button></div>
+  <div class="player"><button class="load" type="button" data-id="1975506073319567393"><span class="play-icon" aria-hidden="true">▶</span><span class="en">Load original X post</span><span class="zh">加载 X 图文原帖</span></button></div>
   <details class="post-quote"><summary><span class="en">Original post text</span><span class="zh">原帖原文</span></summary><blockquote lang="en">A bit technical thread 🧵
 
 I’ve been improving the in-game ambient occlusion system - and ended up with something I call:
@@ -150,174 +151,174 @@ Here’s what it does to the final image:
 
   <a class="original" href="https://x.com/florisium/status/1975506073319567393" target="_blank" rel="noopener noreferrer"><span class="en">Open original on X ↗</span><span class="zh">在 X 查看原帖 ↗</span></a>
 </article>
-<article class="post" data-group="1">
+<article class="post" id="post-1783442615939297380" data-group="1">
   <div class="post-top"><span class="category en">Lighting &amp; stylized rendering</span><span class="category zh">光照与风格化渲染</span><span class="date">2024-04-25</span></div>
   <h2 class="en">Billboarded light shafts</h2><h2 class="zh">面片假体积光</h2>
   <p class="technique en">Light-aligned billboard quads, shadow masking and depth fading</p><p class="technique zh">沿光方向拉伸面片、阴影遮罩与深度淡出</p>
   <p class="attribution"><span>@Cyanilux</span><span aria-hidden="true">·</span><a href="../styles/silhouette/"><span class="en">Silhouette noir</span><span class="zh">剪影黑白</span></a></p>
-  <div class="player ready local"><video controls playsinline preload="metadata" aria-label="Billboarded light shafts" src="media/1783442615939297380.mp4"><span class="en">Video unsupported by this browser.</span><span class="zh">浏览器不支持视频播放。</span></video></div>
+  <div class="player ready local"><video controls playsinline preload="metadata" aria-label="Billboarded light shafts" poster="previews/1783442615939297380.jpg" src="media/1783442615939297380.mp4"><span class="en">Video unsupported by this browser.</span><span class="zh">浏览器不支持视频播放。</span></video></div>
   <details class="post-quote"><summary><span class="en">Original post text</span><span class="zh">原帖原文</span></summary><blockquote lang="en">Made some light rays ✨
 Basically billboarded quads stretched in light direction, though lots of masking to get right too (hide in shadow, light cookie, fade at sides/bottom, depth fade)#unity3D #madewithunity #shaders #gamedev pic.twitter.com/Bs5SBuxeWo</blockquote></details>
   <a class="download" href="media/1783442615939297380.mp4" download><span class="en">Download MP4 ↓</span><span class="zh">下载 MP4 ↓</span></a>
   <a class="original" href="https://x.com/Cyanilux/status/1783442615939297380" target="_blank" rel="noopener noreferrer"><span class="en">Open original on X ↗</span><span class="zh">在 X 查看原帖 ↗</span></a>
 </article>
-<article class="post" data-group="1">
+<article class="post" id="post-1362466015976783872" data-group="1">
   <div class="post-top"><span class="category en">Lighting &amp; stylized rendering</span><span class="category zh">光照与风格化渲染</span><span class="date">2021-02-18</span></div>
   <h2 class="en">Dungeons of Hinterberg: outlines</h2><h2 class="zh">《辛特堡传说》描边拆解</h2>
   <p class="technique en">Technical thread on outlines with controllable width and placement</p><p class="technique zh">技术长帖：如何控制风格化描边的宽度和位置</p>
   <p class="attribution"><span>@PhilippSeifried</span><span aria-hidden="true">·</span><a href="../styles/ligne-claire/"><span class="en">Ligne claire / Moebius</span><span class="zh">清线 / 墨比斯</span></a></p>
-  <div class="player ready local"><video controls playsinline preload="metadata" aria-label="Dungeons of Hinterberg: outlines" src="media/1362466015976783872.mp4"><span class="en">Video unsupported by this browser.</span><span class="zh">浏览器不支持视频播放。</span></video></div>
+  <div class="player ready local"><video controls playsinline preload="metadata" aria-label="Dungeons of Hinterberg: outlines" poster="previews/1362466015976783872.jpg" src="media/1362466015976783872.mp4"><span class="en">Video unsupported by this browser.</span><span class="zh">浏览器不支持视频播放。</span></video></div>
   <details class="post-quote"><summary><span class="en">Original post text</span><span class="zh">原帖原文</span></summary><blockquote lang="en">1/18 Here’s our second tech art thread on the stylized rendering of “Dungeons of #Hinterberg”. This time, I’ll talk about how we do our outlines!
 If an indie mix of Zelda-like/ARPG and Persona-style social sim is your jam, follow us at @MicrobirdGames. #gamedev #indiedev pic.twitter.com/hewBr7ewh0</blockquote></details>
   <a class="download" href="media/1362466015976783872.mp4" download><span class="en">Download MP4 ↓</span><span class="zh">下载 MP4 ↓</span></a>
   <a class="original" href="https://x.com/PhilippSeifried/status/1362466015976783872" target="_blank" rel="noopener noreferrer"><span class="en">Open original on X ↗</span><span class="zh">在 X 查看原帖 ↗</span></a>
 </article>
-<article class="post" data-group="1">
+<article class="post" id="post-1354827696707002384" data-group="1">
   <div class="post-top"><span class="category en">Lighting &amp; stylized rendering</span><span class="category zh">光照与风格化渲染</span><span class="date">2021-01-28</span></div>
   <h2 class="en">Dungeons of Hinterberg: stylized rendering</h2><h2 class="zh">《辛特堡传说》风格化渲染</h2>
   <p class="technique en">Custom deferred rendering with material IDs stored in a G-buffer</p><p class="technique zh">自定义延迟渲染，利用 G-buffer 中的材质 ID 控制风格</p>
   <p class="attribution"><span>@PhilippSeifried</span><span aria-hidden="true">·</span><a href="../styles/toon/"><span class="en">Cel-shaded / toon</span><span class="zh">卡通渲染</span></a></p>
-  <div class="player ready local"><video controls playsinline preload="metadata" aria-label="Dungeons of Hinterberg: stylized rendering" src="media/1354827696707002384.mp4"><span class="en">Video unsupported by this browser.</span><span class="zh">浏览器不支持视频播放。</span></video></div>
+  <div class="player ready local"><video controls playsinline preload="metadata" aria-label="Dungeons of Hinterberg: stylized rendering" poster="previews/1354827696707002384.jpg" src="media/1354827696707002384.mp4"><span class="en">Video unsupported by this browser.</span><span class="zh">浏览器不支持视频播放。</span></video></div>
   <details class="post-quote"><summary><span class="en">Original post text</span><span class="zh">原帖原文</span></summary><blockquote lang="en">1/x Over the next weeks, I want to post a few threads about the stylized rendering we’ve implemented for our game “Dungeons of #Hinterberg”. I’ll start with an overview, but I&#x27;ll get pretty technical. Follow @MicrobirdGames, if you think the game looks rad! :)#gamedev #indiedev pic.twitter.com/bOrQIryUVm</blockquote></details>
   <a class="download" href="media/1354827696707002384.mp4" download><span class="en">Download MP4 ↓</span><span class="zh">下载 MP4 ↓</span></a>
   <a class="original" href="https://x.com/PhilippSeifried/status/1354827696707002384" target="_blank" rel="noopener noreferrer"><span class="en">Open original on X ↗</span><span class="zh">在 X 查看原帖 ↗</span></a>
 </article>
-<article class="post" data-group="2">
+<article class="post" id="post-1407727586986311687" data-group="2">
   <div class="post-top"><span class="category en">Materials &amp; procedural worlds</span><span class="category zh">材质与程序化场景</span><span class="date">2021-06-23</span></div>
   <h2 class="en">Stained glass and volumetric rays</h2><h2 class="zh">彩色玻璃与体积光</h2>
   <p class="technique en">Glass-pane shading combined with ray-marched shafts of light</p><p class="technique zh">玻璃片分区着色与 Ray Marching 光束结合</p>
   <p class="attribution"><span>@Cyanilux</span><span aria-hidden="true">·</span><a href="../styles/stained-glass/"><span class="en">Stained glass</span><span class="zh">彩色玻璃</span></a></p>
-  <div class="player ready local"><video controls playsinline preload="metadata" aria-label="Stained glass and volumetric rays" src="media/1407727586986311687.mp4"><span class="en">Video unsupported by this browser.</span><span class="zh">浏览器不支持视频播放。</span></video></div>
+  <div class="player ready local"><video controls playsinline preload="metadata" aria-label="Stained glass and volumetric rays" poster="previews/1407727586986311687.jpg" src="media/1407727586986311687.mp4"><span class="en">Video unsupported by this browser.</span><span class="zh">浏览器不支持视频播放。</span></video></div>
   <details class="post-quote"><summary><span class="en">Original post text</span><span class="zh">原帖原文</span></summary><blockquote lang="en">Have been playing around a little with Stained Glass shaders, and some volumetric ray-marched light... rays, I guess. ☀️🪟
 Made as part of @HarryAlisavakis&#x27; #TechnicallyAChallenge pic.twitter.com/PQoPm0Vb9j</blockquote></details>
   <a class="download" href="media/1407727586986311687.mp4" download><span class="en">Download MP4 ↓</span><span class="zh">下载 MP4 ↓</span></a>
   <a class="original" href="https://x.com/Cyanilux/status/1407727586986311687" target="_blank" rel="noopener noreferrer"><span class="en">Open original on X ↗</span><span class="zh">在 X 查看原帖 ↗</span></a>
 </article>
-<article class="post" data-group="2">
+<article class="post" id="post-1376949139838275584" data-group="2">
   <div class="post-top"><span class="category en">Materials &amp; procedural worlds</span><span class="category zh">材质与程序化场景</span><span class="date">2021-03-30</span></div>
   <h2 class="en">Holographic foil shader</h2><h2 class="zh">镭射烫金材质</h2>
   <p class="technique en">Rainbow texture with view-direction-based tangent-space UV parallax</p><p class="technique zh">彩虹贴图配合切线空间视线方向 UV 视差</p>
   <p class="attribution"><span>@Cyanilux</span><span aria-hidden="true">·</span><a href="../styles/retro-futurism/"><span class="en">Retro-futurism</span><span class="zh">复古未来主义</span></a></p>
-  <div class="player ready local"><video controls playsinline preload="metadata" aria-label="Holographic foil shader" src="media/1376949139838275584.mp4"><span class="en">Video unsupported by this browser.</span><span class="zh">浏览器不支持视频播放。</span></video></div>
+  <div class="player ready local"><video controls playsinline preload="metadata" aria-label="Holographic foil shader" poster="previews/1376949139838275584.jpg" src="media/1376949139838275584.mp4"><span class="en">Video unsupported by this browser.</span><span class="zh">浏览器不支持视频播放。</span></video></div>
   <details class="post-quote"><summary><span class="en">Original post text</span><span class="zh">原帖原文</span></summary><blockquote lang="en">Wanted to try making a holographic foil effect 🌈✨~
 
 Basically just using a rainbow texture with parallax (uvs offset with tangent space view dir)#unity3D #shaders #shadergraph pic.twitter.com/DFC2a6pqQC</blockquote></details>
   <a class="download" href="media/1376949139838275584.mp4" download><span class="en">Download MP4 ↓</span><span class="zh">下载 MP4 ↓</span></a>
   <a class="original" href="https://x.com/Cyanilux/status/1376949139838275584" target="_blank" rel="noopener noreferrer"><span class="en">Open original on X ↗</span><span class="zh">在 X 查看原帖 ↗</span></a>
 </article>
-<article class="post" data-group="2">
+<article class="post" id="post-1396848736022802435" data-group="2">
   <div class="post-top"><span class="category en">Materials &amp; procedural worlds</span><span class="category zh">材质与程序化场景</span><span class="date">2021-05-24</span></div>
   <h2 class="en">GPU-instanced grass with Shader Graph</h2><h2 class="zh">Shader Graph GPU 草地</h2>
   <p class="technique en">Graphics.DrawMeshInstancedIndirect with Unity Shader Graph</p><p class="technique zh">Unity Shader Graph 配合 DrawMeshInstancedIndirect 草地实例化</p>
   <p class="attribution"><span>@Cyanilux</span><span aria-hidden="true">·</span><a href="../styles/low-poly/"><span class="en">Low-poly</span><span class="zh">低多边形</span></a></p>
-  <div class="player ready local"><video controls playsinline preload="metadata" aria-label="GPU-instanced grass with Shader Graph" src="media/1396848736022802435.mp4"><span class="en">Video unsupported by this browser.</span><span class="zh">浏览器不支持视频播放。</span></video></div>
+  <div class="player ready local"><video controls playsinline preload="metadata" aria-label="GPU-instanced grass with Shader Graph" poster="previews/1396848736022802435.jpg" src="media/1396848736022802435.mp4"><span class="en">Video unsupported by this browser.</span><span class="zh">浏览器不支持视频播放。</span></video></div>
   <details class="post-quote"><summary><span class="en">Original post text</span><span class="zh">原帖原文</span></summary><blockquote lang="en">Experimenting with GPU instanced grass, 🌱 #unity3d
 Drawn with Graphics.DrawMeshInstancedIndirect, and using #shadergraph (v10). While the roadmap mentions there isn&#x27;t proper support for it, it wasn&#x27;t actually that hard to handle it~ pic.twitter.com/tfrpvughxR</blockquote></details>
   <a class="download" href="media/1396848736022802435.mp4" download><span class="en">Download MP4 ↓</span><span class="zh">下载 MP4 ↓</span></a>
   <a class="original" href="https://x.com/Cyanilux/status/1396848736022802435" target="_blank" rel="noopener noreferrer"><span class="en">Open original on X ↗</span><span class="zh">在 X 查看原帖 ↗</span></a>
 </article>
-<article class="post" data-group="2">
+<article class="post" id="post-1618030887412862977" data-group="2">
   <div class="post-top"><span class="category en">Materials &amp; procedural worlds</span><span class="category zh">材质与程序化场景</span><span class="date">2023-01-24</span></div>
   <h2 class="en">Procedural ivy on curves</h2><h2 class="zh">沿曲线生长的常春藤</h2>
   <p class="technique en">Blender Geometry Nodes distributing ivy leaves along hand-drawn curves</p><p class="technique zh">用 Blender Geometry Nodes 沿手绘曲线布置藤叶</p>
   <p class="attribution"><span>@Cyanilux</span><span aria-hidden="true">·</span><a href="../styles/low-poly/"><span class="en">Low-poly</span><span class="zh">低多边形</span></a></p>
-  <div class="player" id="post-1618030887412862977"><button class="load" type="button" data-id="1618030887412862977"><span class="play-icon" aria-hidden="true">▶</span><span class="en">Load original X post</span><span class="zh">加载 X 图文原帖</span></button></div>
+  <div class="player"><button class="load" type="button" data-id="1618030887412862977"><span class="play-icon" aria-hidden="true">▶</span><span class="en">Load original X post</span><span class="zh">加载 X 图文原帖</span></button></div>
   <details class="post-quote"><summary><span class="en">Original post text</span><span class="zh">原帖原文</span></summary><blockquote lang="en">First time using #geometrynodes, adding ivy leaves to pre-drawn curves🌿#b3d pic.twitter.com/YX9c9wbcTq</blockquote></details>
 
   <a class="original" href="https://x.com/Cyanilux/status/1618030887412862977" target="_blank" rel="noopener noreferrer"><span class="en">Open original on X ↗</span><span class="zh">在 X 查看原帖 ↗</span></a>
 </article>
-<article class="post" data-group="2">
+<article class="post" id="post-1251916279205814272" data-group="2">
   <div class="post-top"><span class="category en">Materials &amp; procedural worlds</span><span class="category zh">材质与程序化场景</span><span class="date">2020-04-19</span></div>
   <h2 class="en">World-bending Shader Graph subgraph</h2><h2 class="zh">世界弯曲 Shader Graph</h2>
   <p class="technique en">Shader Graph deformation with C# toggles between editor and game</p><p class="technique zh">Shader Graph 弯曲子图，并通过 C# 关键字控制运行时启用</p>
   <p class="attribution"><span>@Cyanilux</span><span aria-hidden="true">·</span><a href="../styles/toy-diorama/"><span class="en">Toy diorama / tilt-shift</span><span class="zh">玩具微缩景</span></a></p>
-  <div class="player" id="post-1251916279205814272"><button class="load" type="button" data-id="1251916279205814272"><span class="play-icon" aria-hidden="true">▶</span><span class="en">Load original X post</span><span class="zh">加载 X 图文原帖</span></button></div>
+  <div class="player"><button class="load" type="button" data-id="1251916279205814272"><span class="play-icon" aria-hidden="true">▶</span><span class="en">Load original X post</span><span class="zh">加载 X 图文原帖</span></button></div>
   <details class="post-quote"><summary><span class="en">Original post text</span><span class="zh">原帖原文</span></summary><blockquote lang="en">Here&#x27;s the world bending subgraph. Also quick tip. If you want any effect (e.g world bending) in-game but not in editor/scene view, you can use a Boolean Keyword in shadergraph with the Global scope, and use Shader.EnableKeyword &amp; DisableKeyword in C# OnEnable/OnDisable. pic.twitter.com/QXvvUUamPw</blockquote></details>
 
   <a class="original" href="https://x.com/Cyanilux/status/1251916279205814272" target="_blank" rel="noopener noreferrer"><span class="en">Open original on X ↗</span><span class="zh">在 X 查看原帖 ↗</span></a>
 </article>
-<article class="post" data-group="3">
+<article class="post" id="post-2019471084375130140" data-group="3">
   <div class="post-top"><span class="category en">VFX &amp; destruction</span><span class="category zh">特效与破碎</span><span class="date">2026-02-05</span></div>
   <h2 class="en">Fake volumetric smoke</h2><h2 class="zh">假体积烟雾</h2>
   <p class="technique en">Camera-facing deformed mesh, unlit shading and directional normal-map lighting</p><p class="technique zh">面向镜头的形变网格、无光照材质与法线贴图假方向光</p>
   <p class="attribution"><span>@Tuatara_Games</span><span aria-hidden="true">·</span><a href="../styles/silhouette/"><span class="en">Silhouette noir</span><span class="zh">剪影黑白</span></a></p>
-  <div class="player ready local"><video controls playsinline preload="metadata" aria-label="Fake volumetric smoke" src="media/2019471084375130140.mp4"><span class="en">Video unsupported by this browser.</span><span class="zh">浏览器不支持视频播放。</span></video></div>
+  <div class="player ready local"><video controls playsinline preload="metadata" aria-label="Fake volumetric smoke" poster="previews/2019471084375130140.jpg" src="media/2019471084375130140.mp4"><span class="en">Video unsupported by this browser.</span><span class="zh">浏览器不支持视频播放。</span></video></div>
   <details class="post-quote"><summary><span class="en">Original post text</span><span class="zh">原帖原文</span></summary><blockquote lang="en">Fake volumetric smoke using a camera-facing mesh deformed in world space, with an Unlit shader and no particles or SubUVs. Directional lighting faked with a dot product between a normalized direction and a normal map #gamedev #VFX #realtimeVFX #UnrealEngine pic.twitter.com/cetD5WVrCM</blockquote></details>
   <a class="download" href="media/2019471084375130140.mp4" download><span class="en">Download MP4 ↓</span><span class="zh">下载 MP4 ↓</span></a>
   <a class="original" href="https://x.com/Tuatara_Games/status/2019471084375130140" target="_blank" rel="noopener noreferrer"><span class="en">Open original on X ↗</span><span class="zh">在 X 查看原帖 ↗</span></a>
 </article>
-<article class="post" data-group="3">
+<article class="post" id="post-1483094258076856320" data-group="3">
   <div class="post-top"><span class="category en">VFX &amp; destruction</span><span class="category zh">特效与破碎</span><span class="date">2022-01-17</span></div>
   <h2 class="en">Tornado made from noise layers</h2><h2 class="zh">噪声层构成的龙卷风</h2>
   <p class="technique en">Alpha-clipped scrolling noise layers, vertex displacement and particles</p><p class="technique zh">Alpha 裁剪的滚动噪声叠层、顶点位移与粒子尾迹</p>
   <p class="attribution"><span>@Cyanilux</span><span aria-hidden="true">·</span><a href="../styles/silhouette/"><span class="en">Silhouette noir</span><span class="zh">剪影黑白</span></a></p>
-  <div class="player ready local"><video controls playsinline preload="metadata" aria-label="Tornado made from noise layers" src="media/1483094258076856320.mp4"><span class="en">Video unsupported by this browser.</span><span class="zh">浏览器不支持视频播放。</span></video></div>
+  <div class="player ready local"><video controls playsinline preload="metadata" aria-label="Tornado made from noise layers" poster="previews/1483094258076856320.jpg" src="media/1483094258076856320.mp4"><span class="en">Video unsupported by this browser.</span><span class="zh">浏览器不支持视频播放。</span></video></div>
   <details class="post-quote"><summary><span class="en">Original post text</span><span class="zh">原帖原文</span></summary><blockquote lang="en">Made a Tornado as part of @HarryAlisavakis&#x27;s discord #TechnicallyAChallenge, theme is &quot;wind&quot; 🌪️
 (A few layers of alpha-clipped scrolling noise w/ vertex displacement &amp; some particle trails)#unity3D #shaders #vfx pic.twitter.com/Xdd53Pre5x</blockquote></details>
   <a class="download" href="media/1483094258076856320.mp4" download><span class="en">Download MP4 ↓</span><span class="zh">下载 MP4 ↓</span></a>
   <a class="original" href="https://x.com/Cyanilux/status/1483094258076856320" target="_blank" rel="noopener noreferrer"><span class="en">Open original on X ↗</span><span class="zh">在 X 查看原帖 ↗</span></a>
 </article>
-<article class="post" data-group="3">
+<article class="post" id="post-1638623920235356172" data-group="3">
   <div class="post-top"><span class="category en">VFX &amp; destruction</span><span class="category zh">特效与破碎</span><span class="date">2023-03-22</span></div>
   <h2 class="en">Render-texture-driven fracture</h2><h2 class="zh">RenderTexture 驱动破碎</h2>
   <p class="technique en">Graphics.Blit writes raycast hits to a mask driving a fractured surface</p><p class="technique zh">用 Graphics.Blit 将射线命中位置写入遮罩，驱动表面破碎</p>
   <p class="attribution"><span>@Cyanilux</span><span aria-hidden="true">·</span><a href="../styles/boomer-shooter/"><span class="en">Retro FPS / boomer shooter</span><span class="zh">复古 FPS</span></a></p>
-  <div class="player ready local"><video controls playsinline preload="metadata" aria-label="Render-texture-driven fracture" src="media/1638623920235356172.mp4"><span class="en">Video unsupported by this browser.</span><span class="zh">浏览器不支持视频播放。</span></video></div>
+  <div class="player ready local"><video controls playsinline preload="metadata" aria-label="Render-texture-driven fracture" poster="previews/1638623920235356172.jpg" src="media/1638623920235356172.mp4"><span class="en">Video unsupported by this browser.</span><span class="zh">浏览器不支持视频播放。</span></video></div>
   <details class="post-quote"><summary><span class="en">Original post text</span><span class="zh">原帖原文</span></summary><blockquote lang="en">#TechnicallyAChallenge - Destruction 💥☄️
 Adapted the recent fractured shader effect to work with a render texture as input rather than a sphere sdf. Am painting on that texture (via Graphics.Blit, passing in raycast pos). Also did some beam vfx#unity3D #madewithunity #shaders pic.twitter.com/5pV837ct0u</blockquote></details>
   <a class="download" href="media/1638623920235356172.mp4" download><span class="en">Download MP4 ↓</span><span class="zh">下载 MP4 ↓</span></a>
   <a class="original" href="https://x.com/Cyanilux/status/1638623920235356172" target="_blank" rel="noopener noreferrer"><span class="en">Open original on X ↗</span><span class="zh">在 X 查看原帖 ↗</span></a>
 </article>
-<article class="post" data-group="3">
+<article class="post" id="post-1524697139812573185" data-group="3">
   <div class="post-top"><span class="category en">VFX &amp; destruction</span><span class="category zh">特效与破碎</span><span class="date">2022-05-12</span></div>
   <h2 class="en">Tentacle via vertex displacement</h2><h2 class="zh">顶点位移触手</h2>
   <p class="technique en">Vertex displacement for a procedurally animated tentacle</p><p class="technique zh">用顶点位移驱动程序化触手形变</p>
   <p class="attribution"><span>@Cyanilux</span><span aria-hidden="true">·</span><a href="../styles/lo-fi-surreal/"><span class="en">Lo-fi surreal / ugly</span><span class="zh">低保真超现实 / 丑美学</span></a></p>
-  <div class="player ready local"><video controls playsinline preload="metadata" aria-label="Tentacle via vertex displacement" src="media/1524697139812573185.mp4"><span class="en">Video unsupported by this browser.</span><span class="zh">浏览器不支持视频播放。</span></video></div>
+  <div class="player ready local"><video controls playsinline preload="metadata" aria-label="Tentacle via vertex displacement" poster="previews/1524697139812573185.jpg" src="media/1524697139812573185.mp4"><span class="en">Video unsupported by this browser.</span><span class="zh">浏览器不支持视频播放。</span></video></div>
   <details class="post-quote"><summary><span class="en">Original post text</span><span class="zh">原帖原文</span></summary><blockquote lang="en">A tentacle made as part of #TechnicallyAChallenge 🐙
 Using some vertex displacement shader magic~ 😉✨#unity3D #shaders pic.twitter.com/hnglGhYPdN</blockquote></details>
   <a class="download" href="media/1524697139812573185.mp4" download><span class="en">Download MP4 ↓</span><span class="zh">下载 MP4 ↓</span></a>
   <a class="original" href="https://x.com/Cyanilux/status/1524697139812573185" target="_blank" rel="noopener noreferrer"><span class="en">Open original on X ↗</span><span class="zh">在 X 查看原帖 ↗</span></a>
 </article>
-<article class="post" data-group="3">
+<article class="post" id="post-1467533351091376136" data-group="3">
   <div class="post-top"><span class="category en">VFX &amp; destruction</span><span class="category zh">特效与破碎</span><span class="date">2021-12-05</span></div>
   <h2 class="en">Magic sword slash VFX</h2><h2 class="zh">魔法斩击特效</h2>
   <p class="technique en">Shader-driven weapon-slash effect (companion Shader Graph breakdown)</p><p class="technique zh">Shader 驱动的斩击特效，作者另有 Shader Graph 拆解</p>
   <p class="attribution"><span>@Cyanilux</span><span aria-hidden="true">·</span><a href="../styles/anime-cel/"><span class="en">Anime cel 2.5D</span><span class="zh">日式赛璐璐 2.5D</span></a></p>
-  <div class="player ready local"><video controls playsinline preload="metadata" aria-label="Magic sword slash VFX" src="media/1467533351091376136.mp4"><span class="en">Video unsupported by this browser.</span><span class="zh">浏览器不支持视频播放。</span></video></div>
+  <div class="player ready local"><video controls playsinline preload="metadata" aria-label="Magic sword slash VFX" poster="previews/1467533351091376136.jpg" src="media/1467533351091376136.mp4"><span class="en">Video unsupported by this browser.</span><span class="zh">浏览器不支持视频播放。</span></video></div>
   <details class="post-quote"><summary><span class="en">Original post text</span><span class="zh">原帖原文</span></summary><blockquote lang="en">Did a magic sword slash effect as part of @HarryAlisavakis&#x27;s discord #TechnicallyAChallenge (theme is &quot;Weapon slashes / attack VFX&quot;)#madewithunity #shaders #vfx pic.twitter.com/ZebeRutRIb</blockquote></details>
   <a class="download" href="media/1467533351091376136.mp4" download><span class="en">Download MP4 ↓</span><span class="zh">下载 MP4 ↓</span></a>
   <a class="original" href="https://x.com/Cyanilux/status/1467533351091376136" target="_blank" rel="noopener noreferrer"><span class="en">Open original on X ↗</span><span class="zh">在 X 查看原帖 ↗</span></a>
 </article>
-<article class="post" data-group="4">
+<article class="post" id="post-1068933280005844992" data-group="4">
   <div class="post-top"><span class="category en">Pixel art &amp; 2D</span><span class="category zh">像素与 2D</span><span class="date">2018-12-01</span></div>
   <h2 class="en">Pixel-art waterfall breakdown</h2><h2 class="zh">像素瀑布拆解</h2>
   <p class="technique en">Layered sprites, shaders and 13 particle systems for a pixel waterfall</p><p class="technique zh">精灵图、Shader 与 13 组粒子系统叠加的像素瀑布</p>
   <p class="attribution"><span>@lunoland</span><span aria-hidden="true">·</span><a href="../styles/pixel-art/"><span class="en">Pixel art</span><span class="zh">像素画</span></a></p>
-  <div class="player ready local"><video controls playsinline preload="metadata" aria-label="Pixel-art waterfall breakdown" src="media/1068933280005844992.mp4"><span class="en">Video unsupported by this browser.</span><span class="zh">浏览器不支持视频播放。</span></video></div>
+  <div class="player ready local"><video controls playsinline preload="metadata" aria-label="Pixel-art waterfall breakdown" poster="previews/1068933280005844992.jpg" src="media/1068933280005844992.mp4"><span class="en">Video unsupported by this browser.</span><span class="zh">浏览器不支持视频播放。</span></video></div>
   <details class="post-quote"><summary><span class="en">Original post text</span><span class="zh">原帖原文</span></summary><blockquote lang="en">This waterfall is a combination of sprites, shaders, and no less than 13 particle systems! Dare I say it, the most advanced pixel art waterfall...ever?
 
 I spent a crazy amount of time making this, so here&#x27;s a thread (RTs appreciated).#madewithunity #gamedev #screenshotsaturday pic.twitter.com/eswsdzysBA</blockquote></details>
   <a class="download" href="media/1068933280005844992.mp4" download><span class="en">Download MP4 ↓</span><span class="zh">下载 MP4 ↓</span></a>
   <a class="original" href="https://x.com/lunoland/status/1068933280005844992" target="_blank" rel="noopener noreferrer"><span class="en">Open original on X ↗</span><span class="zh">在 X 查看原帖 ↗</span></a>
 </article>
-<article class="post" data-group="4">
+<article class="post" id="post-1595484469699526665" data-group="4">
   <div class="post-top"><span class="category en">Pixel art &amp; 2D</span><span class="category zh">像素与 2D</span><span class="date">2022-11-23</span></div>
   <h2 class="en">Dithered and pixelated lighting</h2><h2 class="zh">抖动与像素化光照</h2>
   <p class="technique en">Experimental lighting quantized into pixel and dither patterns</p><p class="technique zh">把光照分解为像素块与抖动网点的实验</p>
   <p class="attribution"><span>@Cyanilux</span><span aria-hidden="true">·</span><a href="../styles/pixelated-3d/"><span class="en">Pixelated 3D</span><span class="zh">像素化 3D</span></a></p>
-  <div class="player ready local"><video controls playsinline preload="metadata" aria-label="Dithered and pixelated lighting" src="media/1595484469699526665.mp4"><span class="en">Video unsupported by this browser.</span><span class="zh">浏览器不支持视频播放。</span></video></div>
+  <div class="player ready local"><video controls playsinline preload="metadata" aria-label="Dithered and pixelated lighting" poster="previews/1595484469699526665.jpg" src="media/1595484469699526665.mp4"><span class="en">Video unsupported by this browser.</span><span class="zh">浏览器不支持视频播放。</span></video></div>
   <details class="post-quote"><summary><span class="en">Original post text</span><span class="zh">原帖原文</span></summary><blockquote lang="en">An attempt at dithered + pixelated lighting~
 Also reminder that I&#x27;m also on Mastodon, link in bio👀#unity3D #shaders pic.twitter.com/h95IYGqDei</blockquote></details>
   <a class="download" href="media/1595484469699526665.mp4" download><span class="en">Download MP4 ↓</span><span class="zh">下载 MP4 ↓</span></a>
   <a class="original" href="https://x.com/Cyanilux/status/1595484469699526665" target="_blank" rel="noopener noreferrer"><span class="en">Open original on X ↗</span><span class="zh">在 X 查看原帖 ↗</span></a>
 </article>
-<article class="post" data-group="4">
+<article class="post" id="post-1847072515572507001" data-group="4">
   <div class="post-top"><span class="category en">Pixel art &amp; 2D</span><span class="category zh">像素与 2D</span><span class="date">2024-10-18</span></div>
   <h2 class="en">Palette-driven pixel-art lighting</h2><h2 class="zh">调色板驱动的像素光照</h2>
   <p class="technique en">Lighting colors chosen directly from a sprite shading palette</p><p class="technique zh">直接从精灵明暗调色板映射光照颜色</p>
   <p class="attribution"><span>@MadeInHevinis</span><span aria-hidden="true">·</span><a href="../styles/pixel-art/"><span class="en">Pixel art</span><span class="zh">像素画</span></a></p>
-  <div class="player" id="post-1847072515572507001"><button class="load" type="button" data-id="1847072515572507001"><span class="play-icon" aria-hidden="true">▶</span><span class="en">Load original X post</span><span class="zh">加载 X 图文原帖</span></button></div>
+  <div class="player"><button class="load" type="button" data-id="1847072515572507001"><span class="play-icon" aria-hidden="true">▶</span><span class="en">Load original X post</span><span class="zh">加载 X 图文原帖</span></button></div>
   <details class="post-quote"><summary><span class="en">Original post text</span><span class="zh">原帖原文</span></summary><blockquote lang="en">new shader
 instead of the lighting using a palette, now the lighting IS the palette
 

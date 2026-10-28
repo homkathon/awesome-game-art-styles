@@ -5,7 +5,8 @@ and related or neighboring rights to this work.
 
 https://creativecommons.org/publicdomain/zero/1.0/
 
-Exception: Third-party creator videos stored in x-posts/media/*.mp4 are
+Exception: Third-party creator videos stored in x-posts/media/*.mp4 and
+original creator video-frame/image covers in x-posts/previews/*.jpg are
 excluded from this CC0 dedication. They are reproduced with their respective
 authors' permission. Copyright remains with those creators, and the permission
 to host them here does not automatically permit downstream redistribution.
