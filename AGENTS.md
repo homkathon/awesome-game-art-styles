@@ -9,7 +9,7 @@ Instructions for any AI agent (Codex, ChatGPT, Claude Code …) that updates thi
 - `README.md`, `README.zh-CN.md` and `styles/*/README.md` are generated. Never edit them by hand.
 - After any change run `python3 tools/build.py`. It validates references and regenerates everything. Commit the generated files.
 - `tools/x_gallery.py` builds `x-posts/index.html` from both resource tables and `tools/x-gallery-template.html`. The gallery prefers MP4s in `x-posts/media/` with the manifest `tools/x_media.json`; all such videos require author redistribution permission and retain their original authorship. The remaining posts use X embeds. Never label these third-party MP4s as CC0.
-- The X entries in both generated READMEs include preview images (`x-posts/previews/<post-id>.jpg`) linking to the gallery. When adding or changing X posts, run `python3 tools/make_x_previews.py` with ffmpeg before `tools/build.py`; the photo-only posts use original X image media. Commit `tools/x_previews.json` and generated previews; preserve authorship and do not apply CC0 to third-party media.
+- The X entries in both generated READMEs use 2-column GitHub-compatible HTML card tables with full-width preview images (`x-posts/previews/<post-id>.jpg`) linking to each gallery post; edit `tools/x_previews.py` to change the layout, not README files directly. When adding or changing X posts, run `python3 tools/make_x_previews.py` with ffmpeg before `tools/build.py`; the photo-only posts use original X image media. Commit `tools/x_previews.json` and generated previews; preserve authorship and do not apply CC0 to third-party media.
 - CI (`.github/workflows/check.yml`) fails if generated files are stale or a link is dead.
 
 ## Routine update (run weekly)
