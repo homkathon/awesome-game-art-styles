@@ -1,0 +1,26 @@
+name: check
+
+on:
+  push:
+  pull_request:
+  schedule:
+    - cron: "0 3 * * 1" # weekly, to catch dead links
+
+jobs:
+  awesome-lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - run: npx --yes awesome-lint
+
+  links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: lycheeverse/lychee-action@v2
+        with:
+          # tigsource blocks automated requests
+          args: --no-progress --max-retries 3 --exclude 'forums\.tigsource\.com' README.md CONTRIBUTING.md
+          fail: true
