@@ -1,12 +1,12 @@
-"""Build GitHub-compatible two-column X post galleries for both READMEs.
+"""Build GitHub native MP4-player and image grids for both READMEs.
 
-Resources in tools/resources*.md stay in the original machine-readable format
-for the web X gallery. Use HTML tables as a responsive-ish grid because GitHub
-strips custom CSS and doesn't reliably allow inline video players in READMEs.
+Original source tables remain machine-readable for the web gallery. Video player
+assets must be hosted on github.com/user-attachments rather than repository raw.
 """
 from html import escape
 import hashlib
 import json
+import re
 from pathlib import Path
 
 from x_gallery import parse_posts
@@ -14,10 +14,11 @@ from x_gallery import parse_posts
 ROOT = Path(__file__).resolve().parent.parent
 PREVIEWS = ROOT / 'tools' / 'x_previews.json'
 MEDIA = ROOT / 'tools' / 'x_media.json'
+VIDEO_ASSETS = ROOT / 'tools' / 'x_video_assets.json'
 GALLERY = 'https://homkathon.github.io/awesome-game-art-styles/x-posts/'
 
 
-def card(post: dict, manifest: dict, lang: str) -> str:
+def card(post: dict, manifest: dict, video_assets: dict, lang: str) -> str:
     post_id = post['id']
     item = manifest[post_id]
     expected = f'x-posts/previews/{post_id}.jpg'
@@ -32,6 +33,17 @@ def card(post: dict, manifest: dict, lang: str) -> str:
         raise ValueError('Unknown preview type: ' + post_id)
 
     gallery = GALLERY + '#post-' + post_id
+    if item['kind'] == 'video-frame':
+        asset = video_assets.get(post_id)
+        if not asset or not re.fullmatch(r'https://github\.com/user-attachments/assets/[0-9a-f-]{36}', asset):
+            raise ValueError('Missing or invalid native video attachment for X post ' + post_id)
+        # The GitHub Markdown renderer rewrites this hosted asset to a native
+        # HTML5 player with controls and a signed media URL. Repository raw MP4s
+        # do not receive this transformation.
+        cover = f'<video src="{asset}" controls width="100%" playsinline></video>'
+    else:
+        cover = (f'<a href="{gallery}"><img src="{expected}" width="100%" '
+                 f'alt="{escape(post["title"], quote=True)}"></a>')
     title = escape(post['title'])
     author = escape(post['handle'])
     technique = escape(post['technique'])
@@ -43,7 +55,7 @@ def card(post: dict, manifest: dict, lang: str) -> str:
     style_label = 'Style' if lang == 'en' else '关联风格'
     return '\n'.join([
         '<td width="50%" valign="top">',
-        f'<a href="{gallery}"><img src="{expected}" width="100%" alt="{escape(kind + ": " + post["title"], quote=True)}"></a>',
+        cover,
         f'<p><strong><a href="{gallery}">{title}</a></strong></p>',
         f'<sub>{kind} · @{author} · {post["date"]} · <a href="{original}">{source_label} ↗</a></sub>',
         f'<p>{technique}</p>',
@@ -52,12 +64,12 @@ def card(post: dict, manifest: dict, lang: str) -> str:
     ])
 
 
-def make_grid(posts: list, manifest: dict, lang: str) -> str:
+def make_grid(posts: list, manifest: dict, video_assets: dict, lang: str) -> str:
     rows = ['<table>']
     for i in range(0, len(posts), 2):
         rows.append('<tr>')
         for post in posts[i:i+2]:
-            rows.append(card(post, manifest, lang))
+            rows.append(card(post, manifest, video_assets, lang))
         rows.append('</tr>')
     rows.append('</table>')
     return '\n'.join(rows)
@@ -66,6 +78,9 @@ def make_grid(posts: list, manifest: dict, lang: str) -> str:
 def decorate_readme(resources: str, lang: str) -> str:
     manifest = json.loads(PREVIEWS.read_text(encoding='utf-8'))
     media = json.loads(MEDIA.read_text(encoding='utf-8'))
+    video_assets = json.loads(VIDEO_ASSETS.read_text(encoding='utf-8'))
+    if set(video_assets) != {p for p, m in media.items() if m['status'] == 'video'}:
+        raise ValueError('Video attachment manifest must match the 17 video posts')
     if set(manifest) != set(media):
         raise ValueError('X preview manifest must match media source posts')
 
@@ -83,10 +98,10 @@ def decorate_readme(resources: str, lang: str) -> str:
     body, after = (rest[:end], rest[end:]) if end >= 0 else (rest, '')
     # Intro stays sourced from original resources and is never duplicated.
     intro = body.split('\n### ', 1)[0].strip()
-    caption = ('Large previews — click to play a video or view the original image.'
-               if is_en else '大图预览 · 点击封面即可观看视频或查看原帖图片。')
+    caption = ('Play original MP4s directly using GitHub video controls; image-only posts show original photos.'
+               if is_en else '直接在这里用 GitHub 原生播放器观看视频；没有视频的原帖展示图片。')
     output = [heading, '', caption, '', intro]
     for group in groups:
         group_posts = [p for p in posts if p['group'] == group]
-        output.extend(['', f'### {group}', '', make_grid(group_posts, manifest, lang)])
+        output.extend(['', f'### {group}', '', make_grid(group_posts, manifest, video_assets, lang)])
     return pre + '\n'.join(output).rstrip() + '\n' + after

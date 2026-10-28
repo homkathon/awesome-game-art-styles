@@ -178,7 +178,7 @@ Free or cheap packs that work across several styles. Licences were checked on 20
 
 ## Popular X posts (curated)
 
-Large previews — click to play a video or view the original image.
+Play original MP4s directly using GitHub video controls; image-only posts show original photos.
 
 [Watch and download authorized videos in the X gallery](https://homkathon.github.io/awesome-game-art-styles/x-posts/) (creator credit and original links; other posts embed from X).
 
@@ -189,14 +189,14 @@ Large previews — click to play a video or view the original image.
 <table>
 <tr>
 <td width="50%" valign="top">
-<a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1864638156588400707"><img src="x-posts/previews/1864638156588400707.jpg" width="100%" alt="Video: Shoreline shader redux"></a>
+<video src="https://github.com/user-attachments/assets/e66f2271-3549-4186-8cfc-7d937077a227" controls width="100%" playsinline></video>
 <p><strong><a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1864638156588400707">Shoreline shader redux</a></strong></p>
 <sub>Video · @Cyanilux · 2024-12-05 · <a href="https://x.com/Cyanilux/status/1864638156588400707">Original post ↗</a></sub>
 <p>Coastal wave and wet-sand treatment; follow-up tutorial linked from the post</p>
 <sub>Style: <a href="styles/cozy/">Cozy interiors</a></sub>
 </td>
 <td width="50%" valign="top">
-<a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1252298028607774721"><img src="x-posts/previews/1252298028607774721.jpg" width="100%" alt="Image: Shoreline shader mini-breakdown"></a>
+<a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1252298028607774721"><img src="x-posts/previews/1252298028607774721.jpg" width="100%" alt="Shoreline shader mini-breakdown"></a>
 <p><strong><a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1252298028607774721">Shoreline shader mini-breakdown</a></strong></p>
 <sub>Image · @Cyanilux · 2020-04-20 · <a href="https://x.com/Cyanilux/status/1252298028607774721">Original post ↗</a></sub>
 <p>Depth-aware shoreline foam and water edges inspired by Animal Crossing</p>
@@ -205,14 +205,14 @@ Large previews — click to play a video or view the original image.
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1581210772352290818"><img src="x-posts/previews/1581210772352290818.jpg" width="100%" alt="Video: Gerstner-wave ocean"></a>
+<video src="https://github.com/user-attachments/assets/86cbd001-062d-4224-a2fd-205b6ddd832e" controls width="100%" playsinline></video>
 <p><strong><a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1581210772352290818">Gerstner-wave ocean</a></strong></p>
 <sub>Video · @Cyanilux · 2022-10-15 · <a href="https://x.com/Cyanilux/status/1581210772352290818">Original post ↗</a></sub>
 <p>Stylized ocean wave displacement using Gerstner waves</p>
 <sub>Style: <a href="styles/flat-colour-3d/">Flat-colour graphic 3D</a></sub>
 </td>
 <td width="50%" valign="top">
-<a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1770095395848237506"><img src="x-posts/previews/1770095395848237506.jpg" width="100%" alt="Video: 2.5D water with sprite reflections"></a>
+<video src="https://github.com/user-attachments/assets/53a5d7c2-abba-45e7-b21a-168670d6f39a" controls width="100%" playsinline></video>
 <p><strong><a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1770095395848237506">2.5D water with sprite reflections</a></strong></p>
 <sub>Video · @Cyanilux · 2024-03-19 · <a href="https://x.com/Cyanilux/status/1770095395848237506">Original post ↗</a></sub>
 <p>Top-down water shader with reflected pixel-art sprites</p>
@@ -221,7 +221,7 @@ Large previews — click to play a video or view the original image.
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1495405379253116930"><img src="x-posts/previews/1495405379253116930.jpg" width="100%" alt="Video: Procedural aurora"></a>
+<video src="https://github.com/user-attachments/assets/224bc590-5f2b-416a-854e-5efbb4abf0c8" controls width="100%" playsinline></video>
 <p><strong><a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1495405379253116930">Procedural aurora</a></strong></p>
 <sub>Video · @Cyanilux · 2022-02-20 · <a href="https://x.com/Cyanilux/status/1495405379253116930">Original post ↗</a></sub>
 <p>Displaced subdivided quads, gradients, scrolling noise and distance fade</p>
@@ -235,14 +235,14 @@ Large previews — click to play a video or view the original image.
 <table>
 <tr>
 <td width="50%" valign="top">
-<a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1975506073319567393"><img src="x-posts/previews/1975506073319567393.jpg" width="100%" alt="Image: Analytical ambient occlusion"></a>
+<a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1975506073319567393"><img src="x-posts/previews/1975506073319567393.jpg" width="100%" alt="Analytical ambient occlusion"></a>
 <p><strong><a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1975506073319567393">Analytical ambient occlusion</a></strong></p>
 <sub>Image · @florisium · 2025-10-07 · <a href="https://x.com/florisium/status/1975506073319567393">Original post ↗</a></sub>
 <p>Primitive-based analytical AO technique and scene comparison (technical thread)</p>
 <sub>Style: <a href="styles/toy-diorama/">Toy diorama / tilt-shift</a></sub>
 </td>
 <td width="50%" valign="top">
-<a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1783442615939297380"><img src="x-posts/previews/1783442615939297380.jpg" width="100%" alt="Video: Billboarded light shafts"></a>
+<video src="https://github.com/user-attachments/assets/b8802851-7f05-42ab-bcd7-d29ecaf630ee" controls width="100%" playsinline></video>
 <p><strong><a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1783442615939297380">Billboarded light shafts</a></strong></p>
 <sub>Video · @Cyanilux · 2024-04-25 · <a href="https://x.com/Cyanilux/status/1783442615939297380">Original post ↗</a></sub>
 <p>Light-aligned billboard quads, shadow masking and depth fading</p>
@@ -251,14 +251,14 @@ Large previews — click to play a video or view the original image.
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1362466015976783872"><img src="x-posts/previews/1362466015976783872.jpg" width="100%" alt="Video: Dungeons of Hinterberg: outlines"></a>
+<video src="https://github.com/user-attachments/assets/0e7f9450-9a62-4189-91c0-f0b19ca44dce" controls width="100%" playsinline></video>
 <p><strong><a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1362466015976783872">Dungeons of Hinterberg: outlines</a></strong></p>
 <sub>Video · @PhilippSeifried · 2021-02-18 · <a href="https://x.com/PhilippSeifried/status/1362466015976783872">Original post ↗</a></sub>
 <p>Technical thread on outlines with controllable width and placement</p>
 <sub>Style: <a href="styles/ligne-claire/">Ligne claire / Moebius</a></sub>
 </td>
 <td width="50%" valign="top">
-<a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1354827696707002384"><img src="x-posts/previews/1354827696707002384.jpg" width="100%" alt="Video: Dungeons of Hinterberg: stylized rendering"></a>
+<video src="https://github.com/user-attachments/assets/07fc6d86-883e-4cd8-9951-4bdce6d60d5f" controls width="100%" playsinline></video>
 <p><strong><a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1354827696707002384">Dungeons of Hinterberg: stylized rendering</a></strong></p>
 <sub>Video · @PhilippSeifried · 2021-01-28 · <a href="https://x.com/PhilippSeifried/status/1354827696707002384">Original post ↗</a></sub>
 <p>Custom deferred rendering with material IDs stored in a G-buffer</p>
@@ -272,14 +272,14 @@ Large previews — click to play a video or view the original image.
 <table>
 <tr>
 <td width="50%" valign="top">
-<a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1407727586986311687"><img src="x-posts/previews/1407727586986311687.jpg" width="100%" alt="Video: Stained glass and volumetric rays"></a>
+<video src="https://github.com/user-attachments/assets/86c7023c-eec3-483d-99cf-33140ed14cfa" controls width="100%" playsinline></video>
 <p><strong><a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1407727586986311687">Stained glass and volumetric rays</a></strong></p>
 <sub>Video · @Cyanilux · 2021-06-23 · <a href="https://x.com/Cyanilux/status/1407727586986311687">Original post ↗</a></sub>
 <p>Glass-pane shading combined with ray-marched shafts of light</p>
 <sub>Style: <a href="styles/stained-glass/">Stained glass</a></sub>
 </td>
 <td width="50%" valign="top">
-<a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1376949139838275584"><img src="x-posts/previews/1376949139838275584.jpg" width="100%" alt="Video: Holographic foil shader"></a>
+<video src="https://github.com/user-attachments/assets/08022f98-f2e1-4633-bb78-b5b22675ff32" controls width="100%" playsinline></video>
 <p><strong><a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1376949139838275584">Holographic foil shader</a></strong></p>
 <sub>Video · @Cyanilux · 2021-03-30 · <a href="https://x.com/Cyanilux/status/1376949139838275584">Original post ↗</a></sub>
 <p>Rainbow texture with view-direction-based tangent-space UV parallax</p>
@@ -288,14 +288,14 @@ Large previews — click to play a video or view the original image.
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1396848736022802435"><img src="x-posts/previews/1396848736022802435.jpg" width="100%" alt="Video: GPU-instanced grass with Shader Graph"></a>
+<video src="https://github.com/user-attachments/assets/c8370dfa-6f0a-43ab-9a1b-159b0c1e017b" controls width="100%" playsinline></video>
 <p><strong><a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1396848736022802435">GPU-instanced grass with Shader Graph</a></strong></p>
 <sub>Video · @Cyanilux · 2021-05-24 · <a href="https://x.com/Cyanilux/status/1396848736022802435">Original post ↗</a></sub>
 <p>Graphics.DrawMeshInstancedIndirect with Unity Shader Graph</p>
 <sub>Style: <a href="styles/low-poly/">Low-poly</a></sub>
 </td>
 <td width="50%" valign="top">
-<a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1618030887412862977"><img src="x-posts/previews/1618030887412862977.jpg" width="100%" alt="Image: Procedural ivy on curves"></a>
+<a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1618030887412862977"><img src="x-posts/previews/1618030887412862977.jpg" width="100%" alt="Procedural ivy on curves"></a>
 <p><strong><a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1618030887412862977">Procedural ivy on curves</a></strong></p>
 <sub>Image · @Cyanilux · 2023-01-24 · <a href="https://x.com/Cyanilux/status/1618030887412862977">Original post ↗</a></sub>
 <p>Blender Geometry Nodes distributing ivy leaves along hand-drawn curves</p>
@@ -304,7 +304,7 @@ Large previews — click to play a video or view the original image.
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1251916279205814272"><img src="x-posts/previews/1251916279205814272.jpg" width="100%" alt="Image: World-bending Shader Graph subgraph"></a>
+<a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1251916279205814272"><img src="x-posts/previews/1251916279205814272.jpg" width="100%" alt="World-bending Shader Graph subgraph"></a>
 <p><strong><a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1251916279205814272">World-bending Shader Graph subgraph</a></strong></p>
 <sub>Image · @Cyanilux · 2020-04-19 · <a href="https://x.com/Cyanilux/status/1251916279205814272">Original post ↗</a></sub>
 <p>Shader Graph deformation with C# toggles between editor and game</p>
@@ -318,14 +318,14 @@ Large previews — click to play a video or view the original image.
 <table>
 <tr>
 <td width="50%" valign="top">
-<a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-2019471084375130140"><img src="x-posts/previews/2019471084375130140.jpg" width="100%" alt="Video: Fake volumetric smoke"></a>
+<video src="https://github.com/user-attachments/assets/ab573f7f-a2d8-4524-ac25-3050c654ef38" controls width="100%" playsinline></video>
 <p><strong><a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-2019471084375130140">Fake volumetric smoke</a></strong></p>
 <sub>Video · @Tuatara_Games · 2026-02-05 · <a href="https://x.com/Tuatara_Games/status/2019471084375130140">Original post ↗</a></sub>
 <p>Camera-facing deformed mesh, unlit shading and directional normal-map lighting</p>
 <sub>Style: <a href="styles/silhouette/">Silhouette noir</a></sub>
 </td>
 <td width="50%" valign="top">
-<a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1483094258076856320"><img src="x-posts/previews/1483094258076856320.jpg" width="100%" alt="Video: Tornado made from noise layers"></a>
+<video src="https://github.com/user-attachments/assets/d63c4858-075a-4601-8827-ce15b0d12efe" controls width="100%" playsinline></video>
 <p><strong><a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1483094258076856320">Tornado made from noise layers</a></strong></p>
 <sub>Video · @Cyanilux · 2022-01-17 · <a href="https://x.com/Cyanilux/status/1483094258076856320">Original post ↗</a></sub>
 <p>Alpha-clipped scrolling noise layers, vertex displacement and particles</p>
@@ -334,14 +334,14 @@ Large previews — click to play a video or view the original image.
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1638623920235356172"><img src="x-posts/previews/1638623920235356172.jpg" width="100%" alt="Video: Render-texture-driven fracture"></a>
+<video src="https://github.com/user-attachments/assets/cb1ccdff-b7eb-418b-be98-f76d9b4e407a" controls width="100%" playsinline></video>
 <p><strong><a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1638623920235356172">Render-texture-driven fracture</a></strong></p>
 <sub>Video · @Cyanilux · 2023-03-22 · <a href="https://x.com/Cyanilux/status/1638623920235356172">Original post ↗</a></sub>
 <p>Graphics.Blit writes raycast hits to a mask driving a fractured surface</p>
 <sub>Style: <a href="styles/boomer-shooter/">Retro FPS / boomer shooter</a></sub>
 </td>
 <td width="50%" valign="top">
-<a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1524697139812573185"><img src="x-posts/previews/1524697139812573185.jpg" width="100%" alt="Video: Tentacle via vertex displacement"></a>
+<video src="https://github.com/user-attachments/assets/a42790d7-ef63-4e9d-9c34-1624e0318f3a" controls width="100%" playsinline></video>
 <p><strong><a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1524697139812573185">Tentacle via vertex displacement</a></strong></p>
 <sub>Video · @Cyanilux · 2022-05-12 · <a href="https://x.com/Cyanilux/status/1524697139812573185">Original post ↗</a></sub>
 <p>Vertex displacement for a procedurally animated tentacle</p>
@@ -350,7 +350,7 @@ Large previews — click to play a video or view the original image.
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1467533351091376136"><img src="x-posts/previews/1467533351091376136.jpg" width="100%" alt="Video: Magic sword slash VFX"></a>
+<video src="https://github.com/user-attachments/assets/4acc81d1-e91a-4ecf-91ae-bcc50e2597d7" controls width="100%" playsinline></video>
 <p><strong><a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1467533351091376136">Magic sword slash VFX</a></strong></p>
 <sub>Video · @Cyanilux · 2021-12-05 · <a href="https://x.com/Cyanilux/status/1467533351091376136">Original post ↗</a></sub>
 <p>Shader-driven weapon-slash effect (companion Shader Graph breakdown)</p>
@@ -364,14 +364,14 @@ Large previews — click to play a video or view the original image.
 <table>
 <tr>
 <td width="50%" valign="top">
-<a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1068933280005844992"><img src="x-posts/previews/1068933280005844992.jpg" width="100%" alt="Video: Pixel-art waterfall breakdown"></a>
+<video src="https://github.com/user-attachments/assets/a26ff1b1-d8ed-4b82-a883-2bc1be40bce7" controls width="100%" playsinline></video>
 <p><strong><a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1068933280005844992">Pixel-art waterfall breakdown</a></strong></p>
 <sub>Video · @lunoland · 2018-12-01 · <a href="https://x.com/lunoland/status/1068933280005844992">Original post ↗</a></sub>
 <p>Layered sprites, shaders and 13 particle systems for a pixel waterfall</p>
 <sub>Style: <a href="styles/pixel-art/">Pixel art</a></sub>
 </td>
 <td width="50%" valign="top">
-<a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1595484469699526665"><img src="x-posts/previews/1595484469699526665.jpg" width="100%" alt="Video: Dithered and pixelated lighting"></a>
+<video src="https://github.com/user-attachments/assets/4a23baa7-ce56-433c-b969-b6d528a4736b" controls width="100%" playsinline></video>
 <p><strong><a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1595484469699526665">Dithered and pixelated lighting</a></strong></p>
 <sub>Video · @Cyanilux · 2022-11-23 · <a href="https://x.com/Cyanilux/status/1595484469699526665">Original post ↗</a></sub>
 <p>Experimental lighting quantized into pixel and dither patterns</p>
@@ -380,7 +380,7 @@ Large previews — click to play a video or view the original image.
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1847072515572507001"><img src="x-posts/previews/1847072515572507001.jpg" width="100%" alt="Image: Palette-driven pixel-art lighting"></a>
+<a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1847072515572507001"><img src="x-posts/previews/1847072515572507001.jpg" width="100%" alt="Palette-driven pixel-art lighting"></a>
 <p><strong><a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1847072515572507001">Palette-driven pixel-art lighting</a></strong></p>
 <sub>Image · @MadeInHevinis · 2024-10-18 · <a href="https://x.com/MadeInHevinis/status/1847072515572507001">Original post ↗</a></sub>
 <p>Lighting colors chosen directly from a sprite shading palette</p>
