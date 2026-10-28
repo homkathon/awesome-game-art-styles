@@ -4,16 +4,20 @@ on:
   push:
   pull_request:
   schedule:
-    - cron: "0 3 * * 1" # weekly, to catch dead links
+    - cron: "0 3 * * 1" # weekly, to catch dead links and removed screenshots
 
 jobs:
-  awesome-lint:
+  generated:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
-          fetch-depth: 0
-      - run: npx --yes awesome-lint
+          python-version: "3.12"
+      - name: Pages are up to date with tools/styles.py
+        run: |
+          python3 tools/build.py
+          git diff --exit-code -- README.md styles
 
   links:
     runs-on: ubuntu-latest
@@ -22,5 +26,5 @@ jobs:
       - uses: lycheeverse/lychee-action@v2
         with:
           # tigsource blocks automated requests
-          args: --no-progress --max-retries 3 --exclude 'forums\.tigsource\.com' README.md CONTRIBUTING.md
+          args: --no-progress --max-retries 3 --exclude 'forums\.tigsource\.com' README.md CONTRIBUTING.md 'styles/**/README.md'
           fail: true
