@@ -13,12 +13,12 @@ What it takes: **Mostly art.** The look lives in made material; code only suppor
 
 <table>
 <tr>
-<td width="50%"><a href="https://store.steampowered.com/app/1328840/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1328840/ss_4327091b723902f448e0b2a889a59508ee6a9535.600x338.jpg" width="100%" alt="Lost in Play"></a><br><sub>Lost in Play</sub></td>
+<td width="50%"><a href="https://store.steampowered.com/app/1889740/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1889740/ss_82470980eb5d5fde9ffa0febee5892083b61f22a.600x338.jpg" width="100%" alt="Paper Trail"></a><br><sub>Paper Trail</sub></td>
 <td width="50%"><a href="https://store.steampowered.com/app/581270/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/581270/ss_b0e4a7017f9fa3f64bb7fb953583e323389194a2.600x338.jpg" width="100%" alt="Old Man's Journey"></a><br><sub>Old Man's Journey</sub></td>
 </tr>
 <tr>
-<td width="50%"><a href="https://store.steampowered.com/app/1627570/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1627570/ss_7e133ae64cd9ca07f813d18d6a90d03add8dc44b.600x338.jpg" width="100%" alt="The Plucky Squire"></a><br><sub>The Plucky Squire</sub></td>
-<td width="50%"><a href="https://store.steampowered.com/app/256290/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256290/ss_d6c2e812f72dd9eae818a97eb0700428a3b11d46.600x338.jpg" width="100%" alt="Child of Light"></a><br><sub>Child of Light</sub></td>
+<td width="50%"><a href="https://store.steampowered.com/app/2322180/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2322180/ss_0b0a57da4fe1040a28058c3c7bb58e9b4015e911.600x338.jpg" width="100%" alt="A Tiny Sticker Tale"></a><br><sub>A Tiny Sticker Tale</sub></td>
+<td width="50%"><a href="https://store.steampowered.com/app/729000/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/729000/ss_c264e26cc985b733866691fd449b50e116c5d566.600x338.jpg" width="100%" alt="Wytchwood"></a><br><sub>Wytchwood</sub></td>
 </tr>
 </table>
 
@@ -40,6 +40,9 @@ What it takes: **Mostly art.** The look lives in made material; code only suppor
 - [Lost in Play](https://store.steampowered.com/app/1328840/)
 - [The Plucky Squire](https://store.steampowered.com/app/1627570/)
 - [Child of Light](https://store.steampowered.com/app/256290/)
+- [Paper Trail](https://store.steampowered.com/app/1889740/)
+- [A Tiny Sticker Tale](https://store.steampowered.com/app/2322180/)
+- [Wytchwood](https://store.steampowered.com/app/729000/)
 
 ## Free assets to start with
 
@@ -51,6 +54,7 @@ Licences change; check the pack page before you ship.
 
 - [Watercolour](../watercolour/) · 水彩
 - [Hand-drawn animation](../hand-drawn/) · 手绘动画
+- [Gouache picture book](../gouache-picture-book/) · 水粉质感绘本
 
 ## Agent notes
 

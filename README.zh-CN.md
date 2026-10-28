@@ -2,11 +2,11 @@
 
 # Awesome Game Art Styles [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-[![Styles](https://img.shields.io/badge/styles-52-f2b134)](#3d明暗与造型) [![Licence: CC0](https://img.shields.io/badge/licence-CC0-lightgrey)](LICENSE) [![check](https://github.com/homkathon/awesome-game-art-styles/actions/workflows/check.yml/badge.svg)](https://github.com/homkathon/awesome-game-art-styles/actions/workflows/check.yml)
+[![Styles](https://img.shields.io/badge/styles-55-f2b134)](#3d明暗与造型) [![Licence: CC0](https://img.shields.io/badge/licence-CC0-lightgrey)](LICENSE) [![check](https://github.com/homkathon/awesome-game-art-styles/actions/workflows/check.yml/badge.svg)](https://github.com/homkathon/awesome-game-art-styles/actions/workflows/check.yml)
 
 [English](README.md) · **简体中文**
 
-> 52 种游戏视觉风格，按**观感**分类。点进每种风格可以看截图、识别要点、实现技术、教程、免费素材，以及给编程智能体的实现步骤。
+> 55 种游戏视觉风格，按**观感**分类。点进每种风格可以看截图、识别要点、实现技术、教程、免费素材，以及给编程智能体的实现步骤。
 
 🌐 **中文网页版：[homkathon.gokoding.com/styles](https://homkathon.gokoding.com/styles)**。可以搜索、按分类筛选，在每种风格的页面里翻截图、直接玩在线演示。
 
@@ -103,6 +103,7 @@
 <tr>
 <td align="center" valign="top" width="25%"><a href="styles/cozy/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1135690/ss_b32bfdd3f68e1f9e264bd37e10a464629ca034f8.600x338.jpg" width="220" alt="Cozy interiors"></a><br><a href="styles/cozy/"><b>温馨室内像素</b></a><br><sub>Cozy interiors</sub></td>
 <td align="center" valign="top" width="25%"><a href="styles/nes-8bit/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/764790/ss_875fe259c26f29d959efba0eca47e1b63d844c75.600x338.jpg" width="220" alt="8-bit / NES"></a><br><a href="styles/nes-8bit/"><b>8-bit / FC</b></a><br><sub>8-bit / NES</sub></td>
+<td align="center" valign="top" width="25%"><a href="styles/cozy-pixel-storybook/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1062140/ss_9d643d5db7b194146bbe2d6f233e039900e74106.600x338.jpg" width="220" alt="Cozy storybook pixel art"></a><br><a href="styles/cozy-pixel-storybook/"><b>温暖绘本像素</b></a><br><sub>Cozy storybook pixel art</sub></td>
 </tr>
 </table>
 
@@ -124,6 +125,8 @@
 <tr>
 <td align="center" valign="top" width="25%"><a href="styles/storybook/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/581270/ss_11406a46468e36e249a26f9054dfef162678c076.600x338.jpg" width="220" alt="Storybook / picture book"></a><br><a href="styles/storybook/"><b>绘本</b></a><br><sub>Storybook / picture book</sub></td>
 <td align="center" valign="top" width="25%"><a href="styles/rotoscope/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/233550/ss_72559daf5b29da71ea9e1cd74a67e130552674f3.600x338.jpg" width="220" alt="Rotoscope / flat polygons"></a><br><a href="styles/rotoscope/"><b>转描 / 平面多边形</b></a><br><sub>Rotoscope / flat polygons</sub></td>
+<td align="center" valign="top" width="25%"><a href="styles/gouache-picture-book/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172450/ss_5e9fb66710e5b0b8912c43f56299830893435379.600x338.jpg" width="220" alt="Gouache picture book"></a><br><a href="styles/gouache-picture-book/"><b>水粉质感绘本</b></a><br><sub>Gouache picture book</sub></td>
+<td align="center" valign="top" width="25%"><a href="styles/whimsical-ink/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1307580/ss_452053e6976add5d6690c6f5dc227d3fd4bda26d.600x338.jpg" width="220" alt="Whimsical monochrome ink"></a><br><a href="styles/whimsical-ink/"><b>俏皮黑白手绘</b></a><br><sub>Whimsical monochrome ink</sub></td>
 </tr>
 </table>
 

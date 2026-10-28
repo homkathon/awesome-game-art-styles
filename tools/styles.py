@@ -62,6 +62,19 @@ GAMES = {  # Steam app id -> display name
     405640: "Pony Island",
     712730: "SIMULACRA",
     1233570: "Mirror's Edge Catalyst",
+    1172450: 'Carto',
+    3256150: "Moomintroll: Winter's Warmth",
+    1808680: 'Snufkin: Melody of Moominvalley',
+    1307580: 'TOEM: A Photo Adventure',
+    1419860: 'Tukoni: Prologue',
+    1889740: 'Paper Trail',
+    435400: 'Hidden Folks',
+    1444300: 'Teacup',
+    2322180: 'A Tiny Sticker Tale',
+    1594940: 'Little Witch in the Woods',
+    1062140: 'Garden Story',
+    729000: 'Wytchwood',
+
 }
 
 LEARN = {
@@ -552,8 +565,8 @@ STYLES = [
          summary="Each scene looks like a page from an illustrated children's book.",
          spot=["Soft painted or gouache-like colour with visible texture", "Characters drawn simply, scenes composed like illustrations", "Often framed by a book, page or paper"],
          techniques=["layered 2D illustration with parallax", "paper and paint textures", "book or page framing"],
-         games=[581270, 1328840, 1627570, 256290], hero="581270:1", gallery=["1328840:3", "581270:2", "1627570:0", "256290:4"],
-         learn=[], assets=["ambientcg"], similar=["watercolour", "hand-drawn"],
+         games=[581270, 1328840, 1627570, 256290, 1889740, 2322180, 729000], hero="581270:1", gallery=["1889740:1", "581270:2", "2322180:0", "729000:1"],
+         learn=[], assets=["ambientcg"], similar=["watercolour", "hand-drawn", "gouache-picture-book"],
          agent=["Paint backgrounds as illustrations in a few depth layers and move them with parallax.",
                 "Overlay a paper or gouache texture on everything, including UI.",
                 "Compose every screen like a book spread: a clear focal point and room for text."]),
@@ -586,6 +599,47 @@ STYLES = [
          agent=["In Godot 4, draw each pane as a `Polygon2D` and trace its closed perimeter with a dark `Line2D` (4–8 px) for the lead seams.",
                 "Give each polygon a single saturated fill; overlay a low-opacity noise texture in a `canvas_item` shader to suggest uneven glass.",
                 "Put a soft warm light layer behind the artwork and enable `WorldEnvironment` glow on the brightest panes; keep the outlines opaque."]),
+
+    # Opaque paint and friendly irregular drawing, distinct from transparent watercolour.
+    dict(id="gouache-picture-book", section=5, title="Gouache picture book", zh="水粉质感绘本",
+         summary="Opaque painted shapes and gently irregular characters give a storybook world a handmade feel.",
+         spot=["Matte colour blocks show brush grain instead of glossy gradients",
+               "Rounded, slightly uneven silhouettes and very small faces",
+               "A restrained natural palette keeps busy foliage readable"],
+         techniques=["gouache paint and dry-brush edges", "subtle paper grain", "layered 2D parallax"],
+         games=[1172450, 3256150, 1808680, 1419860, 1444300],
+         hero="1172450:3", gallery=["3256150:0", "1808680:0", "1419860:0", "1444300:0"],
+         learn=[], assets=[], similar=["storybook", "watercolour", "whimsical-ink"],
+         agent=["Prepare painted sprites and background layers with opaque, gently broken brush edges; avoid smooth vector outlines.",
+                "In Godot, put painted layers in Parallax2D and apply a low-opacity paper-grain texture with a CanvasItem shader; a filter alone cannot replace painted art.",
+                "Use a small palette of muted greens, creams and accent colours; check grayscale contrast so tiny characters remain legible."]),
+    # Black-ink cutouts are not the same as player-fill colouring-book art.
+    dict(id="whimsical-ink", section=5, title="Whimsical monochrome ink", zh="俏皮黑白手绘",
+         summary="Playful black ink sketches on white, sometimes layered as 2D cutouts in tiny 3D worlds.",
+         spot=["Varied, slightly irregular black line weight defines objects",
+               "Expressive tiny characters amid charming monochrome scene detail",
+               "Layered drawings, cutouts and gentle grey shadows give depth"],
+         techniques=["hand-inked sprites and hatching", "flat grayscale surfaces and ambient occlusion", "orthographic cutout dioramas"],
+         games=[1307580, 435400], hero="1307580:0",
+         gallery=["1307580:1", "1307580:2", "435400:0", "435400:2"],
+         learn=[], assets=[], similar=["line-art", "storybook", "gouache-picture-book"],
+         agent=["Draw props and characters as transparent black-ink sprites with subtly varied line width; avoid CAD-clean strokes.",
+                "For a TOEM-like diorama, combine Godot Camera3D in orthographic mode with Sprite3D cutouts, simple grey meshes and light ambient occlusion.",
+                "For flat hidden-object scenes, use CanvasItem sprites and a 2D zoom camera instead; add hatching sparingly and keep UI out of hero shots."]),
+    # A soft, nature-focused substyle rather than generic or neon pixel art.
+    dict(id="cozy-pixel-storybook", section=4, title="Cozy storybook pixel art", zh="温暖绘本像素",
+         summary="Friendly pixel characters and small nature scenes with muted, storybook-inspired palettes.",
+         spot=["Visible square pixels paired with round friendly silhouettes",
+               "Warm greens, browns and creams rather than neon colours",
+               "Layered plants, paths and props make an inviting world"],
+         techniques=["limited-palette pixel tiles and sprites", "nearest-neighbour integer scaling", "layered foliage tilemaps"],
+         games=[1062140, 1594940, 977880], hero="1062140:0",
+         gallery=["1594940:0", "1062140:1", "977880:1", "1594940:1"],
+         learn=["lospec", "x-palette"], assets=["limezu"], similar=["pixel-art", "cozy", "gouache-picture-book"],
+         agent=["In Godot, draw a 16- or 32-pixel tile grid with matching character sprites; choose 12–20 harmonious colours first.",
+                "Set CanvasItem texture filtering to Nearest, use integer scaling and enable snap_2d_transforms_to_pixel to avoid uneven pixels.",
+                "Stack foliage and props on multiple TileMapLayers, and animate characters in 4–8 distinct hand-drawn poses."]),
+
 ]
 
 
@@ -645,6 +699,10 @@ SUMMARY_ZH = {
     "rotoscope": "从实拍动作描下来的动画，用平面色块和少量颜色画成。",
     "desktop-ui": "游戏就是一块电脑屏幕：窗口、聊天软件、浏览器和虚构的操作系统。",
     "stained-glass": "以深色铅条分隔透光的彩色玻璃块，再拼成完整插画。",
+    "gouache-picture-book": "不透明的水粉色块与微妙的干刷边缘，让简洁圆润的角色带上手作绘本气质。",
+    "whimsical-ink": "轻松活泼的黑白墨线，搭配有趣的小角色；有时以二维剪纸的方式构成立体小世界。",
+    "cozy-pixel-storybook": "保留清楚的方形像素，以温和配色、圆润轮廓与自然细节呈现绘本般的亲和力。",
+
 }
 
 # What it takes to reach each look with a coding agent:
@@ -705,6 +763,10 @@ NEEDS = {
     "rotoscope": ("art", "Reference footage and traced key frames."),
     "desktop-ui": ("code", ""),
     "stained-glass": ("mixed", "Closed coloured pane silhouettes, a subtle glass-grain texture and thick lead outlines."),
+    "gouache-picture-book": ("art", "Painted sprites and backgrounds with authentic brush and paper texture."),
+    "whimsical-ink": ("art", "Original hand-inked black-and-white sprites and scenery."),
+    "cozy-pixel-storybook": ("art", "Small-scale pixel sprites, tile sets and matching foliage in a limited palette."),
+
 }
 
 NEEDS_ZH = {
@@ -741,6 +803,10 @@ NEEDS_ZH = {
     "storybook": "分层的绘本插画，以及纸张或颜料贴图。",
     "rotoscope": "参考视频，以及描出来的关键帧。",
     "stained-glass": "分块的彩色玻璃形状、细微的玻璃颗粒纹理和深色铅条轮廓。",
+    "gouache-picture-book": "带真实笔刷与纸面质感的水粉角色精灵和背景画。",
+    "whimsical-ink": "原创的黑白墨线角色精灵与场景画。",
+    "cozy-pixel-storybook": "使用有限调色板绘制的小尺寸像素角色、地块与植物素材。",
+
 }
 
 # Chinese versions of spot / techniques / agent, item for item.
@@ -797,6 +863,10 @@ SPOT_ZH = {
     "rotoscope": ["角色动作有真实的重量和节奏", "无描边的平涂色块，或细墨线", "电影化的构图和过场"],
     "desktop-ui": ["窗口、鼠标、任务栏和对话框就是整个世界", "年代感界面：Windows 9x/XP、早期网页、老手机", "用故障和损坏的屏幕讲故事"],
     "stained-glass": ["每块彩色玻璃都有像铅条一样封闭的深色边框", "宝石色的小块玻璃拼出一幅完整图案", "背光和细微的玻璃颗粒让颜色显得通透"],
+    "gouache-picture-book": ["哑光色块里能看到笔刷纹理而非光滑渐变", "轮廓圆润但略微不规则，五官很小", "克制的自然配色让密集植被仍然清晰"],
+    "whimsical-ink": ["粗细稍有变化的不规则黑色墨线", "黑白场景细节丰富，角色小巧而有表情", "分层画片、剪纸和柔和灰影提供深度"],
+    "cozy-pixel-storybook": ["方形像素清楚，但角色轮廓圆润讨喜", "暖绿、棕色和奶油色为主，而非霓虹色", "植物、小径与道具分层，场景温暖有生活气息"],
+
 }
 
 TECHNIQUES_ZH = {
@@ -852,6 +922,10 @@ TECHNIQUES_ZH = {
     "rotoscope": ["从参考视频描摹", "平涂多边形填色", "有限调色板"],
     "desktop-ui": ["复刻的年代界面套件", "游戏内的窗口系统", "故障和损坏效果"],
     "stained-glass": ["封闭的玻璃片遮罩与粗铅条边线", "半透明彩色分层", "细微玻璃颗粒与背光辉光"],
+    "gouache-picture-book": ["水粉笔触与干刷边缘", "细微纸张颗粒", "分层 2D 视差"],
+    "whimsical-ink": ["手绘墨线精灵与排线", "平涂灰阶材质与环境光遮蔽", "正交 3D 剪纸微缩景"],
+    "cozy-pixel-storybook": ["有限调色板像素地块与精灵", "最近邻整数倍放大", "分层植被 TileMap"],
+
 }
 
 AGENT_ZH = {
@@ -1013,4 +1087,8 @@ AGENT_ZH = {
                    "自己画图标和窗口边框；不要用真实操作系统的素材或标志。",
                    "做一个小窗口管理器（拖动、聚焦、关闭），让故事通过各个应用展开。"],
     "stained-glass": ["在 Godot 4 中，把每块玻璃画成 `Polygon2D`，再用深色 `Line2D` 沿封闭轮廓描边（4–8 px），模拟铅条接缝。", "每个多边形填一种饱和色；通过 `canvas_item` 着色器叠加低透明度噪声贴图，模拟玻璃的细微不均。", "把柔和暖光层放在图案后面，在 `WorldEnvironment` 中为最亮的玻璃启用辉光；边线保持不透明。"],
+    "gouache-picture-book": ["先画不透明的、带干刷断续边缘的角色精灵和背景层；避免矢量轮廓过于平滑。", "Godot 使用 Parallax2D 放置分层插画，再用 CanvasItem 着色器低透明度叠加纸纹；滤镜不能取代手绘。", "配色限制在灰绿、米色及少量强调色中，检查灰阶对比度，保证小角色可读。"],
+    "whimsical-ink": ["角色、物件绘制成透明背景的黑白墨线精灵，线条粗细略有变化。", "TOEM 式微缩景采用 Godot 正交 Camera3D + Sprite3D 画片 + 简单灰白网格与少量 AO。", "平面找物场景改用 CanvasItem 精灵和 2D 相机缩放；排线适量，主图不含界面元素。"],
+    "cozy-pixel-storybook": ["Godot 里绘制 16 或 32 像素地块和相同比例的角色精灵，先确定 12–20 个协调色。", "CanvasItem 设为 Nearest 过滤，整数倍放大，开启 snap_2d_transforms_to_pixel 避免像素闪烁。", "用多个 TileMapLayer 堆叠植被和道具，动作采用 4–8 张手绘关键帧。"],
+
 }
