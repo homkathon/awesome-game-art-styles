@@ -4,7 +4,7 @@ Free or cheap packs that work across several styles. Licences were checked on 20
 
 | Library | Type | Licence | Cost | Notes |
 |:--|:--|:--|:--|:--|
-| [KayKit Furniture Bits](https://kaylousberg.itch.io/furniture-bits) | 3D | 🟢 CC0 | Free | 50+ pieces on one gradient atlas: recolour the whole set by editing one image. [GitHub](https://github.com/KayKit-Game-Assets/KayKit-Furniture-Bits-1.0) has it as a Godot addon, with the other [KayKit packs](https://github.com/KayKit-Game-Assets). |
+| [KayKit Furniture Bits](https://kaylousberg.itch.io/furniture-bits) | 3D | 🟢 CC0 | Free | 50+ pieces on one gradient atlas: recolour the whole set by editing one image. The author asks that unmodified copies not be resold; the pack is still CC0. [GitHub](https://github.com/KayKit-Game-Assets/KayKit-Furniture-Bits-1.0) has it as a Godot addon, with the other [KayKit packs](https://github.com/KayKit-Game-Assets). |
 | [Kenney](https://kenney.nl/assets) | 3D / 2D | 🟢 CC0 | Free | Huge library, including animated [Mini Characters](https://kenney.nl/assets/mini-characters) and the [Furniture Kit](https://kenney.nl/assets/furniture-kit). |
 | [Quaternius](https://quaternius.itch.io) | 3D | 🟠 Custom | Free | Pack pages say CC0, but the site now publishes its own Quaternius Asset Licence. |
 | [Poly Pizza](https://poly.pizza) | 3D | 🟡 CC0 / CC-BY | Free | 7000+ lowpoly models; check each one. |
@@ -13,7 +13,7 @@ Free or cheap packs that work across several styles. Licences were checked on 20
 | [2dPig Pixel Office](https://2dpig.itch.io/pixel-office) | Pixel | 🟢 CC0 | Free | Office props and five characters. |
 | [Open Peeps](https://www.openpeeps.com) | 2D | 🟢 CC0 | Free | Hand-drawn mix-and-match people. |
 | [Humaaans](https://www.humaaans.com) | 2D | 🟠 Unclear | Free | Licence wording varies between sources. |
-| [ambientCG](https://ambientcg.com) | Texture | 🟢 CC0 | Free | Paper, fabric, wood. |
+| [ambientCG](https://ambientcg.com) | Texture | 🟢 CC0 | Free | Paper, fabric, wood. [Official licence](https://docs.ambientcg.com/license/) confirms commercial use without attribution. |
 | [Poly Haven](https://polyhaven.com) | Texture / HDRI | 🟢 CC0 | Free | HDRIs, textures, models. |
 
 ## Learning resources
@@ -49,7 +49,6 @@ Styles without a good reference game in the list yet. Pull requests welcome.
 | Blueprint / technical drawing | Line drawings on a grid, dimensions, annotations |
 | Ukiyo-e woodblock | Woodblock outlines, flat bokashi gradients |
 | Manga screentone | Screentone patterns, speed lines, panel layouts |
-| Stained glass | Lead lines, translucent colour cells |
 | Gouache picture book | Opaque painted shapes, visible brush texture |
 
 ## Contributing

@@ -2,11 +2,11 @@
 
 # Awesome Game Art Styles [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-[![Styles](https://img.shields.io/badge/styles-51-f2b134)](#3d-shading--form) [![Licence: CC0](https://img.shields.io/badge/licence-CC0-lightgrey)](LICENSE) [![check](https://github.com/homkathon/awesome-game-art-styles/actions/workflows/check.yml/badge.svg)](https://github.com/homkathon/awesome-game-art-styles/actions/workflows/check.yml)
+[![Styles](https://img.shields.io/badge/styles-52-f2b134)](#3d-shading--form) [![Licence: CC0](https://img.shields.io/badge/licence-CC0-lightgrey)](LICENSE) [![check](https://github.com/homkathon/awesome-game-art-styles/actions/workflows/check.yml/badge.svg)](https://github.com/homkathon/awesome-game-art-styles/actions/workflows/check.yml)
 
 **English** · [简体中文](README.zh-CN.md)
 
-> 51 game visual styles, organised by **look**. Click a style for screenshots, how to recognise it, techniques, tutorials, free assets and notes for coding agents.
+> 52 game visual styles, organised by **look**. Click a style for screenshots, how to recognise it, techniques, tutorials, free assets and notes for coding agents.
 
 Screenshots are loaded from Steam and link to each game's store page; nothing is rehosted here. Use the [Claude Code skill](skills/game-art-style/SKILL.md) to get a style recommendation for your own game, or try the [live shader demos](https://homkathon.github.io/awesome-game-art-styles/demos/) for toon, PS1, 1-bit and pixelated 3D.
 
@@ -139,6 +139,7 @@ Screenshots are loaded from Steam and link to each game's store page; nothing is
 <tr>
 <td align="center" valign="top" width="25%"><a href="styles/ascii/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/603390/ss_98312257e7a8b1ee3c8964d6dede01cf69c002f0.600x338.jpg" width="220" alt="ASCII / text"></a><br><a href="styles/ascii/"><b>ASCII / text</b></a><br><sub>ASCII / 字符画</sub></td>
 <td align="center" valign="top" width="25%"><a href="styles/desktop-ui/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/844590/ss_801ae3d54dc30f1cfbbc9cd397d87d69def94356.600x338.jpg" width="220" alt="Desktop / OS interface"></a><br><a href="styles/desktop-ui/"><b>Desktop / OS interface</b></a><br><sub>桌面 / 操作系统界面</sub></td>
+<td align="center" valign="top" width="25%"><a href="styles/stained-glass/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1034150/ss_bf7d6fdf910f95c39d3fda401ba0c57840849586.600x338.jpg" width="220" alt="Stained glass"></a><br><a href="styles/stained-glass/"><b>Stained glass</b></a><br><sub>彩色玻璃</sub></td>
 </tr>
 </table>
 
@@ -148,7 +149,7 @@ Free or cheap packs that work across several styles. Licences were checked on 20
 
 | Library | Type | Licence | Cost | Notes |
 |:--|:--|:--|:--|:--|
-| [KayKit Furniture Bits](https://kaylousberg.itch.io/furniture-bits) | 3D | 🟢 CC0 | Free | 50+ pieces on one gradient atlas: recolour the whole set by editing one image. [GitHub](https://github.com/KayKit-Game-Assets/KayKit-Furniture-Bits-1.0) has it as a Godot addon, with the other [KayKit packs](https://github.com/KayKit-Game-Assets). |
+| [KayKit Furniture Bits](https://kaylousberg.itch.io/furniture-bits) | 3D | 🟢 CC0 | Free | 50+ pieces on one gradient atlas: recolour the whole set by editing one image. The author asks that unmodified copies not be resold; the pack is still CC0. [GitHub](https://github.com/KayKit-Game-Assets/KayKit-Furniture-Bits-1.0) has it as a Godot addon, with the other [KayKit packs](https://github.com/KayKit-Game-Assets). |
 | [Kenney](https://kenney.nl/assets) | 3D / 2D | 🟢 CC0 | Free | Huge library, including animated [Mini Characters](https://kenney.nl/assets/mini-characters) and the [Furniture Kit](https://kenney.nl/assets/furniture-kit). |
 | [Quaternius](https://quaternius.itch.io) | 3D | 🟠 Custom | Free | Pack pages say CC0, but the site now publishes its own Quaternius Asset Licence. |
 | [Poly Pizza](https://poly.pizza) | 3D | 🟡 CC0 / CC-BY | Free | 7000+ lowpoly models; check each one. |
@@ -157,7 +158,7 @@ Free or cheap packs that work across several styles. Licences were checked on 20
 | [2dPig Pixel Office](https://2dpig.itch.io/pixel-office) | Pixel | 🟢 CC0 | Free | Office props and five characters. |
 | [Open Peeps](https://www.openpeeps.com) | 2D | 🟢 CC0 | Free | Hand-drawn mix-and-match people. |
 | [Humaaans](https://www.humaaans.com) | 2D | 🟠 Unclear | Free | Licence wording varies between sources. |
-| [ambientCG](https://ambientcg.com) | Texture | 🟢 CC0 | Free | Paper, fabric, wood. |
+| [ambientCG](https://ambientcg.com) | Texture | 🟢 CC0 | Free | Paper, fabric, wood. [Official licence](https://docs.ambientcg.com/license/) confirms commercial use without attribution. |
 | [Poly Haven](https://polyhaven.com) | Texture / HDRI | 🟢 CC0 | Free | HDRIs, textures, models. |
 
 ## Learning resources
@@ -193,7 +194,6 @@ Styles without a good reference game in the list yet. Pull requests welcome.
 | Blueprint / technical drawing | Line drawings on a grid, dimensions, annotations |
 | Ukiyo-e woodblock | Woodblock outlines, flat bokashi gradients |
 | Manga screentone | Screentone patterns, speed lines, panel layouts |
-| Stained glass | Lead lines, translucent colour cells |
 | Gouache picture book | Opaque painted shapes, visible brush texture |
 
 ## Contributing

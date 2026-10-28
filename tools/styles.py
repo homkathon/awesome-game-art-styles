@@ -5,6 +5,7 @@ Screenshots are referenced as "APPID:INDEX" into tools/screenshots.json
 """
 
 GAMES = {  # Steam app id -> display name
+    511470: "Glass Masquerade", 1034150: "Mosaic Chronicles",
     553420: "TUNIC", 1562430: "DREDGE", 2198150: "Tiny Glade", 1291340: "Townscaper", 427820: "Hitman GO",
     1927720: "Monument Valley", 1817230: "Hi-Fi RUSH", 49520: "Borderlands 2", 1384160: "GUILTY GEAR -STRIVE-",
     757310: "Sable", 1931770: "Chants of Sennaar", 632470: "Disco Elysium", 1172620: "Sea of Thieves",
@@ -548,6 +549,17 @@ STYLES = [
          agent=["Pick one era of interface (Windows 98, XP, early smartphones) and copy its rules: bevels, fonts, sounds.",
                 "Draw your own icons and window chrome; don't ship real operating-system assets or logos.",
                 "Build a small window manager (drag, focus, close) and let the story arrive through apps."]),
+    dict(id="stained-glass", section=6, title="Stained glass", zh="彩色玻璃",
+         summary="Illustrations assembled from coloured glass panes separated by dark lead lines.",
+         spot=["Every coloured shape has a dark, closed outline like a lead came",
+               "Jewel-toned panes form a larger picture from small irregular pieces",
+               "Light and subtle glass grain make the colours feel translucent"],
+         techniques=["closed pane masks and thick lead contours", "translucent colour layers", "fine glass grain and backlight glow"],
+         games=[1034150, 511470], hero="1034150:3", gallery=["511470:5"],
+         learn=[], assets=[], similar=["flat-vector", "manuscript"],
+         agent=["In Godot 4, draw each pane as a `Polygon2D` and trace its closed perimeter with a dark `Line2D` (4–8 px) for the lead seams.",
+                "Give each polygon a single saturated fill; overlay a low-opacity noise texture in a `canvas_item` shader to suggest uneven glass.",
+                "Put a soft warm light layer behind the artwork and enable `WorldEnvironment` glow on the brightest panes; keep the outlines opaque."]),
 ]
 
 
@@ -606,4 +618,5 @@ SUMMARY_ZH = {
     "storybook": "每个场景都像儿童绘本里的一页。",
     "rotoscope": "从实拍动作描下来的动画，用平面色块和少量颜色画成。",
     "desktop-ui": "游戏就是一块电脑屏幕：窗口、聊天软件、浏览器和虚构的操作系统。",
+    "stained-glass": "以深色铅条分隔透光的彩色玻璃块，再拼成完整插画。",
 }

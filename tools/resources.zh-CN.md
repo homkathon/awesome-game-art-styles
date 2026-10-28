@@ -4,7 +4,7 @@
 
 | 素材库 | 类型 | 授权 | 费用 | 说明 |
 |---|---|---|---|---|
-| [KayKit Furniture Bits](https://kaylousberg.itch.io/furniture-bits) | 3D | 🟢 CC0 | 免费 | 50 多件家具共用一张渐变贴图：改一张图就能给整套换色。[GitHub](https://github.com/KayKit-Game-Assets/KayKit-Furniture-Bits-1.0) 上有 Godot 插件版，以及其他 [KayKit 素材包](https://github.com/KayKit-Game-Assets)。 |
+| [KayKit Furniture Bits](https://kaylousberg.itch.io/furniture-bits) | 3D | 🟢 CC0 | 免费 | 50 多件家具共用一张渐变贴图：改一张图就能给整套换色。作者希望不要原样转售素材，授权仍为 CC0。[GitHub](https://github.com/KayKit-Game-Assets/KayKit-Furniture-Bits-1.0) 上有 Godot 插件版，以及其他 [KayKit 素材包](https://github.com/KayKit-Game-Assets)。 |
 | [Kenney](https://kenney.nl/assets) | 3D / 2D | 🟢 CC0 | 免费 | 素材量巨大，包括带动画的 [Mini Characters](https://kenney.nl/assets/mini-characters) 和 [Furniture Kit](https://kenney.nl/assets/furniture-kit)。 |
 | [Quaternius](https://quaternius.itch.io) | 3D | 🟠 自定义 | 免费 | 素材页写的是 CC0，但网站现在发布了自己的 Quaternius Asset Licence。 |
 | [Poly Pizza](https://poly.pizza) | 3D | 🟡 CC0 / CC-BY | 免费 | 7000 多个低多边形模型；每个都要单独看授权。 |
@@ -13,7 +13,7 @@
 | [2dPig Pixel Office](https://2dpig.itch.io/pixel-office) | 像素 | 🟢 CC0 | 免费 | 办公室道具和五个角色。 |
 | [Open Peeps](https://www.openpeeps.com) | 2D | 🟢 CC0 | 免费 | 手绘风格、可自由拼装的人物。 |
 | [Humaaans](https://www.humaaans.com) | 2D | 🟠 不明确 | 免费 | 不同来源的授权说法不一致。 |
-| [ambientCG](https://ambientcg.com) | 贴图 | 🟢 CC0 | 免费 | 纸、布料、木头。 |
+| [ambientCG](https://ambientcg.com) | 贴图 | 🟢 CC0 | 免费 | 纸、布料、木头。[官方授权说明](https://docs.ambientcg.com/license/)确认可商用且无需署名。 |
 | [Poly Haven](https://polyhaven.com) | 贴图 / HDRI | 🟢 CC0 | 免费 | HDRI、贴图、模型。 |
 
 ## 学习资源
