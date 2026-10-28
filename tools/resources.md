@@ -102,7 +102,6 @@ Styles without a good reference game in the list yet. Pull requests welcome.
 | Blueprint / technical drawing | Line drawings on a grid, dimensions, annotations |
 | Ukiyo-e woodblock | Woodblock outlines, flat bokashi gradients |
 | Manga screentone | Screentone patterns, speed lines, panel layouts |
-| Gouache picture book | Opaque painted shapes, visible brush texture |
 
 ## Contributing
 

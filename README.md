@@ -2,11 +2,11 @@
 
 # Awesome Game Art Styles [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-[![Styles](https://img.shields.io/badge/styles-52-f2b134)](#3d-shading--form) [![Licence: CC0](https://img.shields.io/badge/licence-CC0-lightgrey)](LICENSE) [![check](https://github.com/homkathon/awesome-game-art-styles/actions/workflows/check.yml/badge.svg)](https://github.com/homkathon/awesome-game-art-styles/actions/workflows/check.yml)
+[![Styles](https://img.shields.io/badge/styles-55-f2b134)](#3d-shading--form) [![Licence: CC0](https://img.shields.io/badge/licence-CC0-lightgrey)](LICENSE) [![check](https://github.com/homkathon/awesome-game-art-styles/actions/workflows/check.yml/badge.svg)](https://github.com/homkathon/awesome-game-art-styles/actions/workflows/check.yml)
 
 **English** · [简体中文](README.zh-CN.md)
 
-> 52 game visual styles, organised by **look**. Click a style for screenshots, how to recognise it, techniques, tutorials, free assets and notes for coding agents.
+> 55 game visual styles, organised by **look**. Click a style for screenshots, how to recognise it, techniques, tutorials, free assets and notes for coding agents.
 
 🌐 **Browse it as a website: [homkathon.gokoding.com/styles](https://homkathon.gokoding.com/styles)** (Chinese interface). Search and filter all styles, flip through screenshots and play the live demos on each style's page.
 
@@ -105,6 +105,7 @@ Screenshots are loaded from Steam and link to each game's store page; nothing is
 <tr>
 <td align="center" valign="top" width="25%"><a href="styles/cozy/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1135690/ss_b32bfdd3f68e1f9e264bd37e10a464629ca034f8.600x338.jpg" width="220" alt="Cozy interiors"></a><br><a href="styles/cozy/"><b>Cozy interiors</b></a><br><sub>温馨室内像素</sub></td>
 <td align="center" valign="top" width="25%"><a href="styles/nes-8bit/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/764790/ss_875fe259c26f29d959efba0eca47e1b63d844c75.600x338.jpg" width="220" alt="8-bit / NES"></a><br><a href="styles/nes-8bit/"><b>8-bit / NES</b></a><br><sub>8-bit / FC</sub></td>
+<td align="center" valign="top" width="25%"><a href="styles/cozy-pixel-storybook/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1062140/ss_9d643d5db7b194146bbe2d6f233e039900e74106.600x338.jpg" width="220" alt="Cozy storybook pixel art"></a><br><a href="styles/cozy-pixel-storybook/"><b>Cozy storybook pixel art</b></a><br><sub>温暖绘本像素</sub></td>
 </tr>
 </table>
 
@@ -126,6 +127,8 @@ Screenshots are loaded from Steam and link to each game's store page; nothing is
 <tr>
 <td align="center" valign="top" width="25%"><a href="styles/storybook/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/581270/ss_11406a46468e36e249a26f9054dfef162678c076.600x338.jpg" width="220" alt="Storybook / picture book"></a><br><a href="styles/storybook/"><b>Storybook / picture book</b></a><br><sub>绘本</sub></td>
 <td align="center" valign="top" width="25%"><a href="styles/rotoscope/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/233550/ss_72559daf5b29da71ea9e1cd74a67e130552674f3.600x338.jpg" width="220" alt="Rotoscope / flat polygons"></a><br><a href="styles/rotoscope/"><b>Rotoscope / flat polygons</b></a><br><sub>转描 / 平面多边形</sub></td>
+<td align="center" valign="top" width="25%"><a href="styles/gouache-picture-book/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172450/ss_5e9fb66710e5b0b8912c43f56299830893435379.600x338.jpg" width="220" alt="Gouache picture book"></a><br><a href="styles/gouache-picture-book/"><b>Gouache picture book</b></a><br><sub>水粉质感绘本</sub></td>
+<td align="center" valign="top" width="25%"><a href="styles/whimsical-ink/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1307580/ss_452053e6976add5d6690c6f5dc227d3fd4bda26d.600x338.jpg" width="220" alt="Whimsical monochrome ink"></a><br><a href="styles/whimsical-ink/"><b>Whimsical monochrome ink</b></a><br><sub>俏皮黑白手绘</sub></td>
 </tr>
 </table>
 
@@ -409,7 +412,6 @@ Styles without a good reference game in the list yet. Pull requests welcome.
 | Blueprint / technical drawing | Line drawings on a grid, dimensions, annotations |
 | Ukiyo-e woodblock | Woodblock outlines, flat bokashi gradients |
 | Manga screentone | Screentone patterns, speed lines, panel layouts |
-| Gouache picture book | Opaque painted shapes, visible brush texture |
 
 ## Contributing
 
