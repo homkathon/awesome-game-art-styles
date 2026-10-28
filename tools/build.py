@@ -9,6 +9,7 @@ from pathlib import Path
 
 import styles as data
 import x_gallery
+import x_previews
 
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parent
@@ -145,7 +146,7 @@ def home(lang):
                 )
             out.append("</tr>")
         out += ["</table>", ""]
-    out.append((HERE / t["resources"]).read_text())
+    out.append(x_previews.decorate_readme((HERE / t["resources"]).read_text(), lang))
     out += ["", "---", "", t["star"], ""]
     return "\n".join(out)
 
