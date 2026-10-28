@@ -75,6 +75,9 @@ GAMES = {  # Steam app id -> display name
     1062140: 'Garden Story',
     729000: 'Wytchwood',
 
+    1586800: 'Lil Gator Game',
+    1740300: 'Smushi Come Home',
+
 }
 
 LEARN = {
@@ -640,6 +643,135 @@ STYLES = [
                 "Set CanvasItem texture filtering to Nearest, use integer scaling and enable snap_2d_transforms_to_pixel to avoid uneven pixels.",
                 "Stack foliage and props on multiple TileMapLayers, and animate characters in 4–8 distinct hand-drawn poses."]),
 
+    dict(id='nordic-watercolour-woodland',
+         section=5,
+         title='Nordic watercolour woodland',
+         zh='北欧水彩森林',
+         summary='Soft painted forests and quiet characters turn exploration into a Nordic storybook.',
+         spot=['Soft transparent painted foliage', 'Small characters stay readable among layered trees', 'Muted seasonal colours lead the scene'],
+         techniques=['painted foliage layers', '2D parallax', 'seasonal palette'],
+         games=[3256150, 1808680, 1419860],
+         hero='3256150:1',
+         gallery=['1808680:1', '3256150:2', '1419860:1'],
+         learn=[],
+         assets=[],
+         similar=['gouache-picture-book', 'watercolour'],
+         agent=['Paint foliage in separated transparent layers, retaining soft brush edges.', 'In Godot use Parallax2D for layered forest backgrounds and gently tint distant planes.']),
+    dict(id='layered-paper-landscapes',
+         section=5,
+         title='Layered paper landscapes',
+         zh='分层纸片风景',
+         summary='Painted hills, trees and buildings overlap like pieces of a handmade paper theatre.',
+         spot=['Terrain is made of overlapping painted silhouettes', 'Soft seams and shadows separate paper planes', 'Scene reads as a staged illustration'],
+         techniques=['layered cut-paper sprites', 'soft contact shadows', 'orthographic parallax'],
+         games=[581270, 1889740],
+         hero='581270:2',
+         gallery=['1889740:1', '581270:1', '1889740:2'],
+         learn=[],
+         assets=[],
+         similar=['papercraft', 'storybook'],
+         agent=['Separate terrain illustrations into several depth planes rather than a continuous realistic mesh.', 'Use Godot Parallax2D with small layer offsets and subtle shadows; keep paper grain restrained.']),
+    dict(id='stickerbook-cutouts',
+         section=5,
+         title='Stickerbook cutouts',
+         zh='贴纸绘本拼贴',
+         summary='Simple, friendly silhouettes behave like individual stickers in a playful scrapbook world.',
+         spot=['Props read as individual movable stickers', 'Soft outlines surround flat colours', 'Layout feels like an open scrapbook'],
+         techniques=['masked 2D sprites', 'subtle border stroke', 'tile snapping'],
+         games=[2322180, 1172450],
+         hero='2322180:1',
+         gallery=['1172450:3', '2322180:2', '1172450:1'],
+         learn=[],
+         assets=[],
+         similar=['storybook', 'gouache-picture-book'],
+         agent=['Paint each prop on a transparent sprite with an easily recognisable closed outline.', 'Apply a one-pixel CanvasItem border in Godot, plus drag-and-snap positioning for sticker-like interaction.']),
+
+    dict(id='woodland-folklore-illustration',
+         section=5,
+         title='Woodland folklore illustration',
+         zh='森林民间传说插画',
+         summary='Hand-drawn botanical ornaments and curious tiny creatures give forests a folklore atmosphere.',
+         spot=['Ornamental plants and mushrooms frame the scene', 'Odd but friendly creature silhouettes', 'Earthy moss and soil colour palette'],
+         techniques=['modular plant silhouettes', 'layered foliage', 'earthy palette'],
+         games=[1419860, 729000, 1808680],
+         hero='1419860:1',
+         gallery=['729000:0', '1808680:2', '1419860:3'],
+         learn=[],
+         assets=[],
+         similar=['storybook', 'gouache-picture-book'],
+         agent=['Illustrate separate botanical props and whimsical creature silhouettes with visible pen texture.', 'In Godot, scatter Sprite2D groups in depth layers, reserving empty space around gameplay interactions.']),
+    dict(id='loose-line-cartoons',
+         section=5,
+         title='Loose-line storybook cartoons',
+         zh='松弛线稿卡通',
+         summary='Uneven friendly pen lines and large, flat colour areas avoid polished vector perfection.',
+         spot=['Subtle changes in outline weight', 'Simple faces and exaggerated tiny proportions', 'Uncluttered coloured backgrounds'],
+         techniques=['variable-width ink strokes', 'flat fills beneath line art', 'limited 2D poses'],
+         games=[1444300, 1123450, 530320],
+         hero='1444300:1',
+         gallery=['1123450:1', '1444300:2', '530320:1'],
+         learn=[],
+         assets=[],
+         similar=['line-art', 'whimsical-ink'],
+         agent=['Paint outline and colour as separate layers, keeping gentle pen wobble and rounded strokes.', 'Use unlit CanvasItem sprites in Godot and animate a few drawn key poses rather than smooth vector rigs.']),
+    dict(id='pastel-creature-vignettes',
+         section=5,
+         title='Pastel creature vignettes',
+         zh='柔色小生灵插画',
+         summary='Small round animal characters inhabit simple pastel-painted scenes full of gentle personality.',
+         spot=['Round animals lead the composition', 'Matte pastel colour rather than glossy shading', 'Just a few readable props in each vignette'],
+         techniques=['simple character silhouettes', 'pastel painted textures', 'three-plane scene staging'],
+         games=[1444300, 1419860, 2322180],
+         hero='1444300:3',
+         gallery=['1419860:0', '2322180:1', '1444300:1'],
+         learn=[],
+         assets=[],
+         similar=['gouache-picture-book', 'stickerbook-cutouts'],
+         agent=['Draw tiny creatures with clear rounded silhouettes and minimal facial marks.', 'Compose a Node2D scene from a painted ground, two or three props and a quiet background; keep shadows subtle.']),
+
+    dict(id='cinematic-pixel-painting',
+         section=4,
+         title='Cinematic pixel painting',
+         zh='电影感像素绘景',
+         summary='Detailed pixel scenery and atmospheric light make environments feel like painted film frames.',
+         spot=['Environment pixels are dense and carefully shaded', 'Layered atmospheric light conveys depth', 'Shots have strong widescreen composition'],
+         techniques=['hand-pixelled environments', 'palette-based light', 'parallax camera'],
+         games=[977880, 1594940, 1055540],
+         hero='977880:1',
+         gallery=['1594940:2', '977880:2', '1055540:2'],
+         learn=[],
+         assets=[],
+         similar=['pixel-anime', 'cozy-pixel-storybook', 'hd-2d'],
+         agent=['Create background and foreground tiles at a fixed pixel scale and author distinct local colour palettes.', 'Use Nearest-filtered Godot sprites, low-resolution light overlays and slow camera parallax to preserve pixel clarity.']),
+    dict(id='cozy-lowres-nature-3d',
+         section=1,
+         title='Cozy low-resolution 3D nature',
+         zh='低分辨率自然微缩景',
+         summary='Low-detail outdoor 3D forms become friendly miniature worlds through soft pixel-scale filtering.',
+         spot=['Soft low-poly nature meshes', 'A pixel-soft image without harsh retro distortion', 'Friendly small characters in pastel outdoor spaces'],
+         techniques=['simple low-poly nature props', 'low-resolution render target', 'soft fog'],
+         games=[1055540, 1586800, 1740300],
+         hero='1055540:1',
+         gallery=['1586800:0', '1740300:1', '1055540:2'],
+         learn=[],
+         assets=[],
+         similar=['pixelated-3d', 'low-poly', 'toy-diorama'],
+         agent=['Block out rounded low-poly trees, ground and rocks with large readable silhouettes.', 'Render via a smaller Godot SubViewport, upscale carefully and snap camera movement to reduce pixel shimmer.']),
+    dict(id='illustrated-paper-puzzles',
+         section=6,
+         title='Illustrated paper puzzles',
+         zh='纸面插画解谜',
+         summary='Moveable maps and folded paper panels combine flat illustration with tactile puzzle surfaces.',
+         spot=['World is framed as a map or foldable sheet', 'Flat symbols and simple fields of colour', 'Moving paper edges is central to the experience'],
+         techniques=['illustrated map tiles', 'page folds and pivot transforms', 'paper edge shading'],
+         games=[1172450, 1889740],
+         hero='1172450:2',
+         gallery=['1889740:0', '1172450:3', '1889740:2'],
+         learn=[],
+         assets=[],
+         similar=['papercraft', 'stickerbook-cutouts', 'layered-paper-landscapes'],
+         agent=['Draw locations as separate illustration tiles with consistent borders and scene perspective.', 'In Godot rotate Node2D map pieces or pivot flat MeshInstance3D planes for folds; add subtle contact shadows and paper grain.']),
+
 ]
 
 
@@ -702,6 +834,18 @@ SUMMARY_ZH = {
     "gouache-picture-book": "不透明的水粉色块与微妙的干刷边缘，让简洁圆润的角色带上手作绘本气质。",
     "whimsical-ink": "轻松活泼的黑白墨线，搭配有趣的小角色；有时以二维剪纸的方式构成立体小世界。",
     "cozy-pixel-storybook": "保留清楚的方形像素，以温和配色、圆润轮廓与自然细节呈现绘本般的亲和力。",
+
+    'nordic-watercolour-woodland': '柔和水彩森林、宁静小人物和自然色调，让探索像北欧绘本。',
+    'layered-paper-landscapes': '山丘、树木和建筑像纸片剧场一样层叠拼出绘画世界。',
+    'stickerbook-cutouts': '简洁讨喜的轮廓像一枚枚贴纸，组成可摆弄的手账世界。',
+
+    'woodland-folklore-illustration': '手绘植物纹样与奇趣小生灵，让森林带上民间传说气质。',
+    'loose-line-cartoons': '不规整的亲切墨线搭配平涂色块，避免过分精致的矢量感。',
+    'pastel-creature-vignettes': '圆润的小动物置身柔和粉彩绘景，用很少的道具传达性格。',
+
+    'cinematic-pixel-painting': '细密像素绘景加上氛围光照，让环境像动画电影的镜头。',
+    'cozy-lowres-nature-3d': '低细节的 3D 户外场景透过柔和像素尺度，变成亲切的微缩世界。',
+    'illustrated-paper-puzzles': '可移动地图与折叠纸页，将平面插画和可操作纸面结合起来。',
 
 }
 
@@ -767,6 +911,18 @@ NEEDS = {
     "whimsical-ink": ("art", "Original hand-inked black-and-white sprites and scenery."),
     "cozy-pixel-storybook": ("art", "Small-scale pixel sprites, tile sets and matching foliage in a limited palette."),
 
+    'nordic-watercolour-woodland': ('art', 'Original layered watercolour backgrounds and nature sprites.'),
+    'layered-paper-landscapes': ('art', 'Painted cut-paper landscapes and matching depth-separated props.'),
+    'stickerbook-cutouts': ('art', 'Sticker-shaped sprites with clean alpha silhouettes.'),
+
+    'woodland-folklore-illustration': ('art', 'Custom illustrated forest flora, creatures and folk motifs.'),
+    'loose-line-cartoons': ('art', 'Original hand-inked poses with separate flat-colour layers.'),
+    'pastel-creature-vignettes': ('art', 'Painted creature sprite poses and matching miniature props.'),
+
+    'cinematic-pixel-painting': ('art', 'Original detailed pixel environments and matching sprite sheets.'),
+    'cozy-lowres-nature-3d': ('mixed', 'Rounded simple 3D vegetation models and a consistent soft palette.'),
+    'illustrated-paper-puzzles': ('mixed', 'Illustrated maps, paper panel textures and foldable surfaces.'),
+
 }
 
 NEEDS_ZH = {
@@ -806,6 +962,18 @@ NEEDS_ZH = {
     "gouache-picture-book": "带真实笔刷与纸面质感的水粉角色精灵和背景画。",
     "whimsical-ink": "原创的黑白墨线角色精灵与场景画。",
     "cozy-pixel-storybook": "使用有限调色板绘制的小尺寸像素角色、地块与植物素材。",
+
+    'nordic-watercolour-woodland': '原创的分层水彩背景与自然精灵素材。',
+    'layered-paper-landscapes': '手绘纸片风景及按景深分层的道具。',
+    'stickerbook-cutouts': '具有清楚透明轮廓的贴纸形精灵。',
+
+    'woodland-folklore-illustration': '定制绘制的森林植物、小动物与民俗装饰。',
+    'loose-line-cartoons': '原创手绘墨线角色姿势与独立平涂色层。',
+    'pastel-creature-vignettes': '绘制的小动物姿势精灵与配套微型道具。',
+
+    'cinematic-pixel-painting': '原创细腻像素场景及配套精灵帧。',
+    'cozy-lowres-nature-3d': '圆润简化的 3D 植物模型与统一柔和配色。',
+    'illustrated-paper-puzzles': '插画地图、纸页面板纹理与可折叠平面。',
 
 }
 
@@ -867,6 +1035,18 @@ SPOT_ZH = {
     "whimsical-ink": ["粗细稍有变化的不规则黑色墨线", "黑白场景细节丰富，角色小巧而有表情", "分层画片、剪纸和柔和灰影提供深度"],
     "cozy-pixel-storybook": ["方形像素清楚，但角色轮廓圆润讨喜", "暖绿、棕色和奶油色为主，而非霓虹色", "植物、小径与道具分层，场景温暖有生活气息"],
 
+    'nordic-watercolour-woodland': ['植被有透明水彩笔触', '小人物在层叠林地中仍然清晰', '柔和的季节色彩主导画面'],
+    'layered-paper-landscapes': ['地形由层叠的绘画剪影组成', '柔软接缝与阴影分开纸层', '画面如摆在舞台上的插画'],
+    'stickerbook-cutouts': ['道具像独立可移动的贴纸', '柔和边线包围平涂色块', '布局像打开的手账'],
+
+    'woodland-folklore-illustration': ['植物和蘑菇装饰性地包围场景', '小生灵奇特却亲切', '苔绿与泥土色为主'],
+    'loose-line-cartoons': ['外轮廓粗细略有变化', '五官简单、身体比例俏皮', '背景留白多'],
+    'pastel-creature-vignettes': ['圆润动物居于构图中心', '哑光粉彩替代光滑光影', '每个小场景只有少量清楚道具'],
+
+    'cinematic-pixel-painting': ['环境像素细密且明暗讲究', '分层光照表现纵深', '镜头构图具有电影感'],
+    'cozy-lowres-nature-3d': ['柔和低模的自然形体', '像素柔化却没有强烈复古扭曲', '粉彩户外场景中的可爱小人物'],
+    'illustrated-paper-puzzles': ['世界展示成地图或可折叠纸页', '符号与色块简明平面', '移动纸张边缘是关键体验'],
+
 }
 
 TECHNIQUES_ZH = {
@@ -925,6 +1105,18 @@ TECHNIQUES_ZH = {
     "gouache-picture-book": ["水粉笔触与干刷边缘", "细微纸张颗粒", "分层 2D 视差"],
     "whimsical-ink": ["手绘墨线精灵与排线", "平涂灰阶材质与环境光遮蔽", "正交 3D 剪纸微缩景"],
     "cozy-pixel-storybook": ["有限调色板像素地块与精灵", "最近邻整数倍放大", "分层植被 TileMap"],
+
+    'nordic-watercolour-woodland': ['绘制植被分层', '2D 视差', '季节色板'],
+    'layered-paper-landscapes': ['分层剪纸精灵', '柔和接触阴影', '正交视差'],
+    'stickerbook-cutouts': ['带透明蒙版的 2D 精灵', '微弱边缘描边', '贴纸吸附'],
+
+    'woodland-folklore-illustration': ['模块化植物剪影', '分层植被', '大地色色板'],
+    'loose-line-cartoons': ['变化线宽的墨线', '线稿下的平涂色块', '有限姿势动画'],
+    'pastel-creature-vignettes': ['极简角色剪影', '粉彩绘画纹理', '前中后三层构图'],
+
+    'cinematic-pixel-painting': ['手绘像素环境', '色板约束的灯光', '视差相机'],
+    'cozy-lowres-nature-3d': ['简化低模自然道具', '低分辨率渲染目标', '柔和雾效'],
+    'illustrated-paper-puzzles': ['插画地图图块', '纸页折叠与铰点变换', '纸张边缘明暗'],
 
 }
 
@@ -1091,4 +1283,46 @@ AGENT_ZH = {
     "whimsical-ink": ["角色、物件绘制成透明背景的黑白墨线精灵，线条粗细略有变化。", "TOEM 式微缩景采用 Godot 正交 Camera3D + Sprite3D 画片 + 简单灰白网格与少量 AO。", "平面找物场景改用 CanvasItem 精灵和 2D 相机缩放；排线适量，主图不含界面元素。"],
     "cozy-pixel-storybook": ["Godot 里绘制 16 或 32 像素地块和相同比例的角色精灵，先确定 12–20 个协调色。", "CanvasItem 设为 Nearest 过滤，整数倍放大，开启 snap_2d_transforms_to_pixel 避免像素闪烁。", "用多个 TileMapLayer 堆叠植被和道具，动作采用 4–8 张手绘关键帧。"],
 
+    'nordic-watercolour-woodland': ['分层绘制半透明植被，保留柔软的笔刷边缘。', 'Godot 用 Parallax2D 制作森林层次，远处略加环境色。'],
+    'layered-paper-landscapes': ['把地形插画拆成若干纵深层，而不是连续的写实模型。', 'Godot 用 Parallax2D 做微小错层，配淡阴影与纸纹。'],
+    'stickerbook-cutouts': ['每个道具都画成独立透明精灵，轮廓完整易认。', 'Godot 用 CanvasItem 做细边线，加入拖放吸附强化贴纸感。'],
+
+    'woodland-folklore-illustration': ['先画独立的植物道具与小生灵剪影，保留手绘墨线质感。', 'Godot 用分层 Sprite2D 布置森林，在交互区域保留留白。'],
+    'loose-line-cartoons': ['墨线与颜色分层绘制，保留细小线条抖动与圆头笔触。', 'Godot 使用无光照 CanvasItem 精灵，通过少量关键姿势动画呈现手作感。'],
+    'pastel-creature-vignettes': ['小生灵用清楚的圆润轮廓与极少五官表现情绪。', 'Node2D 场景由手绘地面、两三件道具和安静背景组成，阴影保持克制。'],
+
+    'cinematic-pixel-painting': ['以固定像素尺度绘制前后景，给不同地点配专属小色板。', 'Godot 用 Nearest 精灵、低分辨率光层与缓慢视差，保持像素清楚。'],
+    'cozy-lowres-nature-3d': ['树、地面和石块用轮廓清楚的低模搭建。', 'Godot 通过小 SubViewport 渲染后放大，镜头对齐像素以减少闪烁。'],
+    'illustrated-paper-puzzles': ['把地图位置画成边线与视角一致的插画图块。', 'Godot 用 Node2D 旋转地图块或用带铰点的 MeshInstance3D 做折纸，再加微弱接触阴影。'],
+
 }
+
+# Individual visual examples; all images link to Steam-hosted screenshots.
+ILLUSTRATED_INSPIRATION = [
+    dict(game=1172450, style='gouache-picture-book', image='1172450:3', note_en='Painted map tiles and friendly tiny shapes', note_zh='手绘地图图块与讨喜小人物'),
+    dict(game=3256150, style='nordic-watercolour-woodland', image='3256150:1', note_en='Snowy paper textures and a Nordic forest', note_zh='雪景纸纹与北欧森林'),
+    dict(game=1808680, style='nordic-watercolour-woodland', image='1808680:1', note_en='Quiet watercolour woodland exploration', note_zh='宁静的水彩林地探索'),
+    dict(game=1307580, style='whimsical-ink', image='1307580:1', note_en='Monochrome ink cutouts and soft 3D depth', note_zh='黑白墨线剪纸与柔和 3D 景深'),
+    dict(game=1419860, style='woodland-folklore-illustration', image='1419860:1', note_en='Hand-painted forest creatures and plants', note_zh='手绘森林生灵与植物'),
+    dict(game=1444300, style='pastel-creature-vignettes', image='1444300:1', note_en='Pastel animal picture-book scenes', note_zh='柔色动物绘本场景'),
+    dict(game=1055540, style='cozy-lowres-nature-3d', image='1055540:1', note_en='Pixel-softened outdoor exploration', note_zh='像素柔化的户外探索'),
+    dict(game=1594940, style='cozy-pixel-storybook', image='1594940:2', note_en='Warm, detailed woodland pixels', note_zh='温暖而细致的森林像素'),
+    dict(game=1123450, style='loose-line-cartoons', image='1123450:1', note_en='Loose ink and playful colour fills', note_zh='松弛墨线与趣味填色'),
+    dict(game=977880, style='cinematic-pixel-painting', image='977880:1', note_en='Cinematic detailed pixel landscapes', note_zh='细致的电影感像素绘景'),
+    dict(game=1062140, style='cozy-pixel-storybook', image='1062140:1', note_en='Small rounded pixel creatures', note_zh='圆润的像素小生灵'),
+    dict(game=729000, style='woodland-folklore-illustration', image='729000:0', note_en='Decorative folk-tale woodland', note_zh='装饰性的民俗森林'),
+    dict(game=581270, style='layered-paper-landscapes', image='581270:2', note_en='Layered hand-painted paper landscapes', note_zh='层叠的手绘纸片风景'),
+    dict(game=2322180, style='stickerbook-cutouts', image='2322180:1', note_en='Movable sticker-like storybook objects', note_zh='可摆弄的贴纸式绘本道具'),
+    dict(game=1889740, style='illustrated-paper-puzzles', image='1889740:2', note_en='Foldable illustrated paper worlds', note_zh='可折叠的插画纸面世界'),
+    dict(game=435400, style='whimsical-ink', image='435400:0', note_en='Tiny black-and-white doodled scenes', note_zh='微型黑白涂鸦场景'),
+]
+
+# Inspiration credits are not reusable asset licences.
+ILLUSTRATORS = [
+    dict(name='Oksana Bula', en='Tukoni picture-book artist', zh='Tukoni 绘本创作者', url='https://www.tukoni.com.ua/en'),
+    dict(name='Tove Jansson', en='Moomins author and illustrator', zh='姆明原作及插画创作者', url='https://tovejansson.com/gallery/the-moomins/'),
+    dict(name='Kuan-Hung Chen', en='Carto visual art reference', zh='Carto 美术参考', url='https://sunheadgames.com/en/press/carto/'),
+    dict(name='Sylvain Tegroeg', en='Hidden Folks hand-inked art', zh='Hidden Folks 黑白墨线画', url='https://vgagallery.org/collection/sylvain-tegroeg-factory'),
+    dict(name='Carson Ellis', en='Whimsical illustrated landscapes', zh='奇趣的绘本风景', url='https://www.carsonellis.com/work-gallery/'),
+    dict(name='Rebecca Green', en='Pastel, pencil and gouache illustrations', zh='粉彩、铅笔与水粉插画', url='https://www.myblankpaper.com/work/'),
+]
