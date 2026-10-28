@@ -7,6 +7,8 @@
 > Different visual languages stacked in one game: 3D, pixel art, live-action, paper.<br>
 > 一个游戏里叠用多种视觉语言：3D、像素、真人实拍、纸。
 
+What it takes: **Code plus assets.** The rendering is code, but it needs suitable models, textures or sprites: Separate art for each layer (world, UI, cutscenes).
+
 ## Gallery
 
 <table>
@@ -40,7 +42,7 @@
 
 ## Agent notes
 
-Steps a coding agent (or you) can follow to reproduce the look. The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section.
+Steps a coding agent (or you) can follow to reproduce the look. The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section. When it runs, put a screenshot of your scene next to the gallery above and compare values first, then palette, then detail.
 
 1. Decide which style each layer gets (world, UI, cutscenes) and keep each layer internally consistent.
 1. Make UI physical: cards, papers, monitors inside the scene.

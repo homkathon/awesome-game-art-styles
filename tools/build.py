@@ -14,6 +14,11 @@ ROOT = HERE.parent
 SHOTS = json.loads((HERE / "screenshots.json").read_text())
 BY_ID = {s["id"]: s for s in data.STYLES}
 COLS = 4
+NEEDS_LABEL = {
+    "code": "**Code only.** Simple models plus shaders and post-processing get close.",
+    "mixed": "**Code plus assets.** The rendering is code, but it needs suitable models, textures or sprites:",
+    "art": "**Mostly art.** The look lives in made material; code only supports it. You need:",
+}
 PAGES = "https://homkathon.github.io/awesome-game-art-styles"
 SITE = "https://homkathon.gokoding.com/styles"
 
@@ -53,6 +58,14 @@ def validate():
         for k in s["similar"]:
             if k not in BY_ID:
                 errors.append(f"{s['id']}: unknown similar style {k}")
+        need = data.NEEDS.get(s["id"])
+        if not need or need[0] not in NEEDS_LABEL:
+            errors.append(f"{s['id']}: NEEDS entry must be code, mixed or art")
+        elif need[0] != "code" and not (need[1] and data.NEEDS_ZH.get(s["id"])):
+            errors.append(f"{s['id']}: a {need[0]} style needs a note in NEEDS and NEEDS_ZH")
+        for field, zh in (("spot", data.SPOT_ZH), ("techniques", data.TECHNIQUES_ZH), ("agent", data.AGENT_ZH)):
+            if len(zh.get(s["id"], [])) != len(s[field]):
+                errors.append(f"{s['id']}: {field.upper()}_ZH must have one item per {field} item")
     return errors
 
 
@@ -153,6 +166,8 @@ def page(s):
         f"> {s['summary']}<br>",
         f"> {data.SUMMARY_ZH[s['id']]}",
         "",
+        f"What it takes: {NEEDS_LABEL[data.NEEDS[s['id']][0]]} {data.NEEDS[s['id']][1]}".rstrip(),
+        "",
         *demo(s),
         "## Gallery",
         "",
@@ -186,7 +201,8 @@ def page(s):
         "## Agent notes",
         "",
         "Steps a coding agent (or you) can follow to reproduce the look. "
-        "The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section.",
+        "The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section. "
+        "When it runs, put a screenshot of your scene next to the gallery above and compare values first, then palette, then detail.",
         "",
         *[f"1. {x}" for x in s["agent"]],
         "",

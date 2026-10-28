@@ -7,6 +7,8 @@
 > Black shapes against fog and light; no faces, no colour.<br>
 > 雾与光前的黑色形体；没有脸，没有颜色。
 
+What it takes: **Code only.** Simple models plus shaders and post-processing get close.
+
 ## Gallery
 
 <table>
@@ -44,7 +46,7 @@
 
 ## Agent notes
 
-Steps a coding agent (or you) can follow to reproduce the look. The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section.
+Steps a coding agent (or you) can follow to reproduce the look. The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section. When it runs, put a screenshot of your scene next to the gallery above and compare values first, then palette, then detail.
 
 1. Put the light behind the subject; render foreground objects black.
 1. Use layered fog planes for depth and add film grain and vignette.

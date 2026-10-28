@@ -7,6 +7,8 @@
 > Saturated magenta and cyan, VHS grain, screen shake.<br>
 > 饱和的品红与青色、VHS 噪点、屏幕震动。
 
+What it takes: **Code plus assets.** The rendering is code, but it needs suitable models, textures or sprites: Top-down pixel-art sprites in a hot palette.
+
 ## Gallery
 
 <table>
@@ -42,7 +44,7 @@
 
 ## Agent notes
 
-Steps a coding agent (or you) can follow to reproduce the look. The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section.
+Steps a coding agent (or you) can follow to reproduce the look. The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section. When it runs, put a screenshot of your scene next to the gallery above and compare values first, then palette, then detail.
 
 1. Use a saturated palette and cycle background colours.
 1. Add screen shake, hit-stop and chromatic aberration on impacts.

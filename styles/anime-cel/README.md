@@ -7,6 +7,8 @@
 > 3D characters that read as hand-drawn animation: authored normals, held frames, no interpolation.<br>
 > 3D 角色看起来像手绘动画：手调法线、定格帧、不做插值。
 
+What it takes: **Mostly art.** The look lives in made material; code only supports it. You need: Character models with hand-edited normals and stepped, hand-keyed animation.
+
 ## Gallery
 
 <table>
@@ -46,7 +48,7 @@
 
 ## Agent notes
 
-Steps a coding agent (or you) can follow to reproduce the look. The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section.
+Steps a coding agent (or you) can follow to reproduce the look. The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section. When it runs, put a screenshot of your scene next to the gallery above and compare values first, then palette, then detail.
 
 1. Start from a toon shader with a single hard shadow band.
 1. Edit vertex normals on faces (or use a normal-transfer from a sphere) so shadows form clean shapes.

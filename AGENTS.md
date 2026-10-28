@@ -4,7 +4,7 @@ Instructions for any AI agent (Codex, ChatGPT, Claude Code …) that updates thi
 
 ## How the repo works
 
-- `tools/styles.py` is the source of truth: `GAMES`, `LEARN`, `ASSETS`, `SECTIONS`, `STYLES`, `SECTIONS_ZH`, `SUMMARY_ZH`.
+- `tools/styles.py` is the source of truth: `GAMES`, `LEARN`, `ASSETS`, `SECTIONS`, `STYLES`, `SECTIONS_ZH`, `SUMMARY_ZH`, `NEEDS`, `NEEDS_ZH`, `SPOT_ZH`, `TECHNIQUES_ZH`, `AGENT_ZH`.
 - `tools/resources.md` and `tools/resources.zh-CN.md` hold the tables at the end of the READMEs.
 - `README.md`, `README.zh-CN.md` and `styles/*/README.md` are generated. Never edit them by hand.
 - After any change run `python3 tools/build.py`. It validates references and regenerates everything. Commit the generated files.
@@ -39,7 +39,10 @@ A style earns an entry when it is a recognisable look that more than one team co
    `techniques`, `games`, `hero`, `gallery`, `learn`, `assets`, `similar`, `agent`. Copy the shape of an existing entry.
 4. **Look at the screenshots** before choosing `hero` and `gallery`. The hero must be an in-game shot that shows the style
    clearly: no logos, title cards, menus, award collages or close-ups of UI. Prefer gallery shots from more than one game.
-5. Add a one-line Chinese summary to `SUMMARY_ZH` (same meaning as `summary`, natural Chinese, not word-for-word).
+5. Add a one-line Chinese summary to `SUMMARY_ZH` (same meaning as `summary`, natural Chinese, not word-for-word), and
+   Chinese versions of `spot`, `techniques` and `agent` to `SPOT_ZH`, `TECHNIQUES_ZH` and `AGENT_ZH`, item for item.
+   Add a `NEEDS` entry (`code`, `mixed` or `art`); for `mixed` and `art`, say what to prepare, in `NEEDS` and `NEEDS_ZH`.
+   Classify by what a coding agent can reach with simple models and shaders, not by how the reference games were made.
 6. `agent` steps must be concrete enough to implement: name the technique, the setting and the engine feature.
 7. Run the build. If the style count changed, also update the number in `assets/compose.html` and mention in the PR that
    `assets/social-card.png` needs re-rendering and re-uploading (a human does that).

@@ -7,6 +7,8 @@
 > Empty, familiar places (corridors, pools, offices) that feel subtly wrong.<br>
 > 空无一人的熟悉场所（走廊、泳池、办公室），隐约不对劲。
 
+What it takes: **Code plus assets.** The rendering is code, but it needs suitable models, textures or sprites: Photoreal scanned materials (CC0 libraries have them).
+
 ## Gallery
 
 <table>
@@ -52,7 +54,7 @@ Licences change; check the pack page before you ship.
 
 ## Agent notes
 
-Steps a coding agent (or you) can follow to reproduce the look. The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section.
+Steps a coding agent (or you) can follow to reproduce the look. The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section. When it runs, put a screenshot of your scene next to the gallery above and compare values first, then palette, then detail.
 
 1. Model one modular room (corridor, pool hall, office) and repeat it with tiny variations.
 1. Light it flat and slightly too bright with fluorescent panels; avoid dramatic shadows.

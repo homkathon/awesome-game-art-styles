@@ -7,6 +7,8 @@
 > Bendy limbs, pie-cut eyes, film grain and jitter.<br>
 > 弯曲的四肢、切角的眼睛、胶片颗粒和抖动。
 
+What it takes: **Mostly art.** The look lives in made material; code only supports it. You need: Hand-inked, frame-by-frame character animation.
+
 ## Gallery
 
 <table>
@@ -44,7 +46,7 @@
 
 ## Agent notes
 
-Steps a coding agent (or you) can follow to reproduce the look. The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section.
+Steps a coding agent (or you) can follow to reproduce the look. The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section. When it runs, put a screenshot of your scene next to the gallery above and compare values first, then palette, then detail.
 
 1. Animate on paper or in a raster tool frame by frame; keep line weight uneven.
 1. Overlay film grain, dust, flicker and a little gate weave (frame jitter).

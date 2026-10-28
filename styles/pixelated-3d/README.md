@@ -7,6 +7,8 @@
 > A 3D world rendered at low resolution so it reads as pixel art.<br>
 > 用低分辨率渲染 3D 世界，让它读起来像像素画。
 
+What it takes: **Code only.** Simple models plus shaders and post-processing get close.
+
 ▶ **[Live demo](https://homkathon.github.io/awesome-game-art-styles/demos/pixelated-3d.html)** · runs in the browser, [source](../../demos/pixelated-3d.html) is one HTML file with commented shaders
 
 ## Gallery
@@ -55,7 +57,7 @@ Licences change; check the pack page before you ship.
 
 ## Agent notes
 
-Steps a coding agent (or you) can follow to reproduce the look. The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section.
+Steps a coding agent (or you) can follow to reproduce the look. The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section. When it runs, put a screenshot of your scene next to the gallery above and compare values first, then palette, then detail.
 
 1. Render the 3D scene to a small viewport (e.g. 1/4–1/6 resolution) and upscale with nearest filtering (three.js: `RenderPixelatedPass`).
 1. Snap the orthographic camera to whole texels and offset the final image by the remainder to stop shimmer.

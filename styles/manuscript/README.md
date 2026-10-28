@@ -7,6 +7,8 @@
 > Illuminated pages, woodcut prints, marginalia.<br>
 > 泥金装饰手抄本、木刻版画、页边涂鸦。
 
+What it takes: **Code plus assets.** The rendering is code, but it needs suitable models, textures or sprites: Parchment textures and hand-lettered or period typefaces.
+
 ## Gallery
 
 <table>
@@ -44,7 +46,7 @@
 
 ## Agent notes
 
-Steps a coding agent (or you) can follow to reproduce the look. The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section.
+Steps a coding agent (or you) can follow to reproduce the look. The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section. When it runs, put a screenshot of your scene next to the gallery above and compare values first, then palette, then detail.
 
 1. Shade with line hatching instead of gradients.
 1. Composite everything over a parchment texture.
