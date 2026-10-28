@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <meta name="description" content="Curated game-art rendering and VFX posts, with original X embeds and creator credits.">
+  <title>Game art in motion · Awesome Game Art Styles</title>
+  <style>
+    :root { color-scheme:dark; --bg:#111214; --panel:#1c1d20; --line:#37393e; --text:#f4f3ef; --muted:#a6a7ae; --accent:#c3a9f4; }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
+    body { margin:0; background:var(--bg); color:var(--text); font:15px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+    a { color:inherit; text-decoration:none; }
+    button { font:inherit; cursor:pointer; }
+    button:focus-visible, a:focus-visible { outline:2px solid var(--accent); outline-offset:4px; }
+    .container { max-width:1180px; margin:auto; padding:0 28px; }
+    header { border-bottom:1px solid var(--line); }
+    .nav { padding:20px 0; display:flex; align-items:center; justify-content:space-between; gap:16px; }
+    .brand { font-size:13px; font-weight:650; letter-spacing:.02em; }
+    .return { color:var(--muted); font-size:13px; }
+    .return:hover,.original:hover { color:var(--accent); }
+    .lang-switch { display:flex; gap:4px; border:1px solid var(--line); padding:3px; border-radius:9px; }
+    .lang-switch button { background:none; color:var(--muted); border:0; border-radius:6px; padding:4px 8px; font-size:12px; }
+    .lang-switch button[aria-pressed="true"] { background:#3a3b43; color:var(--text); }
+    .hero { padding:76px 0 40px; max-width:820px; }
+    .eyebrow { color:var(--accent); text-transform:uppercase; letter-spacing:.16em; font-size:11px; font-weight:700; }
+    h1 { font-size:clamp(40px,7.8vw,84px); line-height:1.05; letter-spacing:-.06em; margin:18px 0 20px; font-weight:720; }
+    h1 em { font-style:normal; color:var(--accent); }
+    .summary { color:var(--muted); font-size:16px; max-width:650px; margin:0 0 28px; }
+    .stats { display:flex; gap:26px; color:var(--muted); font-size:13px; }
+    .stats strong { color:var(--text); font-size:20px; font-weight:650; margin-right:6px; }
+    .filterbar { display:flex; align-items:center; gap:9px; padding:18px 0 26px; flex-wrap:wrap; border-top:1px solid var(--line); }
+    .filter { background:transparent; color:var(--muted); border:1px solid var(--line); border-radius:9px; padding:8px 13px; font-size:13px; display:flex; align-items:center; gap:7px; }
+    .filter[aria-pressed="true"], .filter:hover { background:#33303b; border-color:#68597b; color:var(--text); }
+    .group-count { font-size:11px; opacity:.7; }
+    .grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:17px; margin:4px 0 86px; }
+    .post { display:flex; flex-direction:column; min-width:0; border:1px solid var(--line); border-radius:15px; background:var(--panel); padding:22px; }
+    .post[hidden] { display:none; }
+    .post-top { display:flex; align-items:center; justify-content:space-between; gap:12px; color:var(--muted); font-size:11px; }
+    .category { color:var(--accent); font-weight:650; letter-spacing:.02em; }
+    .post h2 { font-size:21px; line-height:1.3; letter-spacing:-.025em; margin:17px 0 8px; }
+    .technique { color:var(--muted); font-size:13px; min-height:42px; margin:0; }
+    .attribution { display:flex; align-items:center; flex-wrap:wrap; gap:9px; font-size:12px; margin:16px 0; color:var(--muted); }
+    .attribution a { color:#d6c5f6; }
+    .player { background:#141517; border:1px solid #303238; border-radius:10px; min-height:188px; display:flex; justify-content:center; align-items:center; margin-top:auto; overflow:hidden; padding:10px; }
+    .player.ready { display:block; min-height:0; }
+    .player iframe { max-width:100%; }
+    .load { display:flex; flex-direction:column; align-items:center; justify-content:center; gap:12px; width:100%; min-height:157px; border:0; background:transparent; color:var(--muted); font-size:13px; }
+    .load:hover { color:var(--text); }
+    .play-icon { display:grid; place-items:center; width:52px; height:52px; border:1px solid #514663; border-radius:50%; background:#27212f; color:var(--accent); font-size:17px; padding-left:3px; }
+    .original { color:var(--muted); display:block; font-size:12px; margin-top:16px; align-self:flex-start; }
+    .error { color:var(--muted); font-size:13px; text-align:center; padding:24px; }
+    footer { border-top:1px solid var(--line); padding:25px 0 45px; font-size:12px; color:var(--muted); }
+    html[lang="en"] .zh,html[lang="zh-CN"] .en { display:none !important; }
+    @media(max-width:790px) { .grid { grid-template-columns:1fr; } .container { padding:0 18px; } .hero { padding-top:45px; } .post { padding:19px; } }
+    @media(prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } }
+  </style>
+</head>
+<body>
+  <header><div class="container nav"><a class="brand" href="../">Awesome Game Art Styles</a><div style="display:flex;align-items:center;gap:18px"><a class="return" href="../"><span class="en">All styles ↗</span><span class="zh">全部画风 ↗</span></a><div class="lang-switch" aria-label="Language"><button type="button" data-lang="en" aria-pressed="true">EN</button><button type="button" data-lang="zh-CN" aria-pressed="false">中文</button></div></div></div></header>
+  <main class="container">
+    <section class="hero"><div class="eyebrow en">X / Technical showcase</div><div class="eyebrow zh">X / 技术帖精选</div>
+      <h1 class="en">Game art,<br><em>in motion.</em></h1><h1 class="zh">游戏美术，<br><em>动起来。</em></h1>
+      <p class="summary en">Explore rendering tricks, shader experiments, and VFX breakdowns from their creators. Play media in the original X embeds, without losing the author or the source.</p>
+      <p class="summary zh">收集创作者分享的渲染技巧、Shader 实验与 VFX 拆解。点击加载 X 官方原帖，在页面内观看，并保留作者与出处。</p>
+      <div class="stats"><span><strong>__POST_COUNT__</strong><span class="en">original posts</span><span class="zh">条原帖</span></span><span><strong>__GROUP_COUNT__</strong><span class="en">collections</span><span class="zh">个专题</span></span></div>
+    </section>
+    <nav class="filterbar" aria-label="Collections"><button class="filter" type="button" data-filter="all" aria-pressed="true"><span class="en">All posts</span><span class="zh">全部</span><span class="group-count">__POST_COUNT__</span></button><!-- __FILTERS__ --></nav>
+    <div class="grid" id="posts"><!-- __POSTS__ --></div>
+  </main>
+  <footer><div class="container"><span class="en">Original X content is embedded on demand. Videos are served by X and remain with the creators. Some posts contain images instead of videos. If an embed is unavailable, use the original post link. Curated — not ranked by likes.</span><span class="zh">按需加载 X 官方原帖；视频仍由 X 提供，版权归原作者。部分原帖只有图片而非视频。无法嵌入时请使用原帖链接。本列表是人工精选，不按点赞量排名。</span></div></footer>
+  <script>
+    'use strict';
+    const filters = [...document.querySelectorAll('[data-filter]')];
+    const cards = [...document.querySelectorAll('.post')];
+    for (const f of filters) f.addEventListener('click', () => {
+      for (const b of filters) b.setAttribute('aria-pressed', String(b === f));
+      for (const c of cards) c.hidden = f.dataset.filter !== 'all' && c.dataset.group !== f.dataset.filter;
+    });
+    for (const b of document.querySelectorAll('[data-lang]')) b.addEventListener('click', () => {
+      document.documentElement.lang = b.dataset.lang;
+      document.title = b.dataset.lang === 'en' ? 'Game art in motion · Awesome Game Art Styles' : '游戏美术动态精选 · Awesome Game Art Styles';
+      document.querySelectorAll('[data-lang]').forEach(x => x.setAttribute('aria-pressed', String(x === b)));
+    });
+    if (/^zh\b/i.test(navigator.language)) document.querySelector('[data-lang="zh-CN"]').click();
+    let widgetPromise;
+    function xWidgets() {
+      if (widgetPromise) return widgetPromise;
+      widgetPromise = new Promise((resolve,reject) => {
+        if (window.twttr && window.twttr.widgets) return resolve(window.twttr);
+        const s = document.createElement('script');
+        s.src = 'https://platform.x.com/widgets.js'; s.async = true;
+        s.onload = () => window.twttr ? window.twttr.ready(() => resolve(window.twttr)) : reject(Error('X widgets unavailable'));
+        s.onerror = () => reject(Error('X widgets blocked'));
+        document.head.appendChild(s);
+      });
+      return widgetPromise;
+    }
+    for (const button of document.querySelectorAll('.load')) button.addEventListener('click', async () => {
+      const box = button.closest('.player');
+      const id = button.dataset.id;
+      button.disabled = true;
+      button.querySelector('.en').textContent = 'Loading from X…';
+      button.querySelector('.zh').textContent = '正在加载 X…';
+      try {
+        const twitter = await xWidgets();
+        const target = document.createElement('div');
+        const iframe = await twitter.widgets.createTweet(id, target, {conversation:'none', cards:'visible', theme:'dark', dnt:true, align:'center'});
+        if (!iframe) throw Error('Post unavailable');
+        box.replaceChildren(target);
+        box.classList.add('ready');
+      } catch (error) {
+        button.remove();
+        const msg = document.createElement('p');
+        msg.className='error';
+        msg.textContent = document.documentElement.lang === 'en' ? 'Embed unavailable. Use the original X link below.' : '无法加载嵌入内容，请点击下方 X 原帖链接。';
+        box.appendChild(msg);
+      }
+    });
+  </script>
+</body>
+</html>

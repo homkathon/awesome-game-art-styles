@@ -31,6 +31,8 @@ Free or cheap packs that work across several styles. Licences were checked on 20
 
 ## Popular X posts (curated)
 
+[Watch the original media in the X gallery](https://homkathon.github.io/awesome-game-art-styles/x-posts/) (click to load X embeds; video files are not redistributed).
+
 22 verified creator-authored posts grouped by technique. Selected for actionable rendering, shader and art workflow ideas rather than raw engagement numbers. **Curated, not a live popularity ranking**: X does not expose comparable engagement counts for every post. Original post author, text and date checked against X embed metadata on 2026-10-28.
 
 ### Water & atmosphere

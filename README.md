@@ -8,7 +8,7 @@
 
 > 52 game visual styles, organised by **look**. Click a style for screenshots, how to recognise it, techniques, tutorials, free assets and notes for coding agents.
 
-Screenshots are loaded from Steam and link to each game's store page; nothing is rehosted here. Use the [Claude Code skill](skills/game-art-style/SKILL.md) to get a style recommendation for your own game, or try the [live shader demos](https://homkathon.github.io/awesome-game-art-styles/demos/) for toon, PS1, 1-bit and pixelated 3D.
+Screenshots are loaded from Steam and link to each game's store page; nothing is rehosted here. Use the [Claude Code skill](skills/game-art-style/SKILL.md) to get a style recommendation for your own game, or try the [live shader demos](https://homkathon.github.io/awesome-game-art-styles/demos/) for toon, PS1, 1-bit and pixelated 3D. Watch creator media in the [X post gallery](https://homkathon.github.io/awesome-game-art-styles/x-posts/) (original X embeds; no rehosted videos).
 
 ## Contents
 
@@ -175,6 +175,8 @@ Free or cheap packs that work across several styles. Licences were checked on 20
 | [Lospec palette list](https://lospec.com/palette-list) | Palette library | Palettes for pixel art and limited-colour styles. |
 
 ## Popular X posts (curated)
+
+[Watch the original media in the X gallery](https://homkathon.github.io/awesome-game-art-styles/x-posts/) (click to load X embeds; video files are not redistributed).
 
 22 verified creator-authored posts grouped by technique. Selected for actionable rendering, shader and art workflow ideas rather than raw engagement numbers. **Curated, not a live popularity ranking**: X does not expose comparable engagement counts for every post. Original post author, text and date checked against X embed metadata on 2026-10-28.
 

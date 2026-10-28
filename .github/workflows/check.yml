@@ -17,7 +17,7 @@ jobs:
       - name: Pages are up to date with tools/styles.py
         run: |
           python3 tools/build.py
-          git diff --exit-code -- README.md README.zh-CN.md styles
+          git diff --exit-code -- README.md README.zh-CN.md styles x-posts/index.html
 
   links:
     runs-on: ubuntu-latest
