@@ -2,11 +2,11 @@
 
 # Awesome Game Art Styles [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-[![Styles](https://img.shields.io/badge/styles-38-f2b134)](#3d-shading--form) [![Licence: CC0](https://img.shields.io/badge/licence-CC0-lightgrey)](LICENSE) [![check](https://github.com/homkathon/awesome-game-art-styles/actions/workflows/check.yml/badge.svg)](https://github.com/homkathon/awesome-game-art-styles/actions/workflows/check.yml)
+[![Styles](https://img.shields.io/badge/styles-51-f2b134)](#3d-shading--form) [![Licence: CC0](https://img.shields.io/badge/licence-CC0-lightgrey)](LICENSE) [![check](https://github.com/homkathon/awesome-game-art-styles/actions/workflows/check.yml/badge.svg)](https://github.com/homkathon/awesome-game-art-styles/actions/workflows/check.yml)
 
 **English** · [简体中文](README.zh-CN.md)
 
-> 38 game visual styles, organised by **look**. Click a style for screenshots, how to recognise it, techniques, tutorials, free assets and notes for coding agents.
+> 51 game visual styles, organised by **look**. Click a style for screenshots, how to recognise it, techniques, tutorials, free assets and notes for coding agents.
 
 Screenshots are loaded from Steam and link to each game's store page; nothing is rehosted here. Use the [Claude Code skill](skills/game-art-style/SKILL.md) to get a style recommendation for your own game, or try the [live shader demos](https://homkathon.github.io/awesome-game-art-styles/demos/) for toon, PS1, 1-bit and pixelated 3D.
 
@@ -42,6 +42,11 @@ Screenshots are loaded from Steam and link to each game's store page; nothing is
 <tr>
 <td align="center" valign="top" width="25%"><a href="styles/retro-futurism/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/8870/ss_26e2d983948edfb911db3e0d2c3679900b4ef9fa.600x338.jpg" width="220" alt="Retro-futurism"></a><br><a href="styles/retro-futurism/"><b>Retro-futurism</b></a><br><sub>复古未来主义</sub></td>
 <td align="center" valign="top" width="25%"><a href="styles/mixed-media/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1092790/ss_0191a69b0e94a9a7784f5b81e27f06379910645a.600x338.jpg" width="220" alt="Mixed media"></a><br><a href="styles/mixed-media/"><b>Mixed media</b></a><br><sub>混合媒介</sub></td>
+<td align="center" valign="top" width="25%"><a href="styles/fmv/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/368370/ss_9a5538329a233de7c86e14e331c3894a942b1693.600x338.jpg" width="220" alt="FMV / live action"></a><br><a href="styles/fmv/"><b>FMV / live action</b></a><br><sub>真人影像 / FMV</sub></td>
+<td align="center" valign="top" width="25%"><a href="styles/graffiti/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1353230/ss_044bea0014a39e31e6c3893dc6a4e80ad52896cd.600x338.jpg" width="220" alt="Graffiti / Y2K street"></a><br><a href="styles/graffiti/"><b>Graffiti / Y2K street</b></a><br><sub>涂鸦 / Y2K 街头</sub></td>
+</tr>
+<tr>
+<td align="center" valign="top" width="25%"><a href="styles/soft-pastel/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1097150/ss_b695ced32eeef3059970c195b222460990d55401.600x338.jpg" width="220" alt="Soft pastel / jelly"></a><br><a href="styles/soft-pastel/"><b>Soft pastel / jelly</b></a><br><sub>软萌糖果色</sub></td>
 </tr>
 </table>
 
@@ -53,6 +58,11 @@ Screenshots are loaded from Steam and link to each game's store page; nothing is
 <td align="center" valign="top" width="25%"><a href="styles/pixelated-3d/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1055540/ss_f2123fea859e299736a3e99d130238c784d53e75.600x338.jpg" width="220" alt="Pixelated 3D"></a><br><a href="styles/pixelated-3d/"><b>Pixelated 3D</b></a><br><sub>像素化 3D</sub></td>
 <td align="center" valign="top" width="25%"><a href="styles/voxel/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1167630/f266c2457a6b183a89abce8659bac7419fdfc5f0/ss_f266c2457a6b183a89abce8659bac7419fdfc5f0.600x338.jpg" width="220" alt="Voxel"></a><br><a href="styles/voxel/"><b>Voxel</b></a><br><sub>体素</sub></td>
 <td align="center" valign="top" width="25%"><a href="styles/1-bit/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/653530/ss_380dc35237fde7d3863a44270abafc37924d1db4.600x338.jpg" width="220" alt="1-bit / dithered"></a><br><a href="styles/1-bit/"><b>1-bit / dithered</b></a><br><sub>1-bit 抖动</sub></td>
+</tr>
+<tr>
+<td align="center" valign="top" width="25%"><a href="styles/pre-rendered/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/291650/ss_fbc3b33088a2ec5e718271a122c370afee8eb4cf.600x338.jpg" width="220" alt="Pre-rendered backgrounds"></a><br><a href="styles/pre-rendered/"><b>Pre-rendered backgrounds</b></a><br><sub>预渲染背景</sub></td>
+<td align="center" valign="top" width="25%"><a href="styles/boomer-shooter/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1229490/ss_bc7a00fadbcde4a6c6dcb95d8e464ad5ffc06e3c.600x338.jpg" width="220" alt="Retro FPS / boomer shooter"></a><br><a href="styles/boomer-shooter/"><b>Retro FPS / boomer shooter</b></a><br><sub>复古 FPS</sub></td>
+<td align="center" valign="top" width="25%"><a href="styles/lo-fi-surreal/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1388770/ss_5234b051b742a8cf758fc35895ca563880de1001.600x338.jpg" width="220" alt="Lo-fi surreal / ugly"></a><br><a href="styles/lo-fi-surreal/"><b>Lo-fi surreal / ugly</b></a><br><sub>低保真超现实 / 丑美学</sub></td>
 </tr>
 </table>
 
@@ -73,6 +83,11 @@ Screenshots are loaded from Steam and link to each game's store page; nothing is
 <tr>
 <td align="center" valign="top" width="25%"><a href="styles/silhouette/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/48000/ss_d33513ed37acf1073ea92f182b76e165101bfdac.600x338.jpg" width="220" alt="Silhouette noir"></a><br><a href="styles/silhouette/"><b>Silhouette noir</b></a><br><sub>剪影黑白</sub></td>
 <td align="center" valign="top" width="25%"><a href="styles/neon-abstract/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1122720/ss_03804e3335afd5edddceafe722ff1c4eb3c19931.600x338.jpg" width="220" alt="Neon abstract"></a><br><a href="styles/neon-abstract/"><b>Neon abstract</b></a><br><sub>霓虹抽象</sub></td>
+<td align="center" valign="top" width="25%"><a href="styles/vector-wireframe/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/636450/ss_f9a0e030052db17cb2432168af5cb42faf66f0b3.600x338.jpg" width="220" alt="Vector / wireframe"></a><br><a href="styles/vector-wireframe/"><b>Vector / wireframe</b></a><br><sub>矢量线框</sub></td>
+<td align="center" valign="top" width="25%"><a href="styles/spot-colour/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/322500/ss_1e3ef7d9d9654c6189e6680502a0ce3068d1aef7.600x338.jpg" width="220" alt="Monochrome + one colour"></a><br><a href="styles/spot-colour/"><b>Monochrome + one colour</b></a><br><sub>单色 + 强调色</sub></td>
+</tr>
+<tr>
+<td align="center" valign="top" width="25%"><a href="styles/liminal/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2663530/ss_3ad834a1f3b0d5db35daeeedbf9e99c6a47d1091.600x338.jpg" width="220" alt="Liminal spaces"></a><br><a href="styles/liminal/"><b>Liminal spaces</b></a><br><sub>阈限空间</sub></td>
 </tr>
 </table>
 
@@ -87,6 +102,7 @@ Screenshots are loaded from Steam and link to each game's store page; nothing is
 </tr>
 <tr>
 <td align="center" valign="top" width="25%"><a href="styles/cozy/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1135690/ss_b32bfdd3f68e1f9e264bd37e10a464629ca034f8.600x338.jpg" width="220" alt="Cozy interiors"></a><br><a href="styles/cozy/"><b>Cozy interiors</b></a><br><sub>温馨室内像素</sub></td>
+<td align="center" valign="top" width="25%"><a href="styles/nes-8bit/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/764790/ss_875fe259c26f29d959efba0eca47e1b63d844c75.600x338.jpg" width="220" alt="8-bit / NES"></a><br><a href="styles/nes-8bit/"><b>8-bit / NES</b></a><br><sub>8-bit / FC</sub></td>
 </tr>
 </table>
 
@@ -105,6 +121,10 @@ Screenshots are loaded from Steam and link to each game's store page; nothing is
 <td align="center" valign="top" width="25%"><a href="styles/line-art/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1123450/ss_2f643ac851b504a1c10e0b6f1cfdc3089707ab55.600x338.jpg" width="220" alt="Line art / colouring book"></a><br><a href="styles/line-art/"><b>Line art / colouring book</b></a><br><sub>线稿 / 涂色书</sub></td>
 <td align="center" valign="top" width="25%"><a href="styles/cute-dark/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1313140/ss_b26625d6f64a739ed1ddf832a5d26b665ab0619f.600x338.jpg" width="220" alt="Cute but dark"></a><br><a href="styles/cute-dark/"><b>Cute but dark</b></a><br><sub>可爱黑暗</sub></td>
 </tr>
+<tr>
+<td align="center" valign="top" width="25%"><a href="styles/storybook/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/581270/ss_11406a46468e36e249a26f9054dfef162678c076.600x338.jpg" width="220" alt="Storybook / picture book"></a><br><a href="styles/storybook/"><b>Storybook / picture book</b></a><br><sub>绘本</sub></td>
+<td align="center" valign="top" width="25%"><a href="styles/rotoscope/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/233550/ss_72559daf5b29da71ea9e1cd74a67e130552674f3.600x338.jpg" width="220" alt="Rotoscope / flat polygons"></a><br><a href="styles/rotoscope/"><b>Rotoscope / flat polygons</b></a><br><sub>转描 / 平面多边形</sub></td>
+</tr>
 </table>
 
 ## 2D: graphic & print
@@ -118,6 +138,7 @@ Screenshots are loaded from Steam and link to each game's store page; nothing is
 </tr>
 <tr>
 <td align="center" valign="top" width="25%"><a href="styles/ascii/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/603390/ss_98312257e7a8b1ee3c8964d6dede01cf69c002f0.600x338.jpg" width="220" alt="ASCII / text"></a><br><a href="styles/ascii/"><b>ASCII / text</b></a><br><sub>ASCII / 字符画</sub></td>
+<td align="center" valign="top" width="25%"><a href="styles/desktop-ui/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/844590/ss_801ae3d54dc30f1cfbbc9cd397d87d69def94356.600x338.jpg" width="220" alt="Desktop / OS interface"></a><br><a href="styles/desktop-ui/"><b>Desktop / OS interface</b></a><br><sub>桌面 / 操作系统界面</sub></td>
 </tr>
 </table>
 

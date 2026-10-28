@@ -2,11 +2,11 @@
 
 # Awesome Game Art Styles [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-[![Styles](https://img.shields.io/badge/styles-38-f2b134)](#3d明暗与造型) [![Licence: CC0](https://img.shields.io/badge/licence-CC0-lightgrey)](LICENSE) [![check](https://github.com/homkathon/awesome-game-art-styles/actions/workflows/check.yml/badge.svg)](https://github.com/homkathon/awesome-game-art-styles/actions/workflows/check.yml)
+[![Styles](https://img.shields.io/badge/styles-51-f2b134)](#3d明暗与造型) [![Licence: CC0](https://img.shields.io/badge/licence-CC0-lightgrey)](LICENSE) [![check](https://github.com/homkathon/awesome-game-art-styles/actions/workflows/check.yml/badge.svg)](https://github.com/homkathon/awesome-game-art-styles/actions/workflows/check.yml)
 
 [English](README.md) · **简体中文**
 
-> 38 种游戏视觉风格，按**观感**分类。点进每种风格可以看截图、识别要点、实现技术、教程、免费素材，以及给编程智能体的实现步骤。
+> 51 种游戏视觉风格，按**观感**分类。点进每种风格可以看截图、识别要点、实现技术、教程、免费素材，以及给编程智能体的实现步骤。
 
 截图直接从 Steam 加载并链接到游戏商店页，本仓库不转存任何截图。用 [Claude Code 技能](skills/game-art-style/SKILL.md)可以为你的游戏推荐风格，也可以打开[在线着色器演示](https://homkathon.github.io/awesome-game-art-styles/demos/)看卡通、PS1、1-bit 和像素化 3D 的实时效果。风格详情页目前为英文。
 
@@ -40,6 +40,11 @@
 <tr>
 <td align="center" valign="top" width="25%"><a href="styles/retro-futurism/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/8870/ss_26e2d983948edfb911db3e0d2c3679900b4ef9fa.600x338.jpg" width="220" alt="Retro-futurism"></a><br><a href="styles/retro-futurism/"><b>复古未来主义</b></a><br><sub>Retro-futurism</sub></td>
 <td align="center" valign="top" width="25%"><a href="styles/mixed-media/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1092790/ss_0191a69b0e94a9a7784f5b81e27f06379910645a.600x338.jpg" width="220" alt="Mixed media"></a><br><a href="styles/mixed-media/"><b>混合媒介</b></a><br><sub>Mixed media</sub></td>
+<td align="center" valign="top" width="25%"><a href="styles/fmv/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/368370/ss_9a5538329a233de7c86e14e331c3894a942b1693.600x338.jpg" width="220" alt="FMV / live action"></a><br><a href="styles/fmv/"><b>真人影像 / FMV</b></a><br><sub>FMV / live action</sub></td>
+<td align="center" valign="top" width="25%"><a href="styles/graffiti/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1353230/ss_044bea0014a39e31e6c3893dc6a4e80ad52896cd.600x338.jpg" width="220" alt="Graffiti / Y2K street"></a><br><a href="styles/graffiti/"><b>涂鸦 / Y2K 街头</b></a><br><sub>Graffiti / Y2K street</sub></td>
+</tr>
+<tr>
+<td align="center" valign="top" width="25%"><a href="styles/soft-pastel/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1097150/ss_b695ced32eeef3059970c195b222460990d55401.600x338.jpg" width="220" alt="Soft pastel / jelly"></a><br><a href="styles/soft-pastel/"><b>软萌糖果色</b></a><br><sub>Soft pastel / jelly</sub></td>
 </tr>
 </table>
 
@@ -51,6 +56,11 @@
 <td align="center" valign="top" width="25%"><a href="styles/pixelated-3d/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1055540/ss_f2123fea859e299736a3e99d130238c784d53e75.600x338.jpg" width="220" alt="Pixelated 3D"></a><br><a href="styles/pixelated-3d/"><b>像素化 3D</b></a><br><sub>Pixelated 3D</sub></td>
 <td align="center" valign="top" width="25%"><a href="styles/voxel/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1167630/f266c2457a6b183a89abce8659bac7419fdfc5f0/ss_f266c2457a6b183a89abce8659bac7419fdfc5f0.600x338.jpg" width="220" alt="Voxel"></a><br><a href="styles/voxel/"><b>体素</b></a><br><sub>Voxel</sub></td>
 <td align="center" valign="top" width="25%"><a href="styles/1-bit/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/653530/ss_380dc35237fde7d3863a44270abafc37924d1db4.600x338.jpg" width="220" alt="1-bit / dithered"></a><br><a href="styles/1-bit/"><b>1-bit 抖动</b></a><br><sub>1-bit / dithered</sub></td>
+</tr>
+<tr>
+<td align="center" valign="top" width="25%"><a href="styles/pre-rendered/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/291650/ss_fbc3b33088a2ec5e718271a122c370afee8eb4cf.600x338.jpg" width="220" alt="Pre-rendered backgrounds"></a><br><a href="styles/pre-rendered/"><b>预渲染背景</b></a><br><sub>Pre-rendered backgrounds</sub></td>
+<td align="center" valign="top" width="25%"><a href="styles/boomer-shooter/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1229490/ss_bc7a00fadbcde4a6c6dcb95d8e464ad5ffc06e3c.600x338.jpg" width="220" alt="Retro FPS / boomer shooter"></a><br><a href="styles/boomer-shooter/"><b>复古 FPS</b></a><br><sub>Retro FPS / boomer shooter</sub></td>
+<td align="center" valign="top" width="25%"><a href="styles/lo-fi-surreal/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1388770/ss_5234b051b742a8cf758fc35895ca563880de1001.600x338.jpg" width="220" alt="Lo-fi surreal / ugly"></a><br><a href="styles/lo-fi-surreal/"><b>低保真超现实 / 丑美学</b></a><br><sub>Lo-fi surreal / ugly</sub></td>
 </tr>
 </table>
 
@@ -71,6 +81,11 @@
 <tr>
 <td align="center" valign="top" width="25%"><a href="styles/silhouette/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/48000/ss_d33513ed37acf1073ea92f182b76e165101bfdac.600x338.jpg" width="220" alt="Silhouette noir"></a><br><a href="styles/silhouette/"><b>剪影黑白</b></a><br><sub>Silhouette noir</sub></td>
 <td align="center" valign="top" width="25%"><a href="styles/neon-abstract/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1122720/ss_03804e3335afd5edddceafe722ff1c4eb3c19931.600x338.jpg" width="220" alt="Neon abstract"></a><br><a href="styles/neon-abstract/"><b>霓虹抽象</b></a><br><sub>Neon abstract</sub></td>
+<td align="center" valign="top" width="25%"><a href="styles/vector-wireframe/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/636450/ss_f9a0e030052db17cb2432168af5cb42faf66f0b3.600x338.jpg" width="220" alt="Vector / wireframe"></a><br><a href="styles/vector-wireframe/"><b>矢量线框</b></a><br><sub>Vector / wireframe</sub></td>
+<td align="center" valign="top" width="25%"><a href="styles/spot-colour/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/322500/ss_1e3ef7d9d9654c6189e6680502a0ce3068d1aef7.600x338.jpg" width="220" alt="Monochrome + one colour"></a><br><a href="styles/spot-colour/"><b>单色 + 强调色</b></a><br><sub>Monochrome + one colour</sub></td>
+</tr>
+<tr>
+<td align="center" valign="top" width="25%"><a href="styles/liminal/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2663530/ss_3ad834a1f3b0d5db35daeeedbf9e99c6a47d1091.600x338.jpg" width="220" alt="Liminal spaces"></a><br><a href="styles/liminal/"><b>阈限空间</b></a><br><sub>Liminal spaces</sub></td>
 </tr>
 </table>
 
@@ -85,6 +100,7 @@
 </tr>
 <tr>
 <td align="center" valign="top" width="25%"><a href="styles/cozy/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1135690/ss_b32bfdd3f68e1f9e264bd37e10a464629ca034f8.600x338.jpg" width="220" alt="Cozy interiors"></a><br><a href="styles/cozy/"><b>温馨室内像素</b></a><br><sub>Cozy interiors</sub></td>
+<td align="center" valign="top" width="25%"><a href="styles/nes-8bit/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/764790/ss_875fe259c26f29d959efba0eca47e1b63d844c75.600x338.jpg" width="220" alt="8-bit / NES"></a><br><a href="styles/nes-8bit/"><b>8-bit / FC</b></a><br><sub>8-bit / NES</sub></td>
 </tr>
 </table>
 
@@ -103,6 +119,10 @@
 <td align="center" valign="top" width="25%"><a href="styles/line-art/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1123450/ss_2f643ac851b504a1c10e0b6f1cfdc3089707ab55.600x338.jpg" width="220" alt="Line art / colouring book"></a><br><a href="styles/line-art/"><b>线稿 / 涂色书</b></a><br><sub>Line art / colouring book</sub></td>
 <td align="center" valign="top" width="25%"><a href="styles/cute-dark/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1313140/ss_b26625d6f64a739ed1ddf832a5d26b665ab0619f.600x338.jpg" width="220" alt="Cute but dark"></a><br><a href="styles/cute-dark/"><b>可爱黑暗</b></a><br><sub>Cute but dark</sub></td>
 </tr>
+<tr>
+<td align="center" valign="top" width="25%"><a href="styles/storybook/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/581270/ss_11406a46468e36e249a26f9054dfef162678c076.600x338.jpg" width="220" alt="Storybook / picture book"></a><br><a href="styles/storybook/"><b>绘本</b></a><br><sub>Storybook / picture book</sub></td>
+<td align="center" valign="top" width="25%"><a href="styles/rotoscope/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/233550/ss_72559daf5b29da71ea9e1cd74a67e130552674f3.600x338.jpg" width="220" alt="Rotoscope / flat polygons"></a><br><a href="styles/rotoscope/"><b>转描 / 平面多边形</b></a><br><sub>Rotoscope / flat polygons</sub></td>
+</tr>
 </table>
 
 ## 2D：平面与印刷
@@ -116,6 +136,7 @@
 </tr>
 <tr>
 <td align="center" valign="top" width="25%"><a href="styles/ascii/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/603390/ss_98312257e7a8b1ee3c8964d6dede01cf69c002f0.600x338.jpg" width="220" alt="ASCII / text"></a><br><a href="styles/ascii/"><b>ASCII / 字符画</b></a><br><sub>ASCII / text</sub></td>
+<td align="center" valign="top" width="25%"><a href="styles/desktop-ui/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/844590/ss_801ae3d54dc30f1cfbbc9cd397d87d69def94356.600x338.jpg" width="220" alt="Desktop / OS interface"></a><br><a href="styles/desktop-ui/"><b>桌面 / 操作系统界面</b></a><br><sub>Desktop / OS interface</sub></td>
 </tr>
 </table>
 
