@@ -7,6 +7,8 @@
 > Characters and props made of wool, felt or cloth.<br>
 > 角色和道具由毛线、毛毡或布料做成。
 
+What it takes: **Code plus assets.** The rendering is code, but it needs suitable models, textures or sprites: Knit, felt or fabric textures and normal maps.
+
 ## Gallery
 
 <table>
@@ -40,7 +42,7 @@
 
 ## Agent notes
 
-Steps a coding agent (or you) can follow to reproduce the look. The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section.
+Steps a coding agent (or you) can follow to reproduce the look. The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section. When it runs, put a screenshot of your scene next to the gallery above and compare values first, then palette, then detail.
 
 1. Use knit / felt normal maps and a fuzzy rim (fresnel) term.
 1. Add a little subsurface scattering for softness.

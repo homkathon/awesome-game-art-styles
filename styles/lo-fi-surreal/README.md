@@ -7,6 +7,8 @@
 > Deliberately crude, garish or dreamlike images that refuse to look polished.<br>
 > 故意粗糙、俗艳或梦一般的画面，拒绝精致。
 
+What it takes: **Code plus assets.** The rendering is code, but it needs suitable models, textures or sprites: Your own photos, scans and drawings for collage textures.
+
 ## Gallery
 
 <table>
@@ -49,7 +51,7 @@
 
 ## Agent notes
 
-Steps a coding agent (or you) can follow to reproduce the look. The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section.
+Steps a coding agent (or you) can follow to reproduce the look. The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section. When it runs, put a screenshot of your scene next to the gallery above and compare values first, then palette, then detail.
 
 1. Pick rules to break on purpose (clashing hues, stretched textures, wrong scale) and break them consistently.
 1. Collage textures from your own photos, scans and drawings.

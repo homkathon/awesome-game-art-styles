@@ -7,6 +7,8 @@
 > Lines, dots and solid shapes; information design as art.<br>
 > 线、点和实心形状；把信息设计当作艺术。
 
+What it takes: **Code only.** Simple models plus shaders and post-processing get close.
+
 ## Gallery
 
 <table>
@@ -44,7 +46,7 @@
 
 ## Agent notes
 
-Steps a coding agent (or you) can follow to reproduce the look. The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section.
+Steps a coding agent (or you) can follow to reproduce the look. The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section. When it runs, put a screenshot of your scene next to the gallery above and compare values first, then palette, then detail.
 
 1. Draw everything as vector shapes (SVG, Godot Polygon2D / Line2D).
 1. Use one colour per meaning (one per line, team or state).

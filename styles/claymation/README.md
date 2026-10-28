@@ -7,6 +7,8 @@
 > Clay or puppet characters, fingerprints and all; real or faked stop motion.<br>
 > 黏土或偶人角色，连指纹都留着；真定格或模拟定格。
 
+What it takes: **Mostly art.** The look lives in made material; code only supports it. You need: Sculpted or scanned clay models, or convincing fingerprint and tool-mark textures.
+
 ## Gallery
 
 <table>
@@ -44,7 +46,7 @@
 
 ## Agent notes
 
-Steps a coding agent (or you) can follow to reproduce the look. The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section.
+Steps a coding agent (or you) can follow to reproduce the look. The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section. When it runs, put a screenshot of your scene next to the gallery above and compare values first, then palette, then detail.
 
 1. Sculpt or scan real clay; failing that, add fingerprint and tool-mark normal maps.
 1. Animate on twos (12 fps) with constant interpolation.

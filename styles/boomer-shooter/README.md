@@ -7,6 +7,8 @@
 > Mid-90s shooter looks: chunky textures, sprite-like enemies, bright pickups, fast movement.<br>
 > 90 年代中期射击游戏的样子：粗颗粒贴图、像精灵图的敌人、醒目的道具、高速移动。
 
+What it takes: **Code plus assets.** The rendering is code, but it needs suitable models, textures or sprites: Small pixel textures and 8-direction enemy sprites or low-poly enemies.
+
 ## Gallery
 
 <table>
@@ -58,7 +60,7 @@ Licences change; check the pack page before you ship.
 
 ## Agent notes
 
-Steps a coding agent (or you) can follow to reproduce the look. The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section.
+Steps a coding agent (or you) can follow to reproduce the look. The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section. When it runs, put a screenshot of your scene next to the gallery above and compare values first, then palette, then detail.
 
 1. Use small textures (64–128 px) with nearest filtering and no mipmap blur.
 1. Build levels from boxes and ramps; detail comes from texture and light colour, not geometry.

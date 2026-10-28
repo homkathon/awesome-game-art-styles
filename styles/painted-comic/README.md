@@ -7,6 +7,8 @@
 > Comic-book inks with painted colour and bold shapes.<br>
 > 漫画墨线配绘画上色和大胆的形体。
 
+What it takes: **Mostly art.** The look lives in made material; code only supports it. You need: Painted characters and key art with ink outlines.
+
 ## Gallery
 
 <table>
@@ -42,7 +44,7 @@
 
 ## Agent notes
 
-Steps a coding agent (or you) can follow to reproduce the look. The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section.
+Steps a coding agent (or you) can follow to reproduce the look. The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section. When it runs, put a screenshot of your scene next to the gallery above and compare values first, then palette, then detail.
 
 1. Paint characters and environments with ink outlines on top.
 1. Use strong value contrast: dark grounds, bright saturated accents.

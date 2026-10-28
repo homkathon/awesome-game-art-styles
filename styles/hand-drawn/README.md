@@ -7,6 +7,8 @@
 > Frame-by-frame or skeletal animation over painted backgrounds.<br>
 > 逐帧或骨骼动画，配手绘背景。
 
+What it takes: **Mostly art.** The look lives in made material; code only supports it. You need: Drawn character animation and painted background layers.
+
 ## Gallery
 
 <table>
@@ -45,7 +47,7 @@
 
 ## Agent notes
 
-Steps a coding agent (or you) can follow to reproduce the look. The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section.
+Steps a coding agent (or you) can follow to reproduce the look. The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section. When it runs, put a screenshot of your scene next to the gallery above and compare values first, then palette, then detail.
 
 1. Split backgrounds into 5+ parallax layers with atmospheric tint per layer.
 1. Animate characters frame by frame or with a skeletal tool (Spine, Godot Skeleton2D).

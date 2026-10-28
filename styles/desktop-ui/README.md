@@ -7,6 +7,8 @@
 > The game is a computer screen: windows, chat apps, browsers and fake operating systems.<br>
 > 游戏就是一块电脑屏幕：窗口、聊天软件、浏览器和虚构的操作系统。
 
+What it takes: **Code only.** Simple models plus shaders and post-processing get close.
+
 ## Gallery
 
 <table>
@@ -47,7 +49,7 @@
 
 ## Agent notes
 
-Steps a coding agent (or you) can follow to reproduce the look. The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section.
+Steps a coding agent (or you) can follow to reproduce the look. The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section. When it runs, put a screenshot of your scene next to the gallery above and compare values first, then palette, then detail.
 
 1. Pick one era of interface (Windows 98, XP, early smartphones) and copy its rules: bevels, fonts, sounds.
 1. Draw your own icons and window chrome; don't ship real operating-system assets or logos.

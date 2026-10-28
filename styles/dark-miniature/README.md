@@ -7,6 +7,8 @@
 > Toy-like scale used for dread: oversized furniture, dim pools of light.<br>
 > 用玩具般的尺度制造恐惧：巨大的家具、昏暗的光斑。
 
+What it takes: **Code plus assets.** The rendering is code, but it needs suitable models, textures or sprites: Furniture and props modelled at giant scale around a small character.
+
 ## Gallery
 
 <table>
@@ -42,7 +44,7 @@
 
 ## Agent notes
 
-Steps a coding agent (or you) can follow to reproduce the look. The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section.
+Steps a coding agent (or you) can follow to reproduce the look. The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section. When it runs, put a screenshot of your scene next to the gallery above and compare values first, then palette, then detail.
 
 1. Scale props 3–5× relative to the player character.
 1. Light with a few small warm sources and volumetric fog; let the rest fall to black.

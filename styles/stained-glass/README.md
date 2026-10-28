@@ -7,6 +7,8 @@
 > Illustrations assembled from coloured glass panes separated by dark lead lines.<br>
 > 以深色铅条分隔透光的彩色玻璃块，再拼成完整插画。
 
+What it takes: **Code plus assets.** The rendering is code, but it needs suitable models, textures or sprites: Closed coloured pane silhouettes, a subtle glass-grain texture and thick lead outlines.
+
 ## Gallery
 
 <table>
@@ -43,7 +45,7 @@
 
 ## Agent notes
 
-Steps a coding agent (or you) can follow to reproduce the look. The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section.
+Steps a coding agent (or you) can follow to reproduce the look. The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section. When it runs, put a screenshot of your scene next to the gallery above and compare values first, then palette, then detail.
 
 1. In Godot 4, draw each pane as a `Polygon2D` and trace its closed perimeter with a dark `Line2D` (4–8 px) for the lead seams.
 1. Give each polygon a single saturated fill; overlay a low-opacity noise texture in a `canvas_item` shader to suggest uneven glass.

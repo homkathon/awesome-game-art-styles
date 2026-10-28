@@ -7,6 +7,8 @@
 > A world folded and cut from paper.<br>
 > 整个世界由纸折叠、剪裁而成。
 
+What it takes: **Code plus assets.** The rendering is code, but it needs suitable models, textures or sprites: Paper fibre textures and models built from flat planes.
+
 ## Gallery
 
 <table>
@@ -44,7 +46,7 @@ Licences change; check the pack page before you ship.
 
 ## Agent notes
 
-Steps a coding agent (or you) can follow to reproduce the look. The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section.
+Steps a coding agent (or you) can follow to reproduce the look. The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section. When it runs, put a screenshot of your scene next to the gallery above and compare values first, then palette, then detail.
 
 1. Model from flat planes with thickness; avoid smooth curved surfaces.
 1. Apply a paper fibre texture and darken cut edges slightly.

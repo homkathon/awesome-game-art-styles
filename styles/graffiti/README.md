@@ -7,6 +7,8 @@
 > Cel-shaded cities covered in tags, loud colour and turn-of-the-millennium attitude.<br>
 > 卡通渲染的城市布满涂鸦、刺眼的颜色和千禧年街头态度。
 
+What it takes: **Code plus assets.** The rendering is code, but it needs suitable models, textures or sprites: Graffiti, sticker and poster decals.
+
 ## Gallery
 
 <table>
@@ -56,7 +58,7 @@ Licences change; check the pack page before you ship.
 
 ## Agent notes
 
-Steps a coding agent (or you) can follow to reproduce the look. The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section.
+Steps a coding agent (or you) can follow to reproduce the look. The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section. When it runs, put a screenshot of your scene next to the gallery above and compare values first, then palette, then detail.
 
 1. Start from a toon setup (hard light bands plus outlines) with fully saturated base colours.
 1. Cover walls with decals: tags, stickers and posters, drawn as flat vector shapes.

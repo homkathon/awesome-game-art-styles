@@ -7,6 +7,8 @@
 > Heavy black linework, crosshatching, desaturated colour.<br>
 > 厚重的黑色线条、交叉排线、低饱和色彩。
 
+What it takes: **Mostly art.** The look lives in made material; code only supports it. You need: Ink drawings with crosshatching.
+
 ## Gallery
 
 <table>
@@ -43,7 +45,7 @@
 
 ## Agent notes
 
-Steps a coding agent (or you) can follow to reproduce the look. The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section.
+Steps a coding agent (or you) can follow to reproduce the look. The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section. When it runs, put a screenshot of your scene next to the gallery above and compare values first, then palette, then detail.
 
 1. Ink characters with heavy, uneven outlines.
 1. Shade with crosshatch textures instead of gradients.

@@ -7,6 +7,8 @@
 > The world built from cubes; often destructible.<br>
 > 世界由方块搭成，通常可以破坏。
 
+What it takes: **Code only.** Simple models plus shaders and post-processing get close.
+
 ## Gallery
 
 <table>
@@ -40,7 +42,7 @@
 
 ## Agent notes
 
-Steps a coding agent (or you) can follow to reproduce the look. The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section.
+Steps a coding agent (or you) can follow to reproduce the look. The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section. When it runs, put a screenshot of your scene next to the gallery above and compare values first, then palette, then detail.
 
 1. Model in a voxel editor such as MagicaVoxel and export to OBJ / glTF.
 1. Use greedy meshing so large flat areas become few triangles.

@@ -12,6 +12,7 @@ Help the user choose a visual style for their game and leave them with a concret
 - `README.md`: the index. One grid per section; each cell is a style name linking to `styles/<id>/`.
 - `styles/<id>/README.md`: one page per style with
   - a one-line summary and a screenshot gallery (Steam screenshots of the reference games),
+  - **What it takes**: code only, code plus assets, or mostly art, and which assets to prepare,
   - **How to spot it**: what makes the look recognisable,
   - **Techniques**, **Reference games**, **Learn**, **Free assets to start with** (with licences),
   - **Similar styles**: neighbours that are easy to confuse,
@@ -30,10 +31,10 @@ Read the index and the relevant style pages before recommending anything. Prefer
    - Who makes the art: nobody (assets only), a programmer, an artist.
    - Licence constraints (commercial, open source, competition, CC0 only).
    - Budget: free only, or paid packs allowed.
-2. **Shortlist 2–3 styles.** For each: why it fits the theme in one line, a link to its style page, two reference games, and the main risk or cost (e.g. "claymation needs physical models or a lot of texture work"). Mention a "Similar style" when the user's description sits between two.
+2. **Shortlist 2–3 styles.** For each: why it fits the theme in one line, a link to its style page, two reference games, and the main risk or cost, taken from the page's **What it takes** line (e.g. "claymation needs physical models or a lot of texture work"). When nobody on the team makes art, lead with code-only styles, or say exactly which assets a style needs and where free ones are. Mention a "Similar style" when the user's description sits between two.
    With licence constraints, prefer styles whose assets are CC0, and flag anything that is not.
 3. **Give the plan for the chosen style:** techniques in order of impact, learning links, asset packs with licences.
-4. **Offer to apply it.** If the user has a project open, follow the style page's **Agent notes** on one scene first, adapted to their engine, and show the result before changing more. Ask before downloading any asset pack, and name the file, source and licence when asking.
+4. **Offer to apply it.** If the user has a project open, follow the style page's **Agent notes** on one scene first, adapted to their engine. Then screenshot the scene, put it next to the gallery screenshots and compare values first, then palette, then detail; fix the biggest gap before changing more, and show the user the comparison. In a post-processing pass, check that colour is converted to the display colour space exactly once; a missing conversion makes everything dark. Ask before downloading any asset pack, and name the file, source and licence when asking.
 
 ## Rules
 

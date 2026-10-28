@@ -7,6 +7,8 @@
 > Brush ink on paper, calligraphic strokes, seals.<br>
 > 纸上的毛笔墨迹、书法笔触、印章。
 
+What it takes: **Code plus assets.** The rendering is code, but it needs suitable models, textures or sprites: Brush-stroke and paper textures; outlines can be generated.
+
 ## Gallery
 
 <table>
@@ -48,7 +50,7 @@ Licences change; check the pack page before you ship.
 
 ## Agent notes
 
-Steps a coding agent (or you) can follow to reproduce the look. The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section.
+Steps a coding agent (or you) can follow to reproduce the look. The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section. When it runs, put a screenshot of your scene next to the gallery above and compare values first, then palette, then detail.
 
 1. Draw outlines with variable width (taper by angle or curvature).
 1. Use a paper texture and a limited ink palette with one red accent.

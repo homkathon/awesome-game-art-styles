@@ -7,6 +7,8 @@
 > Forms, stamps and posters; the interface is the institution.<br>
 > 表格、印章和海报；界面本身就是机构。
 
+What it takes: **Code plus assets.** The rendering is code, but it needs suitable models, textures or sprites: Document, stamp and poster graphics, and fitting typefaces.
+
 ## Gallery
 
 <table>
@@ -45,7 +47,7 @@
 
 ## Agent notes
 
-Steps a coding agent (or you) can follow to reproduce the look. The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section.
+Steps a coding agent (or you) can follow to reproduce the look. The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section. When it runs, put a screenshot of your scene next to the gallery above and compare values first, then palette, then detail.
 
 1. Make the main UI a desk of physical documents the player drags and stamps.
 1. Use a drab base palette; reserve red for stamps, warnings and slogans.

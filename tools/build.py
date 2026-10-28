@@ -15,7 +15,13 @@ ROOT = HERE.parent
 SHOTS = json.loads((HERE / "screenshots.json").read_text())
 BY_ID = {s["id"]: s for s in data.STYLES}
 COLS = 4
+NEEDS_LABEL = {
+    "code": "**Code only.** Simple models plus shaders and post-processing get close.",
+    "mixed": "**Code plus assets.** The rendering is code, but it needs suitable models, textures or sprites:",
+    "art": "**Mostly art.** The look lives in made material; code only supports it. You need:",
+}
 PAGES = "https://homkathon.github.io/awesome-game-art-styles"
+SITE = "https://homkathon.gokoding.com/styles"
 
 
 def store(gid):
@@ -53,6 +59,14 @@ def validate():
         for k in s["similar"]:
             if k not in BY_ID:
                 errors.append(f"{s['id']}: unknown similar style {k}")
+        need = data.NEEDS.get(s["id"])
+        if not need or need[0] not in NEEDS_LABEL:
+            errors.append(f"{s['id']}: NEEDS entry must be code, mixed or art")
+        elif need[0] != "code" and not (need[1] and data.NEEDS_ZH.get(s["id"])):
+            errors.append(f"{s['id']}: a {need[0]} style needs a note in NEEDS and NEEDS_ZH")
+        for field, zh in (("spot", data.SPOT_ZH), ("techniques", data.TECHNIQUES_ZH), ("agent", data.AGENT_ZH)):
+            if len(zh.get(s["id"], [])) != len(s[field]):
+                errors.append(f"{s['id']}: {field.upper()}_ZH must have one item per {field} item")
     return errors
 
 
@@ -62,9 +76,14 @@ TEXT = {
         switch="**English** · [简体中文](README.zh-CN.md)",
         intro="> {n} game visual styles, organised by **look**. Click a style for screenshots, how to recognise it, "
         "techniques, tutorials, free assets and notes for coding agents.",
+        site="🌐 **Browse it as a website: [homkathon.gokoding.com/styles]({site})** (Chinese interface). Search and filter all styles, flip through "
+        "screenshots and play the live demos on each style's page.",
         body="Screenshots are loaded from Steam and link to each game's store page; nothing is rehosted here. "
-        "Use the [Claude Code skill](skills/game-art-style/SKILL.md) to get a style recommendation for your own game, "
-        "or try the [live shader demos]({pages}/demos/) for toon, PS1, 1-bit and pixelated 3D. Watch and download permissioned creator MP4s in the [X media gallery]({pages}/x-posts/) (original author credit and post links included).",
+        "Use the [Claude Code skill](skills/game-art-style/SKILL.md) to get a style recommendation for your own game "
+        "(to install it, ask your coding agent to read [{site}/install.md]({site}/install.md)), "
+        "or try the [live shader demos]({pages}/demos/) for toon, PS1, 1-bit and pixelated 3D. "
+        "Watch and download permissioned creator MP4s in the [X media gallery]({pages}/x-posts/) (original author credit and post links included).",
+
         contents="Contents",
         extra=["- [Asset libraries](#asset-libraries)", "- [Learning resources](#learning-resources)",
                "- [Related lists](#related-lists)", "- [Wanted](#wanted)"],
@@ -74,9 +93,11 @@ TEXT = {
         file="README.zh-CN.md", resources="resources.zh-CN.md", sections=data.SECTIONS_ZH, name=lambda s: s["zh"], sub=lambda s: s["title"],
         switch="[English](README.md) · **简体中文**",
         intro="> {n} 种游戏视觉风格，按**观感**分类。点进每种风格可以看截图、识别要点、实现技术、教程、免费素材，以及给编程智能体的实现步骤。",
+        site="🌐 **中文网页版：[homkathon.gokoding.com/styles]({site})**。可以搜索、按分类筛选，在每种风格的页面里翻截图、直接玩在线演示。",
         body="截图直接从 Steam 加载并链接到游戏商店页，本仓库不转存任何截图。"
-        "用 [Claude Code 技能](skills/game-art-style/SKILL.md)可以为你的游戏推荐风格，"
+        "用 [Claude Code 技能](skills/game-art-style/SKILL.md)可以为你的游戏推荐风格（安装方法：让你的编程智能体读 [{site}/install.md]({site}/install.md)），"
         "也可以打开[在线着色器演示]({pages}/demos/)看卡通、PS1、1-bit 和像素化 3D 的实时效果。在 [X 视频画廊]({pages}/x-posts/)直接播放或下载经授权收录的 MP4（保留作者及原帖链接）。风格详情页目前为英文。",
+
         contents="目录",
         extra=["- [素材库](#素材库)", "- [学习资源](#学习资源)"],
         star="如果这份列表帮你选定了画风，点个 ⭐ 能让更多开发者看到它。",
@@ -100,7 +121,9 @@ def home(lang):
         "",
         t["intro"].format(n=len(data.STYLES)),
         "",
-        t["body"].format(pages=PAGES),
+        t["site"].format(site=SITE),
+        "",
+        t["body"].format(pages=PAGES, site=SITE),
         "",
         f"## {t['contents']}",
         "",
@@ -147,6 +170,8 @@ def page(s):
         f"> {s['summary']}<br>",
         f"> {data.SUMMARY_ZH[s['id']]}",
         "",
+        f"What it takes: {NEEDS_LABEL[data.NEEDS[s['id']][0]]} {data.NEEDS[s['id']][1]}".rstrip(),
+        "",
         *demo(s),
         "## Gallery",
         "",
@@ -180,7 +205,8 @@ def page(s):
         "## Agent notes",
         "",
         "Steps a coding agent (or you) can follow to reproduce the look. "
-        "The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section.",
+        "The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section. "
+        "When it runs, put a screenshot of your scene next to the gallery above and compare values first, then palette, then detail.",
         "",
         *[f"1. {x}" for x in s["agent"]],
         "",

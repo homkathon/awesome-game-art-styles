@@ -7,6 +7,8 @@
 > Filmed actors and real footage, framed by an interface the player searches through.<br>
 > 真人演员和实拍影像，装在一个让玩家搜索翻找的界面里。
 
+What it takes: **Mostly art.** The look lives in made material; code only supports it. You need: Filmed footage with a clear licence.
+
 ## Gallery
 
 <table>
@@ -45,7 +47,7 @@
 
 ## Agent notes
 
-Steps a coding agent (or you) can follow to reproduce the look. The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section.
+Steps a coding agent (or you) can follow to reproduce the look. The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section. When it runs, put a screenshot of your scene next to the gallery above and compare values first, then palette, then detail.
 
 1. Treat footage as data: cut it into short clips and tag each one (keywords, people, timecode).
 1. Frame playback in a period device (CRT, laptop, editing bay) so compression artefacts read as intentional.

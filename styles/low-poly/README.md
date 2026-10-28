@@ -7,6 +7,8 @@
 > Few, visible facets; colour carried by flat gradients or vertex colours rather than textures.<br>
 > 面数少、棱面可见；颜色靠平涂渐变或顶点色，而不是贴图。
 
+What it takes: **Code only.** Simple models plus shaders and post-processing get close.
+
 ## Gallery
 
 <table>
@@ -58,8 +60,8 @@ Licences change; check the pack page before you ship.
 
 ## Agent notes
 
-Steps a coding agent (or you) can follow to reproduce the look. The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section.
+Steps a coding agent (or you) can follow to reproduce the look. The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section. When it runs, put a screenshot of your scene next to the gallery above and compare values first, then palette, then detail.
 
-1. Use flat shading (Godot: `flat_shading` on the material or split vertices; three.js: `flatShading: true`).
+1. Use faceted normals (three.js: `flatShading: true` on the material; Godot has no material switch: export with Shade Flat from Blender, or set `NORMAL = normalize(cross(dFdx(VERTEX), dFdy(VERTEX)));` in a spatial shader).
 1. Colour models from a small gradient atlas instead of unique textures, so the palette can be changed in one image.
 1. Add exponential fog tinted to the sky colour; it does most of the depth work.

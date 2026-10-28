@@ -7,6 +7,8 @@
 > Wobbly vertices, warped textures, tiny resolution, dithered colour.<br>
 > 顶点抖动、贴图扭曲、极低分辨率、抖动色彩。
 
+What it takes: **Code only.** Simple models plus shaders and post-processing get close.
+
 ▶ **[Live demo](https://homkathon.github.io/awesome-game-art-styles/demos/ps1.html)** · runs in the browser, [source](../../demos/ps1.html) is one HTML file with commented shaders
 
 ## Gallery
@@ -57,7 +59,7 @@ Licences change; check the pack page before you ship.
 
 ## Agent notes
 
-Steps a coding agent (or you) can follow to reproduce the look. The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section.
+Steps a coding agent (or you) can follow to reproduce the look. The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section. When it runs, put a screenshot of your scene next to the gallery above and compare values first, then palette, then detail.
 
 1. Snap clip-space vertex positions to a coarse grid in the vertex shader.
 1. Imitate affine mapping by multiplying UVs by w in the vertex shader and dividing in the fragment shader.

@@ -7,6 +7,8 @@
 > Pixel sprites in a lit 3D world with depth of field and particles.<br>
 > 像素精灵放进有光照的 3D 世界，加景深和粒子。
 
+What it takes: **Code plus assets.** The rendering is code, but it needs suitable models, textures or sprites: Pixel-art character sprites and pixel textures for the 3D set.
+
 ## Gallery
 
 <table>
@@ -48,8 +50,8 @@
 
 ## Agent notes
 
-Steps a coding agent (or you) can follow to reproduce the look. The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section.
+Steps a coding agent (or you) can follow to reproduce the look. The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section. When it runs, put a screenshot of your scene next to the gallery above and compare values first, then palette, then detail.
 
 1. Place pixel sprites as billboards (or Sprite3D) in a 3D scene built from pixel-textured meshes.
 1. Add tilt-shift depth of field and bloom.
-1. Give sprites normal maps so dynamic lights shade them.
+1. Give sprites normal maps so dynamic lights shade them (Godot: a Sprite3D or quad with a StandardMaterial3D that has the normal texture).

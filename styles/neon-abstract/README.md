@@ -7,6 +7,8 @@
 > Pure colour, light trails and geometry in motion; often rhythm-led.<br>
 > 纯色、光轨和运动中的几何体；常以节奏驱动。
 
+What it takes: **Code only.** Simple models plus shaders and post-processing get close.
+
 ## Gallery
 
 <table>
@@ -47,7 +49,7 @@
 
 ## Agent notes
 
-Steps a coding agent (or you) can follow to reproduce the look. The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section.
+Steps a coding agent (or you) can follow to reproduce the look. The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section. When it runs, put a screenshot of your scene next to the gallery above and compare values first, then palette, then detail.
 
 1. Use emissive materials and strong bloom on a near-black background.
 1. Limit the palette to two or three hues (magenta, cyan, gold).

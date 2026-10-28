@@ -7,6 +7,8 @@
 > Pigment washes, soft edges, paper texture.<br>
 > 颜料晕染、柔和边缘、纸张纹理。
 
+What it takes: **Mostly art.** The look lives in made material; code only supports it. You need: Textures and backdrops painted in transparent washes.
+
 ## Gallery
 
 <table>
@@ -50,8 +52,10 @@ Licences change; check the pack page before you ship.
 
 ## Agent notes
 
-Steps a coding agent (or you) can follow to reproduce the look. The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section.
+Steps a coding agent (or you) can follow to reproduce the look. The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section. When it runs, put a screenshot of your scene next to the gallery above and compare values first, then palette, then detail.
 
+1. Start from painted art: paint textures and backdrops in transparent washes (or generate them with an image model) and keep 3D lighting soft and low-contrast. A post filter on an ordinary 3D render reads as a filtered render, not watercolour.
+1. Keep values light: leave the paper white in highlights and build colour in a few transparent layers.
 1. Darken colour near edges (from a blurred mask or depth edges).
 1. Multiply a paper texture over everything and let it show in light areas.
 1. Add granulation noise and slight colour bleed across edges.

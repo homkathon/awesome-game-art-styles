@@ -7,6 +7,8 @@
 > Two or three hard light bands, ink outlines, saturated colour.<br>
 > 两三层硬边明暗、墨线描边、高饱和色彩。
 
+What it takes: **Code only.** Simple models plus shaders and post-processing get close.
+
 ▶ **[Live demo](https://homkathon.github.io/awesome-game-art-styles/demos/toon.html)** · runs in the browser, [source](../../demos/toon.html) is one HTML file with commented shaders
 
 ## Gallery
@@ -59,8 +61,9 @@ Licences change; check the pack page before you ship.
 
 ## Agent notes
 
-Steps a coding agent (or you) can follow to reproduce the look. The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section.
+Steps a coding agent (or you) can follow to reproduce the look. The [game-art-style skill](../../skills/game-art-style/SKILL.md) reads this section. When it runs, put a screenshot of your scene next to the gallery above and compare values first, then palette, then detail.
 
 1. Quantise N·L into 2–3 bands (Godot: custom `light()` function; three.js: `MeshToonMaterial` with a 3-texel gradient map and nearest filtering).
 1. Draw outlines either with an inverted hull (duplicate mesh, front-face culled, pushed out along normals) or a post-process edge pass on normals and depth.
 1. Turn off tone mapping or use a neutral curve so the bands stay crisp.
+1. Use flat, saturated base colours and keep ambient light low, so the shadow band reads as a clear second colour instead of a grey wash; add a thin rim light to separate characters from the background.
