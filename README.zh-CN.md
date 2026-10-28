@@ -176,7 +176,7 @@
 
 ## X 热门技术帖精选
 
-大图预览 · 点击封面即可观看视频或查看原帖图片。
+直接在这里用 GitHub 原生播放器观看视频；没有视频的原帖展示图片。
 
 [在 X 视频画廊播放和下载经授权的 MP4](https://homkathon.github.io/awesome-game-art-styles/x-posts/)（保留作者、原文与原帖链接；无视频帖使用 X 嵌入）。
 
@@ -187,14 +187,14 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1864638156588400707"><img src="x-posts/previews/1864638156588400707.jpg" width="100%" alt="视频: 海岸线 Shader 新版"></a>
+<video src="https://github.com/user-attachments/assets/e66f2271-3549-4186-8cfc-7d937077a227" controls width="100%" playsinline></video>
 <p><strong><a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1864638156588400707">海岸线 Shader 新版</a></strong></p>
 <sub>视频 · @Cyanilux · 2024-12-05 · <a href="https://x.com/Cyanilux/status/1864638156588400707">原帖 ↗</a></sub>
 <p>海浪、岸边泡沫与湿沙的着色效果，原帖评论附教程</p>
 <sub>关联风格: <a href="styles/cozy/">温馨室内像素</a></sub>
 </td>
 <td width="50%" valign="top">
-<a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1252298028607774721"><img src="x-posts/previews/1252298028607774721.jpg" width="100%" alt="图文: 海岸线 Shader 原理拆解"></a>
+<a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1252298028607774721"><img src="x-posts/previews/1252298028607774721.jpg" width="100%" alt="海岸线 Shader 原理拆解"></a>
 <p><strong><a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1252298028607774721">海岸线 Shader 原理拆解</a></strong></p>
 <sub>图文 · @Cyanilux · 2020-04-20 · <a href="https://x.com/Cyanilux/status/1252298028607774721">原帖 ↗</a></sub>
 <p>受《动物森友会》启发的水深感知岸边浪花与水面边缘</p>
@@ -203,14 +203,14 @@
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1581210772352290818"><img src="x-posts/previews/1581210772352290818.jpg" width="100%" alt="视频: Gerstner 波浪海面"></a>
+<video src="https://github.com/user-attachments/assets/86cbd001-062d-4224-a2fd-205b6ddd832e" controls width="100%" playsinline></video>
 <p><strong><a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1581210772352290818">Gerstner 波浪海面</a></strong></p>
 <sub>视频 · @Cyanilux · 2022-10-15 · <a href="https://x.com/Cyanilux/status/1581210772352290818">原帖 ↗</a></sub>
 <p>用 Gerstner 波叠加位移塑造风格化海面</p>
 <sub>关联风格: <a href="styles/flat-colour-3d/">平涂图形化 3D</a></sub>
 </td>
 <td width="50%" valign="top">
-<a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1770095395848237506"><img src="x-posts/previews/1770095395848237506.jpg" width="100%" alt="视频: 2.5D 水面与精灵反射"></a>
+<video src="https://github.com/user-attachments/assets/53a5d7c2-abba-45e7-b21a-168670d6f39a" controls width="100%" playsinline></video>
 <p><strong><a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1770095395848237506">2.5D 水面与精灵反射</a></strong></p>
 <sub>视频 · @Cyanilux · 2024-03-19 · <a href="https://x.com/Cyanilux/status/1770095395848237506">原帖 ↗</a></sub>
 <p>俯视水体 Shader 与像素精灵倒影</p>
@@ -219,7 +219,7 @@
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1495405379253116930"><img src="x-posts/previews/1495405379253116930.jpg" width="100%" alt="视频: 程序化极光"></a>
+<video src="https://github.com/user-attachments/assets/224bc590-5f2b-416a-854e-5efbb4abf0c8" controls width="100%" playsinline></video>
 <p><strong><a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1495405379253116930">程序化极光</a></strong></p>
 <sub>视频 · @Cyanilux · 2022-02-20 · <a href="https://x.com/Cyanilux/status/1495405379253116930">原帖 ↗</a></sub>
 <p>细分面片位移、渐变、滚动噪声与远处淡出</p>
@@ -233,14 +233,14 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1975506073319567393"><img src="x-posts/previews/1975506073319567393.jpg" width="100%" alt="图文: 解析式环境光遮蔽"></a>
+<a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1975506073319567393"><img src="x-posts/previews/1975506073319567393.jpg" width="100%" alt="解析式环境光遮蔽"></a>
 <p><strong><a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1975506073319567393">解析式环境光遮蔽</a></strong></p>
 <sub>图文 · @florisium · 2025-10-07 · <a href="https://x.com/florisium/status/1975506073319567393">原帖 ↗</a></sub>
 <p>基于几何体的解析式 AO 技术及场景前后对比（技术长帖）</p>
 <sub>关联风格: <a href="styles/toy-diorama/">玩具微缩景</a></sub>
 </td>
 <td width="50%" valign="top">
-<a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1783442615939297380"><img src="x-posts/previews/1783442615939297380.jpg" width="100%" alt="视频: 面片假体积光"></a>
+<video src="https://github.com/user-attachments/assets/b8802851-7f05-42ab-bcd7-d29ecaf630ee" controls width="100%" playsinline></video>
 <p><strong><a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1783442615939297380">面片假体积光</a></strong></p>
 <sub>视频 · @Cyanilux · 2024-04-25 · <a href="https://x.com/Cyanilux/status/1783442615939297380">原帖 ↗</a></sub>
 <p>沿光方向拉伸面片、阴影遮罩与深度淡出</p>
@@ -249,14 +249,14 @@
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1362466015976783872"><img src="x-posts/previews/1362466015976783872.jpg" width="100%" alt="视频: 《辛特堡传说》描边拆解"></a>
+<video src="https://github.com/user-attachments/assets/0e7f9450-9a62-4189-91c0-f0b19ca44dce" controls width="100%" playsinline></video>
 <p><strong><a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1362466015976783872">《辛特堡传说》描边拆解</a></strong></p>
 <sub>视频 · @PhilippSeifried · 2021-02-18 · <a href="https://x.com/PhilippSeifried/status/1362466015976783872">原帖 ↗</a></sub>
 <p>技术长帖：如何控制风格化描边的宽度和位置</p>
 <sub>关联风格: <a href="styles/ligne-claire/">清线 / 墨比斯</a></sub>
 </td>
 <td width="50%" valign="top">
-<a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1354827696707002384"><img src="x-posts/previews/1354827696707002384.jpg" width="100%" alt="视频: 《辛特堡传说》风格化渲染"></a>
+<video src="https://github.com/user-attachments/assets/07fc6d86-883e-4cd8-9951-4bdce6d60d5f" controls width="100%" playsinline></video>
 <p><strong><a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1354827696707002384">《辛特堡传说》风格化渲染</a></strong></p>
 <sub>视频 · @PhilippSeifried · 2021-01-28 · <a href="https://x.com/PhilippSeifried/status/1354827696707002384">原帖 ↗</a></sub>
 <p>自定义延迟渲染，利用 G-buffer 中的材质 ID 控制风格</p>
@@ -270,14 +270,14 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1407727586986311687"><img src="x-posts/previews/1407727586986311687.jpg" width="100%" alt="视频: 彩色玻璃与体积光"></a>
+<video src="https://github.com/user-attachments/assets/86c7023c-eec3-483d-99cf-33140ed14cfa" controls width="100%" playsinline></video>
 <p><strong><a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1407727586986311687">彩色玻璃与体积光</a></strong></p>
 <sub>视频 · @Cyanilux · 2021-06-23 · <a href="https://x.com/Cyanilux/status/1407727586986311687">原帖 ↗</a></sub>
 <p>玻璃片分区着色与 Ray Marching 光束结合</p>
 <sub>关联风格: <a href="styles/stained-glass/">彩色玻璃</a></sub>
 </td>
 <td width="50%" valign="top">
-<a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1376949139838275584"><img src="x-posts/previews/1376949139838275584.jpg" width="100%" alt="视频: 镭射烫金材质"></a>
+<video src="https://github.com/user-attachments/assets/08022f98-f2e1-4633-bb78-b5b22675ff32" controls width="100%" playsinline></video>
 <p><strong><a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1376949139838275584">镭射烫金材质</a></strong></p>
 <sub>视频 · @Cyanilux · 2021-03-30 · <a href="https://x.com/Cyanilux/status/1376949139838275584">原帖 ↗</a></sub>
 <p>彩虹贴图配合切线空间视线方向 UV 视差</p>
@@ -286,14 +286,14 @@
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1396848736022802435"><img src="x-posts/previews/1396848736022802435.jpg" width="100%" alt="视频: Shader Graph GPU 草地"></a>
+<video src="https://github.com/user-attachments/assets/c8370dfa-6f0a-43ab-9a1b-159b0c1e017b" controls width="100%" playsinline></video>
 <p><strong><a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1396848736022802435">Shader Graph GPU 草地</a></strong></p>
 <sub>视频 · @Cyanilux · 2021-05-24 · <a href="https://x.com/Cyanilux/status/1396848736022802435">原帖 ↗</a></sub>
 <p>Unity Shader Graph 配合 DrawMeshInstancedIndirect 草地实例化</p>
 <sub>关联风格: <a href="styles/low-poly/">低多边形</a></sub>
 </td>
 <td width="50%" valign="top">
-<a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1618030887412862977"><img src="x-posts/previews/1618030887412862977.jpg" width="100%" alt="图文: 沿曲线生长的常春藤"></a>
+<a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1618030887412862977"><img src="x-posts/previews/1618030887412862977.jpg" width="100%" alt="沿曲线生长的常春藤"></a>
 <p><strong><a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1618030887412862977">沿曲线生长的常春藤</a></strong></p>
 <sub>图文 · @Cyanilux · 2023-01-24 · <a href="https://x.com/Cyanilux/status/1618030887412862977">原帖 ↗</a></sub>
 <p>用 Blender Geometry Nodes 沿手绘曲线布置藤叶</p>
@@ -302,7 +302,7 @@
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1251916279205814272"><img src="x-posts/previews/1251916279205814272.jpg" width="100%" alt="图文: 世界弯曲 Shader Graph"></a>
+<a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1251916279205814272"><img src="x-posts/previews/1251916279205814272.jpg" width="100%" alt="世界弯曲 Shader Graph"></a>
 <p><strong><a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1251916279205814272">世界弯曲 Shader Graph</a></strong></p>
 <sub>图文 · @Cyanilux · 2020-04-19 · <a href="https://x.com/Cyanilux/status/1251916279205814272">原帖 ↗</a></sub>
 <p>Shader Graph 弯曲子图，并通过 C# 关键字控制运行时启用</p>
@@ -316,14 +316,14 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-2019471084375130140"><img src="x-posts/previews/2019471084375130140.jpg" width="100%" alt="视频: 假体积烟雾"></a>
+<video src="https://github.com/user-attachments/assets/ab573f7f-a2d8-4524-ac25-3050c654ef38" controls width="100%" playsinline></video>
 <p><strong><a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-2019471084375130140">假体积烟雾</a></strong></p>
 <sub>视频 · @Tuatara_Games · 2026-02-05 · <a href="https://x.com/Tuatara_Games/status/2019471084375130140">原帖 ↗</a></sub>
 <p>面向镜头的形变网格、无光照材质与法线贴图假方向光</p>
 <sub>关联风格: <a href="styles/silhouette/">剪影黑白</a></sub>
 </td>
 <td width="50%" valign="top">
-<a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1483094258076856320"><img src="x-posts/previews/1483094258076856320.jpg" width="100%" alt="视频: 噪声层构成的龙卷风"></a>
+<video src="https://github.com/user-attachments/assets/d63c4858-075a-4601-8827-ce15b0d12efe" controls width="100%" playsinline></video>
 <p><strong><a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1483094258076856320">噪声层构成的龙卷风</a></strong></p>
 <sub>视频 · @Cyanilux · 2022-01-17 · <a href="https://x.com/Cyanilux/status/1483094258076856320">原帖 ↗</a></sub>
 <p>Alpha 裁剪的滚动噪声叠层、顶点位移与粒子尾迹</p>
@@ -332,14 +332,14 @@
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1638623920235356172"><img src="x-posts/previews/1638623920235356172.jpg" width="100%" alt="视频: RenderTexture 驱动破碎"></a>
+<video src="https://github.com/user-attachments/assets/cb1ccdff-b7eb-418b-be98-f76d9b4e407a" controls width="100%" playsinline></video>
 <p><strong><a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1638623920235356172">RenderTexture 驱动破碎</a></strong></p>
 <sub>视频 · @Cyanilux · 2023-03-22 · <a href="https://x.com/Cyanilux/status/1638623920235356172">原帖 ↗</a></sub>
 <p>用 Graphics.Blit 将射线命中位置写入遮罩，驱动表面破碎</p>
 <sub>关联风格: <a href="styles/boomer-shooter/">复古 FPS</a></sub>
 </td>
 <td width="50%" valign="top">
-<a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1524697139812573185"><img src="x-posts/previews/1524697139812573185.jpg" width="100%" alt="视频: 顶点位移触手"></a>
+<video src="https://github.com/user-attachments/assets/a42790d7-ef63-4e9d-9c34-1624e0318f3a" controls width="100%" playsinline></video>
 <p><strong><a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1524697139812573185">顶点位移触手</a></strong></p>
 <sub>视频 · @Cyanilux · 2022-05-12 · <a href="https://x.com/Cyanilux/status/1524697139812573185">原帖 ↗</a></sub>
 <p>用顶点位移驱动程序化触手形变</p>
@@ -348,7 +348,7 @@
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1467533351091376136"><img src="x-posts/previews/1467533351091376136.jpg" width="100%" alt="视频: 魔法斩击特效"></a>
+<video src="https://github.com/user-attachments/assets/4acc81d1-e91a-4ecf-91ae-bcc50e2597d7" controls width="100%" playsinline></video>
 <p><strong><a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1467533351091376136">魔法斩击特效</a></strong></p>
 <sub>视频 · @Cyanilux · 2021-12-05 · <a href="https://x.com/Cyanilux/status/1467533351091376136">原帖 ↗</a></sub>
 <p>Shader 驱动的斩击特效，作者另有 Shader Graph 拆解</p>
@@ -362,14 +362,14 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1068933280005844992"><img src="x-posts/previews/1068933280005844992.jpg" width="100%" alt="视频: 像素瀑布拆解"></a>
+<video src="https://github.com/user-attachments/assets/a26ff1b1-d8ed-4b82-a883-2bc1be40bce7" controls width="100%" playsinline></video>
 <p><strong><a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1068933280005844992">像素瀑布拆解</a></strong></p>
 <sub>视频 · @lunoland · 2018-12-01 · <a href="https://x.com/lunoland/status/1068933280005844992">原帖 ↗</a></sub>
 <p>精灵图、Shader 与 13 组粒子系统叠加的像素瀑布</p>
 <sub>关联风格: <a href="styles/pixel-art/">像素画</a></sub>
 </td>
 <td width="50%" valign="top">
-<a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1595484469699526665"><img src="x-posts/previews/1595484469699526665.jpg" width="100%" alt="视频: 抖动与像素化光照"></a>
+<video src="https://github.com/user-attachments/assets/4a23baa7-ce56-433c-b969-b6d528a4736b" controls width="100%" playsinline></video>
 <p><strong><a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1595484469699526665">抖动与像素化光照</a></strong></p>
 <sub>视频 · @Cyanilux · 2022-11-23 · <a href="https://x.com/Cyanilux/status/1595484469699526665">原帖 ↗</a></sub>
 <p>把光照分解为像素块与抖动网点的实验</p>
@@ -378,7 +378,7 @@
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1847072515572507001"><img src="x-posts/previews/1847072515572507001.jpg" width="100%" alt="图文: 调色板驱动的像素光照"></a>
+<a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1847072515572507001"><img src="x-posts/previews/1847072515572507001.jpg" width="100%" alt="调色板驱动的像素光照"></a>
 <p><strong><a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1847072515572507001">调色板驱动的像素光照</a></strong></p>
 <sub>图文 · @MadeInHevinis · 2024-10-18 · <a href="https://x.com/MadeInHevinis/status/1847072515572507001">原帖 ↗</a></sub>
 <p>直接从精灵明暗调色板映射光照颜色</p>
