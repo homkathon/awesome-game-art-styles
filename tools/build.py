@@ -15,6 +15,7 @@ SHOTS = json.loads((HERE / "screenshots.json").read_text())
 BY_ID = {s["id"]: s for s in data.STYLES}
 COLS = 4
 PAGES = "https://homkathon.github.io/awesome-game-art-styles"
+SITE = "https://homkathon.gokoding.com/styles"
 
 
 def store(gid):
@@ -61,8 +62,11 @@ TEXT = {
         switch="**English** · [简体中文](README.zh-CN.md)",
         intro="> {n} game visual styles, organised by **look**. Click a style for screenshots, how to recognise it, "
         "techniques, tutorials, free assets and notes for coding agents.",
+        site="🌐 **Browse it as a website: [homkathon.gokoding.com/styles]({site})** (Chinese interface). Search and filter all styles, flip through "
+        "screenshots and play the live demos on each style's page.",
         body="Screenshots are loaded from Steam and link to each game's store page; nothing is rehosted here. "
-        "Use the [Claude Code skill](skills/game-art-style/SKILL.md) to get a style recommendation for your own game, "
+        "Use the [Claude Code skill](skills/game-art-style/SKILL.md) to get a style recommendation for your own game "
+        "(to install it, ask your coding agent to read {site}/install.md), "
         "or try the [live shader demos]({pages}/demos/) for toon, PS1, 1-bit and pixelated 3D.",
         contents="Contents",
         extra=["- [Asset libraries](#asset-libraries)", "- [Learning resources](#learning-resources)",
@@ -73,8 +77,9 @@ TEXT = {
         file="README.zh-CN.md", resources="resources.zh-CN.md", sections=data.SECTIONS_ZH, name=lambda s: s["zh"], sub=lambda s: s["title"],
         switch="[English](README.md) · **简体中文**",
         intro="> {n} 种游戏视觉风格，按**观感**分类。点进每种风格可以看截图、识别要点、实现技术、教程、免费素材，以及给编程智能体的实现步骤。",
+        site="🌐 **中文网页版：[homkathon.gokoding.com/styles]({site})**。可以搜索、按分类筛选，在每种风格的页面里翻截图、直接玩在线演示。",
         body="截图直接从 Steam 加载并链接到游戏商店页，本仓库不转存任何截图。"
-        "用 [Claude Code 技能](skills/game-art-style/SKILL.md)可以为你的游戏推荐风格，"
+        "用 [Claude Code 技能](skills/game-art-style/SKILL.md)可以为你的游戏推荐风格（安装方法：让你的编程智能体读 {site}/install.md），"
         "也可以打开[在线着色器演示]({pages}/demos/)看卡通、PS1、1-bit 和像素化 3D 的实时效果。风格详情页目前为英文。",
         contents="目录",
         extra=["- [素材库](#素材库)", "- [学习资源](#学习资源)"],
@@ -99,7 +104,9 @@ def home(lang):
         "",
         t["intro"].format(n=len(data.STYLES)),
         "",
-        t["body"].format(pages=PAGES),
+        t["site"].format(site=SITE),
+        "",
+        t["body"].format(pages=PAGES, site=SITE),
         "",
         f"## {t['contents']}",
         "",

@@ -8,7 +8,9 @@
 
 > 51 game visual styles, organised by **look**. Click a style for screenshots, how to recognise it, techniques, tutorials, free assets and notes for coding agents.
 
-Screenshots are loaded from Steam and link to each game's store page; nothing is rehosted here. Use the [Claude Code skill](skills/game-art-style/SKILL.md) to get a style recommendation for your own game, or try the [live shader demos](https://homkathon.github.io/awesome-game-art-styles/demos/) for toon, PS1, 1-bit and pixelated 3D.
+🌐 **Browse it as a website: [homkathon.gokoding.com/styles](https://homkathon.gokoding.com/styles)** (Chinese interface). Search and filter all styles, flip through screenshots and play the live demos on each style's page.
+
+Screenshots are loaded from Steam and link to each game's store page; nothing is rehosted here. Use the [Claude Code skill](skills/game-art-style/SKILL.md) to get a style recommendation for your own game (to install it, ask your coding agent to read https://homkathon.gokoding.com/styles/install.md), or try the [live shader demos](https://homkathon.github.io/awesome-game-art-styles/demos/) for toon, PS1, 1-bit and pixelated 3D.
 
 ## Contents
 
