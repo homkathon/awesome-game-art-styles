@@ -39,6 +39,10 @@ What it takes: **Code plus assets.** The rendering is code, but it needs suitabl
 - [Octopath Traveler](https://store.steampowered.com/app/921570/)
 - [Eastward](https://store.steampowered.com/app/977880/)
 
+## Learn
+
+- [2.5D water with sprite reflections](https://x.com/Cyanilux/status/1770095395848237506) · Cyanilux (X technique post)
+
 ## Similar styles
 
 - [Pixel art](../pixel-art/) · 像素画

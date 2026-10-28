@@ -38,6 +38,10 @@ What it takes: **Code only.** Simple models plus shaders and post-processing get
 - [Sayonara Wild Hearts](https://store.steampowered.com/app/1122720/)
 - [Thumper](https://store.steampowered.com/app/356400/)
 
+## Learn
+
+- [Procedural aurora](https://x.com/Cyanilux/status/1495405379253116930) · Cyanilux (X technique post)
+
 ## Similar styles
 
 - [Neon 80s pixel](../neon-80s/) · 80 年代霓虹像素

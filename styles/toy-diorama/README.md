@@ -41,6 +41,11 @@ What it takes: **Code only.** Simple models plus shaders and post-processing get
 - [Townscaper](https://store.steampowered.com/app/1291340/)
 - [Hitman GO](https://store.steampowered.com/app/427820/)
 
+## Learn
+
+- [Analytical ambient occlusion](https://x.com/florisium/status/1975506073319567393) · florisium (X technique post)
+- [World-bending Shader Graph subgraph](https://x.com/Cyanilux/status/1251916279205814272) · Cyanilux (X technique post)
+
 ## Free assets to start with
 
 - [KayKit](https://kaylousberg.itch.io/furniture-bits) · CC0

@@ -42,6 +42,7 @@ What it takes: **Code only.** Simple models plus shaders and post-processing get
 ## Learn
 
 - [t3ssel8r](https://www.youtube.com/@t3ssel8r) · pixel-art look in 3D
+- [Dithered and pixelated lighting](https://x.com/Cyanilux/status/1595484469699526665) · Cyanilux (X technique post)
 
 ## Free assets to start with
 

@@ -8,6 +8,7 @@ Instructions for any AI agent (Codex, ChatGPT, Claude Code …) that updates thi
 - `tools/resources.md` and `tools/resources.zh-CN.md` hold the tables at the end of the READMEs.
 - `README.md`, `README.zh-CN.md` and `styles/*/README.md` are generated. Never edit them by hand.
 - After any change run `python3 tools/build.py`. It validates references and regenerates everything. Commit the generated files.
+- `tools/x_gallery.py` builds `x-posts/index.html` from both resource tables and `tools/x-gallery-template.html`. The gallery prefers MP4s in `x-posts/media/` with the manifest `tools/x_media.json`; all such videos require author redistribution permission and retain their original authorship. The remaining posts use X embeds. Never label these third-party MP4s as CC0.
 - CI (`.github/workflows/check.yml`) fails if generated files are stale or a link is dead.
 
 ## Routine update (run weekly)
@@ -23,6 +24,8 @@ Do these in order. Stop after step 4 if there is nothing to do; an empty week is
    Remove a style from Wanted once it is added.
 4. **Add resources** only if they teach a technique (tutorials, talks, breakdowns, shader libraries) or are asset libraries
    with a clear licence. Add them to `LEARN` / `ASSETS` and reference them from the relevant styles.
+   For the **Popular X posts** table, look for creator-authored technical threads; verify the canonical post via X's public embed metadata, and update both language files. Treat it as a hand-curated selection, not a live ranking.
+   Never invent popularity metrics or add posts that only promote a game without explaining a technique. Group X posts by technique, link each to a relevant style via `LEARN`, and preserve original author, date and source URL.
 5. Run `python3 tools/build.py`, then open a pull request titled `Weekly update: <date>` listing what changed and why.
    Do not push to `main` directly.
 

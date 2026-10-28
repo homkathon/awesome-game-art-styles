@@ -36,6 +36,11 @@ What it takes: **Code plus assets.** The rendering is code, but it needs suitabl
 
 - [Unpacking](https://store.steampowered.com/app/1135690/)
 
+## Learn
+
+- [Shoreline shader mini-breakdown](https://x.com/Cyanilux/status/1252298028607774721) · Cyanilux (X technique post)
+- [Shoreline shader redux](https://x.com/Cyanilux/status/1864638156588400707) · Cyanilux (X technique post)
+
 ## Free assets to start with
 
 - [LimeZu Modern Interiors](https://limezu.itch.io/moderninteriors) · paid, credit required

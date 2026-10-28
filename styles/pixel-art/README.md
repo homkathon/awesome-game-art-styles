@@ -43,6 +43,8 @@ What it takes: **Mostly art.** The look lives in made material; code only suppor
 ## Learn
 
 - [Lospec palette list](https://lospec.com/palette-list) · Lospec
+- [Pixel-art waterfall breakdown](https://x.com/lunoland/status/1068933280005844992) · lunoland (X technique post)
+- [Palette-driven pixel-art lighting](https://x.com/MadeInHevinis/status/1847072515572507001) · MadeInHevinis (X technique post)
 
 ## Free assets to start with
 

@@ -37,6 +37,10 @@ What it takes: **Code plus assets.** The rendering is code, but it needs suitabl
 - [BioShock Infinite](https://store.steampowered.com/app/8870/)
 - [Fallout 4](https://store.steampowered.com/app/377160/)
 
+## Learn
+
+- [Holographic foil shader](https://x.com/Cyanilux/status/1376949139838275584) · Cyanilux (X technique post)
+
 ## Similar styles
 
 - [Bureaucratic / propaganda](../bureaucratic/) · 官僚 / 宣传画

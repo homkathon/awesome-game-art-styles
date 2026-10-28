@@ -5,6 +5,7 @@ Screenshots are referenced as "APPID:INDEX" into tools/screenshots.json
 """
 
 GAMES = {  # Steam app id -> display name
+    511470: "Glass Masquerade", 1034150: "Mosaic Chronicles",
     553420: "TUNIC", 1562430: "DREDGE", 2198150: "Tiny Glade", 1291340: "Townscaper", 427820: "Hitman GO",
     1927720: "Monument Valley", 1817230: "Hi-Fi RUSH", 49520: "Borderlands 2", 1384160: "GUILTY GEAR -STRIVE-",
     757310: "Sable", 1931770: "Chants of Sennaar", 632470: "Disco Elysium", 1172620: "Sea of Thieves",
@@ -73,6 +74,28 @@ LEARN = {
     "acerola": ("Acerola", "https://www.youtube.com/@Acerola_t", "stylised rendering deep dives"),
     "godotshaders": ("Godot Shaders", "https://godotshaders.com", "community shader library"),
     "nesdev": ("NESdev wiki: PPU palettes", "https://www.nesdev.org/wiki/PPU_palettes", "the real NES colour and sprite limits"),
+    "x-shoreline-redux": ('Shoreline shader redux', 'https://x.com/Cyanilux/status/1864638156588400707', 'Cyanilux (X technique post)'),
+    "x-shoreline": ('Shoreline shader mini-breakdown', 'https://x.com/Cyanilux/status/1252298028607774721', 'Cyanilux (X technique post)'),
+    "x-gerstner": ('Gerstner-wave ocean', 'https://x.com/Cyanilux/status/1581210772352290818', 'Cyanilux (X technique post)'),
+    "x-topdown-water": ('2.5D water with sprite reflections', 'https://x.com/Cyanilux/status/1770095395848237506', 'Cyanilux (X technique post)'),
+    "x-aurora": ('Procedural aurora', 'https://x.com/Cyanilux/status/1495405379253116930', 'Cyanilux (X technique post)'),
+    "x-ao": ('Analytical ambient occlusion', 'https://x.com/florisium/status/1975506073319567393', 'florisium (X technique post)'),
+    "x-god-rays": ('Billboarded light shafts', 'https://x.com/Cyanilux/status/1783442615939297380', 'Cyanilux (X technique post)'),
+    "x-hinter-outlines": ('Dungeons of Hinterberg: outlines', 'https://x.com/PhilippSeifried/status/1362466015976783872', 'PhilippSeifried (X technique post)'),
+    "x-hinter-rendering": ('Dungeons of Hinterberg: stylized rendering', 'https://x.com/PhilippSeifried/status/1354827696707002384', 'PhilippSeifried (X technique post)'),
+    "x-stained-glass": ('Stained glass and volumetric rays', 'https://x.com/Cyanilux/status/1407727586986311687', 'Cyanilux (X technique post)'),
+    "x-holofoil": ('Holographic foil shader', 'https://x.com/Cyanilux/status/1376949139838275584', 'Cyanilux (X technique post)'),
+    "x-grass": ('GPU-instanced grass with Shader Graph', 'https://x.com/Cyanilux/status/1396848736022802435', 'Cyanilux (X technique post)'),
+    "x-vines": ('Procedural ivy on curves', 'https://x.com/Cyanilux/status/1618030887412862977', 'Cyanilux (X technique post)'),
+    "x-world-bending": ('World-bending Shader Graph subgraph', 'https://x.com/Cyanilux/status/1251916279205814272', 'Cyanilux (X technique post)'),
+    "x-smoke": ('Fake volumetric smoke', 'https://x.com/Tuatara_Games/status/2019471084375130140', 'Tuatara_Games (X technique post)'),
+    "x-tornado": ('Tornado made from noise layers', 'https://x.com/Cyanilux/status/1483094258076856320', 'Cyanilux (X technique post)'),
+    "x-fracture": ('Render-texture-driven fracture', 'https://x.com/Cyanilux/status/1638623920235356172', 'Cyanilux (X technique post)'),
+    "x-tentacle": ('Tentacle via vertex displacement', 'https://x.com/Cyanilux/status/1524697139812573185', 'Cyanilux (X technique post)'),
+    "x-sword": ('Magic sword slash VFX', 'https://x.com/Cyanilux/status/1467533351091376136', 'Cyanilux (X technique post)'),
+    "x-waterfall": ('Pixel-art waterfall breakdown', 'https://x.com/lunoland/status/1068933280005844992', 'lunoland (X technique post)'),
+    "x-dither": ('Dithered and pixelated lighting', 'https://x.com/Cyanilux/status/1595484469699526665', 'Cyanilux (X technique post)'),
+    "x-palette": ('Palette-driven pixel-art lighting', 'https://x.com/MadeInHevinis/status/1847072515572507001', 'MadeInHevinis (X technique post)'),
 }
 
 ASSETS = {
@@ -102,7 +125,7 @@ STYLES = [
          spot=["You can count the polygons on a rock or a tree", "No surface texture: each face is one colour or a smooth gradient", "Depth comes from fog and colour, not detail"],
          techniques=["flat or gradient-atlas colours", "faceted (flat-shaded) normals", "strong distance fog"],
          games=[553420, 1562430], hero="553420:0", gallery=["553420:2", "553420:3", "1562430:0", "1562430:2"],
-         learn=[], assets=["kaykit", "kenney", "quaternius", "polypizza"], similar=["toy-diorama", "voxel"],
+         learn=["x-grass", "x-vines"], assets=["kaykit", "kenney", "quaternius", "polypizza"], similar=["toy-diorama", "voxel"],
          agent=["Use faceted normals (three.js: `flatShading: true` on the material; Godot has no material switch: export with Shade Flat from Blender, or set `NORMAL = normalize(cross(dFdx(VERTEX), dFdy(VERTEX)));` in a spatial shader).",
                 "Colour models from a small gradient atlas instead of unique textures, so the palette can be changed in one image.",
                 "Add exponential fog tinted to the sky colour; it does most of the depth work."]),
@@ -111,7 +134,7 @@ STYLES = [
          spot=["Background and foreground are blurred as if shot with a macro lens", "Edges are rounded, materials look like painted wood or plastic", "The whole scene fits on a table"],
          techniques=["bokeh depth of field", "ambient occlusion", "rounded bevels", "warm key light"],
          games=[2198150, 1291340, 427820], hero="1291340:0", gallery=["2198150:0", "2198150:3", "1291340:2", "427820:0"],
-         learn=[], assets=["kaykit", "kenney"], similar=["minimal-geometric", "dark-miniature"],
+         learn=["x-ao", "x-world-bending"], assets=["kaykit", "kenney"], similar=["minimal-geometric", "dark-miniature"],
          agent=["Add depth of field with a short focus distance; blur both near and far.",
                 "Enable SSAO and bevel every model edge; small rounded edges sell the toy scale.",
                 "Use a high camera angle and a narrow field of view, like a photo of a model."]),
@@ -129,7 +152,7 @@ STYLES = [
          spot=["Shadows have a hard edge instead of a gradient", "Dark outlines around characters and props", "Bright, saturated colours"],
          techniques=["stepped lighting ramp", "inverted-hull or post-process outlines", "rim light"],
          games=[1817230, 49520], hero="1817230:3", gallery=["1817230:0", "1817230:1", "49520:0", "49520:2"],
-         learn=["roystan", "outlines"], assets=["kaykit", "kenney"], similar=["ligne-claire", "anime-cel"],
+         learn=["roystan", "outlines", "x-hinter-rendering"], assets=["kaykit", "kenney"], similar=["ligne-claire", "anime-cel"],
          agent=["Quantise N·L into 2–3 bands (Godot: custom `light()` function; three.js: `MeshToonMaterial` with a 3-texel gradient map and nearest filtering).",
                 "Draw outlines either with an inverted hull (duplicate mesh, front-face culled, pushed out along normals) or a post-process edge pass on normals and depth.",
                 "Turn off tone mapping or use a neutral curve so the bands stay crisp.",
@@ -139,7 +162,7 @@ STYLES = [
          spot=["Looks like a 2D anime frame until the camera moves", "Animation snaps between poses instead of easing", "Face shadows are clean shapes, not physically correct"],
          techniques=["hand-edited normals for clean shadows", "limited animation (stepped keys)", "per-shot light direction"],
          games=[1384160], hero="1384160:2", gallery=["1384160:0", "1384160:1", "1384160:3"],
-         learn=["ggxrd"], assets=[], similar=["toon", "hand-drawn"],
+         learn=["ggxrd", "x-sword"], assets=[], similar=["toon", "hand-drawn"],
          agent=["Start from a toon shader with a single hard shadow band.",
                 "Edit vertex normals on faces (or use a normal-transfer from a sphere) so shadows form clean shapes.",
                 "Bake animation at 12 fps or less with constant interpolation; keep the camera smooth."]),
@@ -148,7 +171,7 @@ STYLES = [
          spot=["Every object has the same thin black outline", "Large flat colour areas with almost no shading", "Colour palette shifts strongly with time of day"],
          techniques=["post-process outlines on everything", "unlit flat colour", "colour shifts by time of day"],
          games=[757310, 1931770], hero="757310:1", gallery=["757310:0", "757310:2", "1931770:1", "1931770:2"],
-         learn=["outlines"], assets=[], similar=["toon", "flat-colour-3d"],
+         learn=["outlines", "x-hinter-outlines"], assets=[], similar=["toon", "flat-colour-3d"],
          agent=["Use unlit materials with one flat colour each; add at most one shadow band.",
                 "Run an edge-detection pass on depth and normals and draw constant-width black lines.",
                 "Drive the whole palette from a time-of-day colour grade instead of real lighting."]),
@@ -166,7 +189,7 @@ STYLES = [
          spot=["Distant shapes fade into flat bands of one colour", "Each scene has a strong dominant colour", "Few textures; shape and colour do the work"],
          techniques=["gradient fog by distance", "flat unlit materials", "strong colour scripts"],
          games=[383870, 231200], hero="383870:0", gallery=["383870:1", "383870:3", "231200:0", "231200:1"],
-         learn=[], assets=[], similar=["ligne-claire", "low-poly"],
+         learn=["x-gerstner"], assets=[], similar=["ligne-claire", "low-poly"],
          agent=["Use a fog colour gradient (near → far) as the main lighting tool.",
                 "Keep materials untextured or with very subtle noise.",
                 "Write a colour script: one key colour per scene, everything else near it."]),
@@ -175,7 +198,7 @@ STYLES = [
          spot=["Rounded chrome, vacuum tubes, period typography", "Propaganda posters and mascots", "Technology looks advanced but old-fashioned"],
          techniques=["period props and typography", "propaganda posters as set dressing"],
          games=[8870, 377160], hero="8870:0", gallery=["8870:2", "377160:0", "377160:2"],
-         learn=[], assets=[], similar=["bureaucratic", "graphic-design"],
+         learn=["x-holofoil"], assets=[], similar=["bureaucratic", "graphic-design"],
          agent=["Pick one decade and collect its typefaces, colours and product shapes before modelling.",
                 "Put most of the style into set dressing: signs, posters, packaging, UI.",
                 "Use warm, slightly desaturated grading to age the image."]),
@@ -203,7 +226,7 @@ STYLES = [
          spot=["Looks like pixel art but the camera rotates and moves in depth", "Crisp one-pixel outlines on edges", "No shimmering when the camera pans"],
          techniques=["low-res render target, nearest upscale", "pixel-snapped camera", "edge highlights"],
          games=[1055540], hero="1055540:0", gallery=["1055540:1", "1055540:2", "1055540:3"],
-         learn=["t3ssel8r"], assets=["kaykit", "kenney"], similar=["pixel-art", "ps1"],
+         learn=["t3ssel8r", "x-dither"], assets=["kaykit", "kenney"], similar=["pixel-art", "ps1"],
          agent=["Render the 3D scene to a small viewport (e.g. 1/4–1/6 resolution) and upscale with nearest filtering (three.js: `RenderPixelatedPass`).",
                 "Snap the orthographic camera to whole texels and offset the final image by the remainder to stop shimmer.",
                 "Add one-pixel highlights where depth or normals change."]),
@@ -265,7 +288,7 @@ STYLES = [
          spot=["Characters are solid black shapes", "Background is fog and soft light", "Little or no colour"],
          techniques=["back-lighting", "depth fog", "desaturated palette"],
          games=[48000, 304430], hero="48000:0", gallery=["48000:1", "48000:2", "304430:0", "304430:2"],
-         learn=[], assets=[], similar=["1-bit", "dark-miniature"],
+         learn=["x-smoke", "x-god-rays", "x-tornado"], assets=[], similar=["1-bit", "dark-miniature"],
          agent=["Put the light behind the subject; render foreground objects black.",
                 "Use layered fog planes for depth and add film grain and vignette.",
                 "Design every object to read by outline alone."]),
@@ -274,7 +297,7 @@ STYLES = [
          spot=["Glowing colour on dark backgrounds", "Abstract shapes and light trails instead of realistic scenery", "Effects pulse with the music"],
          techniques=["emissive materials and bloom", "chromatic aberration", "music-synced effects"],
          games=[1122720, 356400], hero="1122720:0", gallery=["1122720:2", "356400:0", "356400:2"],
-         learn=[], assets=[], similar=["neon-80s", "flat-vector"],
+         learn=["x-aurora"], assets=[], similar=["neon-80s", "flat-vector"],
          agent=["Use emissive materials and strong bloom on a near-black background.",
                 "Limit the palette to two or three hues (magenta, cyan, gold).",
                 "Drive scale, colour and camera shake from the beat clock."]),
@@ -283,7 +306,7 @@ STYLES = [
          spot=["Visible square pixels at integer scale", "A small, deliberate colour palette", "Animation in a few frames"],
          techniques=["limited palette", "sub-pixel animation", "integer scaling"],
          games=[250760, 504230, 413150], hero="250760:0", gallery=["504230:0", "504230:2", "250760:1", "413150:0"],
-         learn=["lospec"], assets=["limezu", "kenney"], similar=["hd-2d", "cozy"],
+         learn=["lospec", "x-waterfall", "x-palette"], assets=["limezu", "kenney"], similar=["hd-2d", "cozy"],
          agent=["Pick a base resolution (e.g. 320×180 or 480×270) and scale only by integers.",
                 "Choose a palette from Lospec and stick to it.",
                 "Disable texture filtering and snap sprites to whole pixels (Godot: `snap_2d_transforms_to_pixel`)."]),
@@ -291,7 +314,7 @@ STYLES = [
          spot=["Pixel-art characters standing in a 3D diorama", "Strong depth-of-field blur top and bottom", "Modern lighting, bloom and particles"],
          techniques=["sprites as billboards", "tilt-shift depth of field", "dynamic lights on pixel art"],
          games=[921570, 977880], hero="921570:0", gallery=["921570:1", "921570:3", "977880:0", "977880:2"],
-         learn=[], assets=[], similar=["pixel-art", "toy-diorama"],
+         learn=["x-topdown-water"], assets=[], similar=["pixel-art", "toy-diorama"],
          agent=["Place pixel sprites as billboards (or Sprite3D) in a 3D scene built from pixel-textured meshes.",
                 "Add tilt-shift depth of field and bloom.",
                 "Give sprites normal maps so dynamic lights shade them (Godot: a Sprite3D or quad with a StandardMaterial3D that has the normal texture)."]),
@@ -316,7 +339,7 @@ STYLES = [
          spot=["Isometric or three-quarter rooms", "Many small personal objects", "Soft, warm palette"],
          techniques=["isometric or 3/4 rooms", "warm palette"],
          games=[1135690], hero="1135690:0", gallery=["1135690:1", "1135690:2", "1135690:3"],
-         learn=[], assets=["limezu"], similar=["pixel-art", "toy-diorama"],
+         learn=["x-shoreline", "x-shoreline-redux"], assets=["limezu"], similar=["pixel-art", "toy-diorama"],
          agent=["Build rooms on an isometric grid; draw objects at a consistent angle.",
                 "Use warm light colours and soft shadows under objects.",
                 "Fill shelves with small props; detail density is the style."]),
@@ -476,7 +499,7 @@ STYLES = [
          spot=["Low-resolution, unfiltered textures on simple level geometry", "Big readable enemies and pickups", "Strong coloured lighting, little realism"],
          techniques=["nearest-filtered textures", "low texel density", "billboard sprites or low-poly enemies", "limited palettes"],
          games=[1229490, 562860, 964800, 1684930], hero="1229490:2", gallery=["562860:0", "964800:3", "1684930:1", "1229490:1"],
-         learn=["godotshaders"], assets=["kenney"], similar=["ps1", "pixelated-3d"],
+         learn=["godotshaders", "x-fracture"], assets=["kenney"], similar=["ps1", "pixelated-3d"],
          agent=["Use small textures (64–128 px) with nearest filtering and no mipmap blur.",
                 "Build levels from boxes and ramps; detail comes from texture and light colour, not geometry.",
                 "Draw enemies as camera-facing sprites with 8 directions, or as low-poly models with pixel textures."]),
@@ -485,7 +508,7 @@ STYLES = [
          spot=["Clashing colours and textures that look 'wrong' on purpose", "Dream logic: rooms and creatures that make no sense", "Rough, unpolished models or sprites"],
          techniques=["clashing palettes", "photo and texture collage", "intentionally crude modelling"],
          games=[1388770, 397740, 650700], hero="1388770:1", gallery=["1388770:6", "397740:0", "650700:0", "650700:3"],
-         learn=[], assets=[], similar=["mixed-media", "ps1"],
+         learn=["x-tentacle"], assets=[], similar=["mixed-media", "ps1"],
          agent=["Pick rules to break on purpose (clashing hues, stretched textures, wrong scale) and break them consistently.",
                 "Collage textures from your own photos, scans and drawings.",
                 "Keep gameplay readable: one clean colour for interactive things, chaos everywhere else."]),
@@ -552,6 +575,17 @@ STYLES = [
          agent=["Pick one era of interface (Windows 98, XP, early smartphones) and copy its rules: bevels, fonts, sounds.",
                 "Draw your own icons and window chrome; don't ship real operating-system assets or logos.",
                 "Build a small window manager (drag, focus, close) and let the story arrive through apps."]),
+    dict(id="stained-glass", section=6, title="Stained glass", zh="彩色玻璃",
+         summary="Illustrations assembled from coloured glass panes separated by dark lead lines.",
+         spot=["Every coloured shape has a dark, closed outline like a lead came",
+               "Jewel-toned panes form a larger picture from small irregular pieces",
+               "Light and subtle glass grain make the colours feel translucent"],
+         techniques=["closed pane masks and thick lead contours", "translucent colour layers", "fine glass grain and backlight glow"],
+         games=[1034150, 511470], hero="1034150:3", gallery=["511470:5"],
+         learn=["x-stained-glass"], assets=[], similar=["flat-vector", "manuscript"],
+         agent=["In Godot 4, draw each pane as a `Polygon2D` and trace its closed perimeter with a dark `Line2D` (4–8 px) for the lead seams.",
+                "Give each polygon a single saturated fill; overlay a low-opacity noise texture in a `canvas_item` shader to suggest uneven glass.",
+                "Put a soft warm light layer behind the artwork and enable `WorldEnvironment` glow on the brightest panes; keep the outlines opaque."]),
 ]
 
 
@@ -610,6 +644,7 @@ SUMMARY_ZH = {
     "storybook": "每个场景都像儿童绘本里的一页。",
     "rotoscope": "从实拍动作描下来的动画，用平面色块和少量颜色画成。",
     "desktop-ui": "游戏就是一块电脑屏幕：窗口、聊天软件、浏览器和虚构的操作系统。",
+    "stained-glass": "以深色铅条分隔透光的彩色玻璃块，再拼成完整插画。",
 }
 
 # What it takes to reach each look with a coding agent:
@@ -669,6 +704,7 @@ NEEDS = {
     "storybook": ("art", "Painted illustration layers and paper or paint textures."),
     "rotoscope": ("art", "Reference footage and traced key frames."),
     "desktop-ui": ("code", ""),
+    "stained-glass": ("mixed", "Closed coloured pane silhouettes, a subtle glass-grain texture and thick lead outlines."),
 }
 
 NEEDS_ZH = {
@@ -704,6 +740,7 @@ NEEDS_ZH = {
     "nes-8bit": "按 FC 限制画的精灵和图块。",
     "storybook": "分层的绘本插画，以及纸张或颜料贴图。",
     "rotoscope": "参考视频，以及描出来的关键帧。",
+    "stained-glass": "分块的彩色玻璃形状、细微的玻璃颗粒纹理和深色铅条轮廓。",
 }
 
 # Chinese versions of spot / techniques / agent, item for item.
@@ -759,6 +796,7 @@ SPOT_ZH = {
     "storybook": ["柔和的绘画或水粉质感颜色，带纹理", "角色画得简单，场景像插画一样构图", "常用书本、书页或纸张做边框"],
     "rotoscope": ["角色动作有真实的重量和节奏", "无描边的平涂色块，或细墨线", "电影化的构图和过场"],
     "desktop-ui": ["窗口、鼠标、任务栏和对话框就是整个世界", "年代感界面：Windows 9x/XP、早期网页、老手机", "用故障和损坏的屏幕讲故事"],
+    "stained-glass": ["每块彩色玻璃都有像铅条一样封闭的深色边框", "宝石色的小块玻璃拼出一幅完整图案", "背光和细微的玻璃颗粒让颜色显得通透"],
 }
 
 TECHNIQUES_ZH = {
@@ -813,6 +851,7 @@ TECHNIQUES_ZH = {
     "storybook": ["带视差的分层 2D 插画", "纸张和颜料纹理", "书本或书页边框"],
     "rotoscope": ["从参考视频描摹", "平涂多边形填色", "有限调色板"],
     "desktop-ui": ["复刻的年代界面套件", "游戏内的窗口系统", "故障和损坏效果"],
+    "stained-glass": ["封闭的玻璃片遮罩与粗铅条边线", "半透明彩色分层", "细微玻璃颗粒与背光辉光"],
 }
 
 AGENT_ZH = {
@@ -973,4 +1012,5 @@ AGENT_ZH = {
     "desktop-ui": ["选一个年代的界面（Windows 98、XP、早期智能手机）并照搬它的规则：倒角、字体、音效。",
                    "自己画图标和窗口边框；不要用真实操作系统的素材或标志。",
                    "做一个小窗口管理器（拖动、聚焦、关闭），让故事通过各个应用展开。"],
+    "stained-glass": ["在 Godot 4 中，把每块玻璃画成 `Polygon2D`，再用深色 `Line2D` 沿封闭轮廓描边（4–8 px），模拟铅条接缝。", "每个多边形填一种饱和色；通过 `canvas_item` 着色器叠加低透明度噪声贴图，模拟玻璃的细微不均。", "把柔和暖光层放在图案后面，在 `WorldEnvironment` 中为最亮的玻璃启用辉光；边线保持不透明。"],
 }

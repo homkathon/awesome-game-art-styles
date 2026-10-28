@@ -39,6 +39,12 @@ What it takes: **Code only.** Simple models plus shaders and post-processing get
 - [LIMBO](https://store.steampowered.com/app/48000/)
 - [INSIDE](https://store.steampowered.com/app/304430/)
 
+## Learn
+
+- [Fake volumetric smoke](https://x.com/Tuatara_Games/status/2019471084375130140) · Tuatara_Games (X technique post)
+- [Billboarded light shafts](https://x.com/Cyanilux/status/1783442615939297380) · Cyanilux (X technique post)
+- [Tornado made from noise layers](https://x.com/Cyanilux/status/1483094258076856320) · Cyanilux (X technique post)
+
 ## Similar styles
 
 - [1-bit / dithered](../1-bit/) · 1-bit 抖动
