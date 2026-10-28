@@ -4,7 +4,8 @@
 
 <a href="https://store.steampowered.com/app/1092790/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1092790/ss_0191a69b0e94a9a7784f5b81e27f06379910645a.600x338.jpg" width="100%" alt="Mixed media: Inscryption"></a>
 
-> Different visual languages stacked in one game: 3D, pixel art, live-action, paper.
+> Different visual languages stacked in one game: 3D, pixel art, live-action, paper.<br>
+> 一个游戏里叠用多种视觉语言：3D、像素、真人实拍、纸。
 
 ## Gallery
 

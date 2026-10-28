@@ -17,6 +17,7 @@ Help the user choose a visual style for their game and leave them with a concret
   - **Similar styles**: neighbours that are easy to confuse,
   - **Agent notes**: numbered steps to reproduce the look.
 - `tools/styles.py`: the same content as structured data, if that is easier to scan.
+- `demos/<id>.html`: runnable three.js versions of some styles (toon, PS1, 1-bit, pixelated 3D), one file each with commented shaders. When the user's engine is three.js or WebGL, start from these; for other engines, port the shader logic.
 - The "Asset libraries" table at the end of `README.md` lists licences and the date they were checked.
 
 Read the index and the relevant style pages before recommending anything. Prefer the list over your own memory, and say when you go beyond it.

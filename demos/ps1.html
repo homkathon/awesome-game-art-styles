@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PS1 demo</title>
+<style>html, body { margin: 0; height: 100%; overflow: hidden; background: #000; } canvas { display: block; width: 100%; height: 100%; image-rendering: pixelated; }</style>
+<script type="importmap">{ "imports": { "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js" } }</script>
+</head>
+<body>
+<script type="module">
+// PS1: low resolution, vertices snapped to a coarse screen grid (wobble), affine texture mapping (warping),
+// per-vertex lighting, fog, and 15-bit colour with ordered dither.
+import * as THREE from 'three';
+import { buildScene, makeCamera, animate, label, checkerTexture, PALETTE } from './common.js';
+
+const HEIGHT = 240; // internal vertical resolution
+const tex = checkerTexture('#ffffff', '#b8b8b8', 8);
+const white = checkerTexture('#ffffff', '#ffffff', 1);
+const snap = { value: new THREE.Vector2(320, 240) };
+const fogColor = new THREE.Color(PALETTE.sky);
+
+const material = (color, opts) => new THREE.ShaderMaterial({
+  uniforms: {
+    color: { value: new THREE.Color(color) }, map: { value: opts.textured ? tex : white },
+    snap, sunDir: { value: new THREE.Vector3(6, 10, 4).normalize() }, fogColor: { value: fogColor },
+  },
+  vertexShader: `uniform vec2 snap; uniform vec3 sunDir;
+    varying vec3 vUvw; varying vec3 vLight; varying float vFog;
+    void main() {
+      vec4 view = modelViewMatrix * vec4(position, 1.0);
+      vec4 clip = projectionMatrix * view;
+      // snap to the low-res pixel grid in screen space
+      clip.xy = floor(clip.xy / clip.w * snap * 0.5 + 0.5) / (snap * 0.5) * clip.w;
+      gl_Position = clip;
+      // multiply by w here and divide in the fragment shader: perspective correction cancels out, leaving affine UVs
+      vUvw = vec3(uv * 2.0 * clip.w, clip.w);
+      vec3 n = normalize(mat3(modelMatrix) * normal);
+      vLight = vec3(0.45) + vec3(1.0, 0.95, 0.85) * max(dot(n, sunDir), 0.0) * 0.8; // Gouraud
+      vFog = smoothstep(14.0, 26.0, -view.z);
+    }`,
+  fragmentShader: `uniform vec3 color; uniform sampler2D map; uniform vec3 fogColor;
+    varying vec3 vUvw; varying vec3 vLight; varying float vFog;
+    float bayer(vec2 p) {
+      int i = int(mod(p.x, 4.0)) + int(mod(p.y, 4.0)) * 4;
+      int m[16] = int[16](0, 8, 2, 10, 12, 4, 14, 6, 3, 11, 1, 9, 15, 7, 13, 5);
+      return float(m[i]) / 16.0 - 0.5;
+    }
+    void main() {
+      vec3 c = texture2D(map, vUvw.xy / vUvw.z).rgb * color * vLight;
+      c = mix(c, fogColor, vFog);
+      c = floor(c * 31.0 + bayer(gl_FragCoord.xy) + 0.5) / 31.0; // 5 bits per channel, dithered
+      gl_FragColor = vec4(c, 1.0);
+    }`,
+});
+
+const { scene, hero } = buildScene(material);
+const renderer = new THREE.WebGLRenderer({ antialias: false });
+renderer.setPixelRatio(1);
+renderer.outputColorSpace = THREE.LinearSRGBColorSpace; // colours above are already display values
+document.body.appendChild(renderer.domElement);
+const camera = makeCamera(1);
+const resize = () => {
+  const w = Math.round(HEIGHT * innerWidth / innerHeight);
+  renderer.setSize(w, HEIGHT, false);
+  snap.value.set(w, HEIGHT);
+  camera.aspect = w / HEIGHT; camera.updateProjectionMatrix();
+};
+addEventListener('resize', resize); resize();
+label('PS1', 'https://github.com/s1ntoneli/awesome-game-art-styles/tree/main/styles/ps1');
+renderer.setAnimationLoop(ms => { animate(camera, hero, ms / 1000); renderer.render(scene, camera); });
+</script>
+</body>
+</html>

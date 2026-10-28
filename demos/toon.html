@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Toon demo</title>
+<style>html, body { margin: 0; height: 100%; overflow: hidden; background: #000; } canvas { display: block; }</style>
+<script type="importmap">{ "imports": { "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js" } }</script>
+</head>
+<body>
+<script type="module">
+// Toon: banded lighting from a 3-step gradient map, plus inverted-hull outlines.
+import * as THREE from 'three';
+import { buildScene, makeCamera, animate, label } from './common.js';
+
+const gradient = new THREE.DataTexture(new Uint8Array([90, 170, 255]), 3, 1, THREE.RedFormat);
+gradient.minFilter = gradient.magFilter = THREE.NearestFilter;
+gradient.needsUpdate = true;
+
+const { scene, root, hero } = buildScene(color => new THREE.MeshToonMaterial({ color, gradientMap: gradient }));
+
+// Inverted hull: draw back faces only, pushed out along the normal by a fixed screen-ish width.
+const outline = new THREE.ShaderMaterial({
+  side: THREE.BackSide,
+  uniforms: { width: { value: 0.035 } },
+  vertexShader: `uniform float width;
+    void main() {
+      vec4 p = modelViewMatrix * vec4(position, 1.0);
+      vec3 n = normalize(normalMatrix * normal);
+      p.xyz += n * width * -p.z * 0.1;
+      gl_Position = projectionMatrix * p;
+    }`,
+  fragmentShader: `void main() { gl_FragColor = vec4(0.1, 0.07, 0.08, 1.0); }`,
+});
+const meshes = [];
+scene.traverse(o => { if (o.isMesh) meshes.push(o); });
+for (const m of meshes) m.add(new THREE.Mesh(m.geometry, outline));
+
+const renderer = new THREE.WebGLRenderer({ antialias: true });
+renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
+renderer.shadowMap.enabled = true;
+document.body.appendChild(renderer.domElement);
+const camera = makeCamera(1);
+const resize = () => { renderer.setSize(innerWidth, innerHeight); camera.aspect = innerWidth / innerHeight; camera.updateProjectionMatrix(); };
+addEventListener('resize', resize); resize();
+label('Toon', 'https://github.com/s1ntoneli/awesome-game-art-styles/tree/main/styles/toon');
+renderer.setAnimationLoop(ms => { animate(camera, hero, ms / 1000); renderer.render(scene, camera); });
+</script>
+</body>
+</html>

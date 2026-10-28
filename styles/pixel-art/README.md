@@ -4,7 +4,8 @@
 
 <a href="https://store.steampowered.com/app/250760/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/250760/ss_019205f5f9ae1c3f0d5359e967135a76ae1ebd2d.600x338.jpg" width="100%" alt="Pixel art: Shovel Knight"></a>
 
-> Hand-placed pixels with limited palettes.
+> Hand-placed pixels with limited palettes.<br>
+> 手工摆放的像素，有限的调色板。
 
 ## Gallery
 

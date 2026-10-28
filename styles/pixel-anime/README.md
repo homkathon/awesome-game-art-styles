@@ -4,7 +4,8 @@
 
 <a href="https://store.steampowered.com/app/447530/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/447530/ss_1b98a18f6cd15773c8da098aad48917f5b5d22e1.600x338.jpg" width="100%" alt="Pixel anime / cyberpunk: VA-11 Hall-A"></a>
 
-> Pixel art drawing on 80s and 90s anime and PC-98 games.
+> Pixel art drawing on 80s and 90s anime and PC-98 games.<br>
+> 借鉴 80、90 年代动画和 PC-98 游戏的像素画。
 
 ## Gallery
 

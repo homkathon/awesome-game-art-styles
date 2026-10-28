@@ -4,7 +4,8 @@
 
 <a href="https://store.steampowered.com/app/757310/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/757310/ss_dbe1b07f58393b56c20e9ac031442e1e161fa989.600x338.jpg" width="100%" alt="Ligne claire / Moebius: Sable"></a>
 
-> Uniform black outlines and flat colour fields, like a European comic album.
+> Uniform black outlines and flat colour fields, like a European comic album.<br>
+> 粗细均匀的黑色轮廓加平涂色块，像欧洲漫画画册。
 
 ## Gallery
 

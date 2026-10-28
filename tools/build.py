@@ -14,6 +14,7 @@ ROOT = HERE.parent
 SHOTS = json.loads((HERE / "screenshots.json").read_text())
 BY_ID = {s["id"]: s for s in data.STYLES}
 COLS = 4
+PAGES = "https://s1ntoneli.github.io/awesome-game-art-styles"
 
 
 def store(gid):
@@ -31,7 +32,11 @@ def slug(text):
 
 def validate():
     errors = []
+    if len(data.SECTIONS_ZH) != len(data.SECTIONS):
+        errors.append("SECTIONS_ZH must have one entry per section")
     for s in data.STYLES:
+        if s["id"] not in data.SUMMARY_ZH:
+            errors.append(f"{s['id']}: missing SUMMARY_ZH entry")
         for ref in [s["hero"], *s["gallery"]]:
             gid, idx = ref.split(":")
             if int(gid) not in s["games"]:
@@ -50,26 +55,59 @@ def validate():
     return errors
 
 
-def home():
+TEXT = {
+    "en": dict(
+        file="README.md", resources="resources.md", sections=data.SECTIONS, name=lambda s: s["title"], sub=lambda s: s["zh"],
+        switch="**English** · [简体中文](README.zh-CN.md)",
+        intro="> {n} game visual styles, organised by **look**. Click a style for screenshots, how to recognise it, "
+        "techniques, tutorials, free assets and notes for coding agents.",
+        body="Screenshots are loaded from Steam and link to each game's store page; nothing is rehosted here. "
+        "Use the [Claude Code skill](skills/game-art-style/SKILL.md) to get a style recommendation for your own game, "
+        "or try the [live shader demos]({pages}/demos/) for toon, PS1, 1-bit and pixelated 3D.",
+        contents="Contents",
+        extra=["- [Asset libraries](#asset-libraries)", "- [Learning resources](#learning-resources)",
+               "- [Related lists](#related-lists)", "- [Wanted](#wanted)"],
+        star="If this list helped you pick a look, a ⭐ helps other developers find it.",
+    ),
+    "zh": dict(
+        file="README.zh-CN.md", resources="resources.zh-CN.md", sections=data.SECTIONS_ZH, name=lambda s: s["zh"], sub=lambda s: s["title"],
+        switch="[English](README.md) · **简体中文**",
+        intro="> {n} 种游戏视觉风格，按**观感**分类。点进每种风格可以看截图、识别要点、实现技术、教程、免费素材，以及给编程智能体的实现步骤。",
+        body="截图直接从 Steam 加载并链接到游戏商店页，本仓库不转存任何截图。"
+        "用 [Claude Code 技能](skills/game-art-style/SKILL.md)可以为你的游戏推荐风格，"
+        "也可以打开[在线着色器演示]({pages}/demos/)看卡通、PS1、1-bit 和像素化 3D 的实时效果。风格详情页目前为英文。",
+        contents="目录",
+        extra=["- [素材库](#素材库)", "- [学习资源](#学习资源)"],
+        star="如果这份列表帮你选定了画风，点个 ⭐ 能让更多开发者看到它。",
+    ),
+}
+
+
+def home(lang):
+    t = TEXT[lang]
     out = [
+        '<p align="center"><img src="assets/banner.png" alt="One scene in four styles: toon, PS1, 1-bit, pixelated 3D"></p>',
+        "",
         "# Awesome Game Art Styles [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)",
         "",
-        f"> {len(data.STYLES)} game visual styles, organised by **look**. Click a style for screenshots, how to recognise it, "
-        "techniques, tutorials, free assets and notes for coding agents.",
+        f"[![Styles](https://img.shields.io/badge/styles-{len(data.STYLES)}-f2b134)](#{slug(t['sections'][0])}) "
+        "[![Licence: CC0](https://img.shields.io/badge/licence-CC0-lightgrey)](LICENSE) "
+        "[![check](https://github.com/s1ntoneli/awesome-game-art-styles/actions/workflows/check.yml/badge.svg)]"
+        "(https://github.com/s1ntoneli/awesome-game-art-styles/actions/workflows/check.yml)",
         "",
-        "Screenshots are loaded from Steam and link to each game's store page; nothing is rehosted here. "
-        "Use the [Claude Code skill](skills/game-art-style/SKILL.md) to get a style recommendation for your own game.",
+        t["switch"],
         "",
-        "## Contents",
+        t["intro"].format(n=len(data.STYLES)),
         "",
-        *[f"- [{sec}](#{slug(sec)})" for sec in data.SECTIONS],
-        "- [Asset libraries](#asset-libraries)",
-        "- [Learning resources](#learning-resources)",
-        "- [Related lists](#related-lists)",
-        "- [Wanted](#wanted)",
+        t["body"].format(pages=PAGES),
+        "",
+        f"## {t['contents']}",
+        "",
+        *[f"- [{sec}](#{slug(sec)})" for sec in t["sections"]],
+        *t["extra"],
         "",
     ]
-    for si, sec in enumerate(data.SECTIONS):
+    for si, sec in enumerate(t["sections"]):
         group = [s for s in data.STYLES if s["section"] == si]
         out += [f"## {sec}", "", "<table>"]
         for i in range(0, len(group), COLS):
@@ -79,12 +117,21 @@ def home():
                 link = f"styles/{s['id']}/"
                 out.append(
                     f'<td align="center" valign="top" width="25%"><a href="{link}"><img src="{url}" width="220" alt="{s["title"]}"></a>'
-                    f'<br><a href="{link}"><b>{s["title"]}</b></a><br><sub>{s["zh"]}</sub></td>'
+                    f'<br><a href="{link}"><b>{t["name"](s)}</b></a><br><sub>{t["sub"](s)}</sub></td>'
                 )
             out.append("</tr>")
         out += ["</table>", ""]
-    out.append((HERE / "resources.md").read_text())
+    out.append((HERE / t["resources"]).read_text())
+    out += ["", "---", "", t["star"], ""]
     return "\n".join(out)
+
+
+def demo(s):
+    """Link to the runnable demo, if demos/<id>.html exists."""
+    if not (ROOT / "demos" / f"{s['id']}.html").exists():
+        return []
+    return [f"▶ **[Live demo]({PAGES}/demos/{s['id']}.html)** · runs in the browser, "
+            f"[source](../../demos/{s['id']}.html) is one HTML file with commented shaders", ""]
 
 
 def page(s):
@@ -96,8 +143,10 @@ def page(s):
         "",
         f'<a href="{store(gid)}"><img src="{hero}" width="100%" alt="{s["title"]}: {data.GAMES[int(gid)]}"></a>',
         "",
-        f"> {s['summary']}",
+        f"> {s['summary']}<br>",
+        f"> {data.SUMMARY_ZH[s['id']]}",
         "",
+        *demo(s),
         "## Gallery",
         "",
         "<table>",
@@ -144,12 +193,13 @@ def main():
         print("error:", e, file=sys.stderr)
     if errors:
         sys.exit(1)
-    (ROOT / "README.md").write_text(home())
+    for lang in TEXT:
+        (ROOT / TEXT[lang]["file"]).write_text(home(lang))
     for s in data.STYLES:
         d = ROOT / "styles" / s["id"]
         d.mkdir(parents=True, exist_ok=True)
         (d / "README.md").write_text(page(s))
-    print(f"built: README.md + {len(data.STYLES)} style pages")
+    print(f"built: README.md + README.zh-CN.md + {len(data.STYLES)} style pages")
 
 
 if __name__ == "__main__":

@@ -1,0 +1,18 @@
+name: Fix a style page
+description: Wrong screenshot, wrong game, a better reference, or an error in the text.
+labels: [fix]
+body:
+  - type: input
+    id: style
+    attributes:
+      label: Style page
+      placeholder: styles/ps1/
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong, and what should it be?
+      description: For screenshots, link the Steam store page of the game and say which shot shows the style best.
+    validations:
+      required: true

@@ -4,7 +4,8 @@
 
 <a href="https://store.steampowered.com/app/1384160/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1384160/ss_104e16788c2ea35e1dac31d96be8d4f1df00f330.600x338.jpg" width="100%" alt="Anime cel 2.5D: GUILTY GEAR -STRIVE-"></a>
 
-> 3D characters that read as hand-drawn animation: authored normals, held frames, no interpolation.
+> 3D characters that read as hand-drawn animation: authored normals, held frames, no interpolation.<br>
+> 3D 角色看起来像手绘动画：手调法线、定格帧、不做插值。
 
 ## Gallery
 

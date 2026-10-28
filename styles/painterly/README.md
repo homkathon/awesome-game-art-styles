@@ -4,7 +4,8 @@
 
 <a href="https://store.steampowered.com/app/632470/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/632470/ss_b3694e99ffdb686d1bbbbe16a540d3d2ccd509c4.600x338.jpg" width="100%" alt="Painterly: Disco Elysium"></a>
 
-> Visible brush strokes, painted textures and skies; light as a painter would place it.
+> Visible brush strokes, painted textures and skies; light as a painter would place it.<br>
+> 笔触可见，贴图和天空都是画出来的；光照按画家的方式布置。
 
 ## Gallery
 

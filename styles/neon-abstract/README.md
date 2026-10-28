@@ -4,7 +4,8 @@
 
 <a href="https://store.steampowered.com/app/1122720/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1122720/ss_03804e3335afd5edddceafe722ff1c4eb3c19931.600x338.jpg" width="100%" alt="Neon abstract: Sayonara Wild Hearts"></a>
 
-> Pure colour, light trails and geometry in motion; often rhythm-led.
+> Pure colour, light trails and geometry in motion; often rhythm-led.<br>
+> 纯色、光轨和运动中的几何体；常以节奏驱动。
 
 ## Gallery
 

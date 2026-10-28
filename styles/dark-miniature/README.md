@@ -4,7 +4,8 @@
 
 <a href="https://store.steampowered.com/app/424840/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/424840/24d7518ab72df4608de04f4ad4bc04ee479e3911/ss_24d7518ab72df4608de04f4ad4bc04ee479e3911.600x338.jpg" width="100%" alt="Dark miniature: Little Nightmares"></a>
 
-> Toy-like scale used for dread: oversized furniture, dim pools of light.
+> Toy-like scale used for dread: oversized furniture, dim pools of light.<br>
+> 用玩具般的尺度制造恐惧：巨大的家具、昏暗的光斑。
 
 ## Gallery
 

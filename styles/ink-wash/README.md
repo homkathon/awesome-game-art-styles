@@ -4,7 +4,8 @@
 
 <a href="https://store.steampowered.com/app/587620/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/587620/ss_cd53a4f4e19997789b43d4ffbfae495a338da93e.600x338.jpg" width="100%" alt="Ink wash / sumi-e: Ōkami HD"></a>
 
-> Brush ink on paper, calligraphic strokes, seals.
+> Brush ink on paper, calligraphic strokes, seals.<br>
+> 纸上的毛笔墨迹、书法笔触、印章。
 
 ## Gallery
 

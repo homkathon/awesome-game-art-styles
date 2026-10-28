@@ -4,7 +4,8 @@
 
 <a href="https://store.steampowered.com/app/921570/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/921570/ss_d9c13a8f046e48ae57a2f2d6d134850410fe4932.600x338.jpg" width="100%" alt="HD-2D: Octopath Traveler"></a>
 
-> Pixel sprites in a lit 3D world with depth of field and particles.
+> Pixel sprites in a lit 3D world with depth of field and particles.<br>
+> 像素精灵放进有光照的 3D 世界，加景深和粒子。
 
 ## Gallery
 

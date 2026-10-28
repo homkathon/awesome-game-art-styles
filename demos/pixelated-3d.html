@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pixelated 3D demo</title>
+<style>html, body { margin: 0; height: 100%; overflow: hidden; background: #000; } canvas { display: block; width: 100%; height: 100%; image-rendering: pixelated; }</style>
+<script type="importmap">{ "imports": { "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js" } }</script>
+</head>
+<body>
+<script type="module">
+// Pixelated 3D: orthographic camera, toon shading, render at low resolution and upscale with nearest filtering,
+// then a post pass adds 1-pixel outlines from depth (dark) and normals (light).
+import * as THREE from 'three';
+import { buildScene, animate, label } from './common.js';
+
+const HEIGHT = 200;
+const gradient = new THREE.DataTexture(new Uint8Array([110, 190, 255]), 3, 1, THREE.RedFormat);
+gradient.minFilter = gradient.magFilter = THREE.NearestFilter;
+gradient.needsUpdate = true;
+const { scene, hero } = buildScene(color => new THREE.MeshToonMaterial({ color, gradientMap: gradient }));
+
+const renderer = new THREE.WebGLRenderer({ antialias: false });
+renderer.setPixelRatio(1);
+renderer.shadowMap.enabled = true;
+document.body.appendChild(renderer.domElement);
+const camera = new THREE.OrthographicCamera(-1, 1, 1, -1, 0.1, 100);
+
+const target = new THREE.WebGLRenderTarget(1, 1, { depthTexture: new THREE.DepthTexture(1, 1) });
+const normals = new THREE.WebGLRenderTarget(1, 1);
+const normalMaterial = new THREE.MeshNormalMaterial();
+const post = new THREE.ShaderMaterial({
+  uniforms: {
+    scene: { value: target.texture }, depth: { value: target.depthTexture }, normals: { value: normals.texture },
+    size: { value: new THREE.Vector2() },
+  },
+  vertexShader: `varying vec2 vUv; void main() { vUv = uv; gl_Position = vec4(position.xy, 0.0, 1.0); }`,
+  fragmentShader: `uniform sampler2D scene; uniform sampler2D depth; uniform sampler2D normals; uniform vec2 size;
+    varying vec2 vUv;
+    float D(vec2 o) { return texture2D(depth, vUv + o / size).r; }
+    vec3 N(vec2 o) { return texture2D(normals, vUv + o / size).rgb * 2.0 - 1.0; }
+    void main() {
+      vec3 c = texture2D(scene, vUv).rgb;
+      float z = D(vec2(0.0));
+      // depth edge only on the nearer side, so outlines stay 1 pixel wide
+      float dz = 0.0;
+      for (int i = 0; i < 4; i++) {
+        vec2 o = vec2(i == 0 ? 1.0 : i == 1 ? -1.0 : 0.0, i == 2 ? 1.0 : i == 3 ? -1.0 : 0.0);
+        dz += max(D(o) - z, 0.0);
+      }
+      float nEdge = 0.0;
+      vec3 n = N(vec2(0.0));
+      nEdge += 1.0 - dot(n, N(vec2(1.0, 0.0)));
+      nEdge += 1.0 - dot(n, N(vec2(0.0, 1.0)));
+      if (dz > 0.002) c *= 0.45;
+      else if (nEdge > 0.4) c = min(c * 1.35, 1.0);
+      gl_FragColor = vec4(c, 1.0);
+    }`,
+});
+const postScene = new THREE.Scene();
+postScene.add(new THREE.Mesh(new THREE.PlaneGeometry(2, 2), post));
+const quadCam = new THREE.Camera();
+
+const resize = () => {
+  const w = Math.round(HEIGHT * innerWidth / innerHeight);
+  renderer.setSize(w, HEIGHT, false);
+  target.setSize(w, HEIGHT); normals.setSize(w, HEIGHT);
+  post.uniforms.size.value.set(w, HEIGHT);
+  const h = 5.2, a = w / HEIGHT;
+  Object.assign(camera, { left: -h * a, right: h * a, top: h, bottom: -h });
+  camera.updateProjectionMatrix();
+};
+addEventListener('resize', resize); resize();
+label('Pixelated 3D', 'https://github.com/s1ntoneli/awesome-game-art-styles/tree/main/styles/pixelated-3d');
+renderer.setAnimationLoop(ms => {
+  animate(camera, hero, ms / 1000);
+  // snap the camera to whole texels along its own axes so the pixel grid does not crawl as it moves
+  const texel = (camera.top - camera.bottom) / HEIGHT;
+  const right = new THREE.Vector3().setFromMatrixColumn(camera.matrixWorld, 0);
+  const up = new THREE.Vector3().setFromMatrixColumn(camera.matrixWorld, 1);
+  const px = camera.position.dot(right), py = camera.position.dot(up);
+  camera.position.addScaledVector(right, Math.round(px / texel) * texel - px)
+    .addScaledVector(up, Math.round(py / texel) * texel - py);
+  camera.updateMatrixWorld();
+  renderer.setRenderTarget(target); renderer.render(scene, camera);
+  scene.overrideMaterial = normalMaterial;
+  renderer.setRenderTarget(normals); renderer.render(scene, camera);
+  scene.overrideMaterial = null;
+  renderer.setRenderTarget(null); renderer.render(postScene, quadCam);
+});
+</script>
+</body>
+</html>

@@ -4,7 +4,8 @@
 
 <a href="https://store.steampowered.com/app/603390/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/603390/ss_98312257e7a8b1ee3c8964d6dede01cf69c002f0.600x338.jpg" width="100%" alt="ASCII / text: Stone Story RPG"></a>
 
-> The world drawn with characters.
+> The world drawn with characters.<br>
+> 用字符画出整个世界。
 
 ## Gallery
 

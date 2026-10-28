@@ -4,7 +4,8 @@
 
 <a href="https://store.steampowered.com/app/1123450/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1123450/ss_2f643ac851b504a1c10e0b6f1cfdc3089707ab55.600x338.jpg" width="100%" alt="Line art / colouring book: Chicory: A Colorful Tale"></a>
 
-> Black lines on white; colour as something the player adds.
+> Black lines on white; colour as something the player adds.<br>
+> 白底黑线；颜色是玩家添上去的东西。
 
 ## Gallery
 

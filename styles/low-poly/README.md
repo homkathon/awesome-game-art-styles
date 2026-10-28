@@ -4,7 +4,8 @@
 
 <a href="https://store.steampowered.com/app/553420/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553420/ss_9c0184ba83022786f74f4a70ebae5c47d2a3c35c.600x338.jpg" width="100%" alt="Low-poly: TUNIC"></a>
 
-> Few, visible facets; colour carried by flat gradients or vertex colours rather than textures.
+> Few, visible facets; colour carried by flat gradients or vertex colours rather than textures.<br>
+> 面数少、棱面可见；颜色靠平涂渐变或顶点色，而不是贴图。
 
 ## Gallery
 

@@ -4,7 +4,10 @@
 
 <a href="https://store.steampowered.com/app/519860/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/519860/ss_b2668c79d271be9b62a988682e30683ac8e5f410.600x338.jpg" width="100%" alt="PS1 / low-fi 3D: DUSK"></a>
 
-> Wobbly vertices, warped textures, tiny resolution, dithered colour.
+> Wobbly vertices, warped textures, tiny resolution, dithered colour.<br>
+> 顶点抖动、贴图扭曲、极低分辨率、抖动色彩。
+
+▶ **[Live demo](https://s1ntoneli.github.io/awesome-game-art-styles/demos/ps1.html)** · runs in the browser, [source](../../demos/ps1.html) is one HTML file with commented shaders
 
 ## Gallery
 

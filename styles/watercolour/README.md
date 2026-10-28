@@ -4,7 +4,8 @@
 
 <a href="https://store.steampowered.com/app/1272840/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1272840/ss_0d2bac05234a73ac1cc9dbcbee31e6774e8846df.600x338.jpg" width="100%" alt="Watercolour: Dordogne"></a>
 
-> Pigment washes, soft edges, paper texture.
+> Pigment washes, soft edges, paper texture.<br>
+> 颜料晕染、柔和边缘、纸张纹理。
 
 ## Gallery
 

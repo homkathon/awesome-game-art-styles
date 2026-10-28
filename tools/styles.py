@@ -390,3 +390,48 @@ STYLES = [
                 "Map brightness to a ramp of glyphs, or draw scenes by hand as text.",
                 "Animate by swapping glyphs per frame."]),
 ]
+
+
+# Chinese text for README.zh-CN.md and the style pages. Keys must match SECTIONS and STYLES ids.
+SECTIONS_ZH = ["3D：明暗与造型", "3D：复古与低保真", "3D：手作与材质", "光与剪影", "2D：像素", "2D：手绘与绘画", "2D：平面与印刷"]
+
+SUMMARY_ZH = {
+    "low-poly": "面数少、棱面可见；颜色靠平涂渐变或顶点色，而不是贴图。",
+    "toy-diorama": "把世界做成桌面模型：柔光、浅景深，一切小巧得像能摸到。",
+    "minimal-geometric": "粉彩几何体，正交或等距镜头，把建筑当谜题。",
+    "toon": "两三层硬边明暗、墨线描边、高饱和色彩。",
+    "anime-cel": "3D 角色看起来像手绘动画：手调法线、定格帧、不做插值。",
+    "ligne-claire": "粗细均匀的黑色轮廓加平涂色块，像欧洲漫画画册。",
+    "painterly": "笔触可见，贴图和天空都是画出来的；光照按画家的方式布置。",
+    "flat-colour-3d": "大块平涂色、图形化的剪影，用颜色区分氛围。",
+    "retro-futurism": "过去年代想象中的未来：原子时代的乐观、装饰艺术风。",
+    "mixed-media": "一个游戏里叠用多种视觉语言：3D、像素、真人实拍、纸。",
+    "ps1": "顶点抖动、贴图扭曲、极低分辨率、抖动色彩。",
+    "pixelated-3d": "用低分辨率渲染 3D 世界，让它读起来像像素画。",
+    "voxel": "世界由方块搭成，通常可以破坏。",
+    "1-bit": "只有两种颜色，所有明暗都靠抖动图案表现。",
+    "claymation": "黏土或偶人角色，连指纹都留着；真定格或模拟定格。",
+    "papercraft": "整个世界由纸折叠、剪裁而成。",
+    "yarn": "角色和道具由毛线、毛毡或布料做成。",
+    "dark-miniature": "用玩具般的尺度制造恐惧：巨大的家具、昏暗的光斑。",
+    "silhouette": "雾与光前的黑色形体；没有脸，没有颜色。",
+    "neon-abstract": "纯色、光轨和运动中的几何体；常以节奏驱动。",
+    "pixel-art": "手工摆放的像素，有限的调色板。",
+    "hd-2d": "像素精灵放进有光照的 3D 世界，加景深和粒子。",
+    "pixel-anime": "借鉴 80、90 年代动画和 PC-98 游戏的像素画。",
+    "neon-80s": "饱和的品红与青色、VHS 噪点、屏幕震动。",
+    "cozy": "小而温暖、一眼看懂、堆满物件的房间。",
+    "hand-drawn": "逐帧或骨骼动画，配手绘背景。",
+    "rubber-hose": "弯曲的四肢、切角的眼睛、胶片颗粒和抖动。",
+    "watercolour": "颜料晕染、柔和边缘、纸张纹理。",
+    "ink-wash": "纸上的毛笔墨迹、书法笔触、印章。",
+    "gothic-ink": "厚重的黑色线条、交叉排线、低饱和色彩。",
+    "painted-comic": "漫画墨线配绘画上色和大胆的形体。",
+    "line-art": "白底黑线；颜色是玩家添上去的东西。",
+    "cute-dark": "柔软、圆润、可爱的外表，包裹着阴暗的主题。",
+    "flat-vector": "线、点和实心形状；把信息设计当作艺术。",
+    "graphic-design": "大胆的剪纸形状、少量颜色、电影片头式字体。",
+    "bureaucratic": "表格、印章和海报；界面本身就是机构。",
+    "manuscript": "泥金装饰手抄本、木刻版画、页边涂鸦。",
+    "ascii": "用字符画出整个世界。",
+}

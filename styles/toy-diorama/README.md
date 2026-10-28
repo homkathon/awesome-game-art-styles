@@ -4,7 +4,8 @@
 
 <a href="https://store.steampowered.com/app/1291340/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1291340/ss_989ff1808d9416c7b22da3e16ee54874697b1cea.600x338.jpg" width="100%" alt="Toy diorama / tilt-shift: Townscaper"></a>
 
-> The world as a tabletop model: soft light, shallow depth of field, everything small and touchable.
+> The world as a tabletop model: soft light, shallow depth of field, everything small and touchable.<br>
+> 把世界做成桌面模型：柔光、浅景深，一切小巧得像能摸到。
 
 ## Gallery
 

@@ -4,7 +4,8 @@
 
 <a href="https://store.steampowered.com/app/287980/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/287980/ss_c7bc5df7e606504709e9f53ff9c7584ac4c01b18.600x338.jpg" width="100%" alt="Flat vector minimal: Mini Metro"></a>
 
-> Lines, dots and solid shapes; information design as art.
+> Lines, dots and solid shapes; information design as art.<br>
+> 线、点和实心形状；把信息设计当作艺术。
 
 ## Gallery
 

@@ -4,7 +4,8 @@
 
 <a href="https://store.steampowered.com/app/1135690/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1135690/ss_b32bfdd3f68e1f9e264bd37e10a464629ca034f8.600x338.jpg" width="100%" alt="Cozy interiors: Unpacking"></a>
 
-> Small, warm, readable rooms full of objects.
+> Small, warm, readable rooms full of objects.<br>
+> 小而温暖、一眼看懂、堆满物件的房间。
 
 ## Gallery
 

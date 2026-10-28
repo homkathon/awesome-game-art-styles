@@ -4,7 +4,8 @@
 
 <a href="https://store.steampowered.com/app/219150/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/219150/ss_bdf28f59652e53e725d96d94cdc8db97fc277cf2.600x338.jpg" width="100%" alt="Neon 80s pixel: Hotline Miami"></a>
 
-> Saturated magenta and cyan, VHS grain, screen shake.
+> Saturated magenta and cyan, VHS grain, screen shake.<br>
+> 饱和的品红与青色、VHS 噪点、屏幕震动。
 
 ## Gallery
 

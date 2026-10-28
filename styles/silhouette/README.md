@@ -4,7 +4,8 @@
 
 <a href="https://store.steampowered.com/app/48000/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/48000/ss_d33513ed37acf1073ea92f182b76e165101bfdac.600x338.jpg" width="100%" alt="Silhouette noir: LIMBO"></a>
 
-> Black shapes against fog and light; no faces, no colour.
+> Black shapes against fog and light; no faces, no colour.<br>
+> 雾与光前的黑色形体；没有脸，没有颜色。
 
 ## Gallery
 

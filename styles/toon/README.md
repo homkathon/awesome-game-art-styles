@@ -4,7 +4,10 @@
 
 <a href="https://store.steampowered.com/app/1817230/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1817230/ss_7dfaee4616fbed65b2b0fcb82d55dc0a957fd8a5.600x338.jpg" width="100%" alt="Cel-shaded / toon: Hi-Fi RUSH"></a>
 
-> Two or three hard light bands, ink outlines, saturated colour.
+> Two or three hard light bands, ink outlines, saturated colour.<br>
+> 两三层硬边明暗、墨线描边、高饱和色彩。
+
+▶ **[Live demo](https://s1ntoneli.github.io/awesome-game-art-styles/demos/toon.html)** · runs in the browser, [source](../../demos/toon.html) is one HTML file with commented shaders
 
 ## Gallery
 

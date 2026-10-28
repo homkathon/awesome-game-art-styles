@@ -4,7 +4,8 @@
 
 <a href="https://store.steampowered.com/app/1167630/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1167630/f266c2457a6b183a89abce8659bac7419fdfc5f0/ss_f266c2457a6b183a89abce8659bac7419fdfc5f0.600x338.jpg" width="100%" alt="Voxel: Teardown"></a>
 
-> The world built from cubes; often destructible.
+> The world built from cubes; often destructible.<br>
+> 世界由方块搭成，通常可以破坏。
 
 ## Gallery
 

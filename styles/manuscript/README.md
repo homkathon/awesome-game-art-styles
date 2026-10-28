@@ -4,7 +4,8 @@
 
 <a href="https://store.steampowered.com/app/1205520/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1205520/ss_d6e8594853dc8a16033c3644a0fbb05909f2848b.600x338.jpg" width="100%" alt="Medieval manuscript / woodcut: Pentiment"></a>
 
-> Illuminated pages, woodcut prints, marginalia.
+> Illuminated pages, woodcut prints, marginalia.<br>
+> 泥金装饰手抄本、木刻版画、页边涂鸦。
 
 ## Gallery
 

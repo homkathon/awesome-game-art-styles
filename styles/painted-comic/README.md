@@ -4,7 +4,8 @@
 
 <a href="https://store.steampowered.com/app/1145360/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145360/ss_8a9f0953e8a014bd3df2789c2835cb787cd3764d.600x338.jpg" width="100%" alt="Painted comic: Hades"></a>
 
-> Comic-book inks with painted colour and bold shapes.
+> Comic-book inks with painted colour and bold shapes.<br>
+> 漫画墨线配绘画上色和大胆的形体。
 
 ## Gallery
 

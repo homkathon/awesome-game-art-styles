@@ -4,7 +4,8 @@
 
 <a href="https://store.steampowered.com/app/205020/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/205020/ss_926633bbe4e9f02eac35a4cafd0c153e595e28d4.600x338.jpg" width="100%" alt="Papercraft: Lumino City"></a>
 
-> A world folded and cut from paper.
+> A world folded and cut from paper.<br>
+> 整个世界由纸折叠、剪裁而成。
 
 ## Gallery
 

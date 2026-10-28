@@ -4,7 +4,10 @@
 
 <a href="https://store.steampowered.com/app/1055540/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1055540/ss_f2123fea859e299736a3e99d130238c784d53e75.600x338.jpg" width="100%" alt="Pixelated 3D: A Short Hike"></a>
 
-> A 3D world rendered at low resolution so it reads as pixel art.
+> A 3D world rendered at low resolution so it reads as pixel art.<br>
+> 用低分辨率渲染 3D 世界，让它读起来像像素画。
+
+▶ **[Live demo](https://s1ntoneli.github.io/awesome-game-art-styles/demos/pixelated-3d.html)** · runs in the browser, [source](../../demos/pixelated-3d.html) is one HTML file with commented shaders
 
 ## Gallery
 

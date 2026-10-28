@@ -4,7 +4,8 @@
 
 <a href="https://store.steampowered.com/app/447150/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/447150/ss_aaa4a17ce60a909664f5e1eba7187c1d792e32e6.600x338.jpg" width="100%" alt="Graphic design / Saul Bass: APE OUT"></a>
 
-> Bold cut-paper shapes, few colours, film-title typography.
+> Bold cut-paper shapes, few colours, film-title typography.<br>
+> 大胆的剪纸形状、少量颜色、电影片头式字体。
 
 ## Gallery
 

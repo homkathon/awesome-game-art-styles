@@ -4,7 +4,8 @@
 
 <a href="https://store.steampowered.com/app/1927720/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1927720/ss_c3c31892e894f72d70f2d3ad02018678ba817093.600x338.jpg" width="100%" alt="Minimal geometric 3D: Monument Valley"></a>
 
-> Pastel solids, orthographic or isometric cameras, architecture as puzzle.
+> Pastel solids, orthographic or isometric cameras, architecture as puzzle.<br>
+> 粉彩几何体，正交或等距镜头，把建筑当谜题。
 
 ## Gallery
 

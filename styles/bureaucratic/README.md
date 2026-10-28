@@ -4,7 +4,8 @@
 
 <a href="https://store.steampowered.com/app/239030/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/239030/ss_4b50458fbc4afe2917803b59a35afb3e5d61c960.600x338.jpg" width="100%" alt="Bureaucratic / propaganda: Papers, Please"></a>
 
-> Forms, stamps and posters; the interface is the institution.
+> Forms, stamps and posters; the interface is the institution.<br>
+> 表格、印章和海报；界面本身就是机构。
 
 ## Gallery
 

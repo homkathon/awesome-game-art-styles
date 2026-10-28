@@ -4,7 +4,8 @@
 
 <a href="https://store.steampowered.com/app/8870/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/8870/ss_26e2d983948edfb911db3e0d2c3679900b4ef9fa.600x338.jpg" width="100%" alt="Retro-futurism: BioShock Infinite"></a>
 
-> The future as an earlier decade imagined it: atomic-age optimism, art deco.
+> The future as an earlier decade imagined it: atomic-age optimism, art deco.<br>
+> 过去年代想象中的未来：原子时代的乐观、装饰艺术风。
 
 ## Gallery
 

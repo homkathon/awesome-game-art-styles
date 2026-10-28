@@ -4,7 +4,8 @@
 
 <a href="https://store.steampowered.com/app/367520/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367520/ss_d5b6edd94e77ba6db31c44d8a3c09d807ab27751.600x338.jpg" width="100%" alt="Hand-drawn animation: Hollow Knight"></a>
 
-> Frame-by-frame or skeletal animation over painted backgrounds.
+> Frame-by-frame or skeletal animation over painted backgrounds.<br>
+> 逐帧或骨骼动画，配手绘背景。
 
 ## Gallery
 

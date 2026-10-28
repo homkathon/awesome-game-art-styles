@@ -4,7 +4,8 @@
 
 <a href="https://store.steampowered.com/app/924750/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/924750/ss_05f6b85959fecf4ed84c2e9de753bac3b2dba1da.600x338.jpg" width="100%" alt="Claymation: Harold Halibut"></a>
 
-> Clay or puppet characters, fingerprints and all; real or faked stop motion.
+> Clay or puppet characters, fingerprints and all; real or faked stop motion.<br>
+> 黏土或偶人角色，连指纹都留着；真定格或模拟定格。
 
 ## Gallery
 

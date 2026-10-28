@@ -4,7 +4,8 @@
 
 <a href="https://store.steampowered.com/app/1225560/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1225560/ss_107b49291a2cdc76a73b1c84191dbf0b86a6c8ef.600x338.jpg" width="100%" alt="Yarn / fabric: Unravel"></a>
 
-> Characters and props made of wool, felt or cloth.
+> Characters and props made of wool, felt or cloth.<br>
+> 角色和道具由毛线、毛毡或布料做成。
 
 ## Gallery
 

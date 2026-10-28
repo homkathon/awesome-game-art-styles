@@ -4,7 +4,10 @@
 
 <a href="https://store.steampowered.com/app/653530/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/653530/ss_380dc35237fde7d3863a44270abafc37924d1db4.600x338.jpg" width="100%" alt="1-bit / dithered: Return of the Obra Dinn"></a>
 
-> Two colours and a dither pattern stand in for every tone.
+> Two colours and a dither pattern stand in for every tone.<br>
+> 只有两种颜色，所有明暗都靠抖动图案表现。
+
+▶ **[Live demo](https://s1ntoneli.github.io/awesome-game-art-styles/demos/1-bit.html)** · runs in the browser, [source](../../demos/1-bit.html) is one HTML file with commented shaders
 
 ## Gallery
 

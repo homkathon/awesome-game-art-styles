@@ -1,0 +1,26 @@
+name: Add a resource
+description: An asset library, tutorial, talk or breakdown.
+labels: [resource]
+body:
+  - type: input
+    id: url
+    attributes:
+      label: Link
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Kind
+      options: [Asset library, Tutorial or article, Talk or video, Tool]
+    validations:
+      required: true
+  - type: input
+    id: licence
+    attributes:
+      label: Licence and cost (asset libraries)
+      placeholder: CC0, free
+  - type: textarea
+    id: styles
+    attributes:
+      label: Which styles does it help with?

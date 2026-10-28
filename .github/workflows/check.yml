@@ -17,7 +17,7 @@ jobs:
       - name: Pages are up to date with tools/styles.py
         run: |
           python3 tools/build.py
-          git diff --exit-code -- README.md styles
+          git diff --exit-code -- README.md README.zh-CN.md styles
 
   links:
     runs-on: ubuntu-latest
@@ -25,6 +25,6 @@ jobs:
       - uses: actions/checkout@v4
       - uses: lycheeverse/lychee-action@v2
         with:
-          # tigsource blocks automated requests
-          args: --no-progress --max-retries 3 --exclude 'forums\.tigsource\.com' README.md CONTRIBUTING.md 'styles/**/README.md'
+          # tigsource and poly.pizza block automated requests; the demos on Pages deploy after this check runs
+          args: --no-progress --max-retries 3 --exclude 'forums\.tigsource\.com' --exclude 'poly\.pizza' --exclude 's1ntoneli\.github\.io' README.md README.zh-CN.md CONTRIBUTING.md 'styles/**/README.md'
           fail: true

@@ -4,7 +4,8 @@
 
 <a href="https://store.steampowered.com/app/383870/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/383870/ss_80432f2d4f4192017115c23e7dff090df95b204a.600x338.jpg" width="100%" alt="Flat-colour graphic 3D: Firewatch"></a>
 
-> Large flat colour shapes, graphic silhouettes, colour-coded atmosphere.
+> Large flat colour shapes, graphic silhouettes, colour-coded atmosphere.<br>
+> 大块平涂色、图形化的剪影，用颜色区分氛围。
 
 ## Gallery
 

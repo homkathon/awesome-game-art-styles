@@ -4,7 +4,8 @@
 
 <a href="https://store.steampowered.com/app/1313140/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1313140/ss_b26625d6f64a739ed1ddf832a5d26b665ab0619f.600x338.jpg" width="100%" alt="Cute but dark: Cult of the Lamb"></a>
 
-> A soft, round, cute surface wrapped around grim themes.
+> A soft, round, cute surface wrapped around grim themes.<br>
+> 柔软、圆润、可爱的外表，包裹着阴暗的主题。
 
 ## Gallery
 

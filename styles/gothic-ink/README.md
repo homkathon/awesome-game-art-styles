@@ -4,7 +4,8 @@
 
 <a href="https://store.steampowered.com/app/219740/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/219740/ss_3d32a04e77363f3c8179a319de6f90ac1b8b2e0e.600x338.jpg" width="100%" alt="Gothic ink: Don't Starve"></a>
 
-> Heavy black linework, crosshatching, desaturated colour.
+> Heavy black linework, crosshatching, desaturated colour.<br>
+> 厚重的黑色线条、交叉排线、低饱和色彩。
 
 ## Gallery
 

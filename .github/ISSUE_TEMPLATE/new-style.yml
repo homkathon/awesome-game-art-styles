@@ -1,0 +1,31 @@
+name: Suggest a style
+description: A recognisable look that more than one team could adopt.
+title: "Style: "
+labels: [new style]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Style name
+      placeholder: Risograph print
+    validations:
+      required: true
+  - type: textarea
+    id: spot
+    attributes:
+      label: How to spot it
+      description: What makes the look recognisable at a glance? One point per line.
+    validations:
+      required: true
+  - type: textarea
+    id: games
+    attributes:
+      label: Reference games
+      description: Two or more, with Steam (or other store) links. Styles with only one game usually go under Wanted.
+    validations:
+      required: true
+  - type: textarea
+    id: resources
+    attributes:
+      label: Techniques, tutorials or free assets
+      description: Optional. Include the licence for any asset pack.

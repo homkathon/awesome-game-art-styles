@@ -4,7 +4,8 @@
 
 <a href="https://store.steampowered.com/app/268910/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/268910/ss_483fb089be0093beeef03525276803a9ca4f66a1.600x338.jpg" width="100%" alt="Rubber hose (1930s cartoon): Cuphead"></a>
 
-> Bendy limbs, pie-cut eyes, film grain and jitter.
+> Bendy limbs, pie-cut eyes, film grain and jitter.<br>
+> 弯曲的四肢、切角的眼睛、胶片颗粒和抖动。
 
 ## Gallery
 
