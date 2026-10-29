@@ -1,16 +1,23 @@
 <p align="center"><img src="assets/banner.png" alt="One scene in four styles: toon, PS1, 1-bit, pixelated 3D"></p>
 
-# Awesome Game Art Styles [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome Game Art Styles for Opus [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-[![Styles](https://img.shields.io/badge/styles-64-f2b134)](#3d-shading--form) [![Licence: CC0](https://img.shields.io/badge/licence-CC0-lightgrey)](LICENSE) [![check](https://github.com/homkathon/awesome-game-art-styles/actions/workflows/check.yml/badge.svg)](https://github.com/homkathon/awesome-game-art-styles/actions/workflows/check.yml)
+[![Styles](https://img.shields.io/badge/styles-64-f2b134)](#3d-shading--form) [![Licence: CC0](https://img.shields.io/badge/licence-CC0-lightgrey)](LICENSE) [![check](https://github.com/homkathon/awesome-opus-game-art-styles/actions/workflows/check.yml/badge.svg)](https://github.com/homkathon/awesome-opus-game-art-styles/actions/workflows/check.yml)
 
 **English** · [简体中文](README.zh-CN.md)
 
-> 64 game visual styles, organised by **look**. Click a style for screenshots, how to recognise it, techniques, tutorials, free assets and notes for coding agents.
+> 64 game visual styles, organised by **look**, so Claude Opus 5.5 (or any coding agent) can build your game in the style you mean instead of the same generic look. Each style has in-game screenshots, how to spot it, techniques, tutorials, free assets and step-by-step agent notes.
 
-🌐 **Browse it as a website: [homkathon.gokoding.com/styles](https://homkathon.gokoding.com/styles)** (Chinese interface). Search and filter all styles, flip through screenshots and play the live demos on each style's page.
+### Start here
 
-Screenshots are loaded from Steam and link to each game's store page; nothing is rehosted here. Use the [Claude Code skill](skills/game-art-style/SKILL.md) to get a style recommendation for your own game (to install it, ask your coding agent to read [https://homkathon.gokoding.com/styles/install.md](https://homkathon.gokoding.com/styles/install.md)), or try the [live shader demos](https://homkathon.github.io/awesome-game-art-styles/demos/) for toon, PS1, 1-bit and pixelated 3D. Watch and download permissioned creator MP4s in the [X media gallery](https://homkathon.github.io/awesome-game-art-styles/x-posts/) (original author credit and post links included).
+| | |
+|:--|:--|
+| **🌐 Website** | [homkathon.gokoding.com/styles](https://homkathon.gokoding.com/styles): search and filter every style, play the demos (Chinese UI) |
+| **🤖 Claude Code skill** | Tell Opus 5.5: *Read https://homkathon.gokoding.com/styles/install.md and install the game-art-style skill.* ([source](skills/game-art-style/SKILL.md), works in Codex and Cursor too) |
+| **▶️ Shader demos** | [Toon, PS1, 1-bit and pixelated 3D](https://homkathon.github.io/awesome-opus-game-art-styles/demos/), one commented HTML file each |
+| **🎬 X post gallery** | [22 creator technique posts](https://homkathon.github.io/awesome-opus-game-art-styles/x-posts/), playable and downloadable with credit |
+
+Screenshots are hot-linked from Steam and link to each game's store page; nothing is rehosted here.
 
 ## Contents
 
@@ -21,65 +28,13 @@ Screenshots are loaded from Steam and link to each game's store page; nothing is
 - [2D: pixel](#2d-pixel)
 - [2D: drawn & painted](#2d-drawn--painted)
 - [2D: graphic & print](#2d-graphic--print)
+- [Illustrated game inspiration](#illustrated-inspiration)
 - [Asset libraries](#asset-libraries)
 - [Learning resources](#learning-resources)
+- [Popular X posts (curated)](#popular-x-posts-curated)
 - [Related lists](#related-lists)
 - [Wanted](#wanted)
-
-- [Illustrated game inspiration](#illustrated-inspiration)
-
-<a id="illustrated-inspiration"></a>
-## Illustrated game inspiration · 16 games
-
-Each game has its own visual card. These are individual inspirations, not artificially renamed genres. Images open Steam; style names open implementation notes.
-
-<table>
-<tr>
-<td width="50%" valign="top"><a href="https://store.steampowered.com/app/1172450/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172450/ss_5e9fb66710e5b0b8912c43f56299830893435379.600x338.jpg" width="100%" alt="Carto: Gouache picture book"></a><br><b><a href="https://store.steampowered.com/app/1172450/">Carto</a></b><br><sub><a href="styles/gouache-picture-book/">Gouache picture book</a></sub><br><sub>Painted map tiles and friendly tiny shapes</sub></td>
-<td width="50%" valign="top"><a href="https://store.steampowered.com/app/3256150/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3256150/f17685012ab6062858ed94e2f5338e08256d7e61/ss_f17685012ab6062858ed94e2f5338e08256d7e61.600x338.jpg" width="100%" alt="Moomintroll: Winter's Warmth: Nordic watercolour woodland"></a><br><b><a href="https://store.steampowered.com/app/3256150/">Moomintroll: Winter's Warmth</a></b><br><sub><a href="styles/nordic-watercolour-woodland/">Nordic watercolour woodland</a></sub><br><sub>Snowy paper textures and a Nordic forest</sub></td>
-</tr>
-<tr>
-<td width="50%" valign="top"><a href="https://store.steampowered.com/app/1808680/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1808680/ss_7b8df4e8746ed3461fc9aaba4af0e158c94dcd5f.600x338.jpg" width="100%" alt="Snufkin: Melody of Moominvalley: Nordic watercolour woodland"></a><br><b><a href="https://store.steampowered.com/app/1808680/">Snufkin: Melody of Moominvalley</a></b><br><sub><a href="styles/nordic-watercolour-woodland/">Nordic watercolour woodland</a></sub><br><sub>Quiet watercolour woodland exploration</sub></td>
-<td width="50%" valign="top"><a href="https://store.steampowered.com/app/1307580/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1307580/ss_3c5c560a2627d6d35f69a138ec3159517c662e44.600x338.jpg" width="100%" alt="TOEM: A Photo Adventure: Whimsical monochrome ink"></a><br><b><a href="https://store.steampowered.com/app/1307580/">TOEM: A Photo Adventure</a></b><br><sub><a href="styles/whimsical-ink/">Whimsical monochrome ink</a></sub><br><sub>Monochrome ink cutouts and soft 3D depth</sub></td>
-</tr>
-<tr>
-<td width="50%" valign="top"><a href="https://store.steampowered.com/app/1419860/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1419860/ss_bf1fddecefb8c7e720ffafccce35f50937f11103.600x338.jpg" width="100%" alt="Tukoni: Prologue: Woodland folklore illustration"></a><br><b><a href="https://store.steampowered.com/app/1419860/">Tukoni: Prologue</a></b><br><sub><a href="styles/woodland-folklore-illustration/">Woodland folklore illustration</a></sub><br><sub>Hand-painted forest creatures and plants</sub></td>
-<td width="50%" valign="top"><a href="https://store.steampowered.com/app/1444300/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1444300/ss_93c9da1b8b189e06cf3c3c8f7f549546895b8cda.600x338.jpg" width="100%" alt="Teacup: Pastel creature vignettes"></a><br><b><a href="https://store.steampowered.com/app/1444300/">Teacup</a></b><br><sub><a href="styles/pastel-creature-vignettes/">Pastel creature vignettes</a></sub><br><sub>Pastel animal picture-book scenes</sub></td>
-</tr>
-<tr>
-<td width="50%" valign="top"><a href="https://store.steampowered.com/app/1055540/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1055540/ss_0e864bf975bb71f238de6861fc8fd3d6ed6e4ce8.600x338.jpg" width="100%" alt="A Short Hike: Cozy low-resolution 3D nature"></a><br><b><a href="https://store.steampowered.com/app/1055540/">A Short Hike</a></b><br><sub><a href="styles/cozy-lowres-nature-3d/">Cozy low-resolution 3D nature</a></sub><br><sub>Pixel-softened outdoor exploration</sub></td>
-<td width="50%" valign="top"><a href="https://store.steampowered.com/app/1594940/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1594940/623dea3c94ca66719a29abd1919e7547a5cbec3d/ss_623dea3c94ca66719a29abd1919e7547a5cbec3d.600x338.jpg" width="100%" alt="Little Witch in the Woods: Cozy storybook pixel art"></a><br><b><a href="https://store.steampowered.com/app/1594940/">Little Witch in the Woods</a></b><br><sub><a href="styles/cozy-pixel-storybook/">Cozy storybook pixel art</a></sub><br><sub>Warm, detailed woodland pixels</sub></td>
-</tr>
-<tr>
-<td width="50%" valign="top"><a href="https://store.steampowered.com/app/1123450/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1123450/ss_1f16a64698124ab065ed1fdd7cc0ea23511f3791.600x338.jpg" width="100%" alt="Chicory: A Colorful Tale: Loose-line storybook cartoons"></a><br><b><a href="https://store.steampowered.com/app/1123450/">Chicory: A Colorful Tale</a></b><br><sub><a href="styles/loose-line-cartoons/">Loose-line storybook cartoons</a></sub><br><sub>Loose ink and playful colour fills</sub></td>
-<td width="50%" valign="top"><a href="https://store.steampowered.com/app/977880/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/977880/ss_b3512f7576dbdd1e35dd3fb27a04f29174efb00d.600x338.jpg" width="100%" alt="Eastward: Cinematic pixel painting"></a><br><b><a href="https://store.steampowered.com/app/977880/">Eastward</a></b><br><sub><a href="styles/cinematic-pixel-painting/">Cinematic pixel painting</a></sub><br><sub>Cinematic detailed pixel landscapes</sub></td>
-</tr>
-<tr>
-<td width="50%" valign="top"><a href="https://store.steampowered.com/app/1062140/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1062140/ss_ee75af73d8bad015cfcf86530fceb627d9e6b298.600x338.jpg" width="100%" alt="Garden Story: Cozy storybook pixel art"></a><br><b><a href="https://store.steampowered.com/app/1062140/">Garden Story</a></b><br><sub><a href="styles/cozy-pixel-storybook/">Cozy storybook pixel art</a></sub><br><sub>Small rounded pixel creatures</sub></td>
-<td width="50%" valign="top"><a href="https://store.steampowered.com/app/729000/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/729000/ss_b5c706abacf932c95851ab3c74ef5555f2151215.600x338.jpg" width="100%" alt="Wytchwood: Woodland folklore illustration"></a><br><b><a href="https://store.steampowered.com/app/729000/">Wytchwood</a></b><br><sub><a href="styles/woodland-folklore-illustration/">Woodland folklore illustration</a></sub><br><sub>Decorative folk-tale woodland</sub></td>
-</tr>
-<tr>
-<td width="50%" valign="top"><a href="https://store.steampowered.com/app/581270/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/581270/ss_b0e4a7017f9fa3f64bb7fb953583e323389194a2.600x338.jpg" width="100%" alt="Old Man's Journey: Layered paper landscapes"></a><br><b><a href="https://store.steampowered.com/app/581270/">Old Man's Journey</a></b><br><sub><a href="styles/layered-paper-landscapes/">Layered paper landscapes</a></sub><br><sub>Layered hand-painted paper landscapes</sub></td>
-<td width="50%" valign="top"><a href="https://store.steampowered.com/app/2322180/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2322180/ss_bb56c95322d9fbbd7ec6f6fa0354dcb34c70255b.600x338.jpg" width="100%" alt="A Tiny Sticker Tale: Stickerbook cutouts"></a><br><b><a href="https://store.steampowered.com/app/2322180/">A Tiny Sticker Tale</a></b><br><sub><a href="styles/stickerbook-cutouts/">Stickerbook cutouts</a></sub><br><sub>Movable sticker-like storybook objects</sub></td>
-</tr>
-<tr>
-<td width="50%" valign="top"><a href="https://store.steampowered.com/app/1889740/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1889740/ss_a1a611020f74862495fa0777a6d5da84a0c061a2.600x338.jpg" width="100%" alt="Paper Trail: Illustrated paper puzzles"></a><br><b><a href="https://store.steampowered.com/app/1889740/">Paper Trail</a></b><br><sub><a href="styles/illustrated-paper-puzzles/">Illustrated paper puzzles</a></sub><br><sub>Foldable illustrated paper worlds</sub></td>
-<td width="50%" valign="top"><a href="https://store.steampowered.com/app/435400/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/435400/ss_5cda037d48f0603bfc1268b1090d8a0f0f1780b3.600x338.jpg" width="100%" alt="Hidden Folks: Whimsical monochrome ink"></a><br><b><a href="https://store.steampowered.com/app/435400/">Hidden Folks</a></b><br><sub><a href="styles/whimsical-ink/">Whimsical monochrome ink</a></sub><br><sub>Tiny black-and-white doodled scenes</sub></td>
-</tr>
-</table>
-
-### Illustrator references
-
-For visual study only; the artists' work is not a reusable asset library.
-
-- [Oksana Bula](https://www.tukoni.com.ua/en) — Tukoni picture-book artist
-- [Tove Jansson](https://tovejansson.com/gallery/the-moomins/) — Moomins author and illustrator
-- [Kuan-Hung Chen](https://sunheadgames.com/en/press/carto/) — Carto visual art reference
-- [Sylvain Tegroeg](https://tegroeg.com/) — Hidden Folks hand-inked art
-- [Carson Ellis](https://www.carsonellis.com/work-gallery/) — Whimsical illustrated landscapes
-- [Rebecca Green](https://www.myblankpaper.com/work/) — Pastel, pencil and gouache illustrations
-
----
+- [Contributing](#contributing)
 
 ## 3D: shading & form
 
@@ -216,6 +171,57 @@ For visual study only; the artists' work is not a reusable asset library.
 </tr>
 </table>
 
+<a id="illustrated-inspiration"></a>
+## Illustrated game inspiration · 16 games
+
+Each game has its own visual card. These are individual inspirations, not artificially renamed genres. Images open Steam; style names open implementation notes.
+
+<table>
+<tr>
+<td width="50%" valign="top"><a href="https://store.steampowered.com/app/1172450/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172450/ss_5e9fb66710e5b0b8912c43f56299830893435379.600x338.jpg" width="100%" alt="Carto: Gouache picture book"></a><br><b><a href="https://store.steampowered.com/app/1172450/">Carto</a></b><br><sub><a href="styles/gouache-picture-book/">Gouache picture book</a></sub><br><sub>Painted map tiles and friendly tiny shapes</sub></td>
+<td width="50%" valign="top"><a href="https://store.steampowered.com/app/3256150/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3256150/f17685012ab6062858ed94e2f5338e08256d7e61/ss_f17685012ab6062858ed94e2f5338e08256d7e61.600x338.jpg" width="100%" alt="Moomintroll: Winter's Warmth: Nordic watercolour woodland"></a><br><b><a href="https://store.steampowered.com/app/3256150/">Moomintroll: Winter's Warmth</a></b><br><sub><a href="styles/nordic-watercolour-woodland/">Nordic watercolour woodland</a></sub><br><sub>Snowy paper textures and a Nordic forest</sub></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><a href="https://store.steampowered.com/app/1808680/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1808680/ss_7b8df4e8746ed3461fc9aaba4af0e158c94dcd5f.600x338.jpg" width="100%" alt="Snufkin: Melody of Moominvalley: Nordic watercolour woodland"></a><br><b><a href="https://store.steampowered.com/app/1808680/">Snufkin: Melody of Moominvalley</a></b><br><sub><a href="styles/nordic-watercolour-woodland/">Nordic watercolour woodland</a></sub><br><sub>Quiet watercolour woodland exploration</sub></td>
+<td width="50%" valign="top"><a href="https://store.steampowered.com/app/1307580/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1307580/ss_3c5c560a2627d6d35f69a138ec3159517c662e44.600x338.jpg" width="100%" alt="TOEM: A Photo Adventure: Whimsical monochrome ink"></a><br><b><a href="https://store.steampowered.com/app/1307580/">TOEM: A Photo Adventure</a></b><br><sub><a href="styles/whimsical-ink/">Whimsical monochrome ink</a></sub><br><sub>Monochrome ink cutouts and soft 3D depth</sub></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><a href="https://store.steampowered.com/app/1419860/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1419860/ss_bf1fddecefb8c7e720ffafccce35f50937f11103.600x338.jpg" width="100%" alt="Tukoni: Prologue: Woodland folklore illustration"></a><br><b><a href="https://store.steampowered.com/app/1419860/">Tukoni: Prologue</a></b><br><sub><a href="styles/woodland-folklore-illustration/">Woodland folklore illustration</a></sub><br><sub>Hand-painted forest creatures and plants</sub></td>
+<td width="50%" valign="top"><a href="https://store.steampowered.com/app/1444300/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1444300/ss_93c9da1b8b189e06cf3c3c8f7f549546895b8cda.600x338.jpg" width="100%" alt="Teacup: Pastel creature vignettes"></a><br><b><a href="https://store.steampowered.com/app/1444300/">Teacup</a></b><br><sub><a href="styles/pastel-creature-vignettes/">Pastel creature vignettes</a></sub><br><sub>Pastel animal picture-book scenes</sub></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><a href="https://store.steampowered.com/app/1055540/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1055540/ss_0e864bf975bb71f238de6861fc8fd3d6ed6e4ce8.600x338.jpg" width="100%" alt="A Short Hike: Cozy low-resolution 3D nature"></a><br><b><a href="https://store.steampowered.com/app/1055540/">A Short Hike</a></b><br><sub><a href="styles/cozy-lowres-nature-3d/">Cozy low-resolution 3D nature</a></sub><br><sub>Pixel-softened outdoor exploration</sub></td>
+<td width="50%" valign="top"><a href="https://store.steampowered.com/app/1594940/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1594940/623dea3c94ca66719a29abd1919e7547a5cbec3d/ss_623dea3c94ca66719a29abd1919e7547a5cbec3d.600x338.jpg" width="100%" alt="Little Witch in the Woods: Cozy storybook pixel art"></a><br><b><a href="https://store.steampowered.com/app/1594940/">Little Witch in the Woods</a></b><br><sub><a href="styles/cozy-pixel-storybook/">Cozy storybook pixel art</a></sub><br><sub>Warm, detailed woodland pixels</sub></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><a href="https://store.steampowered.com/app/1123450/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1123450/ss_1f16a64698124ab065ed1fdd7cc0ea23511f3791.600x338.jpg" width="100%" alt="Chicory: A Colorful Tale: Loose-line storybook cartoons"></a><br><b><a href="https://store.steampowered.com/app/1123450/">Chicory: A Colorful Tale</a></b><br><sub><a href="styles/loose-line-cartoons/">Loose-line storybook cartoons</a></sub><br><sub>Loose ink and playful colour fills</sub></td>
+<td width="50%" valign="top"><a href="https://store.steampowered.com/app/977880/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/977880/ss_b3512f7576dbdd1e35dd3fb27a04f29174efb00d.600x338.jpg" width="100%" alt="Eastward: Cinematic pixel painting"></a><br><b><a href="https://store.steampowered.com/app/977880/">Eastward</a></b><br><sub><a href="styles/cinematic-pixel-painting/">Cinematic pixel painting</a></sub><br><sub>Cinematic detailed pixel landscapes</sub></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><a href="https://store.steampowered.com/app/1062140/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1062140/ss_ee75af73d8bad015cfcf86530fceb627d9e6b298.600x338.jpg" width="100%" alt="Garden Story: Cozy storybook pixel art"></a><br><b><a href="https://store.steampowered.com/app/1062140/">Garden Story</a></b><br><sub><a href="styles/cozy-pixel-storybook/">Cozy storybook pixel art</a></sub><br><sub>Small rounded pixel creatures</sub></td>
+<td width="50%" valign="top"><a href="https://store.steampowered.com/app/729000/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/729000/ss_b5c706abacf932c95851ab3c74ef5555f2151215.600x338.jpg" width="100%" alt="Wytchwood: Woodland folklore illustration"></a><br><b><a href="https://store.steampowered.com/app/729000/">Wytchwood</a></b><br><sub><a href="styles/woodland-folklore-illustration/">Woodland folklore illustration</a></sub><br><sub>Decorative folk-tale woodland</sub></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><a href="https://store.steampowered.com/app/581270/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/581270/ss_b0e4a7017f9fa3f64bb7fb953583e323389194a2.600x338.jpg" width="100%" alt="Old Man's Journey: Layered paper landscapes"></a><br><b><a href="https://store.steampowered.com/app/581270/">Old Man's Journey</a></b><br><sub><a href="styles/layered-paper-landscapes/">Layered paper landscapes</a></sub><br><sub>Layered hand-painted paper landscapes</sub></td>
+<td width="50%" valign="top"><a href="https://store.steampowered.com/app/2322180/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2322180/ss_bb56c95322d9fbbd7ec6f6fa0354dcb34c70255b.600x338.jpg" width="100%" alt="A Tiny Sticker Tale: Stickerbook cutouts"></a><br><b><a href="https://store.steampowered.com/app/2322180/">A Tiny Sticker Tale</a></b><br><sub><a href="styles/stickerbook-cutouts/">Stickerbook cutouts</a></sub><br><sub>Movable sticker-like storybook objects</sub></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><a href="https://store.steampowered.com/app/1889740/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1889740/ss_a1a611020f74862495fa0777a6d5da84a0c061a2.600x338.jpg" width="100%" alt="Paper Trail: Illustrated paper puzzles"></a><br><b><a href="https://store.steampowered.com/app/1889740/">Paper Trail</a></b><br><sub><a href="styles/illustrated-paper-puzzles/">Illustrated paper puzzles</a></sub><br><sub>Foldable illustrated paper worlds</sub></td>
+<td width="50%" valign="top"><a href="https://store.steampowered.com/app/435400/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/435400/ss_5cda037d48f0603bfc1268b1090d8a0f0f1780b3.600x338.jpg" width="100%" alt="Hidden Folks: Whimsical monochrome ink"></a><br><b><a href="https://store.steampowered.com/app/435400/">Hidden Folks</a></b><br><sub><a href="styles/whimsical-ink/">Whimsical monochrome ink</a></sub><br><sub>Tiny black-and-white doodled scenes</sub></td>
+</tr>
+</table>
+
+### Illustrator references
+
+For visual study only; the artists' work is not a reusable asset library.
+
+- [Oksana Bula](https://www.tukoni.com.ua/en) — Tukoni picture-book artist
+- [Tove Jansson](https://tovejansson.com/gallery/the-moomins/) — Moomins author and illustrator
+- [Kuan-Hung Chen](https://sunheadgames.com/en/press/carto/) — Carto visual art reference
+- [Sylvain Tegroeg](https://tegroeg.com/) — Hidden Folks hand-inked art
+- [Carson Ellis](https://www.carsonellis.com/work-gallery/) — Whimsical illustrated landscapes
+- [Rebecca Green](https://www.myblankpaper.com/work/) — Pastel, pencil and gouache illustrations
+
 ## Asset libraries
 
 Free or cheap packs that work across several styles. Licences were checked on 2026-10-28; check again before you ship.
@@ -249,11 +255,7 @@ Free or cheap packs that work across several styles. Licences were checked on 20
 
 ## Popular X posts (curated)
 
-Play original MP4s directly using GitHub video controls; image-only posts show original photos.
-
-[Watch and download authorized videos in the X gallery](https://homkathon.github.io/awesome-game-art-styles/x-posts/) (creator credit and original links; other posts embed from X).
-
-22 verified creator-authored posts grouped by technique. Selected for actionable rendering, shader and art workflow ideas rather than raw engagement numbers. **Curated, not a live popularity ranking**: X does not expose comparable engagement counts for every post. Original post author, text and date checked against X embed metadata on 2026-10-28.
+22 creator-authored technique posts, grouped by technique and hand-picked for ideas you can reuse. **Curated, not a popularity ranking.** Authors, text and dates were checked against X embed metadata on 2026-10-28. Videos also play in the [X gallery](https://homkathon.github.io/awesome-opus-game-art-styles/x-posts/).
 
 ### Water & atmosphere
 
@@ -261,14 +263,14 @@ Play original MP4s directly using GitHub video controls; image-only posts show o
 <tr>
 <td width="50%" valign="top">
 <video src="https://github.com/user-attachments/assets/e66f2271-3549-4186-8cfc-7d937077a227" controls width="100%" playsinline></video>
-<p><strong><a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1864638156588400707">Shoreline shader redux</a></strong></p>
+<p><strong><a href="https://homkathon.github.io/awesome-opus-game-art-styles/x-posts/#post-1864638156588400707">Shoreline shader redux</a></strong></p>
 <sub>Video · @Cyanilux · 2024-12-05 · <a href="https://x.com/Cyanilux/status/1864638156588400707">Original post ↗</a></sub>
 <p>Coastal wave and wet-sand treatment; follow-up tutorial linked from the post</p>
 <sub>Style: <a href="styles/cozy/">Cozy interiors</a></sub>
 </td>
 <td width="50%" valign="top">
-<a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1252298028607774721"><img src="x-posts/previews/1252298028607774721.jpg" width="100%" alt="Shoreline shader mini-breakdown"></a>
-<p><strong><a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1252298028607774721">Shoreline shader mini-breakdown</a></strong></p>
+<a href="https://homkathon.github.io/awesome-opus-game-art-styles/x-posts/#post-1252298028607774721"><img src="x-posts/previews/1252298028607774721.jpg" width="100%" alt="Shoreline shader mini-breakdown"></a>
+<p><strong><a href="https://homkathon.github.io/awesome-opus-game-art-styles/x-posts/#post-1252298028607774721">Shoreline shader mini-breakdown</a></strong></p>
 <sub>Image · @Cyanilux · 2020-04-20 · <a href="https://x.com/Cyanilux/status/1252298028607774721">Original post ↗</a></sub>
 <p>Depth-aware shoreline foam and water edges inspired by Animal Crossing</p>
 <sub>Style: <a href="styles/cozy/">Cozy interiors</a></sub>
@@ -277,14 +279,14 @@ Play original MP4s directly using GitHub video controls; image-only posts show o
 <tr>
 <td width="50%" valign="top">
 <video src="https://github.com/user-attachments/assets/86cbd001-062d-4224-a2fd-205b6ddd832e" controls width="100%" playsinline></video>
-<p><strong><a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1581210772352290818">Gerstner-wave ocean</a></strong></p>
+<p><strong><a href="https://homkathon.github.io/awesome-opus-game-art-styles/x-posts/#post-1581210772352290818">Gerstner-wave ocean</a></strong></p>
 <sub>Video · @Cyanilux · 2022-10-15 · <a href="https://x.com/Cyanilux/status/1581210772352290818">Original post ↗</a></sub>
 <p>Stylized ocean wave displacement using Gerstner waves</p>
 <sub>Style: <a href="styles/flat-colour-3d/">Flat-colour graphic 3D</a></sub>
 </td>
 <td width="50%" valign="top">
 <video src="https://github.com/user-attachments/assets/53a5d7c2-abba-45e7-b21a-168670d6f39a" controls width="100%" playsinline></video>
-<p><strong><a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1770095395848237506">2.5D water with sprite reflections</a></strong></p>
+<p><strong><a href="https://homkathon.github.io/awesome-opus-game-art-styles/x-posts/#post-1770095395848237506">2.5D water with sprite reflections</a></strong></p>
 <sub>Video · @Cyanilux · 2024-03-19 · <a href="https://x.com/Cyanilux/status/1770095395848237506">Original post ↗</a></sub>
 <p>Top-down water shader with reflected pixel-art sprites</p>
 <sub>Style: <a href="styles/hd-2d/">HD-2D</a></sub>
@@ -293,7 +295,7 @@ Play original MP4s directly using GitHub video controls; image-only posts show o
 <tr>
 <td width="50%" valign="top">
 <video src="https://github.com/user-attachments/assets/224bc590-5f2b-416a-854e-5efbb4abf0c8" controls width="100%" playsinline></video>
-<p><strong><a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1495405379253116930">Procedural aurora</a></strong></p>
+<p><strong><a href="https://homkathon.github.io/awesome-opus-game-art-styles/x-posts/#post-1495405379253116930">Procedural aurora</a></strong></p>
 <sub>Video · @Cyanilux · 2022-02-20 · <a href="https://x.com/Cyanilux/status/1495405379253116930">Original post ↗</a></sub>
 <p>Displaced subdivided quads, gradients, scrolling noise and distance fade</p>
 <sub>Style: <a href="styles/neon-abstract/">Neon abstract</a></sub>
@@ -306,15 +308,15 @@ Play original MP4s directly using GitHub video controls; image-only posts show o
 <table>
 <tr>
 <td width="50%" valign="top">
-<a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1975506073319567393"><img src="x-posts/previews/1975506073319567393.jpg" width="100%" alt="Analytical ambient occlusion"></a>
-<p><strong><a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1975506073319567393">Analytical ambient occlusion</a></strong></p>
+<a href="https://homkathon.github.io/awesome-opus-game-art-styles/x-posts/#post-1975506073319567393"><img src="x-posts/previews/1975506073319567393.jpg" width="100%" alt="Analytical ambient occlusion"></a>
+<p><strong><a href="https://homkathon.github.io/awesome-opus-game-art-styles/x-posts/#post-1975506073319567393">Analytical ambient occlusion</a></strong></p>
 <sub>Image · @florisium · 2025-10-07 · <a href="https://x.com/florisium/status/1975506073319567393">Original post ↗</a></sub>
 <p>Primitive-based analytical AO technique and scene comparison (technical thread)</p>
 <sub>Style: <a href="styles/toy-diorama/">Toy diorama / tilt-shift</a></sub>
 </td>
 <td width="50%" valign="top">
 <video src="https://github.com/user-attachments/assets/b8802851-7f05-42ab-bcd7-d29ecaf630ee" controls width="100%" playsinline></video>
-<p><strong><a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1783442615939297380">Billboarded light shafts</a></strong></p>
+<p><strong><a href="https://homkathon.github.io/awesome-opus-game-art-styles/x-posts/#post-1783442615939297380">Billboarded light shafts</a></strong></p>
 <sub>Video · @Cyanilux · 2024-04-25 · <a href="https://x.com/Cyanilux/status/1783442615939297380">Original post ↗</a></sub>
 <p>Light-aligned billboard quads, shadow masking and depth fading</p>
 <sub>Style: <a href="styles/silhouette/">Silhouette noir</a></sub>
@@ -323,14 +325,14 @@ Play original MP4s directly using GitHub video controls; image-only posts show o
 <tr>
 <td width="50%" valign="top">
 <video src="https://github.com/user-attachments/assets/0e7f9450-9a62-4189-91c0-f0b19ca44dce" controls width="100%" playsinline></video>
-<p><strong><a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1362466015976783872">Dungeons of Hinterberg: outlines</a></strong></p>
+<p><strong><a href="https://homkathon.github.io/awesome-opus-game-art-styles/x-posts/#post-1362466015976783872">Dungeons of Hinterberg: outlines</a></strong></p>
 <sub>Video · @PhilippSeifried · 2021-02-18 · <a href="https://x.com/PhilippSeifried/status/1362466015976783872">Original post ↗</a></sub>
 <p>Technical thread on outlines with controllable width and placement</p>
 <sub>Style: <a href="styles/ligne-claire/">Ligne claire / Moebius</a></sub>
 </td>
 <td width="50%" valign="top">
 <video src="https://github.com/user-attachments/assets/07fc6d86-883e-4cd8-9951-4bdce6d60d5f" controls width="100%" playsinline></video>
-<p><strong><a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1354827696707002384">Dungeons of Hinterberg: stylized rendering</a></strong></p>
+<p><strong><a href="https://homkathon.github.io/awesome-opus-game-art-styles/x-posts/#post-1354827696707002384">Dungeons of Hinterberg: stylized rendering</a></strong></p>
 <sub>Video · @PhilippSeifried · 2021-01-28 · <a href="https://x.com/PhilippSeifried/status/1354827696707002384">Original post ↗</a></sub>
 <p>Custom deferred rendering with material IDs stored in a G-buffer</p>
 <sub>Style: <a href="styles/toon/">Cel-shaded / toon</a></sub>
@@ -344,14 +346,14 @@ Play original MP4s directly using GitHub video controls; image-only posts show o
 <tr>
 <td width="50%" valign="top">
 <video src="https://github.com/user-attachments/assets/86c7023c-eec3-483d-99cf-33140ed14cfa" controls width="100%" playsinline></video>
-<p><strong><a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1407727586986311687">Stained glass and volumetric rays</a></strong></p>
+<p><strong><a href="https://homkathon.github.io/awesome-opus-game-art-styles/x-posts/#post-1407727586986311687">Stained glass and volumetric rays</a></strong></p>
 <sub>Video · @Cyanilux · 2021-06-23 · <a href="https://x.com/Cyanilux/status/1407727586986311687">Original post ↗</a></sub>
 <p>Glass-pane shading combined with ray-marched shafts of light</p>
 <sub>Style: <a href="styles/stained-glass/">Stained glass</a></sub>
 </td>
 <td width="50%" valign="top">
 <video src="https://github.com/user-attachments/assets/08022f98-f2e1-4633-bb78-b5b22675ff32" controls width="100%" playsinline></video>
-<p><strong><a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1376949139838275584">Holographic foil shader</a></strong></p>
+<p><strong><a href="https://homkathon.github.io/awesome-opus-game-art-styles/x-posts/#post-1376949139838275584">Holographic foil shader</a></strong></p>
 <sub>Video · @Cyanilux · 2021-03-30 · <a href="https://x.com/Cyanilux/status/1376949139838275584">Original post ↗</a></sub>
 <p>Rainbow texture with view-direction-based tangent-space UV parallax</p>
 <sub>Style: <a href="styles/retro-futurism/">Retro-futurism</a></sub>
@@ -360,14 +362,14 @@ Play original MP4s directly using GitHub video controls; image-only posts show o
 <tr>
 <td width="50%" valign="top">
 <video src="https://github.com/user-attachments/assets/c8370dfa-6f0a-43ab-9a1b-159b0c1e017b" controls width="100%" playsinline></video>
-<p><strong><a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1396848736022802435">GPU-instanced grass with Shader Graph</a></strong></p>
+<p><strong><a href="https://homkathon.github.io/awesome-opus-game-art-styles/x-posts/#post-1396848736022802435">GPU-instanced grass with Shader Graph</a></strong></p>
 <sub>Video · @Cyanilux · 2021-05-24 · <a href="https://x.com/Cyanilux/status/1396848736022802435">Original post ↗</a></sub>
 <p>Graphics.DrawMeshInstancedIndirect with Unity Shader Graph</p>
 <sub>Style: <a href="styles/low-poly/">Low-poly</a></sub>
 </td>
 <td width="50%" valign="top">
-<a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1618030887412862977"><img src="x-posts/previews/1618030887412862977.jpg" width="100%" alt="Procedural ivy on curves"></a>
-<p><strong><a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1618030887412862977">Procedural ivy on curves</a></strong></p>
+<a href="https://homkathon.github.io/awesome-opus-game-art-styles/x-posts/#post-1618030887412862977"><img src="x-posts/previews/1618030887412862977.jpg" width="100%" alt="Procedural ivy on curves"></a>
+<p><strong><a href="https://homkathon.github.io/awesome-opus-game-art-styles/x-posts/#post-1618030887412862977">Procedural ivy on curves</a></strong></p>
 <sub>Image · @Cyanilux · 2023-01-24 · <a href="https://x.com/Cyanilux/status/1618030887412862977">Original post ↗</a></sub>
 <p>Blender Geometry Nodes distributing ivy leaves along hand-drawn curves</p>
 <sub>Style: <a href="styles/low-poly/">Low-poly</a></sub>
@@ -375,8 +377,8 @@ Play original MP4s directly using GitHub video controls; image-only posts show o
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1251916279205814272"><img src="x-posts/previews/1251916279205814272.jpg" width="100%" alt="World-bending Shader Graph subgraph"></a>
-<p><strong><a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1251916279205814272">World-bending Shader Graph subgraph</a></strong></p>
+<a href="https://homkathon.github.io/awesome-opus-game-art-styles/x-posts/#post-1251916279205814272"><img src="x-posts/previews/1251916279205814272.jpg" width="100%" alt="World-bending Shader Graph subgraph"></a>
+<p><strong><a href="https://homkathon.github.io/awesome-opus-game-art-styles/x-posts/#post-1251916279205814272">World-bending Shader Graph subgraph</a></strong></p>
 <sub>Image · @Cyanilux · 2020-04-19 · <a href="https://x.com/Cyanilux/status/1251916279205814272">Original post ↗</a></sub>
 <p>Shader Graph deformation with C# toggles between editor and game</p>
 <sub>Style: <a href="styles/toy-diorama/">Toy diorama / tilt-shift</a></sub>
@@ -390,14 +392,14 @@ Play original MP4s directly using GitHub video controls; image-only posts show o
 <tr>
 <td width="50%" valign="top">
 <video src="https://github.com/user-attachments/assets/ab573f7f-a2d8-4524-ac25-3050c654ef38" controls width="100%" playsinline></video>
-<p><strong><a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-2019471084375130140">Fake volumetric smoke</a></strong></p>
+<p><strong><a href="https://homkathon.github.io/awesome-opus-game-art-styles/x-posts/#post-2019471084375130140">Fake volumetric smoke</a></strong></p>
 <sub>Video · @Tuatara_Games · 2026-02-05 · <a href="https://x.com/Tuatara_Games/status/2019471084375130140">Original post ↗</a></sub>
 <p>Camera-facing deformed mesh, unlit shading and directional normal-map lighting</p>
 <sub>Style: <a href="styles/silhouette/">Silhouette noir</a></sub>
 </td>
 <td width="50%" valign="top">
 <video src="https://github.com/user-attachments/assets/d63c4858-075a-4601-8827-ce15b0d12efe" controls width="100%" playsinline></video>
-<p><strong><a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1483094258076856320">Tornado made from noise layers</a></strong></p>
+<p><strong><a href="https://homkathon.github.io/awesome-opus-game-art-styles/x-posts/#post-1483094258076856320">Tornado made from noise layers</a></strong></p>
 <sub>Video · @Cyanilux · 2022-01-17 · <a href="https://x.com/Cyanilux/status/1483094258076856320">Original post ↗</a></sub>
 <p>Alpha-clipped scrolling noise layers, vertex displacement and particles</p>
 <sub>Style: <a href="styles/silhouette/">Silhouette noir</a></sub>
@@ -406,14 +408,14 @@ Play original MP4s directly using GitHub video controls; image-only posts show o
 <tr>
 <td width="50%" valign="top">
 <video src="https://github.com/user-attachments/assets/cb1ccdff-b7eb-418b-be98-f76d9b4e407a" controls width="100%" playsinline></video>
-<p><strong><a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1638623920235356172">Render-texture-driven fracture</a></strong></p>
+<p><strong><a href="https://homkathon.github.io/awesome-opus-game-art-styles/x-posts/#post-1638623920235356172">Render-texture-driven fracture</a></strong></p>
 <sub>Video · @Cyanilux · 2023-03-22 · <a href="https://x.com/Cyanilux/status/1638623920235356172">Original post ↗</a></sub>
 <p>Graphics.Blit writes raycast hits to a mask driving a fractured surface</p>
 <sub>Style: <a href="styles/boomer-shooter/">Retro FPS / boomer shooter</a></sub>
 </td>
 <td width="50%" valign="top">
 <video src="https://github.com/user-attachments/assets/a42790d7-ef63-4e9d-9c34-1624e0318f3a" controls width="100%" playsinline></video>
-<p><strong><a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1524697139812573185">Tentacle via vertex displacement</a></strong></p>
+<p><strong><a href="https://homkathon.github.io/awesome-opus-game-art-styles/x-posts/#post-1524697139812573185">Tentacle via vertex displacement</a></strong></p>
 <sub>Video · @Cyanilux · 2022-05-12 · <a href="https://x.com/Cyanilux/status/1524697139812573185">Original post ↗</a></sub>
 <p>Vertex displacement for a procedurally animated tentacle</p>
 <sub>Style: <a href="styles/lo-fi-surreal/">Lo-fi surreal / ugly</a></sub>
@@ -422,7 +424,7 @@ Play original MP4s directly using GitHub video controls; image-only posts show o
 <tr>
 <td width="50%" valign="top">
 <video src="https://github.com/user-attachments/assets/4acc81d1-e91a-4ecf-91ae-bcc50e2597d7" controls width="100%" playsinline></video>
-<p><strong><a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1467533351091376136">Magic sword slash VFX</a></strong></p>
+<p><strong><a href="https://homkathon.github.io/awesome-opus-game-art-styles/x-posts/#post-1467533351091376136">Magic sword slash VFX</a></strong></p>
 <sub>Video · @Cyanilux · 2021-12-05 · <a href="https://x.com/Cyanilux/status/1467533351091376136">Original post ↗</a></sub>
 <p>Shader-driven weapon-slash effect (companion Shader Graph breakdown)</p>
 <sub>Style: <a href="styles/anime-cel/">Anime cel 2.5D</a></sub>
@@ -436,14 +438,14 @@ Play original MP4s directly using GitHub video controls; image-only posts show o
 <tr>
 <td width="50%" valign="top">
 <video src="https://github.com/user-attachments/assets/a26ff1b1-d8ed-4b82-a883-2bc1be40bce7" controls width="100%" playsinline></video>
-<p><strong><a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1068933280005844992">Pixel-art waterfall breakdown</a></strong></p>
+<p><strong><a href="https://homkathon.github.io/awesome-opus-game-art-styles/x-posts/#post-1068933280005844992">Pixel-art waterfall breakdown</a></strong></p>
 <sub>Video · @lunoland · 2018-12-01 · <a href="https://x.com/lunoland/status/1068933280005844992">Original post ↗</a></sub>
 <p>Layered sprites, shaders and 13 particle systems for a pixel waterfall</p>
 <sub>Style: <a href="styles/pixel-art/">Pixel art</a></sub>
 </td>
 <td width="50%" valign="top">
 <video src="https://github.com/user-attachments/assets/4a23baa7-ce56-433c-b969-b6d528a4736b" controls width="100%" playsinline></video>
-<p><strong><a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1595484469699526665">Dithered and pixelated lighting</a></strong></p>
+<p><strong><a href="https://homkathon.github.io/awesome-opus-game-art-styles/x-posts/#post-1595484469699526665">Dithered and pixelated lighting</a></strong></p>
 <sub>Video · @Cyanilux · 2022-11-23 · <a href="https://x.com/Cyanilux/status/1595484469699526665">Original post ↗</a></sub>
 <p>Experimental lighting quantized into pixel and dither patterns</p>
 <sub>Style: <a href="styles/pixelated-3d/">Pixelated 3D</a></sub>
@@ -451,8 +453,8 @@ Play original MP4s directly using GitHub video controls; image-only posts show o
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1847072515572507001"><img src="x-posts/previews/1847072515572507001.jpg" width="100%" alt="Palette-driven pixel-art lighting"></a>
-<p><strong><a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1847072515572507001">Palette-driven pixel-art lighting</a></strong></p>
+<a href="https://homkathon.github.io/awesome-opus-game-art-styles/x-posts/#post-1847072515572507001"><img src="x-posts/previews/1847072515572507001.jpg" width="100%" alt="Palette-driven pixel-art lighting"></a>
+<p><strong><a href="https://homkathon.github.io/awesome-opus-game-art-styles/x-posts/#post-1847072515572507001">Palette-driven pixel-art lighting</a></strong></p>
 <sub>Image · @MadeInHevinis · 2024-10-18 · <a href="https://x.com/MadeInHevinis/status/1847072515572507001">Original post ↗</a></sub>
 <p>Lighting colors chosen directly from a sprite shading palette</p>
 <sub>Style: <a href="styles/pixel-art/">Pixel art</a></sub>

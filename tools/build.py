@@ -21,7 +21,8 @@ NEEDS_LABEL = {
     "mixed": "**Code plus assets.** The rendering is code, but it needs suitable models, textures or sprites:",
     "art": "**Mostly art.** The look lives in made material; code only supports it. You need:",
 }
-PAGES = "https://homkathon.github.io/awesome-game-art-styles"
+REPO = "https://github.com/homkathon/awesome-opus-game-art-styles"
+PAGES = "https://homkathon.github.io/awesome-opus-game-art-styles"
 SITE = "https://homkathon.gokoding.com/styles"
 
 
@@ -88,32 +89,36 @@ TEXT = {
     "en": dict(
         file="README.md", resources="resources.md", sections=data.SECTIONS, name=lambda s: s["title"], sub=lambda s: s["zh"],
         switch="**English** · [简体中文](README.zh-CN.md)",
-        intro="> {n} game visual styles, organised by **look**. Click a style for screenshots, how to recognise it, "
-        "techniques, tutorials, free assets and notes for coding agents.",
-        site="🌐 **Browse it as a website: [homkathon.gokoding.com/styles]({site})** (Chinese interface). Search and filter all styles, flip through "
-        "screenshots and play the live demos on each style's page.",
-        body="Screenshots are loaded from Steam and link to each game's store page; nothing is rehosted here. "
-        "Use the [Claude Code skill](skills/game-art-style/SKILL.md) to get a style recommendation for your own game "
-        "(to install it, ask your coding agent to read [{site}/install.md]({site}/install.md)), "
-        "or try the [live shader demos]({pages}/demos/) for toon, PS1, 1-bit and pixelated 3D. "
-        "Watch and download permissioned creator MP4s in the [X media gallery]({pages}/x-posts/) (original author credit and post links included).",
-
+        intro="> {n} game visual styles, organised by **look**, so Claude Opus 5.5 (or any coding agent) can build your game "
+        "in the style you mean instead of the same generic look. Each style has in-game screenshots, how to spot it, "
+        "techniques, tutorials, free assets and step-by-step agent notes.",
+        start="Start here",
+        links=[
+            ("🌐 Website", "[homkathon.gokoding.com/styles]({site}): search and filter every style, play the demos (Chinese UI)"),
+            ("🤖 Claude Code skill", "Tell Opus 5.5: *Read {site}/install.md and install the game-art-style skill.* "
+             "([source](skills/game-art-style/SKILL.md), works in Codex and Cursor too)"),
+            ("▶️ Shader demos", "[Toon, PS1, 1-bit and pixelated 3D]({pages}/demos/), one commented HTML file each"),
+            ("🎬 X post gallery", "[{x} creator technique posts]({pages}/x-posts/), playable and downloadable with credit"),
+        ],
+        note="Screenshots are hot-linked from Steam and link to each game's store page; nothing is rehosted here.",
         contents="Contents",
-        extra=["- [Asset libraries](#asset-libraries)", "- [Learning resources](#learning-resources)",
-               "- [Related lists](#related-lists)", "- [Wanted](#wanted)"],
         star="If this list helped you pick a look, a ⭐ helps other developers find it.",
     ),
     "zh": dict(
         file="README.zh-CN.md", resources="resources.zh-CN.md", sections=data.SECTIONS_ZH, name=lambda s: s["zh"], sub=lambda s: s["title"],
         switch="[English](README.md) · **简体中文**",
-        intro="> {n} 种游戏视觉风格，按**观感**分类。点进每种风格可以看截图、识别要点、实现技术、教程、免费素材，以及给编程智能体的实现步骤。",
-        site="🌐 **中文网页版：[homkathon.gokoding.com/styles]({site})**。可以搜索、按分类筛选，在每种风格的页面里翻截图、直接玩在线演示。",
-        body="截图直接从 Steam 加载并链接到游戏商店页，本仓库不转存任何截图。"
-        "用 [Claude Code 技能](skills/game-art-style/SKILL.md)可以为你的游戏推荐风格（安装方法：让你的编程智能体读 [{site}/install.md]({site}/install.md)），"
-        "也可以打开[在线着色器演示]({pages}/demos/)看卡通、PS1、1-bit 和像素化 3D 的实时效果。在 [X 视频画廊]({pages}/x-posts/)直接播放或下载经授权收录的 MP4（保留作者及原帖链接）。风格详情页目前为英文。",
-
+        intro="> {n} 种游戏视觉风格，按**观感**分类。用 Opus 5.5（或别的编程智能体）做游戏时先挑一种，"
+        "做出来才不会都长一个样。每种风格都有真实游戏截图、识别要点、实现技术、教程、免费素材和给智能体的实现步骤。",
+        start="从这里开始",
+        links=[
+            ("🌐 中文网页版", "[homkathon.gokoding.com/styles]({site})：搜索、分类筛选，翻截图、玩在线演示"),
+            ("🤖 Claude Code 技能", "对 Opus 5.5 说：*读 {site}/install.md ，按步骤安装 game-art-style 技能。*"
+             "（[源码](skills/game-art-style/SKILL.md)，Codex、Cursor 也能用）"),
+            ("▶️ 着色器演示", "[卡通、PS1、1-bit、像素化 3D]({pages}/demos/)，每个都是一个带注释的 HTML 文件"),
+            ("🎬 X 技术帖画廊", "[{x} 条创作者技术帖]({pages}/x-posts/)，可直接播放、下载，保留作者署名"),
+        ],
+        note="截图直接从 Steam 加载并链接到商店页，本仓库不转存任何截图。风格详情页目前为英文。",
         contents="目录",
-        extra=["- [素材库](#素材库)", "- [学习资源](#学习资源)"],
         star="如果这份列表帮你选定了画风，点个 ⭐ 能让更多开发者看到它。",
     ),
 }
@@ -150,38 +155,43 @@ def illustrated_inspiration(lang):
     for artist in data.ILLUSTRATORS:
         desc = artist["zh"] if zh else artist["en"]
         out.append(f'- [{artist["name"]}]({artist["url"]}) — {desc}')
-    out += ["", "---", ""]
+    out.append("")
     return out
 
 
 def home(lang):
     t = TEXT[lang]
+    resources = x_previews.decorate_readme((HERE / t["resources"]).read_text(), lang)
+    x_count = len(json.loads((HERE / "x_media.json").read_text()))
+    extra = [line[3:] for line in resources.splitlines() if line.startswith("## ")]
     out = [
         '<p align="center"><img src="assets/banner.png" alt="One scene in four styles: toon, PS1, 1-bit, pixelated 3D"></p>',
         "",
-        "# Awesome Game Art Styles [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)",
+        "# Awesome Game Art Styles for Opus [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)",
         "",
         f"[![Styles](https://img.shields.io/badge/styles-{len(data.STYLES)}-f2b134)](#{slug(t['sections'][0])}) "
         "[![Licence: CC0](https://img.shields.io/badge/licence-CC0-lightgrey)](LICENSE) "
-        "[![check](https://github.com/homkathon/awesome-game-art-styles/actions/workflows/check.yml/badge.svg)]"
-        "(https://github.com/homkathon/awesome-game-art-styles/actions/workflows/check.yml)",
+        f"[![check]({REPO}/actions/workflows/check.yml/badge.svg)]({REPO}/actions/workflows/check.yml)",
         "",
         t["switch"],
         "",
         t["intro"].format(n=len(data.STYLES)),
         "",
-        t["site"].format(site=SITE),
+        f"### {t['start']}",
         "",
-        t["body"].format(pages=PAGES, site=SITE),
+        "| | |",
+        "|:--|:--|",
+        *[f"| **{k}** | {v.format(site=SITE, pages=PAGES, x=x_count)} |" for k, v in t["links"]],
+        "",
+        t["note"],
         "",
         f"## {t['contents']}",
         "",
         *[f"- [{sec}](#{slug(sec)})" for sec in t["sections"]],
-        *t["extra"],
+        "- [" + ("插画游戏灵感" if lang == "zh" else "Illustrated game inspiration") + "](#illustrated-inspiration)",
+        *[f"- [{sec}](#{slug(sec)})" for sec in extra],
         "",
     ]
-    out += ["- [" + ("插画游戏灵感" if lang == "zh" else "Illustrated game inspiration") + "](#illustrated-inspiration)", ""]
-    out += illustrated_inspiration(lang)
     for si, sec in enumerate(t["sections"]):
         group = [s for s in data.STYLES if s["section"] == si]
         out += [f"## {sec}", "", "<table>"]
@@ -196,7 +206,8 @@ def home(lang):
                 )
             out.append("</tr>")
         out += ["</table>", ""]
-    out.append(x_previews.decorate_readme((HERE / t["resources"]).read_text(), lang))
+    out += illustrated_inspiration(lang)
+    out.append(resources)
     out += ["", "---", "", t["star"], ""]
     return "\n".join(out)
 

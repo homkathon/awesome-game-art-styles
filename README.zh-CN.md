@@ -1,16 +1,23 @@
 <p align="center"><img src="assets/banner.png" alt="One scene in four styles: toon, PS1, 1-bit, pixelated 3D"></p>
 
-# Awesome Game Art Styles [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome Game Art Styles for Opus [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-[![Styles](https://img.shields.io/badge/styles-64-f2b134)](#3d明暗与造型) [![Licence: CC0](https://img.shields.io/badge/licence-CC0-lightgrey)](LICENSE) [![check](https://github.com/homkathon/awesome-game-art-styles/actions/workflows/check.yml/badge.svg)](https://github.com/homkathon/awesome-game-art-styles/actions/workflows/check.yml)
+[![Styles](https://img.shields.io/badge/styles-64-f2b134)](#3d明暗与造型) [![Licence: CC0](https://img.shields.io/badge/licence-CC0-lightgrey)](LICENSE) [![check](https://github.com/homkathon/awesome-opus-game-art-styles/actions/workflows/check.yml/badge.svg)](https://github.com/homkathon/awesome-opus-game-art-styles/actions/workflows/check.yml)
 
 [English](README.md) · **简体中文**
 
-> 64 种游戏视觉风格，按**观感**分类。点进每种风格可以看截图、识别要点、实现技术、教程、免费素材，以及给编程智能体的实现步骤。
+> 64 种游戏视觉风格，按**观感**分类。用 Opus 5.5（或别的编程智能体）做游戏时先挑一种，做出来才不会都长一个样。每种风格都有真实游戏截图、识别要点、实现技术、教程、免费素材和给智能体的实现步骤。
 
-🌐 **中文网页版：[homkathon.gokoding.com/styles](https://homkathon.gokoding.com/styles)**。可以搜索、按分类筛选，在每种风格的页面里翻截图、直接玩在线演示。
+### 从这里开始
 
-截图直接从 Steam 加载并链接到游戏商店页，本仓库不转存任何截图。用 [Claude Code 技能](skills/game-art-style/SKILL.md)可以为你的游戏推荐风格（安装方法：让你的编程智能体读 [https://homkathon.gokoding.com/styles/install.md](https://homkathon.gokoding.com/styles/install.md)），也可以打开[在线着色器演示](https://homkathon.github.io/awesome-game-art-styles/demos/)看卡通、PS1、1-bit 和像素化 3D 的实时效果。在 [X 视频画廊](https://homkathon.github.io/awesome-game-art-styles/x-posts/)直接播放或下载经授权收录的 MP4（保留作者及原帖链接）。风格详情页目前为英文。
+| | |
+|:--|:--|
+| **🌐 中文网页版** | [homkathon.gokoding.com/styles](https://homkathon.gokoding.com/styles)：搜索、分类筛选，翻截图、玩在线演示 |
+| **🤖 Claude Code 技能** | 对 Opus 5.5 说：*读 https://homkathon.gokoding.com/styles/install.md ，按步骤安装 game-art-style 技能。*（[源码](skills/game-art-style/SKILL.md)，Codex、Cursor 也能用） |
+| **▶️ 着色器演示** | [卡通、PS1、1-bit、像素化 3D](https://homkathon.github.io/awesome-opus-game-art-styles/demos/)，每个都是一个带注释的 HTML 文件 |
+| **🎬 X 技术帖画廊** | [22 条创作者技术帖](https://homkathon.github.io/awesome-opus-game-art-styles/x-posts/)，可直接播放、下载，保留作者署名 |
+
+截图直接从 Steam 加载并链接到商店页，本仓库不转存任何截图。风格详情页目前为英文。
 
 ## 目录
 
@@ -21,63 +28,10 @@
 - [2D：像素](#2d像素)
 - [2D：手绘与绘画](#2d手绘与绘画)
 - [2D：平面与印刷](#2d平面与印刷)
+- [插画游戏灵感](#illustrated-inspiration)
 - [素材库](#素材库)
 - [学习资源](#学习资源)
-
-- [插画游戏灵感](#illustrated-inspiration)
-
-<a id="illustrated-inspiration"></a>
-## 插画游戏灵感 · 16 款作品
-
-以下都是独立的视觉案例，不是 16 种人为拆分出来的美术流派。点击图片查看 Steam 原始截图和游戏，点击风格进入实现说明。
-
-<table>
-<tr>
-<td width="50%" valign="top"><a href="https://store.steampowered.com/app/1172450/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172450/ss_5e9fb66710e5b0b8912c43f56299830893435379.600x338.jpg" width="100%" alt="Carto: 水粉质感绘本"></a><br><b><a href="https://store.steampowered.com/app/1172450/">Carto</a></b><br><sub><a href="styles/gouache-picture-book/">水粉质感绘本</a></sub><br><sub>手绘地图图块与讨喜小人物</sub></td>
-<td width="50%" valign="top"><a href="https://store.steampowered.com/app/3256150/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3256150/f17685012ab6062858ed94e2f5338e08256d7e61/ss_f17685012ab6062858ed94e2f5338e08256d7e61.600x338.jpg" width="100%" alt="Moomintroll: Winter's Warmth: 北欧水彩森林"></a><br><b><a href="https://store.steampowered.com/app/3256150/">Moomintroll: Winter's Warmth</a></b><br><sub><a href="styles/nordic-watercolour-woodland/">北欧水彩森林</a></sub><br><sub>雪景纸纹与北欧森林</sub></td>
-</tr>
-<tr>
-<td width="50%" valign="top"><a href="https://store.steampowered.com/app/1808680/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1808680/ss_7b8df4e8746ed3461fc9aaba4af0e158c94dcd5f.600x338.jpg" width="100%" alt="Snufkin: Melody of Moominvalley: 北欧水彩森林"></a><br><b><a href="https://store.steampowered.com/app/1808680/">Snufkin: Melody of Moominvalley</a></b><br><sub><a href="styles/nordic-watercolour-woodland/">北欧水彩森林</a></sub><br><sub>宁静的水彩林地探索</sub></td>
-<td width="50%" valign="top"><a href="https://store.steampowered.com/app/1307580/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1307580/ss_3c5c560a2627d6d35f69a138ec3159517c662e44.600x338.jpg" width="100%" alt="TOEM: A Photo Adventure: 俏皮黑白手绘"></a><br><b><a href="https://store.steampowered.com/app/1307580/">TOEM: A Photo Adventure</a></b><br><sub><a href="styles/whimsical-ink/">俏皮黑白手绘</a></sub><br><sub>黑白墨线剪纸与柔和 3D 景深</sub></td>
-</tr>
-<tr>
-<td width="50%" valign="top"><a href="https://store.steampowered.com/app/1419860/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1419860/ss_bf1fddecefb8c7e720ffafccce35f50937f11103.600x338.jpg" width="100%" alt="Tukoni: Prologue: 森林民间传说插画"></a><br><b><a href="https://store.steampowered.com/app/1419860/">Tukoni: Prologue</a></b><br><sub><a href="styles/woodland-folklore-illustration/">森林民间传说插画</a></sub><br><sub>手绘森林生灵与植物</sub></td>
-<td width="50%" valign="top"><a href="https://store.steampowered.com/app/1444300/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1444300/ss_93c9da1b8b189e06cf3c3c8f7f549546895b8cda.600x338.jpg" width="100%" alt="Teacup: 柔色小生灵插画"></a><br><b><a href="https://store.steampowered.com/app/1444300/">Teacup</a></b><br><sub><a href="styles/pastel-creature-vignettes/">柔色小生灵插画</a></sub><br><sub>柔色动物绘本场景</sub></td>
-</tr>
-<tr>
-<td width="50%" valign="top"><a href="https://store.steampowered.com/app/1055540/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1055540/ss_0e864bf975bb71f238de6861fc8fd3d6ed6e4ce8.600x338.jpg" width="100%" alt="A Short Hike: 低分辨率自然微缩景"></a><br><b><a href="https://store.steampowered.com/app/1055540/">A Short Hike</a></b><br><sub><a href="styles/cozy-lowres-nature-3d/">低分辨率自然微缩景</a></sub><br><sub>像素柔化的户外探索</sub></td>
-<td width="50%" valign="top"><a href="https://store.steampowered.com/app/1594940/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1594940/623dea3c94ca66719a29abd1919e7547a5cbec3d/ss_623dea3c94ca66719a29abd1919e7547a5cbec3d.600x338.jpg" width="100%" alt="Little Witch in the Woods: 温暖绘本像素"></a><br><b><a href="https://store.steampowered.com/app/1594940/">Little Witch in the Woods</a></b><br><sub><a href="styles/cozy-pixel-storybook/">温暖绘本像素</a></sub><br><sub>温暖而细致的森林像素</sub></td>
-</tr>
-<tr>
-<td width="50%" valign="top"><a href="https://store.steampowered.com/app/1123450/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1123450/ss_1f16a64698124ab065ed1fdd7cc0ea23511f3791.600x338.jpg" width="100%" alt="Chicory: A Colorful Tale: 松弛线稿卡通"></a><br><b><a href="https://store.steampowered.com/app/1123450/">Chicory: A Colorful Tale</a></b><br><sub><a href="styles/loose-line-cartoons/">松弛线稿卡通</a></sub><br><sub>松弛墨线与趣味填色</sub></td>
-<td width="50%" valign="top"><a href="https://store.steampowered.com/app/977880/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/977880/ss_b3512f7576dbdd1e35dd3fb27a04f29174efb00d.600x338.jpg" width="100%" alt="Eastward: 电影感像素绘景"></a><br><b><a href="https://store.steampowered.com/app/977880/">Eastward</a></b><br><sub><a href="styles/cinematic-pixel-painting/">电影感像素绘景</a></sub><br><sub>细致的电影感像素绘景</sub></td>
-</tr>
-<tr>
-<td width="50%" valign="top"><a href="https://store.steampowered.com/app/1062140/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1062140/ss_ee75af73d8bad015cfcf86530fceb627d9e6b298.600x338.jpg" width="100%" alt="Garden Story: 温暖绘本像素"></a><br><b><a href="https://store.steampowered.com/app/1062140/">Garden Story</a></b><br><sub><a href="styles/cozy-pixel-storybook/">温暖绘本像素</a></sub><br><sub>圆润的像素小生灵</sub></td>
-<td width="50%" valign="top"><a href="https://store.steampowered.com/app/729000/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/729000/ss_b5c706abacf932c95851ab3c74ef5555f2151215.600x338.jpg" width="100%" alt="Wytchwood: 森林民间传说插画"></a><br><b><a href="https://store.steampowered.com/app/729000/">Wytchwood</a></b><br><sub><a href="styles/woodland-folklore-illustration/">森林民间传说插画</a></sub><br><sub>装饰性的民俗森林</sub></td>
-</tr>
-<tr>
-<td width="50%" valign="top"><a href="https://store.steampowered.com/app/581270/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/581270/ss_b0e4a7017f9fa3f64bb7fb953583e323389194a2.600x338.jpg" width="100%" alt="Old Man's Journey: 分层纸片风景"></a><br><b><a href="https://store.steampowered.com/app/581270/">Old Man's Journey</a></b><br><sub><a href="styles/layered-paper-landscapes/">分层纸片风景</a></sub><br><sub>层叠的手绘纸片风景</sub></td>
-<td width="50%" valign="top"><a href="https://store.steampowered.com/app/2322180/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2322180/ss_bb56c95322d9fbbd7ec6f6fa0354dcb34c70255b.600x338.jpg" width="100%" alt="A Tiny Sticker Tale: 贴纸绘本拼贴"></a><br><b><a href="https://store.steampowered.com/app/2322180/">A Tiny Sticker Tale</a></b><br><sub><a href="styles/stickerbook-cutouts/">贴纸绘本拼贴</a></sub><br><sub>可摆弄的贴纸式绘本道具</sub></td>
-</tr>
-<tr>
-<td width="50%" valign="top"><a href="https://store.steampowered.com/app/1889740/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1889740/ss_a1a611020f74862495fa0777a6d5da84a0c061a2.600x338.jpg" width="100%" alt="Paper Trail: 纸面插画解谜"></a><br><b><a href="https://store.steampowered.com/app/1889740/">Paper Trail</a></b><br><sub><a href="styles/illustrated-paper-puzzles/">纸面插画解谜</a></sub><br><sub>可折叠的插画纸面世界</sub></td>
-<td width="50%" valign="top"><a href="https://store.steampowered.com/app/435400/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/435400/ss_5cda037d48f0603bfc1268b1090d8a0f0f1780b3.600x338.jpg" width="100%" alt="Hidden Folks: 俏皮黑白手绘"></a><br><b><a href="https://store.steampowered.com/app/435400/">Hidden Folks</a></b><br><sub><a href="styles/whimsical-ink/">俏皮黑白手绘</a></sub><br><sub>微型黑白涂鸦场景</sub></td>
-</tr>
-</table>
-
-### 插画创作者参考
-
-作者作品仅供研究参考，不代表可自由复用的素材。
-
-- [Oksana Bula](https://www.tukoni.com.ua/en) — Tukoni 绘本创作者
-- [Tove Jansson](https://tovejansson.com/gallery/the-moomins/) — 姆明原作及插画创作者
-- [Kuan-Hung Chen](https://sunheadgames.com/en/press/carto/) — Carto 美术参考
-- [Sylvain Tegroeg](https://tegroeg.com/) — Hidden Folks 黑白墨线画
-- [Carson Ellis](https://www.carsonellis.com/work-gallery/) — 奇趣的绘本风景
-- [Rebecca Green](https://www.myblankpaper.com/work/) — 粉彩、铅笔与水粉插画
-
----
+- [X 热门技术帖精选](#x-热门技术帖精选)
 
 ## 3D：明暗与造型
 
@@ -214,6 +168,57 @@
 </tr>
 </table>
 
+<a id="illustrated-inspiration"></a>
+## 插画游戏灵感 · 16 款作品
+
+以下都是独立的视觉案例，不是 16 种人为拆分出来的美术流派。点击图片查看 Steam 原始截图和游戏，点击风格进入实现说明。
+
+<table>
+<tr>
+<td width="50%" valign="top"><a href="https://store.steampowered.com/app/1172450/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172450/ss_5e9fb66710e5b0b8912c43f56299830893435379.600x338.jpg" width="100%" alt="Carto: 水粉质感绘本"></a><br><b><a href="https://store.steampowered.com/app/1172450/">Carto</a></b><br><sub><a href="styles/gouache-picture-book/">水粉质感绘本</a></sub><br><sub>手绘地图图块与讨喜小人物</sub></td>
+<td width="50%" valign="top"><a href="https://store.steampowered.com/app/3256150/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3256150/f17685012ab6062858ed94e2f5338e08256d7e61/ss_f17685012ab6062858ed94e2f5338e08256d7e61.600x338.jpg" width="100%" alt="Moomintroll: Winter's Warmth: 北欧水彩森林"></a><br><b><a href="https://store.steampowered.com/app/3256150/">Moomintroll: Winter's Warmth</a></b><br><sub><a href="styles/nordic-watercolour-woodland/">北欧水彩森林</a></sub><br><sub>雪景纸纹与北欧森林</sub></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><a href="https://store.steampowered.com/app/1808680/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1808680/ss_7b8df4e8746ed3461fc9aaba4af0e158c94dcd5f.600x338.jpg" width="100%" alt="Snufkin: Melody of Moominvalley: 北欧水彩森林"></a><br><b><a href="https://store.steampowered.com/app/1808680/">Snufkin: Melody of Moominvalley</a></b><br><sub><a href="styles/nordic-watercolour-woodland/">北欧水彩森林</a></sub><br><sub>宁静的水彩林地探索</sub></td>
+<td width="50%" valign="top"><a href="https://store.steampowered.com/app/1307580/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1307580/ss_3c5c560a2627d6d35f69a138ec3159517c662e44.600x338.jpg" width="100%" alt="TOEM: A Photo Adventure: 俏皮黑白手绘"></a><br><b><a href="https://store.steampowered.com/app/1307580/">TOEM: A Photo Adventure</a></b><br><sub><a href="styles/whimsical-ink/">俏皮黑白手绘</a></sub><br><sub>黑白墨线剪纸与柔和 3D 景深</sub></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><a href="https://store.steampowered.com/app/1419860/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1419860/ss_bf1fddecefb8c7e720ffafccce35f50937f11103.600x338.jpg" width="100%" alt="Tukoni: Prologue: 森林民间传说插画"></a><br><b><a href="https://store.steampowered.com/app/1419860/">Tukoni: Prologue</a></b><br><sub><a href="styles/woodland-folklore-illustration/">森林民间传说插画</a></sub><br><sub>手绘森林生灵与植物</sub></td>
+<td width="50%" valign="top"><a href="https://store.steampowered.com/app/1444300/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1444300/ss_93c9da1b8b189e06cf3c3c8f7f549546895b8cda.600x338.jpg" width="100%" alt="Teacup: 柔色小生灵插画"></a><br><b><a href="https://store.steampowered.com/app/1444300/">Teacup</a></b><br><sub><a href="styles/pastel-creature-vignettes/">柔色小生灵插画</a></sub><br><sub>柔色动物绘本场景</sub></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><a href="https://store.steampowered.com/app/1055540/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1055540/ss_0e864bf975bb71f238de6861fc8fd3d6ed6e4ce8.600x338.jpg" width="100%" alt="A Short Hike: 低分辨率自然微缩景"></a><br><b><a href="https://store.steampowered.com/app/1055540/">A Short Hike</a></b><br><sub><a href="styles/cozy-lowres-nature-3d/">低分辨率自然微缩景</a></sub><br><sub>像素柔化的户外探索</sub></td>
+<td width="50%" valign="top"><a href="https://store.steampowered.com/app/1594940/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1594940/623dea3c94ca66719a29abd1919e7547a5cbec3d/ss_623dea3c94ca66719a29abd1919e7547a5cbec3d.600x338.jpg" width="100%" alt="Little Witch in the Woods: 温暖绘本像素"></a><br><b><a href="https://store.steampowered.com/app/1594940/">Little Witch in the Woods</a></b><br><sub><a href="styles/cozy-pixel-storybook/">温暖绘本像素</a></sub><br><sub>温暖而细致的森林像素</sub></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><a href="https://store.steampowered.com/app/1123450/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1123450/ss_1f16a64698124ab065ed1fdd7cc0ea23511f3791.600x338.jpg" width="100%" alt="Chicory: A Colorful Tale: 松弛线稿卡通"></a><br><b><a href="https://store.steampowered.com/app/1123450/">Chicory: A Colorful Tale</a></b><br><sub><a href="styles/loose-line-cartoons/">松弛线稿卡通</a></sub><br><sub>松弛墨线与趣味填色</sub></td>
+<td width="50%" valign="top"><a href="https://store.steampowered.com/app/977880/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/977880/ss_b3512f7576dbdd1e35dd3fb27a04f29174efb00d.600x338.jpg" width="100%" alt="Eastward: 电影感像素绘景"></a><br><b><a href="https://store.steampowered.com/app/977880/">Eastward</a></b><br><sub><a href="styles/cinematic-pixel-painting/">电影感像素绘景</a></sub><br><sub>细致的电影感像素绘景</sub></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><a href="https://store.steampowered.com/app/1062140/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1062140/ss_ee75af73d8bad015cfcf86530fceb627d9e6b298.600x338.jpg" width="100%" alt="Garden Story: 温暖绘本像素"></a><br><b><a href="https://store.steampowered.com/app/1062140/">Garden Story</a></b><br><sub><a href="styles/cozy-pixel-storybook/">温暖绘本像素</a></sub><br><sub>圆润的像素小生灵</sub></td>
+<td width="50%" valign="top"><a href="https://store.steampowered.com/app/729000/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/729000/ss_b5c706abacf932c95851ab3c74ef5555f2151215.600x338.jpg" width="100%" alt="Wytchwood: 森林民间传说插画"></a><br><b><a href="https://store.steampowered.com/app/729000/">Wytchwood</a></b><br><sub><a href="styles/woodland-folklore-illustration/">森林民间传说插画</a></sub><br><sub>装饰性的民俗森林</sub></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><a href="https://store.steampowered.com/app/581270/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/581270/ss_b0e4a7017f9fa3f64bb7fb953583e323389194a2.600x338.jpg" width="100%" alt="Old Man's Journey: 分层纸片风景"></a><br><b><a href="https://store.steampowered.com/app/581270/">Old Man's Journey</a></b><br><sub><a href="styles/layered-paper-landscapes/">分层纸片风景</a></sub><br><sub>层叠的手绘纸片风景</sub></td>
+<td width="50%" valign="top"><a href="https://store.steampowered.com/app/2322180/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2322180/ss_bb56c95322d9fbbd7ec6f6fa0354dcb34c70255b.600x338.jpg" width="100%" alt="A Tiny Sticker Tale: 贴纸绘本拼贴"></a><br><b><a href="https://store.steampowered.com/app/2322180/">A Tiny Sticker Tale</a></b><br><sub><a href="styles/stickerbook-cutouts/">贴纸绘本拼贴</a></sub><br><sub>可摆弄的贴纸式绘本道具</sub></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><a href="https://store.steampowered.com/app/1889740/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1889740/ss_a1a611020f74862495fa0777a6d5da84a0c061a2.600x338.jpg" width="100%" alt="Paper Trail: 纸面插画解谜"></a><br><b><a href="https://store.steampowered.com/app/1889740/">Paper Trail</a></b><br><sub><a href="styles/illustrated-paper-puzzles/">纸面插画解谜</a></sub><br><sub>可折叠的插画纸面世界</sub></td>
+<td width="50%" valign="top"><a href="https://store.steampowered.com/app/435400/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/435400/ss_5cda037d48f0603bfc1268b1090d8a0f0f1780b3.600x338.jpg" width="100%" alt="Hidden Folks: 俏皮黑白手绘"></a><br><b><a href="https://store.steampowered.com/app/435400/">Hidden Folks</a></b><br><sub><a href="styles/whimsical-ink/">俏皮黑白手绘</a></sub><br><sub>微型黑白涂鸦场景</sub></td>
+</tr>
+</table>
+
+### 插画创作者参考
+
+作者作品仅供研究参考，不代表可自由复用的素材。
+
+- [Oksana Bula](https://www.tukoni.com.ua/en) — Tukoni 绘本创作者
+- [Tove Jansson](https://tovejansson.com/gallery/the-moomins/) — 姆明原作及插画创作者
+- [Kuan-Hung Chen](https://sunheadgames.com/en/press/carto/) — Carto 美术参考
+- [Sylvain Tegroeg](https://tegroeg.com/) — Hidden Folks 黑白墨线画
+- [Carson Ellis](https://www.carsonellis.com/work-gallery/) — 奇趣的绘本风景
+- [Rebecca Green](https://www.myblankpaper.com/work/) — 粉彩、铅笔与水粉插画
+
 ## 素材库
 
 授权说明于 2026-10-28 核对。授权会变，发布前请到素材页面再确认。🟢 CC0 · 🟡 CC-BY · 🟠 自定义 / 不明确 · 🔴 商业授权
@@ -247,11 +252,7 @@
 
 ## X 热门技术帖精选
 
-直接在这里用 GitHub 原生播放器观看视频；没有视频的原帖展示图片。
-
-[在 X 视频画廊播放和下载经授权的 MP4](https://homkathon.github.io/awesome-game-art-styles/x-posts/)（保留作者、原文与原帖链接；无视频帖使用 X 嵌入）。
-
-共 22 条已核实的创作者原帖，按具体技法分组。优先收录可参考的 Shader、渲染和美术制作方法，不按未经验证的互动数字排序。**人工精选，并非实时热榜**。作者、原帖内容和发布日期于 2026-10-28 通过 X 嵌入元数据核实。
+22 条创作者原帖，按技法分组，挑的是能直接借鉴做法的帖子。**人工精选，不是热榜。**作者、原文和日期于 2026-10-28 通过 X 嵌入元数据核实。视频也可以在 [X 画廊](https://homkathon.github.io/awesome-opus-game-art-styles/x-posts/)里播放。
 
 ### 水体与氛围
 
@@ -259,14 +260,14 @@
 <tr>
 <td width="50%" valign="top">
 <video src="https://github.com/user-attachments/assets/e66f2271-3549-4186-8cfc-7d937077a227" controls width="100%" playsinline></video>
-<p><strong><a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1864638156588400707">海岸线 Shader 新版</a></strong></p>
+<p><strong><a href="https://homkathon.github.io/awesome-opus-game-art-styles/x-posts/#post-1864638156588400707">海岸线 Shader 新版</a></strong></p>
 <sub>视频 · @Cyanilux · 2024-12-05 · <a href="https://x.com/Cyanilux/status/1864638156588400707">原帖 ↗</a></sub>
 <p>海浪、岸边泡沫与湿沙的着色效果，原帖评论附教程</p>
 <sub>关联风格: <a href="styles/cozy/">温馨室内像素</a></sub>
 </td>
 <td width="50%" valign="top">
-<a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1252298028607774721"><img src="x-posts/previews/1252298028607774721.jpg" width="100%" alt="海岸线 Shader 原理拆解"></a>
-<p><strong><a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1252298028607774721">海岸线 Shader 原理拆解</a></strong></p>
+<a href="https://homkathon.github.io/awesome-opus-game-art-styles/x-posts/#post-1252298028607774721"><img src="x-posts/previews/1252298028607774721.jpg" width="100%" alt="海岸线 Shader 原理拆解"></a>
+<p><strong><a href="https://homkathon.github.io/awesome-opus-game-art-styles/x-posts/#post-1252298028607774721">海岸线 Shader 原理拆解</a></strong></p>
 <sub>图文 · @Cyanilux · 2020-04-20 · <a href="https://x.com/Cyanilux/status/1252298028607774721">原帖 ↗</a></sub>
 <p>受《动物森友会》启发的水深感知岸边浪花与水面边缘</p>
 <sub>关联风格: <a href="styles/cozy/">温馨室内像素</a></sub>
@@ -275,14 +276,14 @@
 <tr>
 <td width="50%" valign="top">
 <video src="https://github.com/user-attachments/assets/86cbd001-062d-4224-a2fd-205b6ddd832e" controls width="100%" playsinline></video>
-<p><strong><a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1581210772352290818">Gerstner 波浪海面</a></strong></p>
+<p><strong><a href="https://homkathon.github.io/awesome-opus-game-art-styles/x-posts/#post-1581210772352290818">Gerstner 波浪海面</a></strong></p>
 <sub>视频 · @Cyanilux · 2022-10-15 · <a href="https://x.com/Cyanilux/status/1581210772352290818">原帖 ↗</a></sub>
 <p>用 Gerstner 波叠加位移塑造风格化海面</p>
 <sub>关联风格: <a href="styles/flat-colour-3d/">平涂图形化 3D</a></sub>
 </td>
 <td width="50%" valign="top">
 <video src="https://github.com/user-attachments/assets/53a5d7c2-abba-45e7-b21a-168670d6f39a" controls width="100%" playsinline></video>
-<p><strong><a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1770095395848237506">2.5D 水面与精灵反射</a></strong></p>
+<p><strong><a href="https://homkathon.github.io/awesome-opus-game-art-styles/x-posts/#post-1770095395848237506">2.5D 水面与精灵反射</a></strong></p>
 <sub>视频 · @Cyanilux · 2024-03-19 · <a href="https://x.com/Cyanilux/status/1770095395848237506">原帖 ↗</a></sub>
 <p>俯视水体 Shader 与像素精灵倒影</p>
 <sub>关联风格: <a href="styles/hd-2d/">HD-2D</a></sub>
@@ -291,7 +292,7 @@
 <tr>
 <td width="50%" valign="top">
 <video src="https://github.com/user-attachments/assets/224bc590-5f2b-416a-854e-5efbb4abf0c8" controls width="100%" playsinline></video>
-<p><strong><a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1495405379253116930">程序化极光</a></strong></p>
+<p><strong><a href="https://homkathon.github.io/awesome-opus-game-art-styles/x-posts/#post-1495405379253116930">程序化极光</a></strong></p>
 <sub>视频 · @Cyanilux · 2022-02-20 · <a href="https://x.com/Cyanilux/status/1495405379253116930">原帖 ↗</a></sub>
 <p>细分面片位移、渐变、滚动噪声与远处淡出</p>
 <sub>关联风格: <a href="styles/neon-abstract/">霓虹抽象</a></sub>
@@ -304,15 +305,15 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1975506073319567393"><img src="x-posts/previews/1975506073319567393.jpg" width="100%" alt="解析式环境光遮蔽"></a>
-<p><strong><a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1975506073319567393">解析式环境光遮蔽</a></strong></p>
+<a href="https://homkathon.github.io/awesome-opus-game-art-styles/x-posts/#post-1975506073319567393"><img src="x-posts/previews/1975506073319567393.jpg" width="100%" alt="解析式环境光遮蔽"></a>
+<p><strong><a href="https://homkathon.github.io/awesome-opus-game-art-styles/x-posts/#post-1975506073319567393">解析式环境光遮蔽</a></strong></p>
 <sub>图文 · @florisium · 2025-10-07 · <a href="https://x.com/florisium/status/1975506073319567393">原帖 ↗</a></sub>
 <p>基于几何体的解析式 AO 技术及场景前后对比（技术长帖）</p>
 <sub>关联风格: <a href="styles/toy-diorama/">玩具微缩景</a></sub>
 </td>
 <td width="50%" valign="top">
 <video src="https://github.com/user-attachments/assets/b8802851-7f05-42ab-bcd7-d29ecaf630ee" controls width="100%" playsinline></video>
-<p><strong><a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1783442615939297380">面片假体积光</a></strong></p>
+<p><strong><a href="https://homkathon.github.io/awesome-opus-game-art-styles/x-posts/#post-1783442615939297380">面片假体积光</a></strong></p>
 <sub>视频 · @Cyanilux · 2024-04-25 · <a href="https://x.com/Cyanilux/status/1783442615939297380">原帖 ↗</a></sub>
 <p>沿光方向拉伸面片、阴影遮罩与深度淡出</p>
 <sub>关联风格: <a href="styles/silhouette/">剪影黑白</a></sub>
@@ -321,14 +322,14 @@
 <tr>
 <td width="50%" valign="top">
 <video src="https://github.com/user-attachments/assets/0e7f9450-9a62-4189-91c0-f0b19ca44dce" controls width="100%" playsinline></video>
-<p><strong><a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1362466015976783872">《辛特堡传说》描边拆解</a></strong></p>
+<p><strong><a href="https://homkathon.github.io/awesome-opus-game-art-styles/x-posts/#post-1362466015976783872">《辛特堡传说》描边拆解</a></strong></p>
 <sub>视频 · @PhilippSeifried · 2021-02-18 · <a href="https://x.com/PhilippSeifried/status/1362466015976783872">原帖 ↗</a></sub>
 <p>技术长帖：如何控制风格化描边的宽度和位置</p>
 <sub>关联风格: <a href="styles/ligne-claire/">清线 / 墨比斯</a></sub>
 </td>
 <td width="50%" valign="top">
 <video src="https://github.com/user-attachments/assets/07fc6d86-883e-4cd8-9951-4bdce6d60d5f" controls width="100%" playsinline></video>
-<p><strong><a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1354827696707002384">《辛特堡传说》风格化渲染</a></strong></p>
+<p><strong><a href="https://homkathon.github.io/awesome-opus-game-art-styles/x-posts/#post-1354827696707002384">《辛特堡传说》风格化渲染</a></strong></p>
 <sub>视频 · @PhilippSeifried · 2021-01-28 · <a href="https://x.com/PhilippSeifried/status/1354827696707002384">原帖 ↗</a></sub>
 <p>自定义延迟渲染，利用 G-buffer 中的材质 ID 控制风格</p>
 <sub>关联风格: <a href="styles/toon/">卡通渲染</a></sub>
@@ -342,14 +343,14 @@
 <tr>
 <td width="50%" valign="top">
 <video src="https://github.com/user-attachments/assets/86c7023c-eec3-483d-99cf-33140ed14cfa" controls width="100%" playsinline></video>
-<p><strong><a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1407727586986311687">彩色玻璃与体积光</a></strong></p>
+<p><strong><a href="https://homkathon.github.io/awesome-opus-game-art-styles/x-posts/#post-1407727586986311687">彩色玻璃与体积光</a></strong></p>
 <sub>视频 · @Cyanilux · 2021-06-23 · <a href="https://x.com/Cyanilux/status/1407727586986311687">原帖 ↗</a></sub>
 <p>玻璃片分区着色与 Ray Marching 光束结合</p>
 <sub>关联风格: <a href="styles/stained-glass/">彩色玻璃</a></sub>
 </td>
 <td width="50%" valign="top">
 <video src="https://github.com/user-attachments/assets/08022f98-f2e1-4633-bb78-b5b22675ff32" controls width="100%" playsinline></video>
-<p><strong><a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1376949139838275584">镭射烫金材质</a></strong></p>
+<p><strong><a href="https://homkathon.github.io/awesome-opus-game-art-styles/x-posts/#post-1376949139838275584">镭射烫金材质</a></strong></p>
 <sub>视频 · @Cyanilux · 2021-03-30 · <a href="https://x.com/Cyanilux/status/1376949139838275584">原帖 ↗</a></sub>
 <p>彩虹贴图配合切线空间视线方向 UV 视差</p>
 <sub>关联风格: <a href="styles/retro-futurism/">复古未来主义</a></sub>
@@ -358,14 +359,14 @@
 <tr>
 <td width="50%" valign="top">
 <video src="https://github.com/user-attachments/assets/c8370dfa-6f0a-43ab-9a1b-159b0c1e017b" controls width="100%" playsinline></video>
-<p><strong><a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1396848736022802435">Shader Graph GPU 草地</a></strong></p>
+<p><strong><a href="https://homkathon.github.io/awesome-opus-game-art-styles/x-posts/#post-1396848736022802435">Shader Graph GPU 草地</a></strong></p>
 <sub>视频 · @Cyanilux · 2021-05-24 · <a href="https://x.com/Cyanilux/status/1396848736022802435">原帖 ↗</a></sub>
 <p>Unity Shader Graph 配合 DrawMeshInstancedIndirect 草地实例化</p>
 <sub>关联风格: <a href="styles/low-poly/">低多边形</a></sub>
 </td>
 <td width="50%" valign="top">
-<a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1618030887412862977"><img src="x-posts/previews/1618030887412862977.jpg" width="100%" alt="沿曲线生长的常春藤"></a>
-<p><strong><a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1618030887412862977">沿曲线生长的常春藤</a></strong></p>
+<a href="https://homkathon.github.io/awesome-opus-game-art-styles/x-posts/#post-1618030887412862977"><img src="x-posts/previews/1618030887412862977.jpg" width="100%" alt="沿曲线生长的常春藤"></a>
+<p><strong><a href="https://homkathon.github.io/awesome-opus-game-art-styles/x-posts/#post-1618030887412862977">沿曲线生长的常春藤</a></strong></p>
 <sub>图文 · @Cyanilux · 2023-01-24 · <a href="https://x.com/Cyanilux/status/1618030887412862977">原帖 ↗</a></sub>
 <p>用 Blender Geometry Nodes 沿手绘曲线布置藤叶</p>
 <sub>关联风格: <a href="styles/low-poly/">低多边形</a></sub>
@@ -373,8 +374,8 @@
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1251916279205814272"><img src="x-posts/previews/1251916279205814272.jpg" width="100%" alt="世界弯曲 Shader Graph"></a>
-<p><strong><a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1251916279205814272">世界弯曲 Shader Graph</a></strong></p>
+<a href="https://homkathon.github.io/awesome-opus-game-art-styles/x-posts/#post-1251916279205814272"><img src="x-posts/previews/1251916279205814272.jpg" width="100%" alt="世界弯曲 Shader Graph"></a>
+<p><strong><a href="https://homkathon.github.io/awesome-opus-game-art-styles/x-posts/#post-1251916279205814272">世界弯曲 Shader Graph</a></strong></p>
 <sub>图文 · @Cyanilux · 2020-04-19 · <a href="https://x.com/Cyanilux/status/1251916279205814272">原帖 ↗</a></sub>
 <p>Shader Graph 弯曲子图，并通过 C# 关键字控制运行时启用</p>
 <sub>关联风格: <a href="styles/toy-diorama/">玩具微缩景</a></sub>
@@ -388,14 +389,14 @@
 <tr>
 <td width="50%" valign="top">
 <video src="https://github.com/user-attachments/assets/ab573f7f-a2d8-4524-ac25-3050c654ef38" controls width="100%" playsinline></video>
-<p><strong><a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-2019471084375130140">假体积烟雾</a></strong></p>
+<p><strong><a href="https://homkathon.github.io/awesome-opus-game-art-styles/x-posts/#post-2019471084375130140">假体积烟雾</a></strong></p>
 <sub>视频 · @Tuatara_Games · 2026-02-05 · <a href="https://x.com/Tuatara_Games/status/2019471084375130140">原帖 ↗</a></sub>
 <p>面向镜头的形变网格、无光照材质与法线贴图假方向光</p>
 <sub>关联风格: <a href="styles/silhouette/">剪影黑白</a></sub>
 </td>
 <td width="50%" valign="top">
 <video src="https://github.com/user-attachments/assets/d63c4858-075a-4601-8827-ce15b0d12efe" controls width="100%" playsinline></video>
-<p><strong><a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1483094258076856320">噪声层构成的龙卷风</a></strong></p>
+<p><strong><a href="https://homkathon.github.io/awesome-opus-game-art-styles/x-posts/#post-1483094258076856320">噪声层构成的龙卷风</a></strong></p>
 <sub>视频 · @Cyanilux · 2022-01-17 · <a href="https://x.com/Cyanilux/status/1483094258076856320">原帖 ↗</a></sub>
 <p>Alpha 裁剪的滚动噪声叠层、顶点位移与粒子尾迹</p>
 <sub>关联风格: <a href="styles/silhouette/">剪影黑白</a></sub>
@@ -404,14 +405,14 @@
 <tr>
 <td width="50%" valign="top">
 <video src="https://github.com/user-attachments/assets/cb1ccdff-b7eb-418b-be98-f76d9b4e407a" controls width="100%" playsinline></video>
-<p><strong><a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1638623920235356172">RenderTexture 驱动破碎</a></strong></p>
+<p><strong><a href="https://homkathon.github.io/awesome-opus-game-art-styles/x-posts/#post-1638623920235356172">RenderTexture 驱动破碎</a></strong></p>
 <sub>视频 · @Cyanilux · 2023-03-22 · <a href="https://x.com/Cyanilux/status/1638623920235356172">原帖 ↗</a></sub>
 <p>用 Graphics.Blit 将射线命中位置写入遮罩，驱动表面破碎</p>
 <sub>关联风格: <a href="styles/boomer-shooter/">复古 FPS</a></sub>
 </td>
 <td width="50%" valign="top">
 <video src="https://github.com/user-attachments/assets/a42790d7-ef63-4e9d-9c34-1624e0318f3a" controls width="100%" playsinline></video>
-<p><strong><a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1524697139812573185">顶点位移触手</a></strong></p>
+<p><strong><a href="https://homkathon.github.io/awesome-opus-game-art-styles/x-posts/#post-1524697139812573185">顶点位移触手</a></strong></p>
 <sub>视频 · @Cyanilux · 2022-05-12 · <a href="https://x.com/Cyanilux/status/1524697139812573185">原帖 ↗</a></sub>
 <p>用顶点位移驱动程序化触手形变</p>
 <sub>关联风格: <a href="styles/lo-fi-surreal/">低保真超现实 / 丑美学</a></sub>
@@ -420,7 +421,7 @@
 <tr>
 <td width="50%" valign="top">
 <video src="https://github.com/user-attachments/assets/4acc81d1-e91a-4ecf-91ae-bcc50e2597d7" controls width="100%" playsinline></video>
-<p><strong><a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1467533351091376136">魔法斩击特效</a></strong></p>
+<p><strong><a href="https://homkathon.github.io/awesome-opus-game-art-styles/x-posts/#post-1467533351091376136">魔法斩击特效</a></strong></p>
 <sub>视频 · @Cyanilux · 2021-12-05 · <a href="https://x.com/Cyanilux/status/1467533351091376136">原帖 ↗</a></sub>
 <p>Shader 驱动的斩击特效，作者另有 Shader Graph 拆解</p>
 <sub>关联风格: <a href="styles/anime-cel/">日式赛璐璐 2.5D</a></sub>
@@ -434,14 +435,14 @@
 <tr>
 <td width="50%" valign="top">
 <video src="https://github.com/user-attachments/assets/a26ff1b1-d8ed-4b82-a883-2bc1be40bce7" controls width="100%" playsinline></video>
-<p><strong><a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1068933280005844992">像素瀑布拆解</a></strong></p>
+<p><strong><a href="https://homkathon.github.io/awesome-opus-game-art-styles/x-posts/#post-1068933280005844992">像素瀑布拆解</a></strong></p>
 <sub>视频 · @lunoland · 2018-12-01 · <a href="https://x.com/lunoland/status/1068933280005844992">原帖 ↗</a></sub>
 <p>精灵图、Shader 与 13 组粒子系统叠加的像素瀑布</p>
 <sub>关联风格: <a href="styles/pixel-art/">像素画</a></sub>
 </td>
 <td width="50%" valign="top">
 <video src="https://github.com/user-attachments/assets/4a23baa7-ce56-433c-b969-b6d528a4736b" controls width="100%" playsinline></video>
-<p><strong><a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1595484469699526665">抖动与像素化光照</a></strong></p>
+<p><strong><a href="https://homkathon.github.io/awesome-opus-game-art-styles/x-posts/#post-1595484469699526665">抖动与像素化光照</a></strong></p>
 <sub>视频 · @Cyanilux · 2022-11-23 · <a href="https://x.com/Cyanilux/status/1595484469699526665">原帖 ↗</a></sub>
 <p>把光照分解为像素块与抖动网点的实验</p>
 <sub>关联风格: <a href="styles/pixelated-3d/">像素化 3D</a></sub>
@@ -449,8 +450,8 @@
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1847072515572507001"><img src="x-posts/previews/1847072515572507001.jpg" width="100%" alt="调色板驱动的像素光照"></a>
-<p><strong><a href="https://homkathon.github.io/awesome-game-art-styles/x-posts/#post-1847072515572507001">调色板驱动的像素光照</a></strong></p>
+<a href="https://homkathon.github.io/awesome-opus-game-art-styles/x-posts/#post-1847072515572507001"><img src="x-posts/previews/1847072515572507001.jpg" width="100%" alt="调色板驱动的像素光照"></a>
+<p><strong><a href="https://homkathon.github.io/awesome-opus-game-art-styles/x-posts/#post-1847072515572507001">调色板驱动的像素光照</a></strong></p>
 <sub>图文 · @MadeInHevinis · 2024-10-18 · <a href="https://x.com/MadeInHevinis/status/1847072515572507001">原帖 ↗</a></sub>
 <p>直接从精灵明暗调色板映射光照颜色</p>
 <sub>关联风格: <a href="styles/pixel-art/">像素画</a></sub>
