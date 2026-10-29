@@ -15,7 +15,7 @@ ROOT = Path(__file__).resolve().parent.parent
 PREVIEWS = ROOT / 'tools' / 'x_previews.json'
 MEDIA = ROOT / 'tools' / 'x_media.json'
 VIDEO_ASSETS = ROOT / 'tools' / 'x_video_assets.json'
-GALLERY = 'https://homkathon.github.io/awesome-game-art-styles/x-posts/'
+GALLERY = 'https://homkathon.github.io/awesome-opus-game-art-styles/x-posts/'
 
 
 def card(post: dict, manifest: dict, video_assets: dict, lang: str) -> str:
@@ -98,9 +98,7 @@ def decorate_readme(resources: str, lang: str) -> str:
     body, after = (rest[:end], rest[end:]) if end >= 0 else (rest, '')
     # Intro stays sourced from original resources and is never duplicated.
     intro = body.split('\n### ', 1)[0].strip()
-    caption = ('Play original MP4s directly using GitHub video controls; image-only posts show original photos.'
-               if is_en else '直接在这里用 GitHub 原生播放器观看视频；没有视频的原帖展示图片。')
-    output = [heading, '', caption, '', intro]
+    output = [heading, '', intro]
     for group in groups:
         group_posts = [p for p in posts if p['group'] == group]
         output.extend(['', f'### {group}', '', make_grid(group_posts, manifest, video_assets, lang)])

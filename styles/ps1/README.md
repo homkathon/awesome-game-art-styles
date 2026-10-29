@@ -9,7 +9,7 @@
 
 What it takes: **Code only.** Simple models plus shaders and post-processing get close.
 
-▶ **[Live demo](https://homkathon.github.io/awesome-game-art-styles/demos/ps1.html)** · runs in the browser, [source](../../demos/ps1.html) is one HTML file with commented shaders
+▶ **[Live demo](https://homkathon.github.io/awesome-opus-game-art-styles/demos/ps1.html)** · runs in the browser, [source](../../demos/ps1.html) is one HTML file with commented shaders
 
 ## Gallery
 

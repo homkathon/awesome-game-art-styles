@@ -1,5 +1,5 @@
 blank_issues_enabled: true
 contact_links:
   - name: Broken link or missing screenshot
-    url: https://github.com/homkathon/awesome-game-art-styles/actions/workflows/check.yml
+    url: https://github.com/homkathon/awesome-opus-game-art-styles/actions/workflows/check.yml
     about: A weekly check finds most of these. Open a blank issue if it missed one.
